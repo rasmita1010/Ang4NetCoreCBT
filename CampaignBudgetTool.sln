@@ -1,0 +1,70 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.27004.2006
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "CampaignBudgetTool.BuisnessEntities", "CampaignBudgetTool.BuisnessEntities\CampaignBudgetTool.BuisnessEntities.csproj", "{19D46081-363F-4FD5-8D5D-199024D1C18B}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "CampaignBudgetTool.Client", "CampaignBudgetTool.Client\CampaignBudgetTool.Client.csproj", "{98554182-D20E-4082-BD95-4C8BB6B4BAFA}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "CampaignBudgetTool.Utilities", "CampaignBudgetTool.Utilities\CampaignBudgetTool.Utilities.csproj", "{64B4A310-BE15-48D4-9769-7BAE9CFDE06D}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "CampaignBudgetTool.Repository", "CampaignBudgetTool.Repository\CampaignBudgetTool.Repository.csproj", "{BED0028E-48ED-4CB0-BD13-5FFBB957636D}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "CampaignBudgetTool.Api", "CampaignBudgetTool.Api\CampaignBudgetTool.Api.csproj", "{99509F3E-4796-401E-AA25-B7CF168956C8}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{19D46081-363F-4FD5-8D5D-199024D1C18B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{19D46081-363F-4FD5-8D5D-199024D1C18B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{19D46081-363F-4FD5-8D5D-199024D1C18B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{19D46081-363F-4FD5-8D5D-199024D1C18B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{98554182-D20E-4082-BD95-4C8BB6B4BAFA}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{98554182-D20E-4082-BD95-4C8BB6B4BAFA}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{98554182-D20E-4082-BD95-4C8BB6B4BAFA}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{98554182-D20E-4082-BD95-4C8BB6B4BAFA}.Release|Any CPU.Build.0 = Release|Any CPU
+		{64B4A310-BE15-48D4-9769-7BAE9CFDE06D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{64B4A310-BE15-48D4-9769-7BAE9CFDE06D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{64B4A310-BE15-48D4-9769-7BAE9CFDE06D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{64B4A310-BE15-48D4-9769-7BAE9CFDE06D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{BED0028E-48ED-4CB0-BD13-5FFBB957636D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{BED0028E-48ED-4CB0-BD13-5FFBB957636D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{BED0028E-48ED-4CB0-BD13-5FFBB957636D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{BED0028E-48ED-4CB0-BD13-5FFBB957636D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{99509F3E-4796-401E-AA25-B7CF168956C8}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{99509F3E-4796-401E-AA25-B7CF168956C8}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{99509F3E-4796-401E-AA25-B7CF168956C8}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{99509F3E-4796-401E-AA25-B7CF168956C8}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {F343D7BB-6DF0-410A-B521-76276302BCC4}
+	EndGlobalSection
+	GlobalSection(TeamFoundationVersionControl) = preSolution
+		SccNumberOfProjects = 6
+		SccEnterpriseProvider = {4CA58AB2-18FA-4F8D-95D4-32DDF27D184C}
+		SccTeamFoundationServer = http://tmpcmamva02:8080/tfs/cmas
+		SccLocalPath0 = .
+		SccProjectUniqueName1 = CampaignBudgetTool.BuisnessEntities\\CampaignBudgetTool.BuisnessEntities.csproj
+		SccProjectName1 = CampaignBudgetTool.BuisnessEntities
+		SccLocalPath1 = CampaignBudgetTool.BuisnessEntities
+		SccProjectUniqueName2 = CampaignBudgetTool.Client\\CampaignBudgetTool.Client.csproj
+		SccProjectName2 = CampaignBudgetTool.Client
+		SccLocalPath2 = CampaignBudgetTool.Client
+		SccProjectUniqueName3 = CampaignBudgetTool.Utilities\\CampaignBudgetTool.Utilities.csproj
+		SccProjectName3 = CampaignBudgetTool.Utilities
+		SccLocalPath3 = CampaignBudgetTool.Utilities
+		SccProjectUniqueName4 = CampaignBudgetTool.Repository\\CampaignBudgetTool.Repository.csproj
+		SccProjectName4 = CampaignBudgetTool.Repository
+		SccLocalPath4 = CampaignBudgetTool.Repository
+		SccProjectUniqueName5 = CampaignBudgetTool.Api\\CampaignBudgetTool.Api.csproj
+		SccProjectName5 = CampaignBudgetTool.Api
+		SccLocalPath5 = CampaignBudgetTool.Api
+	EndGlobalSection
+EndGlobal

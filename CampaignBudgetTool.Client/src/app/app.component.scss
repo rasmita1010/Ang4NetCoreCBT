@@ -1,0 +1,68 @@
+.navbar-custom {
+    background: #ffffff;
+    border-radius: 0;
+    border-bottom: 1px solid #dddddd;
+}
+
+.navbar-brand {
+    padding: 0px;
+}
+.navbar-brand > img {
+    height: 100%;
+    padding: 5px;
+    width: auto;
+}
+
+.navbar-header > p {
+    margin-top: 16px;
+    font-weight: 100;
+    font-size: 16px;
+}
+
+.navbar-right a {
+    color: #000000;
+    text-decoration: none;
+}
+
+.navbar .brand, .navbar .nav > li > a {
+    color: #000000;
+}
+.navbar .brand, .navbar .nav > li > a:hover {
+    background-color: #000000;
+    color: #ffffff;
+}
+.navbar .brand, .navbar .nav > li > a:focus {
+    background-color: #000000;
+    color: #ffffff;
+}
+.navbar .brand, .navbar .nav > li > a:active {
+    background-color: #000000;
+    color: #ffffff;
+}
+
+.navbar .brand, .navbar .navbar-logout > li > a:hover {
+    background-color: red;
+}
+
+.nav-pills > li > a {
+    border-radius: 45px;
+}
+
+.nav > li {
+    margin-right: 10px;
+}
+
+.container-fluid ul li .active {
+    background-color: #000000 !important; 
+    color: #ffffff;
+}
+
+.navbar {
+    padding: 10px 10px;
+}
+
+.btn-custom {
+    background: #000000;
+    color: #ffffff;
+    font-weight: bold;
+}

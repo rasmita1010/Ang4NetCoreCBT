@@ -1,0 +1,127 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>CampaignBudgetTool.Api</name>
+    </assembly>
+    <members>
+        <member name="T:CampaignBudgetTool.API.Controllers.DMBudget.DMFlashBudgetController">
+            <summary>
+            Controller through which user access api's of DMFlashBudget
+            </summary>
+        </member>
+        <member name="M:CampaignBudgetTool.API.Controllers.DMBudget.DMFlashBudgetController.#ctor(CampaignBudgetTool.Repository.DMBudget.IDMFlashBudgetRepository,Microsoft.Extensions.Logging.ILogger{CampaignBudgetTool.API.Controllers.DMBudget.DMFlashBudgetController})">
+            <summary>
+            DMFlashBudgetController - Constructor to initialize the Controller
+            </summary>
+            <param name="dmFlashRepository"></param>
+            <param name="log"></param>
+        </member>
+        <member name="M:CampaignBudgetTool.API.Controllers.DMBudget.DMFlashBudgetController.GetDMFlashBudgetDetails(System.String,System.String,System.String)">
+            <summary>
+             GetDMFlashBudgetDetails - To get all the Flash Budget Data        
+            </summary>
+        </member>
+        <member name="M:CampaignBudgetTool.API.Controllers.DMBudget.DMFlashBudgetController.DeleteDMFlashBudgetDetails(System.String)">
+            <summary>
+            DeleteDMFlashBudgetDetails - Method to delete a record from FlashBudget table
+            </summary>
+            <param name="flashBudgetId"></param>
+            <returns></returns>
+        </member>
+        <member name="M:CampaignBudgetTool.API.Controllers.DMBudget.DMFlashBudgetController.UpdateDMFlashBudgetDetails(CampaignBudgetTool.API.ViewModel.DMBudget.DMFlashBudgetDetails)">
+            <summary>
+            UpdateDMFlashBudgetDetails - Method to update records in FlashBudget table
+            </summary>
+            <param name="dmFlashViewData"></param>
+            <returns></returns>
+        </member>
+        <member name="M:CampaignBudgetTool.API.Controllers.DMBudget.DMFlashBudgetController.InsertDMFlashBudgetDetails(CampaignBudgetTool.API.ViewModel.DMBudget.DMFlashBudgetDetails)">
+            <summary>
+            InsertDMFlashBudgetDetails - Method to insert records in FlashBudget table
+            </summary>
+            <param name="dmFlashViewData"></param>
+            <returns></returns>
+        </member>
+        <member name="M:CampaignBudgetTool.API.Controllers.DMBudget.DMFlashBudgetController.GetDMFlashBudgetCampaignYears(System.String)">
+            <summary>
+            GetDMFlashBudgetCampaignYears - Get List of Years of the Campaigns for the Magazine from the flash budget data
+            </summary>
+            <param name="magCode"></param>
+            <returns></returns>
+        </member>
+        <member name="M:CampaignBudgetTool.API.Controllers.DMBudget.DMFlashBudgetController.GetDMFlashBudgetCampaigns(System.String,System.String)">
+            <summary>
+            GetDMFlashBudgetCampaigns - Get List of Completed Campaigns for the Magazine and Year from the flash budget data
+            </summary>
+            <param name="magCode"></param>
+            <param name="campYear"></param>
+            <returns></returns>
+        </member>
+        <member name="M:CampaignBudgetTool.API.Controllers.DMBudget.DMFlashBudgetController.GetDMFlashAddPopUpCampaigns(System.String,System.Int32)">
+            <summary>
+            GetDMFlashAddPopUpCampaigns - Get the list of Campaigns for Magazine and Year
+            </summary>
+            <param name="Mag_Code"></param>
+            <param name="CampYear"></param>
+            <returns></returns>
+        </member>
+        <member name="M:CampaignBudgetTool.API.Controllers.DMBudget.DMFlashBudgetController.GetDMFlashAddPopUpSegments(System.String)">
+            <summary>
+            GetDMFlashAddPopUpSegments - Get the list of Segments, for the Campaign Id
+            </summary>
+            <param name="CampaignId"></param>
+            <returns></returns>
+        </member>
+        <member name="T:CampaignBudgetTool.API.Controllers.Login.LoginController">
+            <summary>
+            Controller through which user logs in using ADB service
+            </summary>
+        </member>
+        <member name="M:CampaignBudgetTool.API.Controllers.Login.LoginController.#ctor(Microsoft.Extensions.Configuration.IConfiguration,Microsoft.Extensions.Logging.ILogger{CampaignBudgetTool.API.Controllers.Login.LoginController})">
+            <summary>
+            Constructor to initalize the Login Controller
+            </summary>
+            <param name="configuration"></param>
+            <param name="log"></param>
+        </member>
+        <member name="M:CampaignBudgetTool.API.Controllers.Login.LoginController.GetUserDetail(System.String,System.String,System.String)">
+            <summary>
+            GetUserDetail - To get the logged in UserDetail by passing userName
+            </summary>
+            <param name="userName"></param>
+            <param name="password"></param>
+            <param name="application"></param>
+            <returns></returns>
+        </member>
+        <member name="T:CampaignBudgetTool.API.Startup">
+            <summary>
+            This class is called in runtime to load all the Configurations, Dependency Injection etc.
+            </summary>
+        </member>
+        <member name="M:CampaignBudgetTool.API.Startup.#ctor(Microsoft.AspNetCore.Hosting.IHostingEnvironment)">
+            <summary>
+            This method gets called by the runtime. Use this method to load Configuration
+            </summary>
+            <param name="environment"></param>
+        </member>
+        <member name="P:CampaignBudgetTool.API.Startup.Configuration">
+            <summary>
+            Holds Configuration object
+            </summary>
+        </member>
+        <member name="M:CampaignBudgetTool.API.Startup.ConfigureServices(Microsoft.Extensions.DependencyInjection.IServiceCollection)">
+            <summary>
+            This method gets called by the runtime. Use this method to add services to the container.
+            </summary>
+            <param name="services"></param>
+        </member>
+        <member name="M:CampaignBudgetTool.API.Startup.Configure(Microsoft.AspNetCore.Builder.IApplicationBuilder,Microsoft.AspNetCore.Hosting.IHostingEnvironment,Microsoft.Extensions.Logging.ILoggerFactory)">
+            <summary>
+            This method gets called by the runtime. Use this method to configure the HTTP request pipeline.
+            </summary>
+            <param name="applicationBuilder"></param>
+            <param name="environment"></param>
+            <param name="loggerFactory"></param>
+        </member>
+    </members>
+</doc>

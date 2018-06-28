@@ -1,0 +1,1761 @@
+2018-01-16T09:33:10.400Z - info:   [09832] *** FOLDER: c:\D\Timeinc Projects\CampaignBudgetTool\CampaignBudgetTool.Client ***
+2018-01-16T09:33:10.402Z - info:   [09832] VSTSVSCode/1.122.0 (VSCode 1.18.1; Windows_NT 10.0.14393; Node 7.9.0)
+2018-01-16T09:33:10.403Z - debug:  [09832] Looking for an External Context at c:\D\Timeinc Projects\CampaignBudgetTool\CampaignBudgetTool.Client
+2018-01-16T09:33:10.404Z - debug:  [09832] No External Context at c:\D\Timeinc Projects\CampaignBudgetTool\CampaignBudgetTool.Client
+2018-01-16T09:33:10.406Z - debug:  [09832] Looking for TFVC repository at c:\D\Timeinc Projects\CampaignBudgetTool\CampaignBudgetTool.Client
+2018-01-16T09:33:10.407Z - debug:  [09832] TFVC Creating Tfvc object with localPath='undefined'
+2018-01-16T09:33:10.409Z - debug:  [09832] Using TFS proxy: 
+2018-01-16T09:33:10.409Z - debug:  [09832] TFVC Retrieved from settings; localPath='C:\Program Files (x86)\Microsoft Visual Studio 14.0\Common7\IDE\TF.exe'
+2018-01-16T09:33:10.412Z - debug:  [09832] TFVC Repository created with repositoryRootFolder='c:\D\Timeinc Projects\CampaignBudgetTool\CampaignBudgetTool.Client'
+2018-01-16T09:33:10.414Z - debug:  [09832] TFVC Repository.CheckVersion
+2018-01-16T09:33:10.416Z - debug:  [09832] TFVC: tf add -noprompt -?
+2018-01-16T09:33:10.429Z - debug:  [09832] TFVC: spawned new process (duration: 11ms)
+2018-01-16T09:33:10.442Z - debug:  [09832] TFVC: spawned new process (duration: 12ms)
+2018-01-16T09:33:10.754Z - debug:  [09832] TFVC: add exit code: 0 (duration: 337ms)
+2018-01-16T09:33:10.756Z - debug:  [09832] TFVC Minimum required version: 14.102.0
+2018-01-16T09:33:10.757Z - debug:  [09832] TFVC (TF.exe, TF.cmd) version: 14.102.25619.0
+2018-01-16T09:33:10.758Z - debug:  [09832] TFVC Repository.FindWorkspace with localPath='c:\D\Timeinc Projects\CampaignBudgetTool\CampaignBudgetTool.Client'
+2018-01-16T09:33:10.759Z - debug:  [09832] TFVC: tf workfold -noprompt ********
+2018-01-16T09:33:10.770Z - debug:  [09832] TFVC: spawned new process (duration: 11ms)
+2018-01-16T09:33:13.026Z - debug:  [09832] TFVC: workfold exit code: 100 (duration: 2267ms)
+2018-01-16T09:33:13.028Z - debug:  [09832] TFVC errors (via stderr): TF30063: You are not authorized to access tmpcmamva02\CMAS.
+
+2018-01-16T09:33:13.029Z - error:  [09832] It appears you are using a Server workspace. Currently, TFVC support is limited to Local workspaces. TF30063: You are not authorized to access tmpcmamva02\CMAS.
+2018-01-16T09:33:49.244Z - debug:  [09832] Reinitializing due to onDidChangeConfiguration
+2018-01-16T09:33:49.245Z - debug:  [09832] Polling interval value (minutes): 5
+2018-01-16T09:33:49.252Z - info:   [09832] *** FOLDER: c:\D\Timeinc Projects\CampaignBudgetTool\CampaignBudgetTool.Client ***
+2018-01-16T09:33:49.252Z - info:   [09832] VSTSVSCode/1.122.0 (VSCode 1.18.1; Windows_NT 10.0.14393; Node 7.9.0)
+2018-01-16T09:33:49.252Z - debug:  [09832] Looking for an External Context at c:\D\Timeinc Projects\CampaignBudgetTool\CampaignBudgetTool.Client
+2018-01-16T09:33:49.252Z - debug:  [09832] No External Context at c:\D\Timeinc Projects\CampaignBudgetTool\CampaignBudgetTool.Client
+2018-01-16T09:33:49.261Z - debug:  [09832] Looking for TFVC repository at c:\D\Timeinc Projects\CampaignBudgetTool\CampaignBudgetTool.Client
+2018-01-16T09:33:49.261Z - debug:  [09832] TFVC Creating Tfvc object with localPath='undefined'
+2018-01-16T09:33:49.262Z - debug:  [09832] Using TFS proxy: 
+2018-01-16T09:33:49.263Z - debug:  [09832] TFVC Retrieved from settings; localPath='C:\Program Files (x86)\Microsoft Visual Studio 14.0\Common7\IDE\TF.exe'
+2018-01-16T09:33:49.264Z - debug:  [09832] TFVC Repository created with repositoryRootFolder='c:\D\Timeinc Projects\CampaignBudgetTool\CampaignBudgetTool.Client'
+2018-01-16T09:33:49.265Z - debug:  [09832] TFVC Repository.CheckVersion
+2018-01-16T09:33:49.265Z - debug:  [09832] TFVC: tf add -noprompt -?
+2018-01-16T09:33:49.278Z - debug:  [09832] TFVC: spawned new process (duration: 12ms)
+2018-01-16T09:33:49.332Z - debug:  [09832] TFVC: add exit code: 0 (duration: 67ms)
+2018-01-16T09:33:49.332Z - debug:  [09832] TFVC Minimum required version: 14.102.0
+2018-01-16T09:33:49.332Z - debug:  [09832] TFVC (TF.exe, TF.cmd) version: 14.102.25619.0
+2018-01-16T09:33:49.332Z - debug:  [09832] TFVC Repository.FindWorkspace with localPath='c:\D\Timeinc Projects\CampaignBudgetTool\CampaignBudgetTool.Client'
+2018-01-16T09:33:49.333Z - debug:  [09832] TFVC: tf workfold -noprompt ********
+2018-01-16T09:33:49.348Z - debug:  [09832] TFVC: spawned new process (duration: 15ms)
+2018-01-16T09:33:51.581Z - debug:  [09832] TFVC: workfold exit code: 100 (duration: 2248ms)
+2018-01-16T09:33:51.582Z - debug:  [09832] TFVC errors (via stderr): TF30063: You are not authorized to access tmpcmamva02\CMAS.
+
+2018-01-16T09:33:51.582Z - error:  [09832] It appears you are using a Server workspace. Currently, TFVC support is limited to Local workspaces. TF30063: You are not authorized to access tmpcmamva02\CMAS.
+2018-01-17T07:20:27.564Z - info:   [11928] *** FOLDER: c:\D\Timeinc Projects\CampaignBudgetTool\CampaignBudgetTool.Client ***
+2018-01-17T07:20:27.566Z - info:   [11928] VSTSVSCode/1.122.0 (VSCode 1.18.1; Windows_NT 10.0.14393; Node 7.9.0)
+2018-01-17T07:20:27.568Z - debug:  [11928] Looking for an External Context at c:\D\Timeinc Projects\CampaignBudgetTool\CampaignBudgetTool.Client
+2018-01-17T07:20:27.569Z - debug:  [11928] No External Context at c:\D\Timeinc Projects\CampaignBudgetTool\CampaignBudgetTool.Client
+2018-01-17T07:20:27.571Z - debug:  [11928] Looking for TFVC repository at c:\D\Timeinc Projects\CampaignBudgetTool\CampaignBudgetTool.Client
+2018-01-17T07:20:27.572Z - debug:  [11928] TFVC Creating Tfvc object with localPath='undefined'
+2018-01-17T07:20:27.574Z - debug:  [11928] Using TFS proxy: 
+2018-01-17T07:20:27.574Z - debug:  [11928] TFVC Retrieved from settings; localPath='C:\Program Files (x86)\Microsoft Visual Studio 14.0\Common7\IDE\TF.exe'
+2018-01-17T07:20:27.576Z - debug:  [11928] TFVC Repository created with repositoryRootFolder='c:\D\Timeinc Projects\CampaignBudgetTool\CampaignBudgetTool.Client'
+2018-01-17T07:20:27.578Z - debug:  [11928] TFVC Repository.CheckVersion
+2018-01-17T07:20:27.581Z - debug:  [11928] TFVC: tf add -noprompt -?
+2018-01-17T07:20:27.630Z - debug:  [11928] TFVC: spawned new process (duration: 48ms)
+2018-01-17T07:20:27.669Z - debug:  [11928] TFVC: spawned new process (duration: 39ms)
+2018-01-17T07:20:27.943Z - debug:  [11928] TFVC: add exit code: 0 (duration: 362ms)
+2018-01-17T07:20:27.943Z - debug:  [11928] TFVC Minimum required version: 14.102.0
+2018-01-17T07:20:27.943Z - debug:  [11928] TFVC (TF.exe, TF.cmd) version: 14.102.25619.0
+2018-01-17T07:20:27.943Z - debug:  [11928] TFVC Repository.FindWorkspace with localPath='c:\D\Timeinc Projects\CampaignBudgetTool\CampaignBudgetTool.Client'
+2018-01-17T07:20:27.943Z - debug:  [11928] TFVC: tf workfold -noprompt ********
+2018-01-17T07:20:27.959Z - debug:  [11928] TFVC: spawned new process (duration: 16ms)
+2018-01-17T07:20:29.851Z - debug:  [11928] TFVC: workfold exit code: 100 (duration: 1908ms)
+2018-01-17T07:20:29.851Z - debug:  [11928] TFVC errors (via stderr): TF30063: You are not authorized to access tmpcmamva02\CMAS.
+
+2018-01-17T07:20:29.851Z - error:  [11928] It appears you are using a Server workspace. Currently, TFVC support is limited to Local workspaces. TF30063: You are not authorized to access tmpcmamva02\CMAS.
+2018-01-18T03:02:39.375Z - info:   [15292] *** FOLDER: c:\D\Timeinc Projects\CampaignBudgetTool\CampaignBudgetTool.Client ***
+2018-01-18T03:02:39.378Z - info:   [15292] VSTSVSCode/1.122.0 (VSCode 1.18.1; Windows_NT 10.0.14393; Node 7.9.0)
+2018-01-18T03:02:39.380Z - debug:  [15292] Looking for an External Context at c:\D\Timeinc Projects\CampaignBudgetTool\CampaignBudgetTool.Client
+2018-01-18T03:02:39.380Z - debug:  [15292] No External Context at c:\D\Timeinc Projects\CampaignBudgetTool\CampaignBudgetTool.Client
+2018-01-18T03:02:39.385Z - debug:  [15292] Looking for TFVC repository at c:\D\Timeinc Projects\CampaignBudgetTool\CampaignBudgetTool.Client
+2018-01-18T03:02:39.387Z - debug:  [15292] TFVC Creating Tfvc object with localPath='undefined'
+2018-01-18T03:02:39.389Z - debug:  [15292] Using TFS proxy: 
+2018-01-18T03:02:39.390Z - debug:  [15292] TFVC Retrieved from settings; localPath='C:\Program Files (x86)\Microsoft Visual Studio 14.0\Common7\IDE\TF.exe'
+2018-01-18T03:02:39.391Z - debug:  [15292] TFVC Repository created with repositoryRootFolder='c:\D\Timeinc Projects\CampaignBudgetTool\CampaignBudgetTool.Client'
+2018-01-18T03:02:39.394Z - debug:  [15292] TFVC Repository.CheckVersion
+2018-01-18T03:02:39.396Z - debug:  [15292] TFVC: tf add -noprompt -?
+2018-01-18T03:02:39.424Z - debug:  [15292] TFVC: spawned new process (duration: 27ms)
+2018-01-18T03:02:39.447Z - debug:  [15292] TFVC: spawned new process (duration: 22ms)
+2018-01-18T03:02:39.983Z - debug:  [15292] TFVC: add exit code: 0 (duration: 586ms)
+2018-01-18T03:02:39.990Z - debug:  [15292] TFVC Minimum required version: 14.102.0
+2018-01-18T03:02:39.990Z - debug:  [15292] TFVC (TF.exe, TF.cmd) version: 14.102.25619.0
+2018-01-18T03:02:39.991Z - debug:  [15292] TFVC Repository.FindWorkspace with localPath='c:\D\Timeinc Projects\CampaignBudgetTool\CampaignBudgetTool.Client'
+2018-01-18T03:02:39.992Z - debug:  [15292] TFVC: tf workfold -noprompt ********
+2018-01-18T03:02:40.016Z - debug:  [15292] TFVC: spawned new process (duration: 23ms)
+2018-01-18T03:02:42.089Z - debug:  [15292] TFVC: workfold exit code: 100 (duration: 2096ms)
+2018-01-18T03:02:42.091Z - debug:  [15292] TFVC errors (via stderr): TF30063: You are not authorized to access tmpcmamva02\CMAS.
+
+2018-01-18T03:02:42.092Z - error:  [15292] It appears you are using a Server workspace. Currently, TFVC support is limited to Local workspaces. TF30063: You are not authorized to access tmpcmamva02\CMAS.
+2018-01-19T05:26:07.655Z - info:   [11920] *** FOLDER: c:\D\Timeinc Projects\CampaignBudgetTool\CampaignBudgetTool.Client ***
+2018-01-19T05:26:07.655Z - info:   [11920] VSTSVSCode/1.122.0 (VSCode 1.18.1; Windows_NT 10.0.14393; Node 7.9.0)
+2018-01-19T05:26:07.655Z - debug:  [11920] Looking for an External Context at c:\D\Timeinc Projects\CampaignBudgetTool\CampaignBudgetTool.Client
+2018-01-19T05:26:07.655Z - debug:  [11920] No External Context at c:\D\Timeinc Projects\CampaignBudgetTool\CampaignBudgetTool.Client
+2018-01-19T05:26:07.671Z - debug:  [11920] Looking for TFVC repository at c:\D\Timeinc Projects\CampaignBudgetTool\CampaignBudgetTool.Client
+2018-01-19T05:26:07.671Z - debug:  [11920] TFVC Creating Tfvc object with localPath='undefined'
+2018-01-19T05:26:07.671Z - debug:  [11920] Using TFS proxy: 
+2018-01-19T05:26:07.671Z - debug:  [11920] TFVC Retrieved from settings; localPath='C:\Program Files (x86)\Microsoft Visual Studio 14.0\Common7\IDE\TF.exe'
+2018-01-19T05:26:07.671Z - debug:  [11920] TFVC Repository created with repositoryRootFolder='c:\D\Timeinc Projects\CampaignBudgetTool\CampaignBudgetTool.Client'
+2018-01-19T05:26:07.671Z - debug:  [11920] TFVC Repository.CheckVersion
+2018-01-19T05:26:07.686Z - debug:  [11920] TFVC: tf add -noprompt -?
+2018-01-19T05:26:07.718Z - debug:  [11920] TFVC: spawned new process (duration: 32ms)
+2018-01-19T05:26:07.749Z - debug:  [11920] TFVC: spawned new process (duration: 31ms)
+2018-01-19T05:26:08.061Z - debug:  [11920] TFVC: add exit code: 0 (duration: 375ms)
+2018-01-19T05:26:08.064Z - debug:  [11920] TFVC Minimum required version: 14.102.0
+2018-01-19T05:26:08.065Z - debug:  [11920] TFVC (TF.exe, TF.cmd) version: 14.102.25619.0
+2018-01-19T05:26:08.066Z - debug:  [11920] TFVC Repository.FindWorkspace with localPath='c:\D\Timeinc Projects\CampaignBudgetTool\CampaignBudgetTool.Client'
+2018-01-19T05:26:08.067Z - debug:  [11920] TFVC: tf workfold -noprompt ********
+2018-01-19T05:26:08.078Z - debug:  [11920] TFVC: spawned new process (duration: 11ms)
+2018-01-19T05:26:09.960Z - debug:  [11920] TFVC: workfold exit code: 100 (duration: 1893ms)
+2018-01-19T05:26:09.963Z - debug:  [11920] TFVC errors (via stderr): TF30063: You are not authorized to access tmpcmamva02\CMAS.
+
+2018-01-19T05:26:09.964Z - error:  [11920] It appears you are using a Server workspace. Currently, TFVC support is limited to Local workspaces. TF30063: You are not authorized to access tmpcmamva02\CMAS.
+2018-01-19T05:26:20.004Z - debug:  [11920] Reinitializing due to onDidChangeConfiguration
+2018-01-19T05:26:20.020Z - debug:  [11920] Polling interval value (minutes): 5
+2018-01-19T05:26:20.036Z - info:   [11920] *** FOLDER: c:\D\Timeinc Projects\CampaignBudgetTool\CampaignBudgetTool.Client ***
+2018-01-19T05:26:20.036Z - info:   [11920] VSTSVSCode/1.122.0 (VSCode 1.18.1; Windows_NT 10.0.14393; Node 7.9.0)
+2018-01-19T05:26:20.036Z - debug:  [11920] Looking for an External Context at c:\D\Timeinc Projects\CampaignBudgetTool\CampaignBudgetTool.Client
+2018-01-19T05:26:20.036Z - debug:  [11920] No External Context at c:\D\Timeinc Projects\CampaignBudgetTool\CampaignBudgetTool.Client
+2018-01-19T05:26:20.036Z - debug:  [11920] Looking for TFVC repository at c:\D\Timeinc Projects\CampaignBudgetTool\CampaignBudgetTool.Client
+2018-01-19T05:26:20.036Z - debug:  [11920] TFVC Creating Tfvc object with localPath='undefined'
+2018-01-19T05:26:20.036Z - debug:  [11920] Using TFS proxy: 
+2018-01-19T05:26:20.036Z - debug:  [11920] TFVC Retrieved from settings; localPath='C:\Program Files (x86)\Microsoft Visual Studio 14.0\Common7\IDE\TF.exe'
+2018-01-19T05:26:20.036Z - debug:  [11920] TFVC Repository created with repositoryRootFolder='c:\D\Timeinc Projects\CampaignBudgetTool\CampaignBudgetTool.Client'
+2018-01-19T05:26:20.036Z - debug:  [11920] TFVC Repository.CheckVersion
+2018-01-19T05:26:20.036Z - debug:  [11920] TFVC: tf add -noprompt -?
+2018-01-19T05:26:20.051Z - debug:  [11920] TFVC: spawned new process (duration: 15ms)
+2018-01-19T05:26:20.168Z - debug:  [11920] TFVC: add exit code: 0 (duration: 132ms)
+2018-01-19T05:26:20.168Z - debug:  [11920] TFVC Minimum required version: 14.102.0
+2018-01-19T05:26:20.168Z - debug:  [11920] TFVC (TF.exe, TF.cmd) version: 14.102.25619.0
+2018-01-19T05:26:20.168Z - debug:  [11920] TFVC Repository.FindWorkspace with localPath='c:\D\Timeinc Projects\CampaignBudgetTool\CampaignBudgetTool.Client'
+2018-01-19T05:26:20.168Z - debug:  [11920] TFVC: tf workfold -noprompt ********
+2018-01-19T05:26:20.188Z - debug:  [11920] TFVC: spawned new process (duration: 20ms)
+2018-01-19T05:26:23.319Z - debug:  [11920] TFVC: workfold exit code: 100 (duration: 3151ms)
+2018-01-19T05:26:23.320Z - debug:  [11920] TFVC errors (via stderr): TF30063: You are not authorized to access tmpcmamva02\CMAS.
+
+2018-01-19T05:26:23.320Z - error:  [11920] It appears you are using a Server workspace. Currently, TFVC support is limited to Local workspaces. TF30063: You are not authorized to access tmpcmamva02\CMAS.
+2018-01-19T05:26:47.854Z - debug:  [11920] Reinitializing due to onDidChangeConfiguration
+2018-01-19T05:26:47.857Z - debug:  [11920] Polling interval value (minutes): 5
+2018-01-19T05:26:47.863Z - info:   [11920] *** FOLDER: c:\D\Timeinc Projects\CampaignBudgetTool\CampaignBudgetTool.Client ***
+2018-01-19T05:26:47.863Z - info:   [11920] VSTSVSCode/1.122.0 (VSCode 1.18.1; Windows_NT 10.0.14393; Node 7.9.0)
+2018-01-19T05:26:47.863Z - debug:  [11920] Looking for an External Context at c:\D\Timeinc Projects\CampaignBudgetTool\CampaignBudgetTool.Client
+2018-01-19T05:26:47.864Z - debug:  [11920] No External Context at c:\D\Timeinc Projects\CampaignBudgetTool\CampaignBudgetTool.Client
+2018-01-19T05:26:47.871Z - debug:  [11920] Looking for TFVC repository at c:\D\Timeinc Projects\CampaignBudgetTool\CampaignBudgetTool.Client
+2018-01-19T05:26:47.871Z - debug:  [11920] TFVC Creating Tfvc object with localPath='undefined'
+2018-01-19T05:26:47.872Z - debug:  [11920] Using TFS proxy: 
+2018-01-19T05:26:47.872Z - debug:  [11920] TFVC Retrieved from settings; localPath='C:\Program Files (x86)\Microsoft Visual Studio 14.0\Common7\IDE\TF.exe'
+2018-01-19T05:26:47.873Z - debug:  [11920] TFVC Repository created with repositoryRootFolder='c:\D\Timeinc Projects\CampaignBudgetTool\CampaignBudgetTool.Client'
+2018-01-19T05:26:47.875Z - debug:  [11920] TFVC Repository.CheckVersion
+2018-01-19T05:26:47.875Z - debug:  [11920] TFVC: tf add -noprompt -?
+2018-01-19T05:26:47.889Z - debug:  [11920] TFVC: spawned new process (duration: 14ms)
+2018-01-19T05:26:47.977Z - debug:  [11920] TFVC: add exit code: 0 (duration: 102ms)
+2018-01-19T05:26:47.977Z - debug:  [11920] TFVC Minimum required version: 14.102.0
+2018-01-19T05:26:47.978Z - debug:  [11920] TFVC (TF.exe, TF.cmd) version: 14.102.25619.0
+2018-01-19T05:26:47.978Z - debug:  [11920] TFVC Repository.FindWorkspace with localPath='c:\D\Timeinc Projects\CampaignBudgetTool\CampaignBudgetTool.Client'
+2018-01-19T05:26:47.978Z - debug:  [11920] TFVC: tf workfold -noprompt ********
+2018-01-19T05:26:47.992Z - debug:  [11920] TFVC: spawned new process (duration: 13ms)
+2018-01-19T05:26:50.281Z - debug:  [11920] TFVC: workfold exit code: 100 (duration: 2302ms)
+2018-01-19T05:26:50.281Z - debug:  [11920] TFVC errors (via stderr): TF30063: You are not authorized to access tmpcmamva02\CMAS.
+
+2018-01-19T05:26:50.281Z - error:  [11920] It appears you are using a Server workspace. Currently, TFVC support is limited to Local workspaces. TF30063: You are not authorized to access tmpcmamva02\CMAS.
+2018-01-22T06:27:01.615Z - info:   [07504] *** FOLDER: c:\D\Timeinc Projects\CampaignBudgetTool\CampaignBudgetTool.Client ***
+2018-01-22T06:27:01.615Z - info:   [07504] VSTSVSCode/1.122.0 (VSCode 1.19.2; Windows_NT 10.0.14393; Node 7.9.0)
+2018-01-22T06:27:01.615Z - debug:  [07504] Looking for an External Context at c:\D\Timeinc Projects\CampaignBudgetTool\CampaignBudgetTool.Client
+2018-01-22T06:27:01.619Z - debug:  [07504] No External Context at c:\D\Timeinc Projects\CampaignBudgetTool\CampaignBudgetTool.Client
+2018-01-22T06:27:01.619Z - debug:  [07504] Looking for TFVC repository at c:\D\Timeinc Projects\CampaignBudgetTool\CampaignBudgetTool.Client
+2018-01-22T06:27:01.619Z - debug:  [07504] TFVC Creating Tfvc object with localPath='undefined'
+2018-01-22T06:27:01.623Z - debug:  [07504] Using TFS proxy: 
+2018-01-22T06:27:01.623Z - debug:  [07504] TFVC Retrieved from settings; localPath='C:\Program Files (x86)\Microsoft Visual Studio 14.0\Common7\IDE\TF.exe'
+2018-01-22T06:27:01.627Z - debug:  [07504] TFVC Repository created with repositoryRootFolder='c:\D\Timeinc Projects\CampaignBudgetTool\CampaignBudgetTool.Client'
+2018-01-22T06:27:01.627Z - debug:  [07504] TFVC Repository.CheckVersion
+2018-01-22T06:27:01.627Z - debug:  [07504] TFVC: tf add -noprompt -?
+2018-01-22T06:27:01.669Z - debug:  [07504] TFVC: spawned new process (duration: 38ms)
+2018-01-22T06:27:01.713Z - debug:  [07504] TFVC: spawned new process (duration: 40ms)
+2018-01-22T06:27:03.606Z - debug:  [07504] TFVC: add exit code: 0 (duration: 1979ms)
+2018-01-22T06:27:03.606Z - debug:  [07504] TFVC Minimum required version: 14.102.0
+2018-01-22T06:27:03.606Z - debug:  [07504] TFVC (TF.exe, TF.cmd) version: 14.102.25619.0
+2018-01-22T06:27:03.606Z - debug:  [07504] TFVC Repository.FindWorkspace with localPath='c:\D\Timeinc Projects\CampaignBudgetTool\CampaignBudgetTool.Client'
+2018-01-22T06:27:03.606Z - debug:  [07504] TFVC: tf workfold -noprompt ********
+2018-01-22T06:27:03.654Z - debug:  [07504] TFVC: spawned new process (duration: 48ms)
+2018-01-22T06:27:07.117Z - debug:  [07504] TFVC: workfold exit code: 100 (duration: 3511ms)
+2018-01-22T06:27:07.117Z - debug:  [07504] TFVC errors (via stderr): TF30063: You are not authorized to access tmpcmamva02\CMAS.
+
+2018-01-22T06:27:07.121Z - error:  [07504] It appears you are using a Server workspace. Currently, TFVC support is limited to Local workspaces. TF30063: You are not authorized to access tmpcmamva02\CMAS.
+2018-01-22T13:28:48.384Z - info:   [13136] *** FOLDER: c:\D\Timeinc Projects\CampaignBudgetTool\CampaignBudgetTool.Client ***
+2018-01-22T13:28:48.385Z - info:   [13136] VSTSVSCode/1.122.0 (VSCode 1.19.2; Windows_NT 10.0.14393; Node 7.9.0)
+2018-01-22T13:28:48.385Z - debug:  [13136] Looking for an External Context at c:\D\Timeinc Projects\CampaignBudgetTool\CampaignBudgetTool.Client
+2018-01-22T13:28:48.385Z - debug:  [13136] No External Context at c:\D\Timeinc Projects\CampaignBudgetTool\CampaignBudgetTool.Client
+2018-01-22T13:28:48.386Z - debug:  [13136] Looking for TFVC repository at c:\D\Timeinc Projects\CampaignBudgetTool\CampaignBudgetTool.Client
+2018-01-22T13:28:48.387Z - debug:  [13136] TFVC Creating Tfvc object with localPath='undefined'
+2018-01-22T13:28:48.388Z - debug:  [13136] Using TFS proxy: 
+2018-01-22T13:28:48.388Z - debug:  [13136] TFVC Retrieved from settings; localPath='C:\Program Files (x86)\Microsoft Visual Studio 14.0\Common7\IDE\TF.exe'
+2018-01-22T13:28:48.390Z - debug:  [13136] TFVC Repository created with repositoryRootFolder='c:\D\Timeinc Projects\CampaignBudgetTool\CampaignBudgetTool.Client'
+2018-01-22T13:28:48.392Z - debug:  [13136] TFVC Repository.CheckVersion
+2018-01-22T13:28:48.393Z - debug:  [13136] TFVC: tf add -noprompt -?
+2018-01-22T13:28:48.414Z - debug:  [13136] TFVC: spawned new process (duration: 21ms)
+2018-01-22T13:28:48.429Z - debug:  [13136] TFVC: spawned new process (duration: 15ms)
+2018-01-22T13:28:49.228Z - debug:  [13136] TFVC: add exit code: 0 (duration: 835ms)
+2018-01-22T13:28:49.228Z - debug:  [13136] TFVC Minimum required version: 14.102.0
+2018-01-22T13:28:49.228Z - debug:  [13136] TFVC (TF.exe, TF.cmd) version: 14.102.25619.0
+2018-01-22T13:28:49.228Z - debug:  [13136] TFVC Repository.FindWorkspace with localPath='c:\D\Timeinc Projects\CampaignBudgetTool\CampaignBudgetTool.Client'
+2018-01-22T13:28:49.228Z - debug:  [13136] TFVC: tf workfold -noprompt ********
+2018-01-22T13:28:49.244Z - debug:  [13136] TFVC: spawned new process (duration: 16ms)
+2018-01-22T13:28:52.178Z - debug:  [13136] TFVC: workfold exit code: 100 (duration: 2950ms)
+2018-01-22T13:28:52.178Z - debug:  [13136] TFVC errors (via stderr): TF30063: You are not authorized to access tmpcmamva02\CMAS.
+
+2018-01-22T13:28:52.178Z - error:  [13136] It appears you are using a Server workspace. Currently, TFVC support is limited to Local workspaces. TF30063: You are not authorized to access tmpcmamva02\CMAS.
+2018-01-23T04:38:45.220Z - info:   [12000] *** FOLDER: c:\D\Timeinc Projects\CampaignBudgetTool\CampaignBudgetTool.Client ***
+2018-01-23T04:38:45.224Z - info:   [12000] VSTSVSCode/1.122.0 (VSCode 1.19.2; Windows_NT 10.0.14393; Node 7.9.0)
+2018-01-23T04:38:45.224Z - debug:  [12000] Looking for an External Context at c:\D\Timeinc Projects\CampaignBudgetTool\CampaignBudgetTool.Client
+2018-01-23T04:38:45.224Z - debug:  [12000] No External Context at c:\D\Timeinc Projects\CampaignBudgetTool\CampaignBudgetTool.Client
+2018-01-23T04:38:45.224Z - debug:  [12000] Looking for TFVC repository at c:\D\Timeinc Projects\CampaignBudgetTool\CampaignBudgetTool.Client
+2018-01-23T04:38:45.224Z - debug:  [12000] TFVC Creating Tfvc object with localPath='undefined'
+2018-01-23T04:38:45.224Z - debug:  [12000] Using TFS proxy: 
+2018-01-23T04:38:45.224Z - debug:  [12000] TFVC Retrieved from settings; localPath='C:\Program Files (x86)\Microsoft Visual Studio 14.0\Common7\IDE\TF.exe'
+2018-01-23T04:38:45.228Z - debug:  [12000] TFVC Repository created with repositoryRootFolder='c:\D\Timeinc Projects\CampaignBudgetTool\CampaignBudgetTool.Client'
+2018-01-23T04:38:45.228Z - debug:  [12000] TFVC Repository.CheckVersion
+2018-01-23T04:38:45.232Z - debug:  [12000] TFVC: tf add -noprompt -?
+2018-01-23T04:38:45.280Z - debug:  [12000] TFVC: spawned new process (duration: 48ms)
+2018-01-23T04:38:45.348Z - debug:  [12000] TFVC: spawned new process (duration: 68ms)
+2018-01-23T04:38:45.893Z - debug:  [12000] TFVC: add exit code: 0 (duration: 661ms)
+2018-01-23T04:38:45.893Z - debug:  [12000] TFVC Minimum required version: 14.102.0
+2018-01-23T04:38:45.893Z - debug:  [12000] TFVC (TF.exe, TF.cmd) version: 14.102.25619.0
+2018-01-23T04:38:45.893Z - debug:  [12000] TFVC Repository.FindWorkspace with localPath='c:\D\Timeinc Projects\CampaignBudgetTool\CampaignBudgetTool.Client'
+2018-01-23T04:38:45.893Z - debug:  [12000] TFVC: tf workfold -noprompt ********
+2018-01-23T04:38:45.913Z - debug:  [12000] TFVC: spawned new process (duration: 20ms)
+2018-01-23T04:38:48.308Z - debug:  [12000] TFVC: workfold exit code: 100 (duration: 2415ms)
+2018-01-23T04:38:48.308Z - debug:  [12000] TFVC errors (via stderr): TF30063: You are not authorized to access tmpcmamva02\CMAS.
+
+2018-01-23T04:38:48.308Z - error:  [12000] It appears you are using a Server workspace. Currently, TFVC support is limited to Local workspaces. TF30063: You are not authorized to access tmpcmamva02\CMAS.
+2018-01-23T08:58:00.177Z - info:   [13692] *** FOLDER: c:\D\Timeinc Projects\CampaignBudgetTool\CampaignBudgetTool.Client ***
+2018-01-23T08:58:00.179Z - info:   [13692] VSTSVSCode/1.122.0 (VSCode 1.19.2; Windows_NT 10.0.14393; Node 7.9.0)
+2018-01-23T08:58:00.179Z - debug:  [13692] Looking for an External Context at c:\D\Timeinc Projects\CampaignBudgetTool\CampaignBudgetTool.Client
+2018-01-23T08:58:00.179Z - debug:  [13692] No External Context at c:\D\Timeinc Projects\CampaignBudgetTool\CampaignBudgetTool.Client
+2018-01-23T08:58:00.182Z - debug:  [13692] Looking for TFVC repository at c:\D\Timeinc Projects\CampaignBudgetTool\CampaignBudgetTool.Client
+2018-01-23T08:58:00.182Z - debug:  [13692] TFVC Creating Tfvc object with localPath='undefined'
+2018-01-23T08:58:00.184Z - debug:  [13692] Using TFS proxy: 
+2018-01-23T08:58:00.184Z - debug:  [13692] TFVC Retrieved from settings; localPath='C:\Program Files (x86)\Microsoft Visual Studio 14.0\Common7\IDE\TF.exe'
+2018-01-23T08:58:00.186Z - debug:  [13692] TFVC Repository created with repositoryRootFolder='c:\D\Timeinc Projects\CampaignBudgetTool\CampaignBudgetTool.Client'
+2018-01-23T08:58:00.188Z - debug:  [13692] TFVC Repository.CheckVersion
+2018-01-23T08:58:00.189Z - debug:  [13692] TFVC: tf add -noprompt -?
+2018-01-23T08:58:00.227Z - debug:  [13692] TFVC: spawned new process (duration: 38ms)
+2018-01-23T08:58:00.258Z - debug:  [13692] TFVC: spawned new process (duration: 31ms)
+2018-01-23T08:58:00.604Z - debug:  [13692] TFVC: add exit code: 0 (duration: 415ms)
+2018-01-23T08:58:00.605Z - debug:  [13692] TFVC Minimum required version: 14.102.0
+2018-01-23T08:58:00.605Z - debug:  [13692] TFVC (TF.exe, TF.cmd) version: 14.102.25619.0
+2018-01-23T08:58:00.605Z - debug:  [13692] TFVC Repository.FindWorkspace with localPath='c:\D\Timeinc Projects\CampaignBudgetTool\CampaignBudgetTool.Client'
+2018-01-23T08:58:00.606Z - debug:  [13692] TFVC: tf workfold -noprompt ********
+2018-01-23T08:58:00.619Z - debug:  [13692] TFVC: spawned new process (duration: 13ms)
+2018-01-23T08:58:02.755Z - debug:  [13692] TFVC: workfold exit code: 100 (duration: 2149ms)
+2018-01-23T08:58:02.755Z - debug:  [13692] TFVC errors (via stderr): TF30063: You are not authorized to access tmpcmamva02\CMAS.
+
+2018-01-23T08:58:02.755Z - error:  [13692] It appears you are using a Server workspace. Currently, TFVC support is limited to Local workspaces. TF30063: You are not authorized to access tmpcmamva02\CMAS.
+2018-01-23T10:16:56.738Z - info:   [11596] *** FOLDER: c:\D\Timeinc Projects\CampaignBudgetTool\CampaignBudgetTool.Client ***
+2018-01-23T10:16:56.739Z - info:   [11596] VSTSVSCode/1.122.0 (VSCode 1.19.2; Windows_NT 10.0.14393; Node 7.9.0)
+2018-01-23T10:16:56.739Z - debug:  [11596] Looking for an External Context at c:\D\Timeinc Projects\CampaignBudgetTool\CampaignBudgetTool.Client
+2018-01-23T10:16:56.739Z - debug:  [11596] No External Context at c:\D\Timeinc Projects\CampaignBudgetTool\CampaignBudgetTool.Client
+2018-01-23T10:16:56.741Z - debug:  [11596] Looking for TFVC repository at c:\D\Timeinc Projects\CampaignBudgetTool\CampaignBudgetTool.Client
+2018-01-23T10:16:56.741Z - debug:  [11596] TFVC Creating Tfvc object with localPath='undefined'
+2018-01-23T10:16:56.745Z - debug:  [11596] Using TFS proxy: 
+2018-01-23T10:16:56.745Z - debug:  [11596] TFVC Retrieved from settings; localPath='C:\Program Files (x86)\Microsoft Visual Studio 14.0\Common7\IDE\TF.exe'
+2018-01-23T10:16:56.747Z - debug:  [11596] TFVC Repository created with repositoryRootFolder='c:\D\Timeinc Projects\CampaignBudgetTool\CampaignBudgetTool.Client'
+2018-01-23T10:16:56.750Z - debug:  [11596] TFVC Repository.CheckVersion
+2018-01-23T10:16:56.751Z - debug:  [11596] TFVC: tf add -noprompt -?
+2018-01-23T10:16:56.787Z - debug:  [11596] TFVC: spawned new process (duration: 36ms)
+2018-01-23T10:16:56.833Z - debug:  [11596] TFVC: spawned new process (duration: 44ms)
+2018-01-23T10:16:57.158Z - debug:  [11596] TFVC: add exit code: 0 (duration: 407ms)
+2018-01-23T10:16:57.158Z - debug:  [11596] TFVC Minimum required version: 14.102.0
+2018-01-23T10:16:57.158Z - debug:  [11596] TFVC (TF.exe, TF.cmd) version: 14.102.25619.0
+2018-01-23T10:16:57.158Z - debug:  [11596] TFVC Repository.FindWorkspace with localPath='c:\D\Timeinc Projects\CampaignBudgetTool\CampaignBudgetTool.Client'
+2018-01-23T10:16:57.158Z - debug:  [11596] TFVC: tf workfold -noprompt ********
+2018-01-23T10:16:57.174Z - debug:  [11596] TFVC: spawned new process (duration: 16ms)
+2018-01-23T10:16:59.166Z - debug:  [11596] TFVC: workfold exit code: 100 (duration: 2008ms)
+2018-01-23T10:16:59.166Z - debug:  [11596] TFVC errors (via stderr): TF30063: You are not authorized to access tmpcmamva02\CMAS.
+
+2018-01-23T10:16:59.166Z - error:  [11596] It appears you are using a Server workspace. Currently, TFVC support is limited to Local workspaces. TF30063: You are not authorized to access tmpcmamva02\CMAS.
+2018-01-24T06:35:54.427Z - info:   [11776] *** FOLDER: c:\D\Timeinc Projects\CampaignBudgetTool\CampaignBudgetTool.Client ***
+2018-01-24T06:35:54.428Z - info:   [11776] VSTSVSCode/1.122.0 (VSCode 1.19.2; Windows_NT 10.0.14393; Node 7.9.0)
+2018-01-24T06:35:54.430Z - debug:  [11776] Looking for an External Context at c:\D\Timeinc Projects\CampaignBudgetTool\CampaignBudgetTool.Client
+2018-01-24T06:35:54.430Z - debug:  [11776] No External Context at c:\D\Timeinc Projects\CampaignBudgetTool\CampaignBudgetTool.Client
+2018-01-24T06:35:54.431Z - debug:  [11776] Looking for TFVC repository at c:\D\Timeinc Projects\CampaignBudgetTool\CampaignBudgetTool.Client
+2018-01-24T06:35:54.432Z - debug:  [11776] TFVC Creating Tfvc object with localPath='undefined'
+2018-01-24T06:35:54.434Z - debug:  [11776] Using TFS proxy: 
+2018-01-24T06:35:54.434Z - debug:  [11776] TFVC Retrieved from settings; localPath='C:\Program Files (x86)\Microsoft Visual Studio 14.0\Common7\IDE\TF.exe'
+2018-01-24T06:35:54.436Z - debug:  [11776] TFVC Repository created with repositoryRootFolder='c:\D\Timeinc Projects\CampaignBudgetTool\CampaignBudgetTool.Client'
+2018-01-24T06:35:54.438Z - debug:  [11776] TFVC Repository.CheckVersion
+2018-01-24T06:35:54.438Z - debug:  [11776] TFVC: tf add -noprompt -?
+2018-01-24T06:35:54.475Z - debug:  [11776] TFVC: spawned new process (duration: 36ms)
+2018-01-24T06:35:54.527Z - debug:  [11776] TFVC: spawned new process (duration: 51ms)
+2018-01-24T06:35:56.946Z - debug:  [11776] TFVC: add exit code: 0 (duration: 2508ms)
+2018-01-24T06:35:56.947Z - debug:  [11776] TFVC Minimum required version: 14.102.0
+2018-01-24T06:35:56.947Z - debug:  [11776] TFVC (TF.exe, TF.cmd) version: 14.102.25619.0
+2018-01-24T06:35:56.947Z - debug:  [11776] TFVC Repository.FindWorkspace with localPath='c:\D\Timeinc Projects\CampaignBudgetTool\CampaignBudgetTool.Client'
+2018-01-24T06:35:56.948Z - debug:  [11776] TFVC: tf workfold -noprompt ********
+2018-01-24T06:35:56.976Z - debug:  [11776] TFVC: spawned new process (duration: 28ms)
+2018-01-24T06:36:00.656Z - debug:  [11776] TFVC: workfold exit code: 100 (duration: 3708ms)
+2018-01-24T06:36:00.657Z - debug:  [11776] TFVC errors (via stderr): TF30063: You are not authorized to access tmpcmamva02\CMAS.
+
+2018-01-24T06:36:00.658Z - error:  [11776] It appears you are using a Server workspace. Currently, TFVC support is limited to Local workspaces. TF30063: You are not authorized to access tmpcmamva02\CMAS.
+2018-01-25T03:42:36.844Z - info:   [11552] *** FOLDER: c:\D\Timeinc Projects\CampaignBudgetTool\CampaignBudgetTool.Client ***
+2018-01-25T03:42:36.844Z - info:   [11552] VSTSVSCode/1.122.0 (VSCode 1.19.2; Windows_NT 10.0.14393; Node 7.9.0)
+2018-01-25T03:42:36.844Z - debug:  [11552] Looking for an External Context at c:\D\Timeinc Projects\CampaignBudgetTool\CampaignBudgetTool.Client
+2018-01-25T03:42:36.844Z - debug:  [11552] No External Context at c:\D\Timeinc Projects\CampaignBudgetTool\CampaignBudgetTool.Client
+2018-01-25T03:42:36.844Z - debug:  [11552] Looking for TFVC repository at c:\D\Timeinc Projects\CampaignBudgetTool\CampaignBudgetTool.Client
+2018-01-25T03:42:36.844Z - debug:  [11552] TFVC Creating Tfvc object with localPath='undefined'
+2018-01-25T03:42:36.848Z - debug:  [11552] Using TFS proxy: 
+2018-01-25T03:42:36.848Z - debug:  [11552] TFVC Retrieved from settings; localPath='C:\Program Files (x86)\Microsoft Visual Studio 14.0\Common7\IDE\TF.exe'
+2018-01-25T03:42:36.848Z - debug:  [11552] TFVC Repository created with repositoryRootFolder='c:\D\Timeinc Projects\CampaignBudgetTool\CampaignBudgetTool.Client'
+2018-01-25T03:42:36.852Z - debug:  [11552] TFVC Repository.CheckVersion
+2018-01-25T03:42:36.852Z - debug:  [11552] TFVC: tf add -noprompt -?
+2018-01-25T03:42:36.884Z - debug:  [11552] TFVC: spawned new process (duration: 32ms)
+2018-01-25T03:42:36.936Z - debug:  [11552] TFVC: spawned new process (duration: 52ms)
+2018-01-25T03:42:37.241Z - debug:  [11552] TFVC: add exit code: 0 (duration: 389ms)
+2018-01-25T03:42:37.241Z - debug:  [11552] TFVC Minimum required version: 14.102.0
+2018-01-25T03:42:37.241Z - debug:  [11552] TFVC (TF.exe, TF.cmd) version: 14.102.25619.0
+2018-01-25T03:42:37.245Z - debug:  [11552] TFVC Repository.FindWorkspace with localPath='c:\D\Timeinc Projects\CampaignBudgetTool\CampaignBudgetTool.Client'
+2018-01-25T03:42:37.245Z - debug:  [11552] TFVC: tf workfold -noprompt ********
+2018-01-25T03:42:37.253Z - debug:  [11552] TFVC: spawned new process (duration: 8ms)
+2018-01-25T03:42:40.314Z - debug:  [11552] TFVC: workfold exit code: 100 (duration: 3069ms)
+2018-01-25T03:42:40.314Z - debug:  [11552] TFVC errors (via stderr): TF30063: You are not authorized to access tmpcmamva02\CMAS.
+
+2018-01-25T03:42:40.314Z - error:  [11552] It appears you are using a Server workspace. Currently, TFVC support is limited to Local workspaces. TF30063: You are not authorized to access tmpcmamva02\CMAS.
+2018-01-29T03:07:07.023Z - info:   [09728] *** FOLDER: c:\D\Timeinc Projects\CampaignBudgetTool\CampaignBudgetTool.Client ***
+2018-01-29T03:07:07.023Z - info:   [09728] VSTSVSCode/1.122.0 (VSCode 1.19.2; Windows_NT 10.0.14393; Node 7.9.0)
+2018-01-29T03:07:07.023Z - debug:  [09728] Looking for an External Context at c:\D\Timeinc Projects\CampaignBudgetTool\CampaignBudgetTool.Client
+2018-01-29T03:07:07.023Z - debug:  [09728] No External Context at c:\D\Timeinc Projects\CampaignBudgetTool\CampaignBudgetTool.Client
+2018-01-29T03:07:07.027Z - debug:  [09728] Looking for TFVC repository at c:\D\Timeinc Projects\CampaignBudgetTool\CampaignBudgetTool.Client
+2018-01-29T03:07:07.027Z - debug:  [09728] TFVC Creating Tfvc object with localPath='undefined'
+2018-01-29T03:07:07.027Z - debug:  [09728] Using TFS proxy: 
+2018-01-29T03:07:07.027Z - debug:  [09728] TFVC Retrieved from settings; localPath='C:\Program Files (x86)\Microsoft Visual Studio 14.0\Common7\IDE\TF.exe'
+2018-01-29T03:07:07.031Z - debug:  [09728] TFVC Repository created with repositoryRootFolder='c:\D\Timeinc Projects\CampaignBudgetTool\CampaignBudgetTool.Client'
+2018-01-29T03:07:07.031Z - debug:  [09728] TFVC Repository.CheckVersion
+2018-01-29T03:07:07.031Z - debug:  [09728] TFVC: tf add -noprompt -?
+2018-01-29T03:07:07.067Z - debug:  [09728] TFVC: spawned new process (duration: 32ms)
+2018-01-29T03:07:07.099Z - debug:  [09728] TFVC: spawned new process (duration: 32ms)
+2018-01-29T03:07:07.760Z - debug:  [09728] TFVC: add exit code: 0 (duration: 725ms)
+2018-01-29T03:07:07.760Z - debug:  [09728] TFVC Minimum required version: 14.102.0
+2018-01-29T03:07:07.760Z - debug:  [09728] TFVC (TF.exe, TF.cmd) version: 14.102.25619.0
+2018-01-29T03:07:07.760Z - debug:  [09728] TFVC Repository.FindWorkspace with localPath='c:\D\Timeinc Projects\CampaignBudgetTool\CampaignBudgetTool.Client'
+2018-01-29T03:07:07.760Z - debug:  [09728] TFVC: tf workfold -noprompt ********
+2018-01-29T03:07:07.775Z - debug:  [09728] TFVC: spawned new process (duration: 15ms)
+2018-01-29T03:07:10.553Z - debug:  [09728] TFVC: workfold exit code: 100 (duration: 2793ms)
+2018-01-29T03:07:10.553Z - debug:  [09728] TFVC errors (via stderr): TF30063: You are not authorized to access tmpcmamva02\CMAS.
+
+2018-01-29T03:07:10.553Z - error:  [09728] It appears you are using a Server workspace. Currently, TFVC support is limited to Local workspaces. TF30063: You are not authorized to access tmpcmamva02\CMAS.
+2018-01-29T04:17:10.370Z - info:   [10628] *** FOLDER: c:\D\Timeinc Projects\CampaignBudgetTool\CampaignBudgetTool.Client ***
+2018-01-29T04:17:10.372Z - info:   [10628] VSTSVSCode/1.122.0 (VSCode 1.19.2; Windows_NT 10.0.14393; Node 7.9.0)
+2018-01-29T04:17:10.372Z - debug:  [10628] Looking for an External Context at c:\D\Timeinc Projects\CampaignBudgetTool\CampaignBudgetTool.Client
+2018-01-29T04:17:10.373Z - debug:  [10628] No External Context at c:\D\Timeinc Projects\CampaignBudgetTool\CampaignBudgetTool.Client
+2018-01-29T04:17:10.375Z - debug:  [10628] Looking for TFVC repository at c:\D\Timeinc Projects\CampaignBudgetTool\CampaignBudgetTool.Client
+2018-01-29T04:17:10.376Z - debug:  [10628] TFVC Creating Tfvc object with localPath='undefined'
+2018-01-29T04:17:10.379Z - debug:  [10628] Using TFS proxy: 
+2018-01-29T04:17:10.380Z - debug:  [10628] TFVC Retrieved from settings; localPath='C:\Program Files (x86)\Microsoft Visual Studio 14.0\Common7\IDE\TF.exe'
+2018-01-29T04:17:10.381Z - debug:  [10628] TFVC Repository created with repositoryRootFolder='c:\D\Timeinc Projects\CampaignBudgetTool\CampaignBudgetTool.Client'
+2018-01-29T04:17:10.384Z - debug:  [10628] TFVC Repository.CheckVersion
+2018-01-29T04:17:10.385Z - debug:  [10628] TFVC: tf add -noprompt -?
+2018-01-29T04:17:10.428Z - debug:  [10628] TFVC: spawned new process (duration: 42ms)
+2018-01-29T04:17:10.453Z - debug:  [10628] TFVC: spawned new process (duration: 24ms)
+2018-01-29T04:17:11.258Z - debug:  [10628] TFVC: add exit code: 0 (duration: 872ms)
+2018-01-29T04:17:11.258Z - debug:  [10628] TFVC Minimum required version: 14.102.0
+2018-01-29T04:17:11.258Z - debug:  [10628] TFVC (TF.exe, TF.cmd) version: 14.102.25619.0
+2018-01-29T04:17:11.258Z - debug:  [10628] TFVC Repository.FindWorkspace with localPath='c:\D\Timeinc Projects\CampaignBudgetTool\CampaignBudgetTool.Client'
+2018-01-29T04:17:11.258Z - debug:  [10628] TFVC: tf workfold -noprompt ********
+2018-01-29T04:17:11.274Z - debug:  [10628] TFVC: spawned new process (duration: 16ms)
+2018-01-29T04:17:13.695Z - debug:  [10628] TFVC: workfold exit code: 100 (duration: 2437ms)
+2018-01-29T04:17:13.696Z - debug:  [10628] TFVC errors (via stderr): TF30063: You are not authorized to access tmpcmamva02\CMAS.
+
+2018-01-29T04:17:13.696Z - error:  [10628] It appears you are using a Server workspace. Currently, TFVC support is limited to Local workspaces. TF30063: You are not authorized to access tmpcmamva02\CMAS.
+2018-01-29T07:57:27.350Z - info:   [12244] *** FOLDER: c:\D\Timeinc Projects\CampaignBudgetTool\CampaignBudgetTool.Client ***
+2018-01-29T07:57:27.359Z - info:   [12244] VSTSVSCode/1.122.0 (VSCode 1.19.2; Windows_NT 10.0.14393; Node 7.9.0)
+2018-01-29T07:57:27.361Z - debug:  [12244] Looking for an External Context at c:\D\Timeinc Projects\CampaignBudgetTool\CampaignBudgetTool.Client
+2018-01-29T07:57:27.361Z - debug:  [12244] No External Context at c:\D\Timeinc Projects\CampaignBudgetTool\CampaignBudgetTool.Client
+2018-01-29T07:57:27.364Z - debug:  [12244] Looking for TFVC repository at c:\D\Timeinc Projects\CampaignBudgetTool\CampaignBudgetTool.Client
+2018-01-29T07:57:27.364Z - debug:  [12244] TFVC Creating Tfvc object with localPath='undefined'
+2018-01-29T07:57:27.372Z - debug:  [12244] Using TFS proxy: 
+2018-01-29T07:57:27.372Z - debug:  [12244] TFVC Retrieved from settings; localPath='C:\Program Files (x86)\Microsoft Visual Studio 14.0\Common7\IDE\TF.exe'
+2018-01-29T07:57:27.373Z - debug:  [12244] TFVC Repository created with repositoryRootFolder='c:\D\Timeinc Projects\CampaignBudgetTool\CampaignBudgetTool.Client'
+2018-01-29T07:57:27.375Z - debug:  [12244] TFVC Repository.CheckVersion
+2018-01-29T07:57:27.377Z - debug:  [12244] TFVC: tf add -noprompt -?
+2018-01-29T07:57:27.423Z - debug:  [12244] TFVC: spawned new process (duration: 44ms)
+2018-01-29T07:57:27.457Z - debug:  [12244] TFVC: spawned new process (duration: 33ms)
+2018-01-29T07:57:27.895Z - debug:  [12244] TFVC: add exit code: 0 (duration: 518ms)
+2018-01-29T07:57:27.897Z - debug:  [12244] TFVC Minimum required version: 14.102.0
+2018-01-29T07:57:27.897Z - debug:  [12244] TFVC (TF.exe, TF.cmd) version: 14.102.25619.0
+2018-01-29T07:57:27.898Z - debug:  [12244] TFVC Repository.FindWorkspace with localPath='c:\D\Timeinc Projects\CampaignBudgetTool\CampaignBudgetTool.Client'
+2018-01-29T07:57:27.899Z - debug:  [12244] TFVC: tf workfold -noprompt ********
+2018-01-29T07:57:27.910Z - debug:  [12244] TFVC: spawned new process (duration: 11ms)
+2018-01-29T07:57:30.144Z - debug:  [12244] TFVC: workfold exit code: 100 (duration: 2244ms)
+2018-01-29T07:57:30.145Z - debug:  [12244] TFVC errors (via stderr): TF30063: You are not authorized to access tmpcmamva02\CMAS.
+
+2018-01-29T07:57:30.148Z - error:  [12244] It appears you are using a Server workspace. Currently, TFVC support is limited to Local workspaces. TF30063: You are not authorized to access tmpcmamva02\CMAS.
+2018-01-30T05:52:09.606Z - info:   [11752] *** FOLDER: c:\D\Timeinc Projects\CampaignBudgetTool\CampaignBudgetTool.Client ***
+2018-01-30T05:52:09.606Z - info:   [11752] VSTSVSCode/1.122.0 (VSCode 1.19.2; Windows_NT 10.0.14393; Node 7.9.0)
+2018-01-30T05:52:09.610Z - debug:  [11752] Looking for an External Context at c:\D\Timeinc Projects\CampaignBudgetTool\CampaignBudgetTool.Client
+2018-01-30T05:52:09.610Z - debug:  [11752] No External Context at c:\D\Timeinc Projects\CampaignBudgetTool\CampaignBudgetTool.Client
+2018-01-30T05:52:09.610Z - debug:  [11752] Looking for TFVC repository at c:\D\Timeinc Projects\CampaignBudgetTool\CampaignBudgetTool.Client
+2018-01-30T05:52:09.610Z - debug:  [11752] TFVC Creating Tfvc object with localPath='undefined'
+2018-01-30T05:52:09.614Z - debug:  [11752] Using TFS proxy: 
+2018-01-30T05:52:09.614Z - debug:  [11752] TFVC Retrieved from settings; localPath='C:\Program Files (x86)\Microsoft Visual Studio 14.0\Common7\IDE\TF.exe'
+2018-01-30T05:52:09.614Z - debug:  [11752] TFVC Repository created with repositoryRootFolder='c:\D\Timeinc Projects\CampaignBudgetTool\CampaignBudgetTool.Client'
+2018-01-30T05:52:09.618Z - debug:  [11752] TFVC Repository.CheckVersion
+2018-01-30T05:52:09.618Z - debug:  [11752] TFVC: tf add -noprompt -?
+2018-01-30T05:52:09.646Z - debug:  [11752] TFVC: spawned new process (duration: 28ms)
+2018-01-30T05:52:09.698Z - debug:  [11752] TFVC: spawned new process (duration: 52ms)
+2018-01-30T05:52:09.978Z - debug:  [11752] TFVC: add exit code: 0 (duration: 360ms)
+2018-01-30T05:52:09.978Z - debug:  [11752] TFVC Minimum required version: 14.102.0
+2018-01-30T05:52:09.978Z - debug:  [11752] TFVC (TF.exe, TF.cmd) version: 14.102.25619.0
+2018-01-30T05:52:09.978Z - debug:  [11752] TFVC Repository.FindWorkspace with localPath='c:\D\Timeinc Projects\CampaignBudgetTool\CampaignBudgetTool.Client'
+2018-01-30T05:52:09.982Z - debug:  [11752] TFVC: tf workfold -noprompt ********
+2018-01-30T05:52:09.990Z - debug:  [11752] TFVC: spawned new process (duration: 8ms)
+2018-01-30T05:52:12.128Z - debug:  [11752] TFVC: workfold exit code: 100 (duration: 2146ms)
+2018-01-30T05:52:12.128Z - debug:  [11752] TFVC errors (via stderr): TF30063: You are not authorized to access tmpcmamva02\CMAS.
+
+2018-01-30T05:52:12.128Z - error:  [11752] It appears you are using a Server workspace. Currently, TFVC support is limited to Local workspaces. TF30063: You are not authorized to access tmpcmamva02\CMAS.
+2018-01-30T12:36:57.733Z - info:   [06984] *** FOLDER: c:\D\Timeinc Projects\CampaignBudgetTool\CampaignBudgetTool.Client ***
+2018-01-30T12:36:57.737Z - info:   [06984] VSTSVSCode/1.122.0 (VSCode 1.19.2; Windows_NT 10.0.14393; Node 7.9.0)
+2018-01-30T12:36:57.737Z - debug:  [06984] Looking for an External Context at c:\D\Timeinc Projects\CampaignBudgetTool\CampaignBudgetTool.Client
+2018-01-30T12:36:57.737Z - debug:  [06984] No External Context at c:\D\Timeinc Projects\CampaignBudgetTool\CampaignBudgetTool.Client
+2018-01-30T12:36:57.737Z - debug:  [06984] Looking for TFVC repository at c:\D\Timeinc Projects\CampaignBudgetTool\CampaignBudgetTool.Client
+2018-01-30T12:36:57.737Z - debug:  [06984] TFVC Creating Tfvc object with localPath='undefined'
+2018-01-30T12:36:57.741Z - debug:  [06984] Using TFS proxy: 
+2018-01-30T12:36:57.741Z - debug:  [06984] TFVC Retrieved from settings; localPath='C:\Program Files (x86)\Microsoft Visual Studio 14.0\Common7\IDE\TF.exe'
+2018-01-30T12:36:57.741Z - debug:  [06984] TFVC Repository created with repositoryRootFolder='c:\D\Timeinc Projects\CampaignBudgetTool\CampaignBudgetTool.Client'
+2018-01-30T12:36:57.745Z - debug:  [06984] TFVC Repository.CheckVersion
+2018-01-30T12:36:57.745Z - debug:  [06984] TFVC: tf add -noprompt -?
+2018-01-30T12:36:57.801Z - debug:  [06984] TFVC: spawned new process (duration: 52ms)
+2018-01-30T12:36:57.817Z - debug:  [06984] TFVC: spawned new process (duration: 16ms)
+2018-01-30T12:36:59.589Z - debug:  [06984] TFVC: add exit code: 0 (duration: 1844ms)
+2018-01-30T12:36:59.589Z - debug:  [06984] TFVC Minimum required version: 14.102.0
+2018-01-30T12:36:59.589Z - debug:  [06984] TFVC (TF.exe, TF.cmd) version: 14.102.25619.0
+2018-01-30T12:36:59.589Z - debug:  [06984] TFVC Repository.FindWorkspace with localPath='c:\D\Timeinc Projects\CampaignBudgetTool\CampaignBudgetTool.Client'
+2018-01-30T12:36:59.589Z - debug:  [06984] TFVC: tf workfold -noprompt ********
+2018-01-30T12:36:59.601Z - debug:  [06984] TFVC: spawned new process (duration: 12ms)
+2018-01-30T12:37:03.327Z - debug:  [06984] TFVC: workfold exit code: 100 (duration: 3738ms)
+2018-01-30T12:37:03.327Z - debug:  [06984] TFVC errors (via stderr): TF30063: You are not authorized to access tmpcmamva02\CMAS.
+
+2018-01-30T12:37:03.327Z - error:  [06984] It appears you are using a Server workspace. Currently, TFVC support is limited to Local workspaces. TF30063: You are not authorized to access tmpcmamva02\CMAS.
+2018-01-31T04:11:28.355Z - info:   [14864] *** FOLDER: c:\D\Timeinc Projects\CampaignBudgetTool\CampaignBudgetTool.Client ***
+2018-01-31T04:11:28.356Z - info:   [14864] VSTSVSCode/1.122.0 (VSCode 1.19.2; Windows_NT 10.0.14393; Node 7.9.0)
+2018-01-31T04:11:28.356Z - debug:  [14864] Looking for an External Context at c:\D\Timeinc Projects\CampaignBudgetTool\CampaignBudgetTool.Client
+2018-01-31T04:11:28.356Z - debug:  [14864] No External Context at c:\D\Timeinc Projects\CampaignBudgetTool\CampaignBudgetTool.Client
+2018-01-31T04:11:28.359Z - debug:  [14864] Looking for TFVC repository at c:\D\Timeinc Projects\CampaignBudgetTool\CampaignBudgetTool.Client
+2018-01-31T04:11:28.359Z - debug:  [14864] TFVC Creating Tfvc object with localPath='undefined'
+2018-01-31T04:11:28.361Z - debug:  [14864] Using TFS proxy: 
+2018-01-31T04:11:28.362Z - debug:  [14864] TFVC Retrieved from settings; localPath='C:\Program Files (x86)\Microsoft Visual Studio 14.0\Common7\IDE\TF.exe'
+2018-01-31T04:11:28.367Z - debug:  [14864] TFVC Repository created with repositoryRootFolder='c:\D\Timeinc Projects\CampaignBudgetTool\CampaignBudgetTool.Client'
+2018-01-31T04:11:28.370Z - debug:  [14864] TFVC Repository.CheckVersion
+2018-01-31T04:11:28.370Z - debug:  [14864] TFVC: tf add -noprompt -?
+2018-01-31T04:11:28.445Z - debug:  [14864] TFVC: spawned new process (duration: 74ms)
+2018-01-31T04:11:28.445Z - debug:  [14864] TFVC: spawned new process (duration: 0ms)
+2018-01-31T04:11:29.862Z - debug:  [14864] TFVC: add exit code: 0 (duration: 1491ms)
+2018-01-31T04:11:29.862Z - debug:  [14864] TFVC Minimum required version: 14.102.0
+2018-01-31T04:11:29.862Z - debug:  [14864] TFVC (TF.exe, TF.cmd) version: 14.102.25619.0
+2018-01-31T04:11:29.862Z - debug:  [14864] TFVC Repository.FindWorkspace with localPath='c:\D\Timeinc Projects\CampaignBudgetTool\CampaignBudgetTool.Client'
+2018-01-31T04:11:29.862Z - debug:  [14864] TFVC: tf workfold -noprompt ********
+2018-01-31T04:11:29.878Z - debug:  [14864] TFVC: spawned new process (duration: 16ms)
+2018-01-31T04:11:32.612Z - debug:  [14864] TFVC: workfold exit code: 100 (duration: 2750ms)
+2018-01-31T04:11:32.612Z - debug:  [14864] TFVC errors (via stderr): TF30063: You are not authorized to access tmpcmamva02\CMAS.
+
+2018-01-31T04:11:32.612Z - error:  [14864] It appears you are using a Server workspace. Currently, TFVC support is limited to Local workspaces. TF30063: You are not authorized to access tmpcmamva02\CMAS.
+2018-02-01T02:55:50.385Z - info:   [05124] *** FOLDER: c:\D\Timeinc Projects\CampaignBudgetTool\CampaignBudgetTool.Client ***
+2018-02-01T02:55:50.385Z - info:   [05124] VSTSVSCode/1.122.0 (VSCode 1.19.2; Windows_NT 10.0.14393; Node 7.9.0)
+2018-02-01T02:55:50.385Z - debug:  [05124] Looking for an External Context at c:\D\Timeinc Projects\CampaignBudgetTool\CampaignBudgetTool.Client
+2018-02-01T02:55:50.385Z - debug:  [05124] No External Context at c:\D\Timeinc Projects\CampaignBudgetTool\CampaignBudgetTool.Client
+2018-02-01T02:55:50.389Z - debug:  [05124] Looking for TFVC repository at c:\D\Timeinc Projects\CampaignBudgetTool\CampaignBudgetTool.Client
+2018-02-01T02:55:50.389Z - debug:  [05124] TFVC Creating Tfvc object with localPath='undefined'
+2018-02-01T02:55:50.389Z - debug:  [05124] Using TFS proxy: 
+2018-02-01T02:55:50.389Z - debug:  [05124] TFVC Retrieved from settings; localPath='C:\Program Files (x86)\Microsoft Visual Studio 14.0\Common7\IDE\TF.exe'
+2018-02-01T02:55:50.393Z - debug:  [05124] TFVC Repository created with repositoryRootFolder='c:\D\Timeinc Projects\CampaignBudgetTool\CampaignBudgetTool.Client'
+2018-02-01T02:55:50.393Z - debug:  [05124] TFVC Repository.CheckVersion
+2018-02-01T02:55:50.393Z - debug:  [05124] TFVC: tf add -noprompt -?
+2018-02-01T02:55:50.430Z - debug:  [05124] TFVC: spawned new process (duration: 33ms)
+2018-02-01T02:55:50.478Z - debug:  [05124] TFVC: spawned new process (duration: 48ms)
+2018-02-01T02:55:51.342Z - debug:  [05124] TFVC: add exit code: 0 (duration: 945ms)
+2018-02-01T02:55:51.358Z - debug:  [05124] TFVC Minimum required version: 14.102.0
+2018-02-01T02:55:51.358Z - debug:  [05124] TFVC (TF.exe, TF.cmd) version: 14.102.25619.0
+2018-02-01T02:55:51.358Z - debug:  [05124] TFVC Repository.FindWorkspace with localPath='c:\D\Timeinc Projects\CampaignBudgetTool\CampaignBudgetTool.Client'
+2018-02-01T02:55:51.358Z - debug:  [05124] TFVC: tf workfold -noprompt ********
+2018-02-01T02:55:51.373Z - debug:  [05124] TFVC: spawned new process (duration: 15ms)
+2018-02-01T02:55:54.559Z - debug:  [05124] TFVC: workfold exit code: 100 (duration: 3201ms)
+2018-02-01T02:55:54.559Z - debug:  [05124] TFVC errors (via stderr): TF30063: You are not authorized to access tmpcmamva02\CMAS.
+
+2018-02-01T02:55:54.559Z - error:  [05124] It appears you are using a Server workspace. Currently, TFVC support is limited to Local workspaces. TF30063: You are not authorized to access tmpcmamva02\CMAS.
+2018-02-01T03:43:24.392Z - info:   [13088] *** FOLDER: c:\D\Timeinc Projects\CampaignBudgetTool\CampaignBudgetTool.Client ***
+2018-02-01T03:43:24.392Z - info:   [13088] VSTSVSCode/1.122.0 (VSCode 1.19.2; Windows_NT 10.0.14393; Node 7.9.0)
+2018-02-01T03:43:24.392Z - debug:  [13088] Looking for an External Context at c:\D\Timeinc Projects\CampaignBudgetTool\CampaignBudgetTool.Client
+2018-02-01T03:43:24.392Z - debug:  [13088] No External Context at c:\D\Timeinc Projects\CampaignBudgetTool\CampaignBudgetTool.Client
+2018-02-01T03:43:24.396Z - debug:  [13088] Looking for TFVC repository at c:\D\Timeinc Projects\CampaignBudgetTool\CampaignBudgetTool.Client
+2018-02-01T03:43:24.396Z - debug:  [13088] TFVC Creating Tfvc object with localPath='undefined'
+2018-02-01T03:43:24.404Z - debug:  [13088] Using TFS proxy: 
+2018-02-01T03:43:24.404Z - debug:  [13088] TFVC Retrieved from settings; localPath='C:\Program Files (x86)\Microsoft Visual Studio 14.0\Common7\IDE\TF.exe'
+2018-02-01T03:43:24.412Z - debug:  [13088] TFVC Repository created with repositoryRootFolder='c:\D\Timeinc Projects\CampaignBudgetTool\CampaignBudgetTool.Client'
+2018-02-01T03:43:24.416Z - debug:  [13088] TFVC Repository.CheckVersion
+2018-02-01T03:43:24.416Z - debug:  [13088] TFVC: tf add -noprompt -?
+2018-02-01T03:43:24.464Z - debug:  [13088] TFVC: spawned new process (duration: 48ms)
+2018-02-01T03:43:24.500Z - debug:  [13088] TFVC: spawned new process (duration: 36ms)
+2018-02-01T03:43:25.176Z - debug:  [13088] TFVC: add exit code: 0 (duration: 760ms)
+2018-02-01T03:43:25.176Z - debug:  [13088] TFVC Minimum required version: 14.102.0
+2018-02-01T03:43:25.176Z - debug:  [13088] TFVC (TF.exe, TF.cmd) version: 14.102.25619.0
+2018-02-01T03:43:25.176Z - debug:  [13088] TFVC Repository.FindWorkspace with localPath='c:\D\Timeinc Projects\CampaignBudgetTool\CampaignBudgetTool.Client'
+2018-02-01T03:43:25.176Z - debug:  [13088] TFVC: tf workfold -noprompt ********
+2018-02-01T03:43:25.192Z - debug:  [13088] TFVC: spawned new process (duration: 16ms)
+2018-02-01T03:43:27.710Z - debug:  [13088] TFVC: workfold exit code: 100 (duration: 2534ms)
+2018-02-01T03:43:27.710Z - debug:  [13088] TFVC errors (via stderr): TF30063: You are not authorized to access tmpcmamva02\CMAS.
+
+2018-02-01T03:43:27.710Z - error:  [13088] It appears you are using a Server workspace. Currently, TFVC support is limited to Local workspaces. TF30063: You are not authorized to access tmpcmamva02\CMAS.
+2018-02-01T07:21:25.481Z - info:   [13972] *** FOLDER: c:\D\Timeinc Projects\CampaignBudgetTool\CampaignBudgetTool.Client ***
+2018-02-01T07:21:25.482Z - info:   [13972] VSTSVSCode/1.122.0 (VSCode 1.19.2; Windows_NT 10.0.14393; Node 7.9.0)
+2018-02-01T07:21:25.483Z - debug:  [13972] Looking for an External Context at c:\D\Timeinc Projects\CampaignBudgetTool\CampaignBudgetTool.Client
+2018-02-01T07:21:25.485Z - debug:  [13972] No External Context at c:\D\Timeinc Projects\CampaignBudgetTool\CampaignBudgetTool.Client
+2018-02-01T07:21:25.490Z - debug:  [13972] Looking for TFVC repository at c:\D\Timeinc Projects\CampaignBudgetTool\CampaignBudgetTool.Client
+2018-02-01T07:21:25.490Z - debug:  [13972] TFVC Creating Tfvc object with localPath='undefined'
+2018-02-01T07:21:25.493Z - debug:  [13972] Using TFS proxy: 
+2018-02-01T07:21:25.493Z - debug:  [13972] TFVC Retrieved from settings; localPath='C:\Program Files (x86)\Microsoft Visual Studio 14.0\Common7\IDE\TF.exe'
+2018-02-01T07:21:25.517Z - debug:  [13972] TFVC Repository created with repositoryRootFolder='c:\D\Timeinc Projects\CampaignBudgetTool\CampaignBudgetTool.Client'
+2018-02-01T07:21:25.523Z - debug:  [13972] TFVC Repository.CheckVersion
+2018-02-01T07:21:25.523Z - debug:  [13972] TFVC: tf add -noprompt -?
+2018-02-01T07:21:25.611Z - debug:  [13972] TFVC: spawned new process (duration: 87ms)
+2018-02-01T07:21:25.640Z - debug:  [13972] TFVC: spawned new process (duration: 28ms)
+2018-02-01T07:21:26.586Z - debug:  [13972] TFVC: add exit code: 0 (duration: 1063ms)
+2018-02-01T07:21:26.587Z - debug:  [13972] TFVC Minimum required version: 14.102.0
+2018-02-01T07:21:26.587Z - debug:  [13972] TFVC (TF.exe, TF.cmd) version: 14.102.25619.0
+2018-02-01T07:21:26.587Z - debug:  [13972] TFVC Repository.FindWorkspace with localPath='c:\D\Timeinc Projects\CampaignBudgetTool\CampaignBudgetTool.Client'
+2018-02-01T07:21:26.588Z - debug:  [13972] TFVC: tf workfold -noprompt ********
+2018-02-01T07:21:26.598Z - debug:  [13972] TFVC: spawned new process (duration: 10ms)
+2018-02-01T07:21:30.178Z - debug:  [13972] TFVC: workfold exit code: 100 (duration: 3590ms)
+2018-02-01T07:21:30.178Z - debug:  [13972] TFVC errors (via stderr): TF30063: You are not authorized to access tmpcmamva02\CMAS.
+
+2018-02-01T07:21:30.178Z - error:  [13972] It appears you are using a Server workspace. Currently, TFVC support is limited to Local workspaces. TF30063: You are not authorized to access tmpcmamva02\CMAS.
+2018-02-02T04:03:17.902Z - info:   [09116] *** FOLDER: c:\D\Timeinc Projects\CampaignBudgetTool\CampaignBudgetTool.Client ***
+2018-02-02T04:03:17.906Z - info:   [09116] VSTSVSCode/1.122.0 (VSCode 1.19.2; Windows_NT 10.0.14393; Node 7.9.0)
+2018-02-02T04:03:17.906Z - debug:  [09116] Looking for an External Context at c:\D\Timeinc Projects\CampaignBudgetTool\CampaignBudgetTool.Client
+2018-02-02T04:03:17.906Z - debug:  [09116] No External Context at c:\D\Timeinc Projects\CampaignBudgetTool\CampaignBudgetTool.Client
+2018-02-02T04:03:17.910Z - debug:  [09116] Looking for TFVC repository at c:\D\Timeinc Projects\CampaignBudgetTool\CampaignBudgetTool.Client
+2018-02-02T04:03:17.914Z - debug:  [09116] TFVC Creating Tfvc object with localPath='undefined'
+2018-02-02T04:03:17.938Z - debug:  [09116] Using TFS proxy: 
+2018-02-02T04:03:17.938Z - debug:  [09116] TFVC Retrieved from settings; localPath='C:\Program Files (x86)\Microsoft Visual Studio 14.0\Common7\IDE\TF.exe'
+2018-02-02T04:03:17.942Z - debug:  [09116] TFVC Repository created with repositoryRootFolder='c:\D\Timeinc Projects\CampaignBudgetTool\CampaignBudgetTool.Client'
+2018-02-02T04:03:17.946Z - debug:  [09116] TFVC Repository.CheckVersion
+2018-02-02T04:03:17.946Z - debug:  [09116] TFVC: tf add -noprompt -?
+2018-02-02T04:03:18.010Z - debug:  [09116] TFVC: spawned new process (duration: 60ms)
+2018-02-02T04:03:18.078Z - debug:  [09116] TFVC: spawned new process (duration: 68ms)
+2018-02-02T04:03:18.598Z - debug:  [09116] TFVC: add exit code: 0 (duration: 652ms)
+2018-02-02T04:03:18.598Z - debug:  [09116] TFVC Minimum required version: 14.102.0
+2018-02-02T04:03:18.598Z - debug:  [09116] TFVC (TF.exe, TF.cmd) version: 14.102.25619.0
+2018-02-02T04:03:18.598Z - debug:  [09116] TFVC Repository.FindWorkspace with localPath='c:\D\Timeinc Projects\CampaignBudgetTool\CampaignBudgetTool.Client'
+2018-02-02T04:03:18.598Z - debug:  [09116] TFVC: tf workfold -noprompt ********
+2018-02-02T04:03:18.610Z - debug:  [09116] TFVC: spawned new process (duration: 8ms)
+2018-02-02T04:03:21.186Z - debug:  [09116] TFVC: workfold exit code: 100 (duration: 2588ms)
+2018-02-02T04:03:21.190Z - debug:  [09116] TFVC errors (via stderr): TF30063: You are not authorized to access tmpcmamva02\CMAS.
+
+2018-02-02T04:03:21.194Z - error:  [09116] It appears you are using a Server workspace. Currently, TFVC support is limited to Local workspaces. TF30063: You are not authorized to access tmpcmamva02\CMAS.
+2018-02-05T05:57:42.842Z - info:   [07408] *** FOLDER: c:\D\Timeinc Projects\CampaignBudgetTool\CampaignBudgetTool.Client ***
+2018-02-05T05:57:42.843Z - info:   [07408] VSTSVSCode/1.122.0 (VSCode 1.19.2; Windows_NT 10.0.14393; Node 7.9.0)
+2018-02-05T05:57:42.843Z - debug:  [07408] Looking for an External Context at c:\D\Timeinc Projects\CampaignBudgetTool\CampaignBudgetTool.Client
+2018-02-05T05:57:42.843Z - debug:  [07408] No External Context at c:\D\Timeinc Projects\CampaignBudgetTool\CampaignBudgetTool.Client
+2018-02-05T05:57:42.845Z - debug:  [07408] Looking for TFVC repository at c:\D\Timeinc Projects\CampaignBudgetTool\CampaignBudgetTool.Client
+2018-02-05T05:57:42.846Z - debug:  [07408] TFVC Creating Tfvc object with localPath='undefined'
+2018-02-05T05:57:42.849Z - debug:  [07408] Using TFS proxy: 
+2018-02-05T05:57:42.850Z - debug:  [07408] TFVC Retrieved from settings; localPath='C:\Program Files (x86)\Microsoft Visual Studio 14.0\Common7\IDE\TF.exe'
+2018-02-05T05:57:42.854Z - debug:  [07408] TFVC Repository created with repositoryRootFolder='c:\D\Timeinc Projects\CampaignBudgetTool\CampaignBudgetTool.Client'
+2018-02-05T05:57:42.857Z - debug:  [07408] TFVC Repository.CheckVersion
+2018-02-05T05:57:42.858Z - debug:  [07408] TFVC: tf add -noprompt -?
+2018-02-05T05:57:42.921Z - debug:  [07408] TFVC: spawned new process (duration: 61ms)
+2018-02-05T05:57:42.934Z - debug:  [07408] TFVC: spawned new process (duration: 12ms)
+2018-02-05T05:57:43.824Z - debug:  [07408] TFVC: add exit code: 0 (duration: 964ms)
+2018-02-05T05:57:43.825Z - debug:  [07408] TFVC Minimum required version: 14.102.0
+2018-02-05T05:57:43.826Z - debug:  [07408] TFVC (TF.exe, TF.cmd) version: 14.102.25619.0
+2018-02-05T05:57:43.826Z - debug:  [07408] TFVC Repository.FindWorkspace with localPath='c:\D\Timeinc Projects\CampaignBudgetTool\CampaignBudgetTool.Client'
+2018-02-05T05:57:43.826Z - debug:  [07408] TFVC: tf workfold -noprompt ********
+2018-02-05T05:57:43.838Z - debug:  [07408] TFVC: spawned new process (duration: 11ms)
+2018-02-05T05:57:47.777Z - debug:  [07408] TFVC: workfold exit code: 100 (duration: 3950ms)
+2018-02-05T05:57:47.778Z - debug:  [07408] TFVC errors (via stderr): TF30063: You are not authorized to access tmpcmamva02\CMAS.
+
+2018-02-05T05:57:47.779Z - error:  [07408] It appears you are using a Server workspace. Currently, TFVC support is limited to Local workspaces. TF30063: You are not authorized to access tmpcmamva02\CMAS.
+2018-02-05T06:00:21.952Z - info:   [12376] *** FOLDER: c:\D\Timeinc Projects\CampaignBudgetTool\CampaignBudgetTool.Client ***
+2018-02-05T06:00:21.954Z - info:   [12376] VSTSVSCode/1.122.0 (VSCode 1.19.3; Windows_NT 10.0.14393; Node 7.9.0)
+2018-02-05T06:00:21.956Z - debug:  [12376] Looking for an External Context at c:\D\Timeinc Projects\CampaignBudgetTool\CampaignBudgetTool.Client
+2018-02-05T06:00:21.957Z - debug:  [12376] No External Context at c:\D\Timeinc Projects\CampaignBudgetTool\CampaignBudgetTool.Client
+2018-02-05T06:00:21.960Z - debug:  [12376] Looking for TFVC repository at c:\D\Timeinc Projects\CampaignBudgetTool\CampaignBudgetTool.Client
+2018-02-05T06:00:21.961Z - debug:  [12376] TFVC Creating Tfvc object with localPath='undefined'
+2018-02-05T06:00:21.964Z - debug:  [12376] Using TFS proxy: 
+2018-02-05T06:00:21.964Z - debug:  [12376] TFVC Retrieved from settings; localPath='C:\Program Files (x86)\Microsoft Visual Studio 14.0\Common7\IDE\TF.exe'
+2018-02-05T06:00:21.967Z - debug:  [12376] TFVC Repository created with repositoryRootFolder='c:\D\Timeinc Projects\CampaignBudgetTool\CampaignBudgetTool.Client'
+2018-02-05T06:00:21.971Z - debug:  [12376] TFVC Repository.CheckVersion
+2018-02-05T06:00:21.973Z - debug:  [12376] TFVC: tf add -noprompt -?
+2018-02-05T06:00:22.011Z - debug:  [12376] TFVC: spawned new process (duration: 36ms)
+2018-02-05T06:00:22.025Z - debug:  [12376] TFVC: spawned new process (duration: 13ms)
+2018-02-05T06:00:22.660Z - debug:  [12376] TFVC: add exit code: 0 (duration: 686ms)
+2018-02-05T06:00:22.663Z - debug:  [12376] TFVC Minimum required version: 14.102.0
+2018-02-05T06:00:22.664Z - debug:  [12376] TFVC (TF.exe, TF.cmd) version: 14.102.25619.0
+2018-02-05T06:00:22.665Z - debug:  [12376] TFVC Repository.FindWorkspace with localPath='c:\D\Timeinc Projects\CampaignBudgetTool\CampaignBudgetTool.Client'
+2018-02-05T06:00:22.666Z - debug:  [12376] TFVC: tf workfold -noprompt ********
+2018-02-05T06:00:22.678Z - debug:  [12376] TFVC: spawned new process (duration: 11ms)
+2018-02-05T06:00:25.160Z - debug:  [12376] TFVC: workfold exit code: 100 (duration: 2494ms)
+2018-02-05T06:00:25.162Z - debug:  [12376] TFVC errors (via stderr): TF30063: You are not authorized to access tmpcmamva02\CMAS.
+
+2018-02-05T06:00:25.163Z - error:  [12376] It appears you are using a Server workspace. Currently, TFVC support is limited to Local workspaces. TF30063: You are not authorized to access tmpcmamva02\CMAS.
+2018-02-05T12:46:38.179Z - info:   [09392] *** FOLDER: c:\D\Timeinc Projects\CampaignBudgetTool\CampaignBudgetTool.Client ***
+2018-02-05T12:46:38.183Z - info:   [09392] VSTSVSCode/1.122.0 (VSCode 1.19.3; Windows_NT 10.0.14393; Node 7.9.0)
+2018-02-05T12:46:38.183Z - debug:  [09392] Looking for an External Context at c:\D\Timeinc Projects\CampaignBudgetTool\CampaignBudgetTool.Client
+2018-02-05T12:46:38.183Z - debug:  [09392] No External Context at c:\D\Timeinc Projects\CampaignBudgetTool\CampaignBudgetTool.Client
+2018-02-05T12:46:38.187Z - debug:  [09392] Looking for TFVC repository at c:\D\Timeinc Projects\CampaignBudgetTool\CampaignBudgetTool.Client
+2018-02-05T12:46:38.187Z - debug:  [09392] TFVC Creating Tfvc object with localPath='undefined'
+2018-02-05T12:46:38.191Z - debug:  [09392] Using TFS proxy: 
+2018-02-05T12:46:38.191Z - debug:  [09392] TFVC Retrieved from settings; localPath='C:\Program Files (x86)\Microsoft Visual Studio 14.0\Common7\IDE\TF.exe'
+2018-02-05T12:46:38.195Z - debug:  [09392] TFVC Repository created with repositoryRootFolder='c:\D\Timeinc Projects\CampaignBudgetTool\CampaignBudgetTool.Client'
+2018-02-05T12:46:38.195Z - debug:  [09392] TFVC Repository.CheckVersion
+2018-02-05T12:46:38.199Z - debug:  [09392] TFVC: tf add -noprompt -?
+2018-02-05T12:46:38.235Z - debug:  [09392] TFVC: spawned new process (duration: 36ms)
+2018-02-05T12:46:38.266Z - debug:  [09392] TFVC: spawned new process (duration: 31ms)
+2018-02-05T12:46:38.724Z - debug:  [09392] TFVC: add exit code: 0 (duration: 525ms)
+2018-02-05T12:46:38.728Z - debug:  [09392] TFVC Minimum required version: 14.102.0
+2018-02-05T12:46:38.728Z - debug:  [09392] TFVC (TF.exe, TF.cmd) version: 14.102.25619.0
+2018-02-05T12:46:38.728Z - debug:  [09392] TFVC Repository.FindWorkspace with localPath='c:\D\Timeinc Projects\CampaignBudgetTool\CampaignBudgetTool.Client'
+2018-02-05T12:46:38.728Z - debug:  [09392] TFVC: tf workfold -noprompt ********
+2018-02-05T12:46:38.744Z - debug:  [09392] TFVC: spawned new process (duration: 12ms)
+2018-02-05T12:46:41.271Z - debug:  [09392] TFVC: workfold exit code: 100 (duration: 2543ms)
+2018-02-05T12:46:41.271Z - debug:  [09392] TFVC errors (via stderr): TF30063: You are not authorized to access tmpcmamva02\CMAS.
+
+2018-02-05T12:46:41.271Z - error:  [09392] It appears you are using a Server workspace. Currently, TFVC support is limited to Local workspaces. TF30063: You are not authorized to access tmpcmamva02\CMAS.
+2018-02-06T04:43:14.830Z - info:   [01516] *** FOLDER: c:\D\Timeinc Projects\CampaignBudgetTool\CampaignBudgetTool.Client ***
+2018-02-06T04:43:14.832Z - info:   [01516] VSTSVSCode/1.122.0 (VSCode 1.19.3; Windows_NT 10.0.14393; Node 7.9.0)
+2018-02-06T04:43:14.834Z - debug:  [01516] Looking for an External Context at c:\D\Timeinc Projects\CampaignBudgetTool\CampaignBudgetTool.Client
+2018-02-06T04:43:14.834Z - debug:  [01516] No External Context at c:\D\Timeinc Projects\CampaignBudgetTool\CampaignBudgetTool.Client
+2018-02-06T04:43:14.836Z - debug:  [01516] Looking for TFVC repository at c:\D\Timeinc Projects\CampaignBudgetTool\CampaignBudgetTool.Client
+2018-02-06T04:43:14.837Z - debug:  [01516] TFVC Creating Tfvc object with localPath='undefined'
+2018-02-06T04:43:14.841Z - debug:  [01516] Using TFS proxy: 
+2018-02-06T04:43:14.842Z - debug:  [01516] TFVC Retrieved from settings; localPath='C:\Program Files (x86)\Microsoft Visual Studio 14.0\Common7\IDE\TF.exe'
+2018-02-06T04:43:14.843Z - debug:  [01516] TFVC Repository created with repositoryRootFolder='c:\D\Timeinc Projects\CampaignBudgetTool\CampaignBudgetTool.Client'
+2018-02-06T04:43:14.845Z - debug:  [01516] TFVC Repository.CheckVersion
+2018-02-06T04:43:14.847Z - debug:  [01516] TFVC: tf add -noprompt -?
+2018-02-06T04:43:14.900Z - debug:  [01516] TFVC: spawned new process (duration: 51ms)
+2018-02-06T04:43:14.950Z - debug:  [01516] TFVC: spawned new process (duration: 50ms)
+2018-02-06T04:43:15.725Z - debug:  [01516] TFVC: add exit code: 0 (duration: 877ms)
+2018-02-06T04:43:15.728Z - debug:  [01516] TFVC Minimum required version: 14.102.0
+2018-02-06T04:43:15.728Z - debug:  [01516] TFVC (TF.exe, TF.cmd) version: 14.102.25619.0
+2018-02-06T04:43:15.729Z - debug:  [01516] TFVC Repository.FindWorkspace with localPath='c:\D\Timeinc Projects\CampaignBudgetTool\CampaignBudgetTool.Client'
+2018-02-06T04:43:15.730Z - debug:  [01516] TFVC: tf workfold -noprompt ********
+2018-02-06T04:43:15.744Z - debug:  [01516] TFVC: spawned new process (duration: 13ms)
+2018-02-06T04:43:17.999Z - debug:  [01516] TFVC: workfold exit code: 100 (duration: 2269ms)
+2018-02-06T04:43:17.999Z - debug:  [01516] TFVC errors (via stderr): TF30063: You are not authorized to access tmpcmamva02\CMAS.
+
+2018-02-06T04:43:17.999Z - error:  [01516] It appears you are using a Server workspace. Currently, TFVC support is limited to Local workspaces. TF30063: You are not authorized to access tmpcmamva02\CMAS.
+2018-02-06T13:43:23.824Z - info:   [13072] *** FOLDER: c:\D\Timeinc Projects\CampaignBudgetTool\CampaignBudgetTool.Client ***
+2018-02-06T13:43:23.826Z - info:   [13072] VSTSVSCode/1.122.0 (VSCode 1.19.3; Windows_NT 10.0.14393; Node 7.9.0)
+2018-02-06T13:43:23.827Z - debug:  [13072] Looking for an External Context at c:\D\Timeinc Projects\CampaignBudgetTool\CampaignBudgetTool.Client
+2018-02-06T13:43:23.827Z - debug:  [13072] No External Context at c:\D\Timeinc Projects\CampaignBudgetTool\CampaignBudgetTool.Client
+2018-02-06T13:43:23.830Z - debug:  [13072] Looking for TFVC repository at c:\D\Timeinc Projects\CampaignBudgetTool\CampaignBudgetTool.Client
+2018-02-06T13:43:23.830Z - debug:  [13072] TFVC Creating Tfvc object with localPath='undefined'
+2018-02-06T13:43:23.832Z - debug:  [13072] Using TFS proxy: 
+2018-02-06T13:43:23.832Z - debug:  [13072] TFVC Retrieved from settings; localPath='C:\Program Files (x86)\Microsoft Visual Studio 14.0\Common7\IDE\TF.exe'
+2018-02-06T13:43:23.834Z - debug:  [13072] TFVC Repository created with repositoryRootFolder='c:\D\Timeinc Projects\CampaignBudgetTool\CampaignBudgetTool.Client'
+2018-02-06T13:43:23.835Z - debug:  [13072] TFVC Repository.CheckVersion
+2018-02-06T13:43:23.836Z - debug:  [13072] TFVC: tf add -noprompt -?
+2018-02-06T13:43:23.873Z - debug:  [13072] TFVC: spawned new process (duration: 36ms)
+2018-02-06T13:43:23.901Z - debug:  [13072] TFVC: spawned new process (duration: 28ms)
+2018-02-06T13:43:24.675Z - debug:  [13072] TFVC: add exit code: 0 (duration: 837ms)
+2018-02-06T13:43:24.678Z - debug:  [13072] TFVC Minimum required version: 14.102.0
+2018-02-06T13:43:24.678Z - debug:  [13072] TFVC (TF.exe, TF.cmd) version: 14.102.25619.0
+2018-02-06T13:43:24.679Z - debug:  [13072] TFVC Repository.FindWorkspace with localPath='c:\D\Timeinc Projects\CampaignBudgetTool\CampaignBudgetTool.Client'
+2018-02-06T13:43:24.680Z - debug:  [13072] TFVC: tf workfold -noprompt ********
+2018-02-06T13:43:24.691Z - debug:  [13072] TFVC: spawned new process (duration: 10ms)
+2018-02-06T13:43:27.685Z - debug:  [13072] TFVC: workfold exit code: 100 (duration: 3003ms)
+2018-02-06T13:43:27.704Z - debug:  [13072] TFVC errors (via stderr): TF30063: You are not authorized to access tmpcmamva02\CMAS.
+
+2018-02-06T13:43:27.707Z - error:  [13072] It appears you are using a Server workspace. Currently, TFVC support is limited to Local workspaces. TF30063: You are not authorized to access tmpcmamva02\CMAS.
+2018-02-07T05:27:12.666Z - info:   [13120] *** FOLDER: c:\D\Timeinc Projects\CampaignBudgetTool\CampaignBudgetTool.Client ***
+2018-02-07T05:27:12.667Z - info:   [13120] VSTSVSCode/1.122.0 (VSCode 1.19.3; Windows_NT 10.0.14393; Node 7.9.0)
+2018-02-07T05:27:12.668Z - debug:  [13120] Looking for an External Context at c:\D\Timeinc Projects\CampaignBudgetTool\CampaignBudgetTool.Client
+2018-02-07T05:27:12.668Z - debug:  [13120] No External Context at c:\D\Timeinc Projects\CampaignBudgetTool\CampaignBudgetTool.Client
+2018-02-07T05:27:12.671Z - debug:  [13120] Looking for TFVC repository at c:\D\Timeinc Projects\CampaignBudgetTool\CampaignBudgetTool.Client
+2018-02-07T05:27:12.671Z - debug:  [13120] TFVC Creating Tfvc object with localPath='undefined'
+2018-02-07T05:27:12.674Z - debug:  [13120] Using TFS proxy: 
+2018-02-07T05:27:12.675Z - debug:  [13120] TFVC Retrieved from settings; localPath='C:\Program Files (x86)\Microsoft Visual Studio 14.0\Common7\IDE\TF.exe'
+2018-02-07T05:27:12.676Z - debug:  [13120] TFVC Repository created with repositoryRootFolder='c:\D\Timeinc Projects\CampaignBudgetTool\CampaignBudgetTool.Client'
+2018-02-07T05:27:12.677Z - debug:  [13120] TFVC Repository.CheckVersion
+2018-02-07T05:27:12.679Z - debug:  [13120] TFVC: tf add -noprompt -?
+2018-02-07T05:27:12.709Z - debug:  [13120] TFVC: spawned new process (duration: 29ms)
+2018-02-07T05:27:12.735Z - debug:  [13120] TFVC: spawned new process (duration: 26ms)
+2018-02-07T05:27:12.989Z - debug:  [13120] TFVC: add exit code: 0 (duration: 310ms)
+2018-02-07T05:27:12.989Z - debug:  [13120] TFVC Minimum required version: 14.102.0
+2018-02-07T05:27:12.989Z - debug:  [13120] TFVC (TF.exe, TF.cmd) version: 14.102.25619.0
+2018-02-07T05:27:12.989Z - debug:  [13120] TFVC Repository.FindWorkspace with localPath='c:\D\Timeinc Projects\CampaignBudgetTool\CampaignBudgetTool.Client'
+2018-02-07T05:27:12.989Z - debug:  [13120] TFVC: tf workfold -noprompt ********
+2018-02-07T05:27:13.004Z - debug:  [13120] TFVC: spawned new process (duration: 15ms)
+2018-02-07T05:27:14.890Z - debug:  [13120] TFVC: workfold exit code: 100 (duration: 1901ms)
+2018-02-07T05:27:14.890Z - debug:  [13120] TFVC errors (via stderr): TF30063: You are not authorized to access tmpcmamva02\CMAS.
+
+2018-02-07T05:27:14.890Z - error:  [13120] It appears you are using a Server workspace. Currently, TFVC support is limited to Local workspaces. TF30063: You are not authorized to access tmpcmamva02\CMAS.
+2018-02-07T05:39:58.598Z - info:   [10172] *** FOLDER: c:\D\Timeinc Projects\CampaignBudgetTool\CampaignBudgetTool.Client ***
+2018-02-07T05:39:58.601Z - info:   [10172] VSTSVSCode/1.122.0 (VSCode 1.19.3; Windows_NT 10.0.14393; Node 7.9.0)
+2018-02-07T05:39:58.603Z - debug:  [10172] Looking for an External Context at c:\D\Timeinc Projects\CampaignBudgetTool\CampaignBudgetTool.Client
+2018-02-07T05:39:58.603Z - debug:  [10172] No External Context at c:\D\Timeinc Projects\CampaignBudgetTool\CampaignBudgetTool.Client
+2018-02-07T05:39:58.606Z - debug:  [10172] Looking for TFVC repository at c:\D\Timeinc Projects\CampaignBudgetTool\CampaignBudgetTool.Client
+2018-02-07T05:39:58.607Z - debug:  [10172] TFVC Creating Tfvc object with localPath='undefined'
+2018-02-07T05:39:58.611Z - debug:  [10172] Using TFS proxy: 
+2018-02-07T05:39:58.611Z - debug:  [10172] TFVC Retrieved from settings; localPath='C:\Program Files (x86)\Microsoft Visual Studio 14.0\Common7\IDE\TF.exe'
+2018-02-07T05:39:58.613Z - debug:  [10172] TFVC Repository created with repositoryRootFolder='c:\D\Timeinc Projects\CampaignBudgetTool\CampaignBudgetTool.Client'
+2018-02-07T05:39:58.616Z - debug:  [10172] TFVC Repository.CheckVersion
+2018-02-07T05:39:58.618Z - debug:  [10172] TFVC: tf add -noprompt -?
+2018-02-07T05:39:58.800Z - debug:  [10172] TFVC: spawned new process (duration: 181ms)
+2018-02-07T05:39:58.822Z - debug:  [10172] TFVC: spawned new process (duration: 21ms)
+2018-02-07T05:40:03.107Z - debug:  [10172] TFVC: add exit code: 0 (duration: 4489ms)
+2018-02-07T05:40:03.107Z - debug:  [10172] TFVC Minimum required version: 14.102.0
+2018-02-07T05:40:03.107Z - debug:  [10172] TFVC (TF.exe, TF.cmd) version: 14.102.25619.0
+2018-02-07T05:40:03.107Z - debug:  [10172] TFVC Repository.FindWorkspace with localPath='c:\D\Timeinc Projects\CampaignBudgetTool\CampaignBudgetTool.Client'
+2018-02-07T05:40:03.123Z - debug:  [10172] TFVC: tf workfold -noprompt ********
+2018-02-07T05:40:03.138Z - debug:  [10172] TFVC: spawned new process (duration: 15ms)
+2018-02-07T05:40:07.352Z - debug:  [10172] TFVC: workfold exit code: 100 (duration: 4229ms)
+2018-02-07T05:40:07.355Z - debug:  [10172] TFVC errors (via stderr): TF30063: You are not authorized to access tmpcmamva02\CMAS.
+
+2018-02-07T05:40:07.356Z - error:  [10172] It appears you are using a Server workspace. Currently, TFVC support is limited to Local workspaces. TF30063: You are not authorized to access tmpcmamva02\CMAS.
+2018-02-08T08:55:57.496Z - info:   [16620] *** FOLDER: c:\D\Timeinc Projects\CampaignBudgetTool\CampaignBudgetTool.Client ***
+2018-02-08T08:55:57.496Z - info:   [16620] VSTSVSCode/1.122.0 (VSCode 1.19.3; Windows_NT 10.0.14393; Node 7.9.0)
+2018-02-08T08:55:57.496Z - debug:  [16620] Looking for an External Context at c:\D\Timeinc Projects\CampaignBudgetTool\CampaignBudgetTool.Client
+2018-02-08T08:55:57.496Z - debug:  [16620] No External Context at c:\D\Timeinc Projects\CampaignBudgetTool\CampaignBudgetTool.Client
+2018-02-08T08:55:57.496Z - debug:  [16620] Looking for TFVC repository at c:\D\Timeinc Projects\CampaignBudgetTool\CampaignBudgetTool.Client
+2018-02-08T08:55:57.496Z - debug:  [16620] TFVC Creating Tfvc object with localPath='undefined'
+2018-02-08T08:55:57.496Z - debug:  [16620] Using TFS proxy: 
+2018-02-08T08:55:57.496Z - debug:  [16620] TFVC Retrieved from settings; localPath='C:\Program Files (x86)\Microsoft Visual Studio 14.0\Common7\IDE\TF.exe'
+2018-02-08T08:55:57.496Z - debug:  [16620] TFVC Repository created with repositoryRootFolder='c:\D\Timeinc Projects\CampaignBudgetTool\CampaignBudgetTool.Client'
+2018-02-08T08:55:57.496Z - debug:  [16620] TFVC Repository.CheckVersion
+2018-02-08T08:55:57.512Z - debug:  [16620] TFVC: tf add -noprompt -?
+2018-02-08T08:55:57.543Z - debug:  [16620] TFVC: spawned new process (duration: 31ms)
+2018-02-08T08:55:57.575Z - debug:  [16620] TFVC: spawned new process (duration: 32ms)
+2018-02-08T08:55:58.524Z - debug:  [16620] TFVC: add exit code: 0 (duration: 1012ms)
+2018-02-08T08:55:58.526Z - debug:  [16620] TFVC Minimum required version: 14.102.0
+2018-02-08T08:55:58.527Z - debug:  [16620] TFVC (TF.exe, TF.cmd) version: 14.102.25619.0
+2018-02-08T08:55:58.528Z - debug:  [16620] TFVC Repository.FindWorkspace with localPath='c:\D\Timeinc Projects\CampaignBudgetTool\CampaignBudgetTool.Client'
+2018-02-08T08:55:58.529Z - debug:  [16620] TFVC: tf workfold -noprompt ********
+2018-02-08T08:55:58.545Z - debug:  [16620] TFVC: spawned new process (duration: 16ms)
+2018-02-08T08:56:03.102Z - debug:  [16620] TFVC: workfold exit code: 100 (duration: 4573ms)
+2018-02-08T08:56:03.102Z - debug:  [16620] TFVC errors (via stderr): TF30063: You are not authorized to access tmpcmamva02\CMAS.
+
+2018-02-08T08:56:03.102Z - error:  [16620] It appears you are using a Server workspace. Currently, TFVC support is limited to Local workspaces. TF30063: You are not authorized to access tmpcmamva02\CMAS.
+2018-02-09T06:21:10.356Z - info:   [13396] *** FOLDER: c:\D\Timeinc Projects\CampaignBudgetTool\CampaignBudgetTool.Client ***
+2018-02-09T06:21:10.356Z - info:   [13396] VSTSVSCode/1.122.0 (VSCode 1.19.3; Windows_NT 10.0.14393; Node 7.9.0)
+2018-02-09T06:21:10.360Z - debug:  [13396] Looking for an External Context at c:\D\Timeinc Projects\CampaignBudgetTool\CampaignBudgetTool.Client
+2018-02-09T06:21:10.360Z - debug:  [13396] No External Context at c:\D\Timeinc Projects\CampaignBudgetTool\CampaignBudgetTool.Client
+2018-02-09T06:21:10.368Z - debug:  [13396] Looking for TFVC repository at c:\D\Timeinc Projects\CampaignBudgetTool\CampaignBudgetTool.Client
+2018-02-09T06:21:10.368Z - debug:  [13396] TFVC Creating Tfvc object with localPath='undefined'
+2018-02-09T06:21:10.368Z - debug:  [13396] Using TFS proxy: 
+2018-02-09T06:21:10.368Z - debug:  [13396] TFVC Retrieved from settings; localPath='C:\Program Files (x86)\Microsoft Visual Studio 14.0\Common7\IDE\TF.exe'
+2018-02-09T06:21:10.372Z - debug:  [13396] TFVC Repository created with repositoryRootFolder='c:\D\Timeinc Projects\CampaignBudgetTool\CampaignBudgetTool.Client'
+2018-02-09T06:21:10.372Z - debug:  [13396] TFVC Repository.CheckVersion
+2018-02-09T06:21:10.376Z - debug:  [13396] TFVC: tf add -noprompt -?
+2018-02-09T06:21:10.412Z - debug:  [13396] TFVC: spawned new process (duration: 36ms)
+2018-02-09T06:21:10.424Z - debug:  [13396] TFVC: spawned new process (duration: 12ms)
+2018-02-09T06:21:11.097Z - debug:  [13396] TFVC: add exit code: 0 (duration: 721ms)
+2018-02-09T06:21:11.097Z - debug:  [13396] TFVC Minimum required version: 14.102.0
+2018-02-09T06:21:11.097Z - debug:  [13396] TFVC (TF.exe, TF.cmd) version: 14.102.25619.0
+2018-02-09T06:21:11.097Z - debug:  [13396] TFVC Repository.FindWorkspace with localPath='c:\D\Timeinc Projects\CampaignBudgetTool\CampaignBudgetTool.Client'
+2018-02-09T06:21:11.097Z - debug:  [13396] TFVC: tf workfold -noprompt ********
+2018-02-09T06:21:11.114Z - debug:  [13396] TFVC: spawned new process (duration: 17ms)
+2018-02-09T06:21:13.906Z - debug:  [13396] TFVC: workfold exit code: 100 (duration: 2809ms)
+2018-02-09T06:21:13.910Z - debug:  [13396] TFVC errors (via stderr): TF30063: You are not authorized to access tmpcmamva02\CMAS.
+
+2018-02-09T06:21:13.910Z - error:  [13396] It appears you are using a Server workspace. Currently, TFVC support is limited to Local workspaces. TF30063: You are not authorized to access tmpcmamva02\CMAS.
+2018-02-14T10:12:41.093Z - info:   [09336] *** FOLDER: c:\D\Timeinc Projects\CampaignBudgetTool\CampaignBudgetTool.Client ***
+2018-02-14T10:12:41.098Z - info:   [09336] VSTSVSCode/1.122.0 (VSCode 1.20.0; Windows_NT 10.0.14393; Node 7.9.0)
+2018-02-14T10:12:41.101Z - debug:  [09336] Looking for an External Context at c:\D\Timeinc Projects\CampaignBudgetTool\CampaignBudgetTool.Client
+2018-02-14T10:12:41.102Z - debug:  [09336] No External Context at c:\D\Timeinc Projects\CampaignBudgetTool\CampaignBudgetTool.Client
+2018-02-14T10:12:41.107Z - debug:  [09336] Looking for TFVC repository at c:\D\Timeinc Projects\CampaignBudgetTool\CampaignBudgetTool.Client
+2018-02-14T10:12:41.108Z - debug:  [09336] TFVC Creating Tfvc object with localPath='undefined'
+2018-02-14T10:12:41.116Z - debug:  [09336] Using TFS proxy: 
+2018-02-14T10:12:41.116Z - debug:  [09336] TFVC Retrieved from settings; localPath='C:\Program Files (x86)\Microsoft Visual Studio 14.0\Common7\IDE\TF.exe'
+2018-02-14T10:12:41.117Z - debug:  [09336] TFVC Repository created with repositoryRootFolder='c:\D\Timeinc Projects\CampaignBudgetTool\CampaignBudgetTool.Client'
+2018-02-14T10:12:41.120Z - debug:  [09336] TFVC Repository.CheckVersion
+2018-02-14T10:12:41.124Z - debug:  [09336] TFVC: tf add -noprompt -?
+2018-02-14T10:12:41.138Z - debug:  [09336] TFVC: spawned new process (duration: 12ms)
+2018-02-14T10:12:41.207Z - debug:  [09336] TFVC: spawned new process (duration: 68ms)
+2018-02-14T10:12:41.675Z - debug:  [09336] TFVC: add exit code: 0 (duration: 551ms)
+2018-02-14T10:12:41.678Z - debug:  [09336] TFVC Minimum required version: 14.102.0
+2018-02-14T10:12:41.678Z - debug:  [09336] TFVC (TF.exe, TF.cmd) version: 14.102.25619.0
+2018-02-14T10:12:41.679Z - debug:  [09336] TFVC Repository.FindWorkspace with localPath='c:\D\Timeinc Projects\CampaignBudgetTool\CampaignBudgetTool.Client'
+2018-02-14T10:12:41.680Z - debug:  [09336] TFVC: tf workfold -noprompt ********
+2018-02-14T10:12:41.690Z - debug:  [09336] TFVC: spawned new process (duration: 9ms)
+2018-02-14T10:12:43.730Z - debug:  [09336] TFVC: workfold exit code: 100 (duration: 2050ms)
+2018-02-14T10:12:43.732Z - debug:  [09336] TFVC errors (via stderr): TF30063: You are not authorized to access tmpcmamva02\CMAS.
+
+2018-02-14T10:12:43.733Z - error:  [09336] It appears you are using a Server workspace. Currently, TFVC support is limited to Local workspaces. TF30063: You are not authorized to access tmpcmamva02\CMAS.
+2018-02-15T13:24:35.469Z - info:   [17740] *** FOLDER: c:\D\Timeinc Projects\CampaignBudgetTool\CampaignBudgetTool.Client ***
+2018-02-15T13:24:35.471Z - info:   [17740] VSTSVSCode/1.122.0 (VSCode 1.20.0; Windows_NT 10.0.14393; Node 7.9.0)
+2018-02-15T13:24:35.473Z - debug:  [17740] Looking for an External Context at c:\D\Timeinc Projects\CampaignBudgetTool\CampaignBudgetTool.Client
+2018-02-15T13:24:35.473Z - debug:  [17740] No External Context at c:\D\Timeinc Projects\CampaignBudgetTool\CampaignBudgetTool.Client
+2018-02-15T13:24:35.476Z - debug:  [17740] Looking for TFVC repository at c:\D\Timeinc Projects\CampaignBudgetTool\CampaignBudgetTool.Client
+2018-02-15T13:24:35.476Z - debug:  [17740] TFVC Creating Tfvc object with localPath='undefined'
+2018-02-15T13:24:35.477Z - debug:  [17740] Using TFS proxy: 
+2018-02-15T13:24:35.478Z - debug:  [17740] TFVC Retrieved from settings; localPath='C:\Program Files (x86)\Microsoft Visual Studio 14.0\Common7\IDE\TF.exe'
+2018-02-15T13:24:35.479Z - debug:  [17740] TFVC Repository created with repositoryRootFolder='c:\D\Timeinc Projects\CampaignBudgetTool\CampaignBudgetTool.Client'
+2018-02-15T13:24:35.480Z - debug:  [17740] TFVC Repository.CheckVersion
+2018-02-15T13:24:35.482Z - debug:  [17740] TFVC: tf add -noprompt -?
+2018-02-15T13:24:35.493Z - debug:  [17740] TFVC: spawned new process (duration: 10ms)
+2018-02-15T13:24:35.517Z - debug:  [17740] TFVC: spawned new process (duration: 23ms)
+2018-02-15T13:24:35.852Z - debug:  [17740] TFVC: add exit code: 0 (duration: 370ms)
+2018-02-15T13:24:35.854Z - debug:  [17740] TFVC Minimum required version: 14.102.0
+2018-02-15T13:24:35.854Z - debug:  [17740] TFVC (TF.exe, TF.cmd) version: 14.102.25619.0
+2018-02-15T13:24:35.855Z - debug:  [17740] TFVC Repository.FindWorkspace with localPath='c:\D\Timeinc Projects\CampaignBudgetTool\CampaignBudgetTool.Client'
+2018-02-15T13:24:35.856Z - debug:  [17740] TFVC: tf workfold -noprompt ********
+2018-02-15T13:24:35.867Z - debug:  [17740] TFVC: spawned new process (duration: 10ms)
+2018-02-15T13:24:38.252Z - debug:  [17740] TFVC: workfold exit code: 100 (duration: 2396ms)
+2018-02-15T13:24:38.253Z - debug:  [17740] TFVC errors (via stderr): TF30063: You are not authorized to access tmpcmamva02\CMAS.
+
+2018-02-15T13:24:38.255Z - error:  [17740] It appears you are using a Server workspace. Currently, TFVC support is limited to Local workspaces. TF30063: You are not authorized to access tmpcmamva02\CMAS.
+2018-02-16T09:44:50.865Z - info:   [01256] *** FOLDER: c:\D\Timeinc Projects\CampaignBudgetTool\CampaignBudgetTool.Client ***
+2018-02-16T09:44:50.869Z - info:   [01256] VSTSVSCode/1.122.0 (VSCode 1.20.0; Windows_NT 10.0.14393; Node 7.9.0)
+2018-02-16T09:44:50.869Z - debug:  [01256] Looking for an External Context at c:\D\Timeinc Projects\CampaignBudgetTool\CampaignBudgetTool.Client
+2018-02-16T09:44:50.869Z - debug:  [01256] No External Context at c:\D\Timeinc Projects\CampaignBudgetTool\CampaignBudgetTool.Client
+2018-02-16T09:44:50.869Z - debug:  [01256] Looking for TFVC repository at c:\D\Timeinc Projects\CampaignBudgetTool\CampaignBudgetTool.Client
+2018-02-16T09:44:50.873Z - debug:  [01256] TFVC Creating Tfvc object with localPath='undefined'
+2018-02-16T09:44:50.877Z - debug:  [01256] Using TFS proxy: 
+2018-02-16T09:44:50.877Z - debug:  [01256] TFVC Retrieved from settings; localPath='C:\Program Files (x86)\Microsoft Visual Studio 14.0\Common7\IDE\TF.exe'
+2018-02-16T09:44:50.881Z - debug:  [01256] TFVC Repository created with repositoryRootFolder='c:\D\Timeinc Projects\CampaignBudgetTool\CampaignBudgetTool.Client'
+2018-02-16T09:44:50.881Z - debug:  [01256] TFVC Repository.CheckVersion
+2018-02-16T09:44:50.885Z - debug:  [01256] TFVC: tf add -noprompt -?
+2018-02-16T09:44:50.905Z - debug:  [01256] TFVC: spawned new process (duration: 20ms)
+2018-02-16T09:44:50.929Z - debug:  [01256] TFVC: spawned new process (duration: 24ms)
+2018-02-16T09:44:51.229Z - debug:  [01256] TFVC: add exit code: 0 (duration: 344ms)
+2018-02-16T09:44:51.229Z - debug:  [01256] TFVC Minimum required version: 14.102.0
+2018-02-16T09:44:51.229Z - debug:  [01256] TFVC (TF.exe, TF.cmd) version: 14.102.25619.0
+2018-02-16T09:44:51.229Z - debug:  [01256] TFVC Repository.FindWorkspace with localPath='c:\D\Timeinc Projects\CampaignBudgetTool\CampaignBudgetTool.Client'
+2018-02-16T09:44:51.229Z - debug:  [01256] TFVC: tf workfold -noprompt ********
+2018-02-16T09:44:51.245Z - debug:  [01256] TFVC: spawned new process (duration: 16ms)
+2018-02-16T09:44:53.211Z - debug:  [01256] TFVC: workfold exit code: 100 (duration: 1982ms)
+2018-02-16T09:44:53.229Z - debug:  [01256] TFVC errors (via stderr): TF30063: You are not authorized to access tmpcmamva02\CMAS.
+
+2018-02-16T09:44:53.229Z - error:  [01256] It appears you are using a Server workspace. Currently, TFVC support is limited to Local workspaces. TF30063: You are not authorized to access tmpcmamva02\CMAS.
+2018-02-20T04:47:18.461Z - info:   [17636] *** FOLDER: c:\D\Timeinc Projects\CampaignBudgetTool\CampaignBudgetTool.Client ***
+2018-02-20T04:47:18.461Z - info:   [17636] VSTSVSCode/1.122.0 (VSCode 1.20.0; Windows_NT 10.0.14393; Node 7.9.0)
+2018-02-20T04:47:18.461Z - debug:  [17636] Looking for an External Context at c:\D\Timeinc Projects\CampaignBudgetTool\CampaignBudgetTool.Client
+2018-02-20T04:47:18.461Z - debug:  [17636] No External Context at c:\D\Timeinc Projects\CampaignBudgetTool\CampaignBudgetTool.Client
+2018-02-20T04:47:18.461Z - debug:  [17636] Looking for TFVC repository at c:\D\Timeinc Projects\CampaignBudgetTool\CampaignBudgetTool.Client
+2018-02-20T04:47:18.461Z - debug:  [17636] TFVC Creating Tfvc object with localPath='undefined'
+2018-02-20T04:47:18.477Z - debug:  [17636] Using TFS proxy: 
+2018-02-20T04:47:18.477Z - debug:  [17636] TFVC Retrieved from settings; localPath='C:\Program Files (x86)\Microsoft Visual Studio 14.0\Common7\IDE\TF.exe'
+2018-02-20T04:47:18.477Z - debug:  [17636] TFVC Repository created with repositoryRootFolder='c:\D\Timeinc Projects\CampaignBudgetTool\CampaignBudgetTool.Client'
+2018-02-20T04:47:18.477Z - debug:  [17636] TFVC Repository.CheckVersion
+2018-02-20T04:47:18.477Z - debug:  [17636] TFVC: tf add -noprompt -?
+2018-02-20T04:47:18.492Z - debug:  [17636] TFVC: spawned new process (duration: 15ms)
+2018-02-20T04:47:18.508Z - debug:  [17636] TFVC: spawned new process (duration: 16ms)
+2018-02-20T04:47:18.960Z - debug:  [17636] TFVC: add exit code: 0 (duration: 483ms)
+2018-02-20T04:47:18.976Z - debug:  [17636] TFVC Minimum required version: 14.102.0
+2018-02-20T04:47:18.976Z - debug:  [17636] TFVC (TF.exe, TF.cmd) version: 14.102.25619.0
+2018-02-20T04:47:18.976Z - debug:  [17636] TFVC Repository.FindWorkspace with localPath='c:\D\Timeinc Projects\CampaignBudgetTool\CampaignBudgetTool.Client'
+2018-02-20T04:47:18.976Z - debug:  [17636] TFVC: tf workfold -noprompt ********
+2018-02-20T04:47:18.976Z - debug:  [17636] TFVC: spawned new process (duration: 0ms)
+2018-02-20T04:47:22.024Z - debug:  [17636] TFVC: workfold exit code: 100 (duration: 3047ms)
+2018-02-20T04:47:22.026Z - debug:  [17636] TFVC errors (via stderr): TF30063: You are not authorized to access tmpcmamva02\CMAS.
+
+2018-02-20T04:47:22.027Z - error:  [17636] It appears you are using a Server workspace. Currently, TFVC support is limited to Local workspaces. TF30063: You are not authorized to access tmpcmamva02\CMAS.
+2018-02-20T13:19:41.962Z - info:   [18468] *** FOLDER: c:\D\Timeinc Projects\CampaignBudgetTool\CampaignBudgetTool.Client ***
+2018-02-20T13:19:41.965Z - info:   [18468] VSTSVSCode/1.122.0 (VSCode 1.20.0; Windows_NT 10.0.14393; Node 7.9.0)
+2018-02-20T13:19:41.967Z - debug:  [18468] Looking for an External Context at c:\D\Timeinc Projects\CampaignBudgetTool\CampaignBudgetTool.Client
+2018-02-20T13:19:41.967Z - debug:  [18468] No External Context at c:\D\Timeinc Projects\CampaignBudgetTool\CampaignBudgetTool.Client
+2018-02-20T13:19:41.969Z - debug:  [18468] Looking for TFVC repository at c:\D\Timeinc Projects\CampaignBudgetTool\CampaignBudgetTool.Client
+2018-02-20T13:19:41.970Z - debug:  [18468] TFVC Creating Tfvc object with localPath='undefined'
+2018-02-20T13:19:41.972Z - debug:  [18468] Using TFS proxy: 
+2018-02-20T13:19:41.973Z - debug:  [18468] TFVC Retrieved from settings; localPath='C:\Program Files (x86)\Microsoft Visual Studio 14.0\Common7\IDE\TF.exe'
+2018-02-20T13:19:41.974Z - debug:  [18468] TFVC Repository created with repositoryRootFolder='c:\D\Timeinc Projects\CampaignBudgetTool\CampaignBudgetTool.Client'
+2018-02-20T13:19:41.976Z - debug:  [18468] TFVC Repository.CheckVersion
+2018-02-20T13:19:41.979Z - debug:  [18468] TFVC: tf add -noprompt -?
+2018-02-20T13:19:41.993Z - debug:  [18468] TFVC: spawned new process (duration: 12ms)
+2018-02-20T13:19:42.049Z - debug:  [18468] TFVC: spawned new process (duration: 56ms)
+2018-02-20T13:19:45.229Z - debug:  [18468] TFVC: add exit code: 0 (duration: 3248ms)
+2018-02-20T13:19:45.231Z - debug:  [18468] TFVC Minimum required version: 14.102.0
+2018-02-20T13:19:45.231Z - debug:  [18468] TFVC (TF.exe, TF.cmd) version: 14.102.25619.0
+2018-02-20T13:19:45.232Z - debug:  [18468] TFVC Repository.FindWorkspace with localPath='c:\D\Timeinc Projects\CampaignBudgetTool\CampaignBudgetTool.Client'
+2018-02-20T13:19:45.233Z - debug:  [18468] TFVC: tf workfold -noprompt ********
+2018-02-20T13:19:45.252Z - debug:  [18468] TFVC: spawned new process (duration: 18ms)
+2018-02-20T13:19:50.324Z - debug:  [18468] TFVC: workfold exit code: 100 (duration: 5091ms)
+2018-02-20T13:19:50.328Z - debug:  [18468] TFVC errors (via stderr): TF30063: You are not authorized to access tmpcmamva02\CMAS.
+
+2018-02-20T13:19:50.328Z - error:  [18468] It appears you are using a Server workspace. Currently, TFVC support is limited to Local workspaces. TF30063: You are not authorized to access tmpcmamva02\CMAS.
+2018-02-21T08:49:42.757Z - info:   [07388] *** FOLDER: c:\D\Timeinc Projects\CampaignBudgetTool\CampaignBudgetTool.Client ***
+2018-02-21T08:49:42.767Z - info:   [07388] VSTSVSCode/1.122.0 (VSCode 1.20.0; Windows_NT 10.0.14393; Node 7.9.0)
+2018-02-21T08:49:42.771Z - debug:  [07388] Looking for an External Context at c:\D\Timeinc Projects\CampaignBudgetTool\CampaignBudgetTool.Client
+2018-02-21T08:49:42.772Z - debug:  [07388] No External Context at c:\D\Timeinc Projects\CampaignBudgetTool\CampaignBudgetTool.Client
+2018-02-21T08:49:42.776Z - debug:  [07388] Looking for TFVC repository at c:\D\Timeinc Projects\CampaignBudgetTool\CampaignBudgetTool.Client
+2018-02-21T08:49:42.777Z - debug:  [07388] TFVC Creating Tfvc object with localPath='undefined'
+2018-02-21T08:49:42.795Z - debug:  [07388] Using TFS proxy: 
+2018-02-21T08:49:42.795Z - debug:  [07388] TFVC Retrieved from settings; localPath='C:\Program Files (x86)\Microsoft Visual Studio 14.0\Common7\IDE\TF.exe'
+2018-02-21T08:49:42.798Z - debug:  [07388] TFVC Repository created with repositoryRootFolder='c:\D\Timeinc Projects\CampaignBudgetTool\CampaignBudgetTool.Client'
+2018-02-21T08:49:42.802Z - debug:  [07388] TFVC Repository.CheckVersion
+2018-02-21T08:49:42.806Z - debug:  [07388] TFVC: tf add -noprompt -?
+2018-02-21T08:49:42.827Z - debug:  [07388] TFVC: spawned new process (duration: 16ms)
+2018-02-21T08:49:42.858Z - debug:  [07388] TFVC: spawned new process (duration: 30ms)
+2018-02-21T08:49:43.254Z - debug:  [07388] TFVC: add exit code: 0 (duration: 447ms)
+2018-02-21T08:49:43.257Z - debug:  [07388] TFVC Minimum required version: 14.102.0
+2018-02-21T08:49:43.258Z - debug:  [07388] TFVC (TF.exe, TF.cmd) version: 14.102.25619.0
+2018-02-21T08:49:43.259Z - debug:  [07388] TFVC Repository.FindWorkspace with localPath='c:\D\Timeinc Projects\CampaignBudgetTool\CampaignBudgetTool.Client'
+2018-02-21T08:49:43.260Z - debug:  [07388] TFVC: tf workfold -noprompt ********
+2018-02-21T08:49:43.276Z - debug:  [07388] TFVC: spawned new process (duration: 15ms)
+2018-02-21T08:49:45.756Z - debug:  [07388] TFVC: workfold exit code: 100 (duration: 2496ms)
+2018-02-21T08:49:45.759Z - debug:  [07388] TFVC errors (via stderr): TF30063: You are not authorized to access tmpcmamva02\CMAS.
+
+2018-02-21T08:49:45.761Z - error:  [07388] It appears you are using a Server workspace. Currently, TFVC support is limited to Local workspaces. TF30063: You are not authorized to access tmpcmamva02\CMAS.
+2018-02-21T12:21:25.636Z - info:   [13912] *** FOLDER: c:\D\Timeinc Projects\CampaignBudgetTool\CampaignBudgetTool.Client ***
+2018-02-21T12:21:25.640Z - info:   [13912] VSTSVSCode/1.122.0 (VSCode 1.20.0; Windows_NT 10.0.14393; Node 7.9.0)
+2018-02-21T12:21:25.643Z - debug:  [13912] Looking for an External Context at c:\D\Timeinc Projects\CampaignBudgetTool\CampaignBudgetTool.Client
+2018-02-21T12:21:25.644Z - debug:  [13912] No External Context at c:\D\Timeinc Projects\CampaignBudgetTool\CampaignBudgetTool.Client
+2018-02-21T12:21:25.647Z - debug:  [13912] Looking for TFVC repository at c:\D\Timeinc Projects\CampaignBudgetTool\CampaignBudgetTool.Client
+2018-02-21T12:21:25.648Z - debug:  [13912] TFVC Creating Tfvc object with localPath='undefined'
+2018-02-21T12:21:25.652Z - debug:  [13912] Using TFS proxy: 
+2018-02-21T12:21:25.652Z - debug:  [13912] TFVC Retrieved from settings; localPath='C:\Program Files (x86)\Microsoft Visual Studio 14.0\Common7\IDE\TF.exe'
+2018-02-21T12:21:25.655Z - debug:  [13912] TFVC Repository created with repositoryRootFolder='c:\D\Timeinc Projects\CampaignBudgetTool\CampaignBudgetTool.Client'
+2018-02-21T12:21:25.660Z - debug:  [13912] TFVC Repository.CheckVersion
+2018-02-21T12:21:25.663Z - debug:  [13912] TFVC: tf add -noprompt -?
+2018-02-21T12:21:25.702Z - debug:  [13912] TFVC: spawned new process (duration: 36ms)
+2018-02-21T12:21:25.718Z - debug:  [13912] TFVC: spawned new process (duration: 14ms)
+2018-02-21T12:21:26.437Z - debug:  [13912] TFVC: add exit code: 0 (duration: 773ms)
+2018-02-21T12:21:26.440Z - debug:  [13912] TFVC Minimum required version: 14.102.0
+2018-02-21T12:21:26.441Z - debug:  [13912] TFVC (TF.exe, TF.cmd) version: 14.102.25619.0
+2018-02-21T12:21:26.442Z - debug:  [13912] TFVC Repository.FindWorkspace with localPath='c:\D\Timeinc Projects\CampaignBudgetTool\CampaignBudgetTool.Client'
+2018-02-21T12:21:26.443Z - debug:  [13912] TFVC: tf workfold -noprompt ********
+2018-02-21T12:21:26.453Z - debug:  [13912] TFVC: spawned new process (duration: 9ms)
+2018-02-21T12:21:28.766Z - debug:  [13912] TFVC: workfold exit code: 100 (duration: 2323ms)
+2018-02-21T12:21:28.766Z - debug:  [13912] TFVC errors (via stderr): TF30063: You are not authorized to access tmpcmamva02\CMAS.
+
+2018-02-21T12:21:28.766Z - error:  [13912] It appears you are using a Server workspace. Currently, TFVC support is limited to Local workspaces. TF30063: You are not authorized to access tmpcmamva02\CMAS.
+2018-02-23T05:30:42.264Z - info:   [18812] *** FOLDER: c:\D\Timeinc Projects\CampaignBudgetTool\CampaignBudgetTool.Client ***
+2018-02-23T05:30:42.276Z - info:   [18812] VSTSVSCode/1.122.0 (VSCode 1.20.0; Windows_NT 10.0.14393; Node 7.9.0)
+2018-02-23T05:30:42.280Z - debug:  [18812] Looking for an External Context at c:\D\Timeinc Projects\CampaignBudgetTool\CampaignBudgetTool.Client
+2018-02-23T05:30:42.281Z - debug:  [18812] No External Context at c:\D\Timeinc Projects\CampaignBudgetTool\CampaignBudgetTool.Client
+2018-02-23T05:30:42.290Z - debug:  [18812] Looking for TFVC repository at c:\D\Timeinc Projects\CampaignBudgetTool\CampaignBudgetTool.Client
+2018-02-23T05:30:42.291Z - debug:  [18812] TFVC Creating Tfvc object with localPath='undefined'
+2018-02-23T05:30:42.300Z - debug:  [18812] Using TFS proxy: 
+2018-02-23T05:30:42.301Z - debug:  [18812] TFVC Retrieved from settings; localPath='C:\Program Files (x86)\Microsoft Visual Studio 14.0\Common7\IDE\TF.exe'
+2018-02-23T05:30:42.302Z - debug:  [18812] TFVC Repository created with repositoryRootFolder='c:\D\Timeinc Projects\CampaignBudgetTool\CampaignBudgetTool.Client'
+2018-02-23T05:30:42.306Z - debug:  [18812] TFVC Repository.CheckVersion
+2018-02-23T05:30:42.309Z - debug:  [18812] TFVC: tf add -noprompt -?
+2018-02-23T05:30:42.334Z - debug:  [18812] TFVC: spawned new process (duration: 22ms)
+2018-02-23T05:30:42.351Z - debug:  [18812] TFVC: spawned new process (duration: 16ms)
+2018-02-23T05:30:42.954Z - debug:  [18812] TFVC: add exit code: 0 (duration: 644ms)
+2018-02-23T05:30:42.957Z - debug:  [18812] TFVC Minimum required version: 14.102.0
+2018-02-23T05:30:42.958Z - debug:  [18812] TFVC (TF.exe, TF.cmd) version: 14.102.25619.0
+2018-02-23T05:30:42.959Z - debug:  [18812] TFVC Repository.FindWorkspace with localPath='c:\D\Timeinc Projects\CampaignBudgetTool\CampaignBudgetTool.Client'
+2018-02-23T05:30:42.960Z - debug:  [18812] TFVC: tf workfold -noprompt ********
+2018-02-23T05:30:42.971Z - debug:  [18812] TFVC: spawned new process (duration: 11ms)
+2018-02-23T05:30:44.960Z - debug:  [18812] TFVC: workfold exit code: 100 (duration: 2000ms)
+2018-02-23T05:30:44.960Z - debug:  [18812] TFVC errors (via stderr): TF30063: You are not authorized to access tmpcmamva02\CMAS.
+
+2018-02-23T05:30:44.960Z - error:  [18812] It appears you are using a Server workspace. Currently, TFVC support is limited to Local workspaces. TF30063: You are not authorized to access tmpcmamva02\CMAS.
+2018-02-27T10:15:28.174Z - info:   [10640] *** FOLDER: c:\D\Timeinc Projects\CampaignBudgetTool\CampaignBudgetTool.Client ***
+2018-02-27T10:15:28.188Z - info:   [10640] VSTSVSCode/1.122.0 (VSCode 1.20.1; Windows_NT 10.0.14393; Node 7.9.0)
+2018-02-27T10:15:28.191Z - debug:  [10640] Looking for an External Context at c:\D\Timeinc Projects\CampaignBudgetTool\CampaignBudgetTool.Client
+2018-02-27T10:15:28.191Z - debug:  [10640] No External Context at c:\D\Timeinc Projects\CampaignBudgetTool\CampaignBudgetTool.Client
+2018-02-27T10:15:28.198Z - debug:  [10640] Looking for TFVC repository at c:\D\Timeinc Projects\CampaignBudgetTool\CampaignBudgetTool.Client
+2018-02-27T10:15:28.199Z - debug:  [10640] TFVC Creating Tfvc object with localPath='undefined'
+2018-02-27T10:15:28.203Z - debug:  [10640] Using TFS proxy: 
+2018-02-27T10:15:28.203Z - debug:  [10640] TFVC Retrieved from settings; localPath='C:\Program Files (x86)\Microsoft Visual Studio 14.0\Common7\IDE\TF.exe'
+2018-02-27T10:15:28.207Z - debug:  [10640] TFVC Repository created with repositoryRootFolder='c:\D\Timeinc Projects\CampaignBudgetTool\CampaignBudgetTool.Client'
+2018-02-27T10:15:28.210Z - debug:  [10640] TFVC Repository.CheckVersion
+2018-02-27T10:15:28.213Z - debug:  [10640] TFVC: tf add -noprompt -?
+2018-02-27T10:15:28.400Z - debug:  [10640] TFVC: spawned new process (duration: 171ms)
+2018-02-27T10:15:28.444Z - debug:  [10640] TFVC: spawned new process (duration: 43ms)
+2018-02-27T10:15:31.150Z - debug:  [10640] TFVC: add exit code: 0 (duration: 2936ms)
+2018-02-27T10:15:31.152Z - debug:  [10640] TFVC Minimum required version: 14.102.0
+2018-02-27T10:15:31.154Z - debug:  [10640] TFVC (TF.exe, TF.cmd) version: 14.102.25619.0
+2018-02-27T10:15:31.156Z - debug:  [10640] TFVC Repository.FindWorkspace with localPath='c:\D\Timeinc Projects\CampaignBudgetTool\CampaignBudgetTool.Client'
+2018-02-27T10:15:31.157Z - debug:  [10640] TFVC: tf workfold -noprompt ********
+2018-02-27T10:15:31.209Z - debug:  [10640] TFVC: spawned new process (duration: 52ms)
+2018-02-27T10:15:38.067Z - debug:  [10640] TFVC: workfold exit code: 100 (duration: 6910ms)
+2018-02-27T10:15:38.071Z - debug:  [10640] TFVC errors (via stderr): TF30063: You are not authorized to access tmpcmamva02\CMAS.
+
+2018-02-27T10:15:38.073Z - error:  [10640] It appears you are using a Server workspace. Currently, TFVC support is limited to Local workspaces. TF30063: You are not authorized to access tmpcmamva02\CMAS.
+2018-03-01T06:33:00.832Z - info:   [10304] *** FOLDER: c:\D\Timeinc Projects\CampaignBudgetTool\CampaignBudgetTool.Client ***
+2018-03-01T06:33:00.837Z - info:   [10304] VSTSVSCode/1.122.0 (VSCode 1.20.1; Windows_NT 10.0.14393; Node 7.9.0)
+2018-03-01T06:33:00.840Z - debug:  [10304] Looking for an External Context at c:\D\Timeinc Projects\CampaignBudgetTool\CampaignBudgetTool.Client
+2018-03-01T06:33:00.840Z - debug:  [10304] No External Context at c:\D\Timeinc Projects\CampaignBudgetTool\CampaignBudgetTool.Client
+2018-03-01T06:33:00.843Z - debug:  [10304] Looking for TFVC repository at c:\D\Timeinc Projects\CampaignBudgetTool\CampaignBudgetTool.Client
+2018-03-01T06:33:00.843Z - debug:  [10304] TFVC Creating Tfvc object with localPath='undefined'
+2018-03-01T06:33:00.845Z - debug:  [10304] Using TFS proxy: 
+2018-03-01T06:33:00.845Z - debug:  [10304] TFVC Retrieved from settings; localPath='C:\Program Files (x86)\Microsoft Visual Studio 14.0\Common7\IDE\TF.exe'
+2018-03-01T06:33:00.846Z - debug:  [10304] TFVC Repository created with repositoryRootFolder='c:\D\Timeinc Projects\CampaignBudgetTool\CampaignBudgetTool.Client'
+2018-03-01T06:33:00.848Z - debug:  [10304] TFVC Repository.CheckVersion
+2018-03-01T06:33:00.854Z - debug:  [10304] TFVC: tf add -noprompt -?
+2018-03-01T06:33:00.874Z - debug:  [10304] TFVC: spawned new process (duration: 18ms)
+2018-03-01T06:33:00.889Z - debug:  [10304] TFVC: spawned new process (duration: 15ms)
+2018-03-01T06:33:01.454Z - debug:  [10304] TFVC: add exit code: 0 (duration: 600ms)
+2018-03-01T06:33:01.456Z - debug:  [10304] TFVC Minimum required version: 14.102.0
+2018-03-01T06:33:01.456Z - debug:  [10304] TFVC (TF.exe, TF.cmd) version: 14.102.25619.0
+2018-03-01T06:33:01.457Z - debug:  [10304] TFVC Repository.FindWorkspace with localPath='c:\D\Timeinc Projects\CampaignBudgetTool\CampaignBudgetTool.Client'
+2018-03-01T06:33:01.458Z - debug:  [10304] TFVC: tf workfold -noprompt ********
+2018-03-01T06:33:01.478Z - debug:  [10304] TFVC: spawned new process (duration: 19ms)
+2018-03-01T06:33:04.090Z - debug:  [10304] TFVC: workfold exit code: 100 (duration: 2632ms)
+2018-03-01T06:33:04.092Z - debug:  [10304] TFVC errors (via stderr): TF30063: You are not authorized to access tmpcmamva02\CMAS.
+
+2018-03-01T06:33:04.094Z - error:  [10304] It appears you are using a Server workspace. Currently, TFVC support is limited to Local workspaces. TF30063: You are not authorized to access tmpcmamva02\CMAS.
+2018-03-02T06:11:03.723Z - info:   [12948] *** FOLDER: c:\D\Timeinc Projects\CampaignBudgetTool\CampaignBudgetTool.Client ***
+2018-03-02T06:11:03.730Z - info:   [12948] VSTSVSCode/1.122.0 (VSCode 1.20.1; Windows_NT 10.0.14393; Node 7.9.0)
+2018-03-02T06:11:03.733Z - debug:  [12948] Looking for an External Context at c:\D\Timeinc Projects\CampaignBudgetTool\CampaignBudgetTool.Client
+2018-03-02T06:11:03.733Z - debug:  [12948] No External Context at c:\D\Timeinc Projects\CampaignBudgetTool\CampaignBudgetTool.Client
+2018-03-02T06:11:03.738Z - debug:  [12948] Looking for TFVC repository at c:\D\Timeinc Projects\CampaignBudgetTool\CampaignBudgetTool.Client
+2018-03-02T06:11:03.739Z - debug:  [12948] TFVC Creating Tfvc object with localPath='undefined'
+2018-03-02T06:11:03.764Z - debug:  [12948] Using TFS proxy: 
+2018-03-02T06:11:03.765Z - debug:  [12948] TFVC Retrieved from settings; localPath='C:\Program Files (x86)\Microsoft Visual Studio 14.0\Common7\IDE\TF.exe'
+2018-03-02T06:11:03.766Z - debug:  [12948] TFVC Repository created with repositoryRootFolder='c:\D\Timeinc Projects\CampaignBudgetTool\CampaignBudgetTool.Client'
+2018-03-02T06:11:03.770Z - debug:  [12948] TFVC Repository.CheckVersion
+2018-03-02T06:11:03.774Z - debug:  [12948] TFVC: tf add -noprompt -?
+2018-03-02T06:11:03.812Z - debug:  [12948] TFVC: spawned new process (duration: 36ms)
+2018-03-02T06:11:03.845Z - debug:  [12948] TFVC: spawned new process (duration: 31ms)
+2018-03-02T06:11:04.210Z - debug:  [12948] TFVC: add exit code: 0 (duration: 435ms)
+2018-03-02T06:11:04.213Z - debug:  [12948] TFVC Minimum required version: 14.102.0
+2018-03-02T06:11:04.213Z - debug:  [12948] TFVC (TF.exe, TF.cmd) version: 14.102.25619.0
+2018-03-02T06:11:04.214Z - debug:  [12948] TFVC Repository.FindWorkspace with localPath='c:\D\Timeinc Projects\CampaignBudgetTool\CampaignBudgetTool.Client'
+2018-03-02T06:11:04.216Z - debug:  [12948] TFVC: tf workfold -noprompt ********
+2018-03-02T06:11:04.230Z - debug:  [12948] TFVC: spawned new process (duration: 10ms)
+2018-03-02T06:11:06.077Z - debug:  [12948] TFVC: workfold exit code: 100 (duration: 1861ms)
+2018-03-02T06:11:06.080Z - debug:  [12948] TFVC errors (via stderr): TF30063: You are not authorized to access tmpcmamva02\CMAS.
+
+2018-03-02T06:11:06.082Z - error:  [12948] It appears you are using a Server workspace. Currently, TFVC support is limited to Local workspaces. TF30063: You are not authorized to access tmpcmamva02\CMAS.
+2018-03-02T07:34:16.101Z - info:   [14500] *** FOLDER: c:\D\Timeinc Projects\CampaignBudgetTool\CampaignBudgetTool.Client ***
+2018-03-02T07:34:16.103Z - info:   [14500] VSTSVSCode/1.122.0 (VSCode 1.20.1; Windows_NT 10.0.14393; Node 7.9.0)
+2018-03-02T07:34:16.105Z - debug:  [14500] Looking for an External Context at c:\D\Timeinc Projects\CampaignBudgetTool\CampaignBudgetTool.Client
+2018-03-02T07:34:16.105Z - debug:  [14500] No External Context at c:\D\Timeinc Projects\CampaignBudgetTool\CampaignBudgetTool.Client
+2018-03-02T07:34:16.107Z - debug:  [14500] Looking for TFVC repository at c:\D\Timeinc Projects\CampaignBudgetTool\CampaignBudgetTool.Client
+2018-03-02T07:34:16.108Z - debug:  [14500] TFVC Creating Tfvc object with localPath='undefined'
+2018-03-02T07:34:16.112Z - debug:  [14500] Using TFS proxy: 
+2018-03-02T07:34:16.112Z - debug:  [14500] TFVC Retrieved from settings; localPath='C:\Program Files (x86)\Microsoft Visual Studio 14.0\Common7\IDE\TF.exe'
+2018-03-02T07:34:16.113Z - debug:  [14500] TFVC Repository created with repositoryRootFolder='c:\D\Timeinc Projects\CampaignBudgetTool\CampaignBudgetTool.Client'
+2018-03-02T07:34:16.115Z - debug:  [14500] TFVC Repository.CheckVersion
+2018-03-02T07:34:16.118Z - debug:  [14500] TFVC: tf add -noprompt -?
+2018-03-02T07:34:16.138Z - debug:  [14500] TFVC: spawned new process (duration: 19ms)
+2018-03-02T07:34:16.171Z - debug:  [14500] TFVC: spawned new process (duration: 32ms)
+2018-03-02T07:34:16.467Z - debug:  [14500] TFVC: add exit code: 0 (duration: 348ms)
+2018-03-02T07:34:16.469Z - debug:  [14500] TFVC Minimum required version: 14.102.0
+2018-03-02T07:34:16.470Z - debug:  [14500] TFVC (TF.exe, TF.cmd) version: 14.102.25619.0
+2018-03-02T07:34:16.470Z - debug:  [14500] TFVC Repository.FindWorkspace with localPath='c:\D\Timeinc Projects\CampaignBudgetTool\CampaignBudgetTool.Client'
+2018-03-02T07:34:16.471Z - debug:  [14500] TFVC: tf workfold -noprompt ********
+2018-03-02T07:34:16.482Z - debug:  [14500] TFVC: spawned new process (duration: 10ms)
+2018-03-02T07:34:18.864Z - debug:  [14500] TFVC: workfold exit code: 100 (duration: 2392ms)
+2018-03-02T07:34:18.866Z - debug:  [14500] TFVC errors (via stderr): TF30063: You are not authorized to access tmpcmamva02\CMAS.
+
+2018-03-02T07:34:18.867Z - error:  [14500] It appears you are using a Server workspace. Currently, TFVC support is limited to Local workspaces. TF30063: You are not authorized to access tmpcmamva02\CMAS.
+2018-03-02T08:56:59.084Z - info:   [12164] *** FOLDER: c:\D\Timeinc Projects\CampaignBudgetTool\CampaignBudgetTool.Client ***
+2018-03-02T08:56:59.092Z - info:   [12164] VSTSVSCode/1.122.0 (VSCode 1.20.1; Windows_NT 10.0.14393; Node 7.9.0)
+2018-03-02T08:56:59.096Z - debug:  [12164] Looking for an External Context at c:\D\Timeinc Projects\CampaignBudgetTool\CampaignBudgetTool.Client
+2018-03-02T08:56:59.100Z - debug:  [12164] No External Context at c:\D\Timeinc Projects\CampaignBudgetTool\CampaignBudgetTool.Client
+2018-03-02T08:56:59.108Z - debug:  [12164] Looking for TFVC repository at c:\D\Timeinc Projects\CampaignBudgetTool\CampaignBudgetTool.Client
+2018-03-02T08:56:59.108Z - debug:  [12164] TFVC Creating Tfvc object with localPath='undefined'
+2018-03-02T08:56:59.116Z - debug:  [12164] Using TFS proxy: 
+2018-03-02T08:56:59.116Z - debug:  [12164] TFVC Retrieved from settings; localPath='C:\Program Files (x86)\Microsoft Visual Studio 14.0\Common7\IDE\TF.exe'
+2018-03-02T08:56:59.116Z - debug:  [12164] TFVC Repository created with repositoryRootFolder='c:\D\Timeinc Projects\CampaignBudgetTool\CampaignBudgetTool.Client'
+2018-03-02T08:56:59.120Z - debug:  [12164] TFVC Repository.CheckVersion
+2018-03-02T08:56:59.124Z - debug:  [12164] TFVC: tf add -noprompt -?
+2018-03-02T08:56:59.176Z - debug:  [12164] TFVC: spawned new process (duration: 48ms)
+2018-03-02T08:56:59.240Z - debug:  [12164] TFVC: spawned new process (duration: 64ms)
+2018-03-02T08:56:59.584Z - debug:  [12164] TFVC: add exit code: 0 (duration: 460ms)
+2018-03-02T08:56:59.588Z - debug:  [12164] TFVC Minimum required version: 14.102.0
+2018-03-02T08:56:59.588Z - debug:  [12164] TFVC (TF.exe, TF.cmd) version: 14.102.25619.0
+2018-03-02T08:56:59.588Z - debug:  [12164] TFVC Repository.FindWorkspace with localPath='c:\D\Timeinc Projects\CampaignBudgetTool\CampaignBudgetTool.Client'
+2018-03-02T08:56:59.588Z - debug:  [12164] TFVC: tf workfold -noprompt ********
+2018-03-02T08:56:59.600Z - debug:  [12164] TFVC: spawned new process (duration: 12ms)
+2018-03-02T08:57:02.319Z - debug:  [12164] TFVC: workfold exit code: 100 (duration: 2731ms)
+2018-03-02T08:57:02.323Z - debug:  [12164] TFVC errors (via stderr): TF30063: You are not authorized to access tmpcmamva02\CMAS.
+
+2018-03-02T08:57:02.327Z - error:  [12164] It appears you are using a Server workspace. Currently, TFVC support is limited to Local workspaces. TF30063: You are not authorized to access tmpcmamva02\CMAS.
+2018-03-02T12:00:44.920Z - info:   [08928] *** FOLDER: c:\D\Timeinc Projects\CampaignBudgetTool\CampaignBudgetTool.Client ***
+2018-03-02T12:00:44.924Z - info:   [08928] VSTSVSCode/1.122.0 (VSCode 1.20.1; Windows_NT 10.0.14393; Node 7.9.0)
+2018-03-02T12:00:44.924Z - debug:  [08928] Looking for an External Context at c:\D\Timeinc Projects\CampaignBudgetTool\CampaignBudgetTool.Client
+2018-03-02T12:00:44.924Z - debug:  [08928] No External Context at c:\D\Timeinc Projects\CampaignBudgetTool\CampaignBudgetTool.Client
+2018-03-02T12:00:44.928Z - debug:  [08928] Looking for TFVC repository at c:\D\Timeinc Projects\CampaignBudgetTool\CampaignBudgetTool.Client
+2018-03-02T12:00:44.928Z - debug:  [08928] TFVC Creating Tfvc object with localPath='undefined'
+2018-03-02T12:00:44.936Z - debug:  [08928] Using TFS proxy: 
+2018-03-02T12:00:44.936Z - debug:  [08928] TFVC Retrieved from settings; localPath='C:\Program Files (x86)\Microsoft Visual Studio 14.0\Common7\IDE\TF.exe'
+2018-03-02T12:00:44.936Z - debug:  [08928] TFVC Repository created with repositoryRootFolder='c:\D\Timeinc Projects\CampaignBudgetTool\CampaignBudgetTool.Client'
+2018-03-02T12:00:44.940Z - debug:  [08928] TFVC Repository.CheckVersion
+2018-03-02T12:00:44.944Z - debug:  [08928] TFVC: tf add -noprompt -?
+2018-03-02T12:00:45.000Z - debug:  [08928] TFVC: spawned new process (duration: 56ms)
+2018-03-02T12:00:45.056Z - debug:  [08928] TFVC: spawned new process (duration: 52ms)
+2018-03-02T12:00:45.553Z - debug:  [08928] TFVC: add exit code: 0 (duration: 609ms)
+2018-03-02T12:00:45.557Z - debug:  [08928] TFVC Minimum required version: 14.102.0
+2018-03-02T12:00:45.557Z - debug:  [08928] TFVC (TF.exe, TF.cmd) version: 14.102.25619.0
+2018-03-02T12:00:45.557Z - debug:  [08928] TFVC Repository.FindWorkspace with localPath='c:\D\Timeinc Projects\CampaignBudgetTool\CampaignBudgetTool.Client'
+2018-03-02T12:00:45.557Z - debug:  [08928] TFVC: tf workfold -noprompt ********
+2018-03-02T12:00:45.581Z - debug:  [08928] TFVC: spawned new process (duration: 16ms)
+2018-03-02T12:00:47.632Z - debug:  [08928] TFVC: workfold exit code: 100 (duration: 2071ms)
+2018-03-02T12:00:47.636Z - debug:  [08928] TFVC errors (via stderr): TF30063: You are not authorized to access tmpcmamva02\CMAS.
+
+2018-03-02T12:00:47.636Z - error:  [08928] It appears you are using a Server workspace. Currently, TFVC support is limited to Local workspaces. TF30063: You are not authorized to access tmpcmamva02\CMAS.
+2018-03-03T07:36:38.437Z - info:   [09260] *** FOLDER: c:\D\Timeinc Projects\CampaignBudgetTool\CampaignBudgetTool.Client ***
+2018-03-03T07:36:38.437Z - info:   [09260] VSTSVSCode/1.122.0 (VSCode 1.20.1; Windows_NT 10.0.14393; Node 7.9.0)
+2018-03-03T07:36:38.437Z - debug:  [09260] Looking for an External Context at c:\D\Timeinc Projects\CampaignBudgetTool\CampaignBudgetTool.Client
+2018-03-03T07:36:38.437Z - debug:  [09260] No External Context at c:\D\Timeinc Projects\CampaignBudgetTool\CampaignBudgetTool.Client
+2018-03-03T07:36:38.437Z - debug:  [09260] Looking for TFVC repository at c:\D\Timeinc Projects\CampaignBudgetTool\CampaignBudgetTool.Client
+2018-03-03T07:36:38.437Z - debug:  [09260] TFVC Creating Tfvc object with localPath='undefined'
+2018-03-03T07:36:38.452Z - debug:  [09260] Using TFS proxy: 
+2018-03-03T07:36:38.452Z - debug:  [09260] TFVC Retrieved from settings; localPath='C:\Program Files (x86)\Microsoft Visual Studio 14.0\Common7\IDE\TF.exe'
+2018-03-03T07:36:38.452Z - debug:  [09260] TFVC Repository created with repositoryRootFolder='c:\D\Timeinc Projects\CampaignBudgetTool\CampaignBudgetTool.Client'
+2018-03-03T07:36:38.452Z - debug:  [09260] TFVC Repository.CheckVersion
+2018-03-03T07:36:38.452Z - debug:  [09260] TFVC: tf add -noprompt -?
+2018-03-03T07:36:38.506Z - debug:  [09260] TFVC: spawned new process (duration: 54ms)
+2018-03-03T07:36:38.562Z - debug:  [09260] TFVC: spawned new process (duration: 52ms)
+2018-03-03T07:36:39.223Z - debug:  [09260] TFVC: add exit code: 0 (duration: 771ms)
+2018-03-03T07:36:39.223Z - debug:  [09260] TFVC Minimum required version: 14.102.0
+2018-03-03T07:36:39.223Z - debug:  [09260] TFVC (TF.exe, TF.cmd) version: 14.102.25619.0
+2018-03-03T07:36:39.223Z - debug:  [09260] TFVC Repository.FindWorkspace with localPath='c:\D\Timeinc Projects\CampaignBudgetTool\CampaignBudgetTool.Client'
+2018-03-03T07:36:39.223Z - debug:  [09260] TFVC: tf workfold -noprompt ********
+2018-03-03T07:36:39.238Z - debug:  [09260] TFVC: spawned new process (duration: 15ms)
+2018-03-03T07:36:42.842Z - debug:  [09260] TFVC: workfold exit code: 100 (duration: 3619ms)
+2018-03-03T07:36:42.857Z - debug:  [09260] TFVC errors (via stderr): TF400324: Team Foundation services are not available from server tmpcmamva02\CMAS.
+Technical information (for administrator):
+  The remote name could not be resolved: 'tmpcmamva02'
+
+2018-03-03T07:36:42.857Z - error:  [09260] Execution of the TFVC command line failed unexpectedly. TF400324: Team Foundation services are not available from server tmpcmamva02\CMAS. Technical information (for administrator):   The remote name could not be resolved: 'tmpcmamva02'
+2018-03-05T06:10:03.978Z - info:   [13208] *** FOLDER: c:\D\Timeinc Projects\CampaignBudgetTool\CampaignBudgetTool.Client ***
+2018-03-05T06:10:03.982Z - info:   [13208] VSTSVSCode/1.122.0 (VSCode 1.20.1; Windows_NT 10.0.14393; Node 7.9.0)
+2018-03-05T06:10:03.984Z - debug:  [13208] Looking for an External Context at c:\D\Timeinc Projects\CampaignBudgetTool\CampaignBudgetTool.Client
+2018-03-05T06:10:03.984Z - debug:  [13208] No External Context at c:\D\Timeinc Projects\CampaignBudgetTool\CampaignBudgetTool.Client
+2018-03-05T06:10:03.988Z - debug:  [13208] Looking for TFVC repository at c:\D\Timeinc Projects\CampaignBudgetTool\CampaignBudgetTool.Client
+2018-03-05T06:10:03.988Z - debug:  [13208] TFVC Creating Tfvc object with localPath='undefined'
+2018-03-05T06:10:04.000Z - debug:  [13208] Using TFS proxy: 
+2018-03-05T06:10:04.000Z - debug:  [13208] TFVC Retrieved from settings; localPath='C:\Program Files (x86)\Microsoft Visual Studio 14.0\Common7\IDE\TF.exe'
+2018-03-05T06:10:04.002Z - debug:  [13208] TFVC Repository created with repositoryRootFolder='c:\D\Timeinc Projects\CampaignBudgetTool\CampaignBudgetTool.Client'
+2018-03-05T06:10:04.004Z - debug:  [13208] TFVC Repository.CheckVersion
+2018-03-05T06:10:04.006Z - debug:  [13208] TFVC: tf add -noprompt -?
+2018-03-05T06:10:04.045Z - debug:  [13208] TFVC: spawned new process (duration: 36ms)
+2018-03-05T06:10:04.101Z - debug:  [13208] TFVC: spawned new process (duration: 56ms)
+2018-03-05T06:10:04.422Z - debug:  [13208] TFVC: add exit code: 0 (duration: 415ms)
+2018-03-05T06:10:04.438Z - debug:  [13208] TFVC Minimum required version: 14.102.0
+2018-03-05T06:10:04.438Z - debug:  [13208] TFVC (TF.exe, TF.cmd) version: 14.102.25619.0
+2018-03-05T06:10:04.438Z - debug:  [13208] TFVC Repository.FindWorkspace with localPath='c:\D\Timeinc Projects\CampaignBudgetTool\CampaignBudgetTool.Client'
+2018-03-05T06:10:04.438Z - debug:  [13208] TFVC: tf workfold -noprompt ********
+2018-03-05T06:10:04.438Z - debug:  [13208] TFVC: spawned new process (duration: 0ms)
+2018-03-05T06:10:06.344Z - debug:  [13208] TFVC: workfold exit code: 100 (duration: 1906ms)
+2018-03-05T06:10:06.347Z - debug:  [13208] TFVC errors (via stderr): TF30063: You are not authorized to access tmpcmamva02\CMAS.
+
+2018-03-05T06:10:06.348Z - error:  [13208] It appears you are using a Server workspace. Currently, TFVC support is limited to Local workspaces. TF30063: You are not authorized to access tmpcmamva02\CMAS.
+2018-03-06T05:56:33.101Z - info:   [10388] *** FOLDER: c:\D\Timeinc Projects\CampaignBudgetTool\CampaignBudgetTool.Client ***
+2018-03-06T05:56:33.107Z - info:   [10388] VSTSVSCode/1.122.0 (VSCode 1.20.1; Windows_NT 10.0.14393; Node 7.9.0)
+2018-03-06T05:56:33.111Z - debug:  [10388] Looking for an External Context at c:\D\Timeinc Projects\CampaignBudgetTool\CampaignBudgetTool.Client
+2018-03-06T05:56:33.111Z - debug:  [10388] No External Context at c:\D\Timeinc Projects\CampaignBudgetTool\CampaignBudgetTool.Client
+2018-03-06T05:56:33.114Z - debug:  [10388] Looking for TFVC repository at c:\D\Timeinc Projects\CampaignBudgetTool\CampaignBudgetTool.Client
+2018-03-06T05:56:33.115Z - debug:  [10388] TFVC Creating Tfvc object with localPath='undefined'
+2018-03-06T05:56:33.124Z - debug:  [10388] Using TFS proxy: 
+2018-03-06T05:56:33.124Z - debug:  [10388] TFVC Retrieved from settings; localPath='C:\Program Files (x86)\Microsoft Visual Studio 14.0\Common7\IDE\TF.exe'
+2018-03-06T05:56:33.127Z - debug:  [10388] TFVC Repository created with repositoryRootFolder='c:\D\Timeinc Projects\CampaignBudgetTool\CampaignBudgetTool.Client'
+2018-03-06T05:56:33.135Z - debug:  [10388] TFVC Repository.CheckVersion
+2018-03-06T05:56:33.138Z - debug:  [10388] TFVC: tf add -noprompt -?
+2018-03-06T05:56:33.172Z - debug:  [10388] TFVC: spawned new process (duration: 31ms)
+2018-03-06T05:56:33.201Z - debug:  [10388] TFVC: spawned new process (duration: 28ms)
+2018-03-06T05:56:33.516Z - debug:  [10388] TFVC: add exit code: 0 (duration: 377ms)
+2018-03-06T05:56:33.518Z - debug:  [10388] TFVC Minimum required version: 14.102.0
+2018-03-06T05:56:33.518Z - debug:  [10388] TFVC (TF.exe, TF.cmd) version: 14.102.25619.0
+2018-03-06T05:56:33.519Z - debug:  [10388] TFVC Repository.FindWorkspace with localPath='c:\D\Timeinc Projects\CampaignBudgetTool\CampaignBudgetTool.Client'
+2018-03-06T05:56:33.520Z - debug:  [10388] TFVC: tf workfold -noprompt ********
+2018-03-06T05:56:33.529Z - debug:  [10388] TFVC: spawned new process (duration: 9ms)
+2018-03-06T05:56:35.661Z - debug:  [10388] TFVC: workfold exit code: 100 (duration: 2141ms)
+2018-03-06T05:56:35.664Z - debug:  [10388] TFVC errors (via stderr): TF30063: You are not authorized to access tmpcmamva02\CMAS.
+
+2018-03-06T05:56:35.665Z - error:  [10388] It appears you are using a Server workspace. Currently, TFVC support is limited to Local workspaces. TF30063: You are not authorized to access tmpcmamva02\CMAS.
+2018-03-07T07:35:11.413Z - info:   [15480] *** FOLDER: c:\D\Timeinc Projects\CampaignBudgetTool\CampaignBudgetTool.Client ***
+2018-03-07T07:35:11.417Z - info:   [15480] VSTSVSCode/1.122.0 (VSCode 1.20.1; Windows_NT 10.0.14393; Node 7.9.0)
+2018-03-07T07:35:11.417Z - debug:  [15480] Looking for an External Context at c:\D\Timeinc Projects\CampaignBudgetTool\CampaignBudgetTool.Client
+2018-03-07T07:35:11.417Z - debug:  [15480] No External Context at c:\D\Timeinc Projects\CampaignBudgetTool\CampaignBudgetTool.Client
+2018-03-07T07:35:11.421Z - debug:  [15480] Looking for TFVC repository at c:\D\Timeinc Projects\CampaignBudgetTool\CampaignBudgetTool.Client
+2018-03-07T07:35:11.421Z - debug:  [15480] TFVC Creating Tfvc object with localPath='undefined'
+2018-03-07T07:35:11.425Z - debug:  [15480] Using TFS proxy: 
+2018-03-07T07:35:11.425Z - debug:  [15480] TFVC Retrieved from settings; localPath='C:\Program Files (x86)\Microsoft Visual Studio 14.0\Common7\IDE\TF.exe'
+2018-03-07T07:35:11.429Z - debug:  [15480] TFVC Repository created with repositoryRootFolder='c:\D\Timeinc Projects\CampaignBudgetTool\CampaignBudgetTool.Client'
+2018-03-07T07:35:11.429Z - debug:  [15480] TFVC Repository.CheckVersion
+2018-03-07T07:35:11.429Z - debug:  [15480] TFVC: tf add -noprompt -?
+2018-03-07T07:35:11.445Z - debug:  [15480] TFVC: spawned new process (duration: 16ms)
+2018-03-07T07:35:11.460Z - debug:  [15480] TFVC: spawned new process (duration: 15ms)
+2018-03-07T07:35:11.838Z - debug:  [15480] TFVC: add exit code: 0 (duration: 409ms)
+2018-03-07T07:35:11.838Z - debug:  [15480] TFVC Minimum required version: 14.102.0
+2018-03-07T07:35:11.838Z - debug:  [15480] TFVC (TF.exe, TF.cmd) version: 14.102.25619.0
+2018-03-07T07:35:11.838Z - debug:  [15480] TFVC Repository.FindWorkspace with localPath='c:\D\Timeinc Projects\CampaignBudgetTool\CampaignBudgetTool.Client'
+2018-03-07T07:35:11.853Z - debug:  [15480] TFVC: tf workfold -noprompt ********
+2018-03-07T07:35:11.853Z - debug:  [15480] TFVC: spawned new process (duration: 0ms)
+2018-03-07T07:35:14.175Z - debug:  [15480] TFVC: workfold exit code: 100 (duration: 2322ms)
+2018-03-07T07:35:14.190Z - debug:  [15480] TFVC errors (via stderr): TF30063: You are not authorized to access tmpcmamva02\CMAS.
+
+2018-03-07T07:35:14.190Z - error:  [15480] It appears you are using a Server workspace. Currently, TFVC support is limited to Local workspaces. TF30063: You are not authorized to access tmpcmamva02\CMAS.
+2018-03-12T05:03:44.574Z - info:   [04652] *** FOLDER: c:\D\Timeinc Projects\CampaignBudgetTool\CampaignBudgetTool.Client ***
+2018-03-12T05:03:44.576Z - info:   [04652] VSTSVSCode/1.122.0 (VSCode 1.20.1; Windows_NT 10.0.14393; Node 7.9.0)
+2018-03-12T05:03:44.577Z - debug:  [04652] Looking for an External Context at c:\D\Timeinc Projects\CampaignBudgetTool\CampaignBudgetTool.Client
+2018-03-12T05:03:44.577Z - debug:  [04652] No External Context at c:\D\Timeinc Projects\CampaignBudgetTool\CampaignBudgetTool.Client
+2018-03-12T05:03:44.580Z - debug:  [04652] Looking for TFVC repository at c:\D\Timeinc Projects\CampaignBudgetTool\CampaignBudgetTool.Client
+2018-03-12T05:03:44.580Z - debug:  [04652] TFVC Creating Tfvc object with localPath='undefined'
+2018-03-12T05:03:44.582Z - debug:  [04652] Using TFS proxy: 
+2018-03-12T05:03:44.582Z - debug:  [04652] TFVC Retrieved from settings; localPath='C:\Program Files (x86)\Microsoft Visual Studio 14.0\Common7\IDE\TF.exe'
+2018-03-12T05:03:44.583Z - debug:  [04652] TFVC Repository created with repositoryRootFolder='c:\D\Timeinc Projects\CampaignBudgetTool\CampaignBudgetTool.Client'
+2018-03-12T05:03:44.587Z - debug:  [04652] TFVC Repository.CheckVersion
+2018-03-12T05:03:44.595Z - debug:  [04652] TFVC: tf add -noprompt -?
+2018-03-12T05:03:44.611Z - debug:  [04652] TFVC: spawned new process (duration: 15ms)
+2018-03-12T05:03:44.621Z - debug:  [04652] TFVC: spawned new process (duration: 10ms)
+2018-03-12T05:03:45.365Z - debug:  [04652] TFVC: add exit code: 0 (duration: 770ms)
+2018-03-12T05:03:45.367Z - debug:  [04652] TFVC Minimum required version: 14.102.0
+2018-03-12T05:03:45.368Z - debug:  [04652] TFVC (TF.exe, TF.cmd) version: 14.102.25619.0
+2018-03-12T05:03:45.368Z - debug:  [04652] TFVC Repository.FindWorkspace with localPath='c:\D\Timeinc Projects\CampaignBudgetTool\CampaignBudgetTool.Client'
+2018-03-12T05:03:45.369Z - debug:  [04652] TFVC: tf workfold -noprompt ********
+2018-03-12T05:03:45.378Z - debug:  [04652] TFVC: spawned new process (duration: 8ms)
+2018-03-12T05:03:48.204Z - debug:  [04652] TFVC: workfold exit code: 100 (duration: 2835ms)
+2018-03-12T05:03:48.220Z - debug:  [04652] TFVC errors (via stderr): TF30063: You are not authorized to access tmpcmamva02\CMAS.
+
+2018-03-12T05:03:48.220Z - error:  [04652] It appears you are using a Server workspace. Currently, TFVC support is limited to Local workspaces. TF30063: You are not authorized to access tmpcmamva02\CMAS.
+2018-03-13T05:51:55.458Z - info:   [11780] *** FOLDER: c:\D\Timeinc Projects\CampaignBudgetTool\CampaignBudgetTool.Client ***
+2018-03-13T05:51:55.461Z - info:   [11780] VSTSVSCode/1.122.0 (VSCode 1.20.1; Windows_NT 10.0.14393; Node 7.9.0)
+2018-03-13T05:51:55.462Z - debug:  [11780] Looking for an External Context at c:\D\Timeinc Projects\CampaignBudgetTool\CampaignBudgetTool.Client
+2018-03-13T05:51:55.463Z - debug:  [11780] No External Context at c:\D\Timeinc Projects\CampaignBudgetTool\CampaignBudgetTool.Client
+2018-03-13T05:51:55.466Z - debug:  [11780] Looking for TFVC repository at c:\D\Timeinc Projects\CampaignBudgetTool\CampaignBudgetTool.Client
+2018-03-13T05:51:55.466Z - debug:  [11780] TFVC Creating Tfvc object with localPath='undefined'
+2018-03-13T05:51:55.473Z - debug:  [11780] Using TFS proxy: 
+2018-03-13T05:51:55.473Z - debug:  [11780] TFVC Retrieved from settings; localPath='C:\Program Files (x86)\Microsoft Visual Studio 14.0\Common7\IDE\TF.exe'
+2018-03-13T05:51:55.475Z - debug:  [11780] TFVC Repository created with repositoryRootFolder='c:\D\Timeinc Projects\CampaignBudgetTool\CampaignBudgetTool.Client'
+2018-03-13T05:51:55.478Z - debug:  [11780] TFVC Repository.CheckVersion
+2018-03-13T05:51:55.480Z - debug:  [11780] TFVC: tf add -noprompt -?
+2018-03-13T05:51:55.534Z - debug:  [11780] TFVC: spawned new process (duration: 53ms)
+2018-03-13T05:51:55.571Z - debug:  [11780] TFVC: spawned new process (duration: 36ms)
+2018-03-13T05:51:56.185Z - debug:  [11780] TFVC: add exit code: 0 (duration: 704ms)
+2018-03-13T05:51:56.188Z - debug:  [11780] TFVC Minimum required version: 14.102.0
+2018-03-13T05:51:56.188Z - debug:  [11780] TFVC (TF.exe, TF.cmd) version: 14.102.25619.0
+2018-03-13T05:51:56.189Z - debug:  [11780] TFVC Repository.FindWorkspace with localPath='c:\D\Timeinc Projects\CampaignBudgetTool\CampaignBudgetTool.Client'
+2018-03-13T05:51:56.190Z - debug:  [11780] TFVC: tf workfold -noprompt ********
+2018-03-13T05:51:56.199Z - debug:  [11780] TFVC: spawned new process (duration: 8ms)
+2018-03-13T05:53:45.388Z - info:   [13016] *** FOLDER: c:\D\Timeinc Projects\CampaignBudgetTool\CampaignBudgetTool.Client ***
+2018-03-13T05:53:45.392Z - info:   [13016] VSTSVSCode/1.122.0 (VSCode 1.21.0; Windows_NT 10.0.14393; Node 7.9.0)
+2018-03-13T05:53:45.393Z - debug:  [13016] Looking for an External Context at c:\D\Timeinc Projects\CampaignBudgetTool\CampaignBudgetTool.Client
+2018-03-13T05:53:45.394Z - debug:  [13016] No External Context at c:\D\Timeinc Projects\CampaignBudgetTool\CampaignBudgetTool.Client
+2018-03-13T05:53:45.397Z - debug:  [13016] Looking for TFVC repository at c:\D\Timeinc Projects\CampaignBudgetTool\CampaignBudgetTool.Client
+2018-03-13T05:53:45.398Z - debug:  [13016] TFVC Creating Tfvc object with localPath='undefined'
+2018-03-13T05:53:45.400Z - debug:  [13016] Using TFS proxy: 
+2018-03-13T05:53:45.401Z - debug:  [13016] TFVC Retrieved from settings; localPath='C:\Program Files (x86)\Microsoft Visual Studio 14.0\Common7\IDE\TF.exe'
+2018-03-13T05:53:45.402Z - debug:  [13016] TFVC Repository created with repositoryRootFolder='c:\D\Timeinc Projects\CampaignBudgetTool\CampaignBudgetTool.Client'
+2018-03-13T05:53:45.405Z - debug:  [13016] TFVC Repository.CheckVersion
+2018-03-13T05:53:45.408Z - debug:  [13016] TFVC: tf add -noprompt -?
+2018-03-13T05:53:45.426Z - debug:  [13016] TFVC: spawned new process (duration: 16ms)
+2018-03-13T05:53:45.455Z - debug:  [13016] TFVC: spawned new process (duration: 28ms)
+2018-03-13T05:53:46.303Z - debug:  [13016] TFVC: add exit code: 0 (duration: 894ms)
+2018-03-13T05:53:46.307Z - debug:  [13016] TFVC Minimum required version: 14.102.0
+2018-03-13T05:53:46.307Z - debug:  [13016] TFVC (TF.exe, TF.cmd) version: 14.102.25619.0
+2018-03-13T05:53:46.308Z - debug:  [13016] TFVC Repository.FindWorkspace with localPath='c:\D\Timeinc Projects\CampaignBudgetTool\CampaignBudgetTool.Client'
+2018-03-13T05:53:46.309Z - debug:  [13016] TFVC: tf workfold -noprompt ********
+2018-03-13T05:53:46.350Z - debug:  [13016] TFVC: spawned new process (duration: 40ms)
+2018-03-13T05:53:49.810Z - debug:  [13016] TFVC: workfold exit code: 100 (duration: 3501ms)
+2018-03-13T05:53:49.810Z - debug:  [13016] TFVC errors (via stderr): TF400324: Team Foundation services are not available from server tmpcmamva02\CMAS.
+Technical information (for administrator):
+  The remote name could not be resolved: 'tmpcmamva02'
+
+2018-03-13T05:53:49.810Z - error:  [13016] Execution of the TFVC command line failed unexpectedly. TF400324: Team Foundation services are not available from server tmpcmamva02\CMAS. Technical information (for administrator):   The remote name could not be resolved: 'tmpcmamva02'
+2018-03-13T06:42:49.936Z - info:   [13012] *** FOLDER: c:\D\Timeinc Projects\CampaignBudgetTool\CampaignBudgetTool.Client ***
+2018-03-13T06:42:49.939Z - info:   [13012] VSTSVSCode/1.122.0 (VSCode 1.21.0; Windows_NT 10.0.14393; Node 7.9.0)
+2018-03-13T06:42:49.941Z - debug:  [13012] Looking for an External Context at c:\D\Timeinc Projects\CampaignBudgetTool\CampaignBudgetTool.Client
+2018-03-13T06:42:49.941Z - debug:  [13012] No External Context at c:\D\Timeinc Projects\CampaignBudgetTool\CampaignBudgetTool.Client
+2018-03-13T06:42:49.943Z - debug:  [13012] Looking for TFVC repository at c:\D\Timeinc Projects\CampaignBudgetTool\CampaignBudgetTool.Client
+2018-03-13T06:42:49.944Z - debug:  [13012] TFVC Creating Tfvc object with localPath='undefined'
+2018-03-13T06:42:49.946Z - debug:  [13012] Using TFS proxy: 
+2018-03-13T06:42:49.946Z - debug:  [13012] TFVC Retrieved from settings; localPath='C:\Program Files (x86)\Microsoft Visual Studio 14.0\Common7\IDE\TF.exe'
+2018-03-13T06:42:49.948Z - debug:  [13012] TFVC Repository created with repositoryRootFolder='c:\D\Timeinc Projects\CampaignBudgetTool\CampaignBudgetTool.Client'
+2018-03-13T06:42:49.952Z - debug:  [13012] TFVC Repository.CheckVersion
+2018-03-13T06:42:49.952Z - debug:  [13012] TFVC: tf add -noprompt -?
+2018-03-13T06:42:49.972Z - debug:  [13012] TFVC: spawned new process (duration: 19ms)
+2018-03-13T06:42:50.003Z - debug:  [13012] TFVC: spawned new process (duration: 15ms)
+2018-03-13T06:42:50.304Z - debug:  [13012] TFVC: add exit code: 0 (duration: 352ms)
+2018-03-13T06:42:50.305Z - debug:  [13012] TFVC Minimum required version: 14.102.0
+2018-03-13T06:42:50.305Z - debug:  [13012] TFVC (TF.exe, TF.cmd) version: 14.102.25619.0
+2018-03-13T06:42:50.305Z - debug:  [13012] TFVC Repository.FindWorkspace with localPath='c:\D\Timeinc Projects\CampaignBudgetTool\CampaignBudgetTool.Client'
+2018-03-13T06:42:50.305Z - debug:  [13012] TFVC: tf workfold -noprompt ********
+2018-03-13T06:42:50.305Z - debug:  [13012] TFVC: spawned new process (duration: 0ms)
+2018-03-13T06:42:52.850Z - debug:  [13012] TFVC: workfold exit code: 100 (duration: 2545ms)
+2018-03-13T06:42:52.850Z - debug:  [13012] TFVC errors (via stderr): TF30063: You are not authorized to access tmpcmamva02\CMAS.
+
+2018-03-13T06:42:52.850Z - error:  [13012] It appears you are using a Server workspace. Currently, TFVC support is limited to Local workspaces. TF30063: You are not authorized to access tmpcmamva02\CMAS.
+2018-03-14T02:49:34.628Z - info:   [11464] *** FOLDER: c:\D\Timeinc Projects\CampaignBudgetTool\CampaignBudgetTool.Client ***
+2018-03-14T02:49:34.628Z - info:   [11464] VSTSVSCode/1.122.0 (VSCode 1.21.0; Windows_NT 10.0.14393; Node 7.9.0)
+2018-03-14T02:49:34.632Z - debug:  [11464] Looking for an External Context at c:\D\Timeinc Projects\CampaignBudgetTool\CampaignBudgetTool.Client
+2018-03-14T02:49:34.632Z - debug:  [11464] No External Context at c:\D\Timeinc Projects\CampaignBudgetTool\CampaignBudgetTool.Client
+2018-03-14T02:49:34.636Z - debug:  [11464] Looking for TFVC repository at c:\D\Timeinc Projects\CampaignBudgetTool\CampaignBudgetTool.Client
+2018-03-14T02:49:34.636Z - debug:  [11464] TFVC Creating Tfvc object with localPath='undefined'
+2018-03-14T02:49:34.644Z - debug:  [11464] Using TFS proxy: 
+2018-03-14T02:49:34.644Z - debug:  [11464] TFVC Retrieved from settings; localPath='C:\Program Files (x86)\Microsoft Visual Studio 14.0\Common7\IDE\TF.exe'
+2018-03-14T02:49:34.644Z - debug:  [11464] TFVC Repository created with repositoryRootFolder='c:\D\Timeinc Projects\CampaignBudgetTool\CampaignBudgetTool.Client'
+2018-03-14T02:49:34.648Z - debug:  [11464] TFVC Repository.CheckVersion
+2018-03-14T02:49:34.648Z - debug:  [11464] TFVC: tf add -noprompt -?
+2018-03-14T02:49:34.688Z - debug:  [11464] TFVC: spawned new process (duration: 40ms)
+2018-03-14T02:49:34.724Z - debug:  [11464] TFVC: spawned new process (duration: 36ms)
+2018-03-14T02:49:35.033Z - debug:  [11464] TFVC: add exit code: 0 (duration: 385ms)
+2018-03-14T02:49:35.033Z - debug:  [11464] TFVC Minimum required version: 14.102.0
+2018-03-14T02:49:35.033Z - debug:  [11464] TFVC (TF.exe, TF.cmd) version: 14.102.25619.0
+2018-03-14T02:49:35.033Z - debug:  [11464] TFVC Repository.FindWorkspace with localPath='c:\D\Timeinc Projects\CampaignBudgetTool\CampaignBudgetTool.Client'
+2018-03-14T02:49:35.037Z - debug:  [11464] TFVC: tf workfold -noprompt ********
+2018-03-14T02:49:35.045Z - debug:  [11464] TFVC: spawned new process (duration: 8ms)
+2018-03-14T02:49:38.033Z - debug:  [11464] TFVC: workfold exit code: 100 (duration: 2996ms)
+2018-03-14T02:49:38.037Z - debug:  [11464] TFVC errors (via stderr): TF400324: Team Foundation services are not available from server tmpcmamva02\CMAS.
+Technical information (for administrator):
+  The remote name could not be resolved: 'tmpcmamva02'
+
+2018-03-14T02:49:38.037Z - error:  [11464] Execution of the TFVC command line failed unexpectedly. TF400324: Team Foundation services are not available from server tmpcmamva02\CMAS. Technical information (for administrator):   The remote name could not be resolved: 'tmpcmamva02'
+2018-03-15T02:51:22.215Z - info:   [04128] *** FOLDER: c:\D\Timeinc Projects\CampaignBudgetTool\CampaignBudgetTool.Client ***
+2018-03-15T02:51:22.219Z - info:   [04128] VSTSVSCode/1.122.0 (VSCode 1.21.0; Windows_NT 10.0.14393; Node 7.9.0)
+2018-03-15T02:51:22.221Z - debug:  [04128] Looking for an External Context at c:\D\Timeinc Projects\CampaignBudgetTool\CampaignBudgetTool.Client
+2018-03-15T02:51:22.222Z - debug:  [04128] No External Context at c:\D\Timeinc Projects\CampaignBudgetTool\CampaignBudgetTool.Client
+2018-03-15T02:51:22.223Z - debug:  [04128] Looking for TFVC repository at c:\D\Timeinc Projects\CampaignBudgetTool\CampaignBudgetTool.Client
+2018-03-15T02:51:22.223Z - debug:  [04128] TFVC Creating Tfvc object with localPath='undefined'
+2018-03-15T02:51:22.223Z - debug:  [04128] Using TFS proxy: 
+2018-03-15T02:51:22.223Z - debug:  [04128] TFVC Retrieved from settings; localPath='C:\Program Files (x86)\Microsoft Visual Studio 14.0\Common7\IDE\TF.exe'
+2018-03-15T02:51:22.223Z - debug:  [04128] TFVC Repository created with repositoryRootFolder='c:\D\Timeinc Projects\CampaignBudgetTool\CampaignBudgetTool.Client'
+2018-03-15T02:51:22.223Z - debug:  [04128] TFVC Repository.CheckVersion
+2018-03-15T02:51:22.238Z - debug:  [04128] TFVC: tf add -noprompt -?
+2018-03-15T02:51:22.282Z - debug:  [04128] TFVC: spawned new process (duration: 44ms)
+2018-03-15T02:51:22.303Z - debug:  [04128] TFVC: spawned new process (duration: 21ms)
+2018-03-15T02:51:23.252Z - debug:  [04128] TFVC: add exit code: 0 (duration: 1014ms)
+2018-03-15T02:51:23.255Z - debug:  [04128] TFVC Minimum required version: 14.102.0
+2018-03-15T02:51:23.256Z - debug:  [04128] TFVC (TF.exe, TF.cmd) version: 14.102.25619.0
+2018-03-15T02:51:23.257Z - debug:  [04128] TFVC Repository.FindWorkspace with localPath='c:\D\Timeinc Projects\CampaignBudgetTool\CampaignBudgetTool.Client'
+2018-03-15T02:51:23.258Z - debug:  [04128] TFVC: tf workfold -noprompt ********
+2018-03-15T02:51:23.280Z - debug:  [04128] TFVC: spawned new process (duration: 21ms)
+2018-03-15T02:51:26.515Z - debug:  [04128] TFVC: workfold exit code: 100 (duration: 3257ms)
+2018-03-15T02:51:26.515Z - debug:  [04128] TFVC errors (via stderr): TF400324: Team Foundation services are not available from server tmpcmamva02\CMAS.
+Technical information (for administrator):
+  Unable to connect to the remote server
+
+2018-03-15T02:51:26.515Z - error:  [04128] Execution of the TFVC command line failed unexpectedly. TF400324: Team Foundation services are not available from server tmpcmamva02\CMAS. Technical information (for administrator):   Unable to connect to the remote server
+2018-03-15T03:29:16.816Z - info:   [04892] *** FOLDER: c:\D\Timeinc Projects\CampaignBudgetTool\CampaignBudgetTool.Client ***
+2018-03-15T03:29:16.819Z - info:   [04892] VSTSVSCode/1.122.0 (VSCode 1.21.0; Windows_NT 10.0.14393; Node 7.9.0)
+2018-03-15T03:29:16.820Z - debug:  [04892] Looking for an External Context at c:\D\Timeinc Projects\CampaignBudgetTool\CampaignBudgetTool.Client
+2018-03-15T03:29:16.820Z - debug:  [04892] No External Context at c:\D\Timeinc Projects\CampaignBudgetTool\CampaignBudgetTool.Client
+2018-03-15T03:29:16.823Z - debug:  [04892] Looking for TFVC repository at c:\D\Timeinc Projects\CampaignBudgetTool\CampaignBudgetTool.Client
+2018-03-15T03:29:16.824Z - debug:  [04892] TFVC Creating Tfvc object with localPath='undefined'
+2018-03-15T03:29:16.825Z - debug:  [04892] Using TFS proxy: 
+2018-03-15T03:29:16.826Z - debug:  [04892] TFVC Retrieved from settings; localPath='C:\Program Files (x86)\Microsoft Visual Studio 14.0\Common7\IDE\TF.exe'
+2018-03-15T03:29:16.827Z - debug:  [04892] TFVC Repository created with repositoryRootFolder='c:\D\Timeinc Projects\CampaignBudgetTool\CampaignBudgetTool.Client'
+2018-03-15T03:29:16.830Z - debug:  [04892] TFVC Repository.CheckVersion
+2018-03-15T03:29:16.832Z - debug:  [04892] TFVC: tf add -noprompt -?
+2018-03-15T03:29:16.864Z - debug:  [04892] TFVC: spawned new process (duration: 31ms)
+2018-03-15T03:29:16.879Z - debug:  [04892] TFVC: spawned new process (duration: 15ms)
+2018-03-15T03:29:17.297Z - debug:  [04892] TFVC: add exit code: 0 (duration: 465ms)
+2018-03-15T03:29:17.297Z - debug:  [04892] TFVC Minimum required version: 14.102.0
+2018-03-15T03:29:17.297Z - debug:  [04892] TFVC (TF.exe, TF.cmd) version: 14.102.25619.0
+2018-03-15T03:29:17.312Z - debug:  [04892] TFVC Repository.FindWorkspace with localPath='c:\D\Timeinc Projects\CampaignBudgetTool\CampaignBudgetTool.Client'
+2018-03-15T03:29:17.312Z - debug:  [04892] TFVC: tf workfold -noprompt ********
+2018-03-15T03:29:17.328Z - debug:  [04892] TFVC: spawned new process (duration: 16ms)
+2018-03-15T03:29:20.496Z - debug:  [04892] TFVC: workfold exit code: 100 (duration: 3184ms)
+2018-03-15T03:29:20.499Z - debug:  [04892] TFVC errors (via stderr): TF400324: Team Foundation services are not available from server tmpcmamva02\CMAS.
+Technical information (for administrator):
+  Unable to connect to the remote server
+
+2018-03-15T03:29:20.500Z - error:  [04892] Execution of the TFVC command line failed unexpectedly. TF400324: Team Foundation services are not available from server tmpcmamva02\CMAS. Technical information (for administrator):   Unable to connect to the remote server
+2018-03-15T06:40:55.568Z - info:   [11964] *** FOLDER: c:\D\Timeinc Projects\CampaignBudgetTool\CampaignBudgetTool.Client ***
+2018-03-15T06:40:55.570Z - info:   [11964] VSTSVSCode/1.122.0 (VSCode 1.21.0; Windows_NT 10.0.14393; Node 7.9.0)
+2018-03-15T06:40:55.572Z - debug:  [11964] Looking for an External Context at c:\D\Timeinc Projects\CampaignBudgetTool\CampaignBudgetTool.Client
+2018-03-15T06:40:55.572Z - debug:  [11964] No External Context at c:\D\Timeinc Projects\CampaignBudgetTool\CampaignBudgetTool.Client
+2018-03-15T06:40:55.575Z - debug:  [11964] Looking for TFVC repository at c:\D\Timeinc Projects\CampaignBudgetTool\CampaignBudgetTool.Client
+2018-03-15T06:40:55.575Z - debug:  [11964] TFVC Creating Tfvc object with localPath='undefined'
+2018-03-15T06:40:55.577Z - debug:  [11964] Using TFS proxy: 
+2018-03-15T06:40:55.578Z - debug:  [11964] TFVC Retrieved from settings; localPath='C:\Program Files (x86)\Microsoft Visual Studio 14.0\Common7\IDE\TF.exe'
+2018-03-15T06:40:55.581Z - debug:  [11964] TFVC Repository created with repositoryRootFolder='c:\D\Timeinc Projects\CampaignBudgetTool\CampaignBudgetTool.Client'
+2018-03-15T06:40:55.583Z - debug:  [11964] TFVC Repository.CheckVersion
+2018-03-15T06:40:55.585Z - debug:  [11964] TFVC: tf add -noprompt -?
+2018-03-15T06:40:55.632Z - debug:  [11964] TFVC: spawned new process (duration: 45ms)
+2018-03-15T06:40:55.660Z - debug:  [11964] TFVC: spawned new process (duration: 27ms)
+2018-03-15T06:40:56.117Z - debug:  [11964] TFVC: add exit code: 0 (duration: 531ms)
+2018-03-15T06:40:56.119Z - debug:  [11964] TFVC Minimum required version: 14.102.0
+2018-03-15T06:40:56.119Z - debug:  [11964] TFVC (TF.exe, TF.cmd) version: 14.102.25619.0
+2018-03-15T06:40:56.120Z - debug:  [11964] TFVC Repository.FindWorkspace with localPath='c:\D\Timeinc Projects\CampaignBudgetTool\CampaignBudgetTool.Client'
+2018-03-15T06:40:56.121Z - debug:  [11964] TFVC: tf workfold -noprompt ********
+2018-03-15T06:40:56.132Z - debug:  [11964] TFVC: spawned new process (duration: 9ms)
+2018-03-15T06:40:59.004Z - debug:  [11964] TFVC: workfold exit code: 100 (duration: 2883ms)
+2018-03-15T06:40:59.006Z - debug:  [11964] TFVC errors (via stderr): TF400324: Team Foundation services are not available from server tmpcmamva02\CMAS.
+Technical information (for administrator):
+  Unable to connect to the remote server
+
+2018-03-15T06:40:59.007Z - error:  [11964] Execution of the TFVC command line failed unexpectedly. TF400324: Team Foundation services are not available from server tmpcmamva02\CMAS. Technical information (for administrator):   Unable to connect to the remote server
+2018-03-15T12:09:02.945Z - info:   [16180] *** FOLDER: c:\D\Timeinc Projects\CampaignBudgetTool\CampaignBudgetTool.Client ***
+2018-03-15T12:09:02.949Z - info:   [16180] VSTSVSCode/1.122.0 (VSCode 1.21.0; Windows_NT 10.0.14393; Node 7.9.0)
+2018-03-15T12:09:02.949Z - debug:  [16180] Looking for an External Context at c:\D\Timeinc Projects\CampaignBudgetTool\CampaignBudgetTool.Client
+2018-03-15T12:09:02.949Z - debug:  [16180] No External Context at c:\D\Timeinc Projects\CampaignBudgetTool\CampaignBudgetTool.Client
+2018-03-15T12:09:02.953Z - debug:  [16180] Looking for TFVC repository at c:\D\Timeinc Projects\CampaignBudgetTool\CampaignBudgetTool.Client
+2018-03-15T12:09:02.953Z - debug:  [16180] TFVC Creating Tfvc object with localPath='undefined'
+2018-03-15T12:09:02.953Z - debug:  [16180] Using TFS proxy: 
+2018-03-15T12:09:02.957Z - debug:  [16180] TFVC Retrieved from settings; localPath='C:\Program Files (x86)\Microsoft Visual Studio 14.0\Common7\IDE\TF.exe'
+2018-03-15T12:09:02.957Z - debug:  [16180] TFVC Repository created with repositoryRootFolder='c:\D\Timeinc Projects\CampaignBudgetTool\CampaignBudgetTool.Client'
+2018-03-15T12:09:02.957Z - debug:  [16180] TFVC Repository.CheckVersion
+2018-03-15T12:09:02.961Z - debug:  [16180] TFVC: tf add -noprompt -?
+2018-03-15T12:09:02.981Z - debug:  [16180] TFVC: spawned new process (duration: 20ms)
+2018-03-15T12:09:03.009Z - debug:  [16180] TFVC: spawned new process (duration: 28ms)
+2018-03-15T12:09:03.374Z - debug:  [16180] TFVC: add exit code: 0 (duration: 398ms)
+2018-03-15T12:09:03.374Z - debug:  [16180] TFVC Minimum required version: 14.102.0
+2018-03-15T12:09:03.374Z - debug:  [16180] TFVC (TF.exe, TF.cmd) version: 14.102.25619.0
+2018-03-15T12:09:03.374Z - debug:  [16180] TFVC Repository.FindWorkspace with localPath='c:\D\Timeinc Projects\CampaignBudgetTool\CampaignBudgetTool.Client'
+2018-03-15T12:09:03.374Z - debug:  [16180] TFVC: tf workfold -noprompt ********
+2018-03-15T12:09:03.386Z - debug:  [16180] TFVC: spawned new process (duration: 12ms)
+2018-03-15T12:09:06.603Z - debug:  [16180] TFVC: workfold exit code: 100 (duration: 3229ms)
+2018-03-15T12:09:06.607Z - debug:  [16180] TFVC errors (via stderr): TF30063: You are not authorized to access tmpcmamva02\CMAS.
+
+2018-03-15T12:09:06.607Z - error:  [16180] It appears you are using a Server workspace. Currently, TFVC support is limited to Local workspaces. TF30063: You are not authorized to access tmpcmamva02\CMAS.
+2018-03-15T12:13:35.879Z - info:   [10952] *** FOLDER: c:\D\Timeinc Projects\CampaignBudgetTool\CampaignBudgetTool.Client ***
+2018-03-15T12:13:35.879Z - info:   [10952] VSTSVSCode/1.122.0 (VSCode 1.21.0; Windows_NT 10.0.14393; Node 7.9.0)
+2018-03-15T12:13:35.879Z - debug:  [10952] Looking for an External Context at c:\D\Timeinc Projects\CampaignBudgetTool\CampaignBudgetTool.Client
+2018-03-15T12:13:35.879Z - debug:  [10952] No External Context at c:\D\Timeinc Projects\CampaignBudgetTool\CampaignBudgetTool.Client
+2018-03-15T12:13:35.895Z - debug:  [10952] Looking for TFVC repository at c:\D\Timeinc Projects\CampaignBudgetTool\CampaignBudgetTool.Client
+2018-03-15T12:13:35.895Z - debug:  [10952] TFVC Creating Tfvc object with localPath='undefined'
+2018-03-15T12:13:35.895Z - debug:  [10952] Using TFS proxy: 
+2018-03-15T12:13:35.895Z - debug:  [10952] TFVC Retrieved from settings; localPath='C:\Program Files (x86)\Microsoft Visual Studio 14.0\Common7\IDE\TF.exe'
+2018-03-15T12:13:35.895Z - debug:  [10952] TFVC Repository created with repositoryRootFolder='c:\D\Timeinc Projects\CampaignBudgetTool\CampaignBudgetTool.Client'
+2018-03-15T12:13:35.895Z - debug:  [10952] TFVC Repository.CheckVersion
+2018-03-15T12:13:35.895Z - debug:  [10952] TFVC: tf add -noprompt -?
+2018-03-15T12:13:36.078Z - debug:  [10952] TFVC: spawned new process (duration: 167ms)
+2018-03-15T12:13:36.124Z - debug:  [10952] TFVC: spawned new process (duration: 46ms)
+2018-03-15T12:13:39.890Z - debug:  [10952] TFVC: add exit code: 0 (duration: 3995ms)
+2018-03-15T12:13:39.890Z - debug:  [10952] TFVC Minimum required version: 14.102.0
+2018-03-15T12:13:39.890Z - debug:  [10952] TFVC (TF.exe, TF.cmd) version: 14.102.25619.0
+2018-03-15T12:13:39.890Z - debug:  [10952] TFVC Repository.FindWorkspace with localPath='c:\D\Timeinc Projects\CampaignBudgetTool\CampaignBudgetTool.Client'
+2018-03-15T12:13:39.890Z - debug:  [10952] TFVC: tf workfold -noprompt ********
+2018-03-15T12:13:39.999Z - debug:  [10952] TFVC: spawned new process (duration: 109ms)
+2018-03-15T12:14:00.131Z - debug:  [10952] TFVC: workfold exit code: 100 (duration: 20241ms)
+2018-03-15T12:14:00.135Z - debug:  [10952] TFVC errors (via stderr): TF400324: Team Foundation services are not available from server tmpcmamva02\CMAS.
+Technical information (for administrator):
+  The remote name could not be resolved: 'tmpcmamva02'
+
+2018-03-15T12:14:00.135Z - error:  [10952] Execution of the TFVC command line failed unexpectedly. TF400324: Team Foundation services are not available from server tmpcmamva02\CMAS. Technical information (for administrator):   The remote name could not be resolved: 'tmpcmamva02'
+2018-03-16T03:09:42.373Z - info:   [16368] *** FOLDER: c:\D\Timeinc Projects\CampaignBudgetTool\CampaignBudgetTool.Client ***
+2018-03-16T03:09:42.373Z - info:   [16368] VSTSVSCode/1.122.0 (VSCode 1.21.0; Windows_NT 10.0.14393; Node 7.9.0)
+2018-03-16T03:09:42.377Z - debug:  [16368] Looking for an External Context at c:\D\Timeinc Projects\CampaignBudgetTool\CampaignBudgetTool.Client
+2018-03-16T03:09:42.377Z - debug:  [16368] No External Context at c:\D\Timeinc Projects\CampaignBudgetTool\CampaignBudgetTool.Client
+2018-03-16T03:09:42.381Z - debug:  [16368] Looking for TFVC repository at c:\D\Timeinc Projects\CampaignBudgetTool\CampaignBudgetTool.Client
+2018-03-16T03:09:42.381Z - debug:  [16368] TFVC Creating Tfvc object with localPath='undefined'
+2018-03-16T03:09:42.381Z - debug:  [16368] Using TFS proxy: 
+2018-03-16T03:09:42.381Z - debug:  [16368] TFVC Retrieved from settings; localPath='C:\Program Files (x86)\Microsoft Visual Studio 14.0\Common7\IDE\TF.exe'
+2018-03-16T03:09:42.385Z - debug:  [16368] TFVC Repository created with repositoryRootFolder='c:\D\Timeinc Projects\CampaignBudgetTool\CampaignBudgetTool.Client'
+2018-03-16T03:09:42.389Z - debug:  [16368] TFVC Repository.CheckVersion
+2018-03-16T03:09:42.389Z - debug:  [16368] TFVC: tf add -noprompt -?
+2018-03-16T03:09:42.421Z - debug:  [16368] TFVC: spawned new process (duration: 28ms)
+2018-03-16T03:09:42.437Z - debug:  [16368] TFVC: spawned new process (duration: 16ms)
+2018-03-16T03:09:42.973Z - debug:  [16368] TFVC: add exit code: 0 (duration: 584ms)
+2018-03-16T03:09:42.973Z - debug:  [16368] TFVC Minimum required version: 14.102.0
+2018-03-16T03:09:42.973Z - debug:  [16368] TFVC (TF.exe, TF.cmd) version: 14.102.25619.0
+2018-03-16T03:09:42.973Z - debug:  [16368] TFVC Repository.FindWorkspace with localPath='c:\D\Timeinc Projects\CampaignBudgetTool\CampaignBudgetTool.Client'
+2018-03-16T03:09:42.989Z - debug:  [16368] TFVC: tf workfold -noprompt ********
+2018-03-16T03:09:42.989Z - debug:  [16368] TFVC: spawned new process (duration: 0ms)
+2018-03-16T03:09:46.302Z - debug:  [16368] TFVC: workfold exit code: 100 (duration: 3309ms)
+2018-03-16T03:09:46.302Z - debug:  [16368] TFVC errors (via stderr): TF30063: You are not authorized to access tmpcmamva02\CMAS.
+
+2018-03-16T03:09:46.302Z - error:  [16368] It appears you are using a Server workspace. Currently, TFVC support is limited to Local workspaces. TF30063: You are not authorized to access tmpcmamva02\CMAS.
+2018-03-16T05:02:28.163Z - info:   [09744] *** FOLDER: c:\D\Timeinc Projects\CampaignBudgetTool\CampaignBudgetTool.Client ***
+2018-03-16T05:02:28.163Z - info:   [09744] VSTSVSCode/1.122.0 (VSCode 1.21.0; Windows_NT 10.0.14393; Node 7.9.0)
+2018-03-16T05:02:28.163Z - debug:  [09744] Looking for an External Context at c:\D\Timeinc Projects\CampaignBudgetTool\CampaignBudgetTool.Client
+2018-03-16T05:02:28.163Z - debug:  [09744] No External Context at c:\D\Timeinc Projects\CampaignBudgetTool\CampaignBudgetTool.Client
+2018-03-16T05:02:28.163Z - debug:  [09744] Looking for TFVC repository at c:\D\Timeinc Projects\CampaignBudgetTool\CampaignBudgetTool.Client
+2018-03-16T05:02:28.163Z - debug:  [09744] TFVC Creating Tfvc object with localPath='undefined'
+2018-03-16T05:02:28.179Z - debug:  [09744] Using TFS proxy: 
+2018-03-16T05:02:28.179Z - debug:  [09744] TFVC Retrieved from settings; localPath='C:\Program Files (x86)\Microsoft Visual Studio 14.0\Common7\IDE\TF.exe'
+2018-03-16T05:02:28.179Z - debug:  [09744] TFVC Repository created with repositoryRootFolder='c:\D\Timeinc Projects\CampaignBudgetTool\CampaignBudgetTool.Client'
+2018-03-16T05:02:28.194Z - debug:  [09744] TFVC Repository.CheckVersion
+2018-03-16T05:02:28.194Z - debug:  [09744] TFVC: tf add -noprompt -?
+2018-03-16T05:02:28.319Z - debug:  [09744] TFVC: spawned new process (duration: 125ms)
+2018-03-16T05:02:28.335Z - debug:  [09744] TFVC: spawned new process (duration: 16ms)
+2018-03-16T05:02:29.284Z - debug:  [09744] TFVC: add exit code: 0 (duration: 1090ms)
+2018-03-16T05:02:29.284Z - debug:  [09744] TFVC Minimum required version: 14.102.0
+2018-03-16T05:02:29.284Z - debug:  [09744] TFVC (TF.exe, TF.cmd) version: 14.102.25619.0
+2018-03-16T05:02:29.284Z - debug:  [09744] TFVC Repository.FindWorkspace with localPath='c:\D\Timeinc Projects\CampaignBudgetTool\CampaignBudgetTool.Client'
+2018-03-16T05:02:29.284Z - debug:  [09744] TFVC: tf workfold -noprompt ********
+2018-03-16T05:02:29.300Z - debug:  [09744] TFVC: spawned new process (duration: 16ms)
+2018-03-16T05:02:32.541Z - debug:  [09744] TFVC: workfold exit code: 100 (duration: 3257ms)
+2018-03-16T05:02:32.541Z - debug:  [09744] TFVC errors (via stderr): TF30063: You are not authorized to access tmpcmamva02\CMAS.
+
+2018-03-16T05:02:32.541Z - error:  [09744] It appears you are using a Server workspace. Currently, TFVC support is limited to Local workspaces. TF30063: You are not authorized to access tmpcmamva02\CMAS.
+2018-03-20T02:54:20.729Z - info:   [05944] *** FOLDER: c:\D\Timeinc Projects\CampaignBudgetTool\CampaignBudgetTool.Client ***
+2018-03-20T02:54:20.733Z - info:   [05944] VSTSVSCode/1.122.0 (VSCode 1.21.0; Windows_NT 10.0.14393; Node 7.9.0)
+2018-03-20T02:54:20.734Z - debug:  [05944] Looking for an External Context at c:\D\Timeinc Projects\CampaignBudgetTool\CampaignBudgetTool.Client
+2018-03-20T02:54:20.734Z - debug:  [05944] No External Context at c:\D\Timeinc Projects\CampaignBudgetTool\CampaignBudgetTool.Client
+2018-03-20T02:54:20.738Z - debug:  [05944] Looking for TFVC repository at c:\D\Timeinc Projects\CampaignBudgetTool\CampaignBudgetTool.Client
+2018-03-20T02:54:20.739Z - debug:  [05944] TFVC Creating Tfvc object with localPath='undefined'
+2018-03-20T02:54:20.744Z - debug:  [05944] Using TFS proxy: 
+2018-03-20T02:54:20.745Z - debug:  [05944] TFVC Retrieved from settings; localPath='C:\Program Files (x86)\Microsoft Visual Studio 14.0\Common7\IDE\TF.exe'
+2018-03-20T02:54:20.748Z - debug:  [05944] TFVC Repository created with repositoryRootFolder='c:\D\Timeinc Projects\CampaignBudgetTool\CampaignBudgetTool.Client'
+2018-03-20T02:54:20.750Z - debug:  [05944] TFVC Repository.CheckVersion
+2018-03-20T02:54:20.752Z - debug:  [05944] TFVC: tf add -noprompt -?
+2018-03-20T02:54:20.801Z - debug:  [05944] TFVC: spawned new process (duration: 48ms)
+2018-03-20T02:54:20.860Z - debug:  [05944] TFVC: spawned new process (duration: 58ms)
+2018-03-20T02:54:21.370Z - debug:  [05944] TFVC: add exit code: 0 (duration: 617ms)
+2018-03-20T02:54:21.373Z - debug:  [05944] TFVC Minimum required version: 14.102.0
+2018-03-20T02:54:21.373Z - debug:  [05944] TFVC (TF.exe, TF.cmd) version: 14.102.25619.0
+2018-03-20T02:54:21.376Z - debug:  [05944] TFVC Repository.FindWorkspace with localPath='c:\D\Timeinc Projects\CampaignBudgetTool\CampaignBudgetTool.Client'
+2018-03-20T02:54:21.377Z - debug:  [05944] TFVC: tf workfold -noprompt ********
+2018-03-20T02:54:21.387Z - debug:  [05944] TFVC: spawned new process (duration: 9ms)
+2018-03-20T02:54:23.384Z - debug:  [05944] TFVC: workfold exit code: 100 (duration: 2006ms)
+2018-03-20T02:54:23.386Z - debug:  [05944] TFVC errors (via stderr): TF30063: You are not authorized to access tmpcmamva02\CMAS.
+
+2018-03-20T02:54:23.388Z - error:  [05944] It appears you are using a Server workspace. Currently, TFVC support is limited to Local workspaces. TF30063: You are not authorized to access tmpcmamva02\CMAS.
+2018-03-21T02:54:26.113Z - info:   [10944] *** FOLDER: c:\D\Timeinc Projects\CampaignBudgetTool\CampaignBudgetTool.Client ***
+2018-03-21T02:54:26.125Z - info:   [10944] VSTSVSCode/1.122.0 (VSCode 1.21.0; Windows_NT 10.0.14393; Node 7.9.0)
+2018-03-21T02:54:26.125Z - debug:  [10944] Looking for an External Context at c:\D\Timeinc Projects\CampaignBudgetTool\CampaignBudgetTool.Client
+2018-03-21T02:54:26.125Z - debug:  [10944] No External Context at c:\D\Timeinc Projects\CampaignBudgetTool\CampaignBudgetTool.Client
+2018-03-21T02:54:26.129Z - debug:  [10944] Looking for TFVC repository at c:\D\Timeinc Projects\CampaignBudgetTool\CampaignBudgetTool.Client
+2018-03-21T02:54:26.129Z - debug:  [10944] TFVC Creating Tfvc object with localPath='undefined'
+2018-03-21T02:54:26.133Z - debug:  [10944] Using TFS proxy: 
+2018-03-21T02:54:26.133Z - debug:  [10944] TFVC Retrieved from settings; localPath='C:\Program Files (x86)\Microsoft Visual Studio 14.0\Common7\IDE\TF.exe'
+2018-03-21T02:54:26.141Z - debug:  [10944] TFVC Repository created with repositoryRootFolder='c:\D\Timeinc Projects\CampaignBudgetTool\CampaignBudgetTool.Client'
+2018-03-21T02:54:26.141Z - debug:  [10944] TFVC Repository.CheckVersion
+2018-03-21T02:54:26.145Z - debug:  [10944] TFVC: tf add -noprompt -?
+2018-03-21T02:54:26.197Z - debug:  [10944] TFVC: spawned new process (duration: 52ms)
+2018-03-21T02:54:26.213Z - debug:  [10944] TFVC: spawned new process (duration: 16ms)
+2018-03-21T02:54:27.493Z - debug:  [10944] TFVC: add exit code: 0 (duration: 1348ms)
+2018-03-21T02:54:27.493Z - debug:  [10944] TFVC Minimum required version: 14.102.0
+2018-03-21T02:54:27.493Z - debug:  [10944] TFVC (TF.exe, TF.cmd) version: 14.102.25619.0
+2018-03-21T02:54:27.493Z - debug:  [10944] TFVC Repository.FindWorkspace with localPath='c:\D\Timeinc Projects\CampaignBudgetTool\CampaignBudgetTool.Client'
+2018-03-21T02:54:27.493Z - debug:  [10944] TFVC: tf workfold -noprompt ********
+2018-03-21T02:54:27.554Z - debug:  [10944] TFVC: spawned new process (duration: 61ms)
+2018-03-21T02:54:32.062Z - debug:  [10944] TFVC: workfold exit code: 100 (duration: 4569ms)
+2018-03-21T02:54:32.066Z - debug:  [10944] TFVC errors (via stderr): TF30063: You are not authorized to access tmpcmamva02\CMAS.
+
+2018-03-21T02:54:32.066Z - error:  [10944] It appears you are using a Server workspace. Currently, TFVC support is limited to Local workspaces. TF30063: You are not authorized to access tmpcmamva02\CMAS.
+2018-03-21T02:59:16.936Z - info:   [08272] *** FOLDER: c:\D\Timeinc Projects\CampaignBudgetTool\CampaignBudgetTool.Client ***
+2018-03-21T02:59:16.938Z - info:   [08272] VSTSVSCode/1.122.0 (VSCode 1.21.1; Windows_NT 10.0.14393; Node 7.9.0)
+2018-03-21T02:59:16.939Z - debug:  [08272] Looking for an External Context at c:\D\Timeinc Projects\CampaignBudgetTool\CampaignBudgetTool.Client
+2018-03-21T02:59:16.939Z - debug:  [08272] No External Context at c:\D\Timeinc Projects\CampaignBudgetTool\CampaignBudgetTool.Client
+2018-03-21T02:59:16.942Z - debug:  [08272] Looking for TFVC repository at c:\D\Timeinc Projects\CampaignBudgetTool\CampaignBudgetTool.Client
+2018-03-21T02:59:16.942Z - debug:  [08272] TFVC Creating Tfvc object with localPath='undefined'
+2018-03-21T02:59:16.945Z - debug:  [08272] Using TFS proxy: 
+2018-03-21T02:59:16.945Z - debug:  [08272] TFVC Retrieved from settings; localPath='C:\Program Files (x86)\Microsoft Visual Studio 14.0\Common7\IDE\TF.exe'
+2018-03-21T02:59:16.946Z - debug:  [08272] TFVC Repository created with repositoryRootFolder='c:\D\Timeinc Projects\CampaignBudgetTool\CampaignBudgetTool.Client'
+2018-03-21T02:59:16.947Z - debug:  [08272] TFVC Repository.CheckVersion
+2018-03-21T02:59:16.948Z - debug:  [08272] TFVC: tf add -noprompt -?
+2018-03-21T02:59:16.970Z - debug:  [08272] TFVC: spawned new process (duration: 21ms)
+2018-03-21T02:59:16.990Z - debug:  [08272] TFVC: spawned new process (duration: 19ms)
+2018-03-21T02:59:17.305Z - debug:  [08272] TFVC: add exit code: 0 (duration: 356ms)
+2018-03-21T02:59:17.305Z - debug:  [08272] TFVC Minimum required version: 14.102.0
+2018-03-21T02:59:17.305Z - debug:  [08272] TFVC (TF.exe, TF.cmd) version: 14.102.25619.0
+2018-03-21T02:59:17.305Z - debug:  [08272] TFVC Repository.FindWorkspace with localPath='c:\D\Timeinc Projects\CampaignBudgetTool\CampaignBudgetTool.Client'
+2018-03-21T02:59:17.305Z - debug:  [08272] TFVC: tf workfold -noprompt ********
+2018-03-21T02:59:17.321Z - debug:  [08272] TFVC: spawned new process (duration: 16ms)
+2018-03-21T02:59:19.239Z - debug:  [08272] TFVC: workfold exit code: 100 (duration: 1934ms)
+2018-03-21T02:59:19.241Z - debug:  [08272] TFVC errors (via stderr): TF30063: You are not authorized to access tmpcmamva02\CMAS.
+
+2018-03-21T02:59:19.242Z - error:  [08272] It appears you are using a Server workspace. Currently, TFVC support is limited to Local workspaces. TF30063: You are not authorized to access tmpcmamva02\CMAS.
+2018-03-22T03:16:15.639Z - info:   [13072] *** FOLDER: c:\D\Timeinc Projects\CampaignBudgetTool\CampaignBudgetTool.Client ***
+2018-03-22T03:16:15.643Z - info:   [13072] VSTSVSCode/1.122.0 (VSCode 1.21.1; Windows_NT 10.0.14393; Node 7.9.0)
+2018-03-22T03:16:15.643Z - debug:  [13072] Looking for an External Context at c:\D\Timeinc Projects\CampaignBudgetTool\CampaignBudgetTool.Client
+2018-03-22T03:16:15.643Z - debug:  [13072] No External Context at c:\D\Timeinc Projects\CampaignBudgetTool\CampaignBudgetTool.Client
+2018-03-22T03:16:15.651Z - debug:  [13072] Looking for TFVC repository at c:\D\Timeinc Projects\CampaignBudgetTool\CampaignBudgetTool.Client
+2018-03-22T03:16:15.651Z - debug:  [13072] TFVC Creating Tfvc object with localPath='undefined'
+2018-03-22T03:16:15.655Z - debug:  [13072] Using TFS proxy: 
+2018-03-22T03:16:15.655Z - debug:  [13072] TFVC Retrieved from settings; localPath='C:\Program Files (x86)\Microsoft Visual Studio 14.0\Common7\IDE\TF.exe'
+2018-03-22T03:16:15.655Z - debug:  [13072] TFVC Repository created with repositoryRootFolder='c:\D\Timeinc Projects\CampaignBudgetTool\CampaignBudgetTool.Client'
+2018-03-22T03:16:15.659Z - debug:  [13072] TFVC Repository.CheckVersion
+2018-03-22T03:16:15.663Z - debug:  [13072] TFVC: tf add -noprompt -?
+2018-03-22T03:16:15.731Z - debug:  [13072] TFVC: spawned new process (duration: 64ms)
+2018-03-22T03:16:15.795Z - debug:  [13072] TFVC: spawned new process (duration: 64ms)
+2018-03-22T03:16:16.121Z - debug:  [13072] TFVC: add exit code: 0 (duration: 458ms)
+2018-03-22T03:16:16.137Z - debug:  [13072] TFVC Minimum required version: 14.102.0
+2018-03-22T03:16:16.137Z - debug:  [13072] TFVC (TF.exe, TF.cmd) version: 14.102.25619.0
+2018-03-22T03:16:16.137Z - debug:  [13072] TFVC Repository.FindWorkspace with localPath='c:\D\Timeinc Projects\CampaignBudgetTool\CampaignBudgetTool.Client'
+2018-03-22T03:16:16.137Z - debug:  [13072] TFVC: tf workfold -noprompt ********
+2018-03-22T03:16:16.153Z - debug:  [13072] TFVC: spawned new process (duration: 16ms)
+2018-03-22T03:16:18.812Z - debug:  [13072] TFVC: workfold exit code: 100 (duration: 2675ms)
+2018-03-22T03:16:18.812Z - debug:  [13072] TFVC errors (via stderr): TF30063: You are not authorized to access tmpcmamva02\CMAS.
+
+2018-03-22T03:16:18.812Z - error:  [13072] It appears you are using a Server workspace. Currently, TFVC support is limited to Local workspaces. TF30063: You are not authorized to access tmpcmamva02\CMAS.
+2018-03-26T07:17:38.113Z - info:   [0840] *** FOLDER: c:\D\Timeinc Projects\CampaignBudgetTool\CampaignBudgetTool.Client ***
+2018-03-26T07:17:38.117Z - info:   [0840] VSTSVSCode/1.122.0 (VSCode 1.21.1; Windows_NT 10.0.14393; Node 7.9.0)
+2018-03-26T07:17:38.117Z - debug:  [0840] Looking for an External Context at c:\D\Timeinc Projects\CampaignBudgetTool\CampaignBudgetTool.Client
+2018-03-26T07:17:38.117Z - debug:  [0840] No External Context at c:\D\Timeinc Projects\CampaignBudgetTool\CampaignBudgetTool.Client
+2018-03-26T07:17:38.117Z - debug:  [0840] Looking for TFVC repository at c:\D\Timeinc Projects\CampaignBudgetTool\CampaignBudgetTool.Client
+2018-03-26T07:17:38.121Z - debug:  [0840] TFVC Creating Tfvc object with localPath='undefined'
+2018-03-26T07:17:38.121Z - debug:  [0840] Using TFS proxy: 
+2018-03-26T07:17:38.121Z - debug:  [0840] TFVC Retrieved from settings; localPath='C:\Program Files (x86)\Microsoft Visual Studio 14.0\Common7\IDE\TF.exe'
+2018-03-26T07:17:38.121Z - debug:  [0840] TFVC Repository created with repositoryRootFolder='c:\D\Timeinc Projects\CampaignBudgetTool\CampaignBudgetTool.Client'
+2018-03-26T07:17:38.125Z - debug:  [0840] TFVC Repository.CheckVersion
+2018-03-26T07:17:38.125Z - debug:  [0840] TFVC: tf add -noprompt -?
+2018-03-26T07:17:38.137Z - debug:  [0840] TFVC: spawned new process (duration: 12ms)
+2018-03-26T07:17:38.161Z - debug:  [0840] TFVC: spawned new process (duration: 24ms)
+2018-03-26T07:17:38.570Z - debug:  [0840] TFVC: add exit code: 0 (duration: 445ms)
+2018-03-26T07:17:38.574Z - debug:  [0840] TFVC Minimum required version: 14.102.0
+2018-03-26T07:17:38.574Z - debug:  [0840] TFVC (TF.exe, TF.cmd) version: 14.102.25619.0
+2018-03-26T07:17:38.574Z - debug:  [0840] TFVC Repository.FindWorkspace with localPath='c:\D\Timeinc Projects\CampaignBudgetTool\CampaignBudgetTool.Client'
+2018-03-26T07:17:38.574Z - debug:  [0840] TFVC: tf workfold -noprompt ********
+2018-03-26T07:17:38.586Z - debug:  [0840] TFVC: spawned new process (duration: 12ms)
+2018-03-26T07:17:40.814Z - debug:  [0840] TFVC: workfold exit code: 100 (duration: 2240ms)
+2018-03-26T07:17:40.814Z - debug:  [0840] TFVC errors (via stderr): TF30063: You are not authorized to access tmpcmamva02\CMAS.
+
+2018-03-26T07:17:40.814Z - error:  [0840] It appears you are using a Server workspace. Currently, TFVC support is limited to Local workspaces. TF30063: You are not authorized to access tmpcmamva02\CMAS.
+2018-03-27T04:20:33.945Z - info:   [07192] *** FOLDER: c:\D\Timeinc Projects\CampaignBudgetTool\CampaignBudgetTool.Client ***
+2018-03-27T04:20:33.947Z - info:   [07192] VSTSVSCode/1.122.0 (VSCode 1.21.1; Windows_NT 10.0.14393; Node 7.9.0)
+2018-03-27T04:20:33.949Z - debug:  [07192] Looking for an External Context at c:\D\Timeinc Projects\CampaignBudgetTool\CampaignBudgetTool.Client
+2018-03-27T04:20:33.949Z - debug:  [07192] No External Context at c:\D\Timeinc Projects\CampaignBudgetTool\CampaignBudgetTool.Client
+2018-03-27T04:20:33.952Z - debug:  [07192] Looking for TFVC repository at c:\D\Timeinc Projects\CampaignBudgetTool\CampaignBudgetTool.Client
+2018-03-27T04:20:33.953Z - debug:  [07192] TFVC Creating Tfvc object with localPath='undefined'
+2018-03-27T04:20:33.956Z - debug:  [07192] Using TFS proxy: 
+2018-03-27T04:20:33.956Z - debug:  [07192] TFVC Retrieved from settings; localPath='C:\Program Files (x86)\Microsoft Visual Studio 14.0\Common7\IDE\TF.exe'
+2018-03-27T04:20:33.957Z - debug:  [07192] TFVC Repository created with repositoryRootFolder='c:\D\Timeinc Projects\CampaignBudgetTool\CampaignBudgetTool.Client'
+2018-03-27T04:20:33.960Z - debug:  [07192] TFVC Repository.CheckVersion
+2018-03-27T04:20:33.962Z - debug:  [07192] TFVC: tf add -noprompt -?
+2018-03-27T04:20:34.018Z - debug:  [07192] TFVC: spawned new process (duration: 54ms)
+2018-03-27T04:20:34.051Z - debug:  [07192] TFVC: spawned new process (duration: 32ms)
+2018-03-27T04:20:34.723Z - debug:  [07192] TFVC: add exit code: 0 (duration: 760ms)
+2018-03-27T04:20:34.723Z - debug:  [07192] TFVC Minimum required version: 14.102.0
+2018-03-27T04:20:34.723Z - debug:  [07192] TFVC (TF.exe, TF.cmd) version: 14.102.25619.0
+2018-03-27T04:20:34.723Z - debug:  [07192] TFVC Repository.FindWorkspace with localPath='c:\D\Timeinc Projects\CampaignBudgetTool\CampaignBudgetTool.Client'
+2018-03-27T04:20:34.723Z - debug:  [07192] TFVC: tf workfold -noprompt ********
+2018-03-27T04:20:34.739Z - debug:  [07192] TFVC: spawned new process (duration: 16ms)
+2018-03-27T04:20:36.738Z - debug:  [07192] TFVC: workfold exit code: 100 (duration: 2015ms)
+2018-03-27T04:20:36.740Z - debug:  [07192] TFVC errors (via stderr): TF30063: You are not authorized to access tmpcmamva02\CMAS.
+
+2018-03-27T04:20:36.741Z - error:  [07192] It appears you are using a Server workspace. Currently, TFVC support is limited to Local workspaces. TF30063: You are not authorized to access tmpcmamva02\CMAS.
+2018-03-28T05:50:54.472Z - info:   [10940] *** FOLDER: c:\D\Timeinc Projects\CampaignBudgetTool\CampaignBudgetTool.Client ***
+2018-03-28T05:50:54.475Z - info:   [10940] VSTSVSCode/1.122.0 (VSCode 1.21.1; Windows_NT 10.0.14393; Node 7.9.0)
+2018-03-28T05:50:54.476Z - debug:  [10940] Looking for an External Context at c:\D\Timeinc Projects\CampaignBudgetTool\CampaignBudgetTool.Client
+2018-03-28T05:50:54.477Z - debug:  [10940] No External Context at c:\D\Timeinc Projects\CampaignBudgetTool\CampaignBudgetTool.Client
+2018-03-28T05:50:54.480Z - debug:  [10940] Looking for TFVC repository at c:\D\Timeinc Projects\CampaignBudgetTool\CampaignBudgetTool.Client
+2018-03-28T05:50:54.480Z - debug:  [10940] TFVC Creating Tfvc object with localPath='undefined'
+2018-03-28T05:50:54.483Z - debug:  [10940] Using TFS proxy: 
+2018-03-28T05:50:54.484Z - debug:  [10940] TFVC Retrieved from settings; localPath='C:\Program Files (x86)\Microsoft Visual Studio 14.0\Common7\IDE\TF.exe'
+2018-03-28T05:50:54.509Z - debug:  [10940] TFVC Repository created with repositoryRootFolder='c:\D\Timeinc Projects\CampaignBudgetTool\CampaignBudgetTool.Client'
+2018-03-28T05:50:54.513Z - debug:  [10940] TFVC Repository.CheckVersion
+2018-03-28T05:50:54.516Z - debug:  [10940] TFVC: tf add -noprompt -?
+2018-03-28T05:50:54.652Z - debug:  [10940] TFVC: spawned new process (duration: 134ms)
+2018-03-28T05:50:54.668Z - debug:  [10940] TFVC: spawned new process (duration: 16ms)
+2018-03-28T05:50:55.883Z - debug:  [10940] TFVC: add exit code: 0 (duration: 1366ms)
+2018-03-28T05:50:55.883Z - debug:  [10940] TFVC Minimum required version: 14.102.0
+2018-03-28T05:50:55.883Z - debug:  [10940] TFVC (TF.exe, TF.cmd) version: 14.102.25619.0
+2018-03-28T05:50:55.883Z - debug:  [10940] TFVC Repository.FindWorkspace with localPath='c:\D\Timeinc Projects\CampaignBudgetTool\CampaignBudgetTool.Client'
+2018-03-28T05:50:55.883Z - debug:  [10940] TFVC: tf workfold -noprompt ********
+2018-03-28T05:50:55.899Z - debug:  [10940] TFVC: spawned new process (duration: 16ms)
+2018-03-28T05:50:59.673Z - debug:  [10940] TFVC: workfold exit code: 100 (duration: 3790ms)
+2018-03-28T05:50:59.675Z - debug:  [10940] TFVC errors (via stderr): TF30063: You are not authorized to access tmpcmamva02\CMAS.
+
+2018-03-28T05:50:59.676Z - error:  [10940] It appears you are using a Server workspace. Currently, TFVC support is limited to Local workspaces. TF30063: You are not authorized to access tmpcmamva02\CMAS.
+2018-03-29T05:56:50.752Z - info:   [04388] *** FOLDER: c:\D\Timeinc Projects\CampaignBudgetTool\CampaignBudgetTool.Client ***
+2018-03-29T05:56:50.756Z - info:   [04388] VSTSVSCode/1.122.0 (VSCode 1.21.1; Windows_NT 10.0.14393; Node 7.9.0)
+2018-03-29T05:56:50.760Z - debug:  [04388] Looking for an External Context at c:\D\Timeinc Projects\CampaignBudgetTool\CampaignBudgetTool.Client
+2018-03-29T05:56:50.760Z - debug:  [04388] No External Context at c:\D\Timeinc Projects\CampaignBudgetTool\CampaignBudgetTool.Client
+2018-03-29T05:56:50.764Z - debug:  [04388] Looking for TFVC repository at c:\D\Timeinc Projects\CampaignBudgetTool\CampaignBudgetTool.Client
+2018-03-29T05:56:50.764Z - debug:  [04388] TFVC Creating Tfvc object with localPath='undefined'
+2018-03-29T05:56:50.768Z - debug:  [04388] Using TFS proxy: 
+2018-03-29T05:56:50.768Z - debug:  [04388] TFVC Retrieved from settings; localPath='C:\Program Files (x86)\Microsoft Visual Studio 14.0\Common7\IDE\TF.exe'
+2018-03-29T05:56:50.768Z - debug:  [04388] TFVC Repository created with repositoryRootFolder='c:\D\Timeinc Projects\CampaignBudgetTool\CampaignBudgetTool.Client'
+2018-03-29T05:56:50.772Z - debug:  [04388] TFVC Repository.CheckVersion
+2018-03-29T05:56:50.776Z - debug:  [04388] TFVC: tf add -noprompt -?
+2018-03-29T05:56:50.840Z - debug:  [04388] TFVC: spawned new process (duration: 64ms)
+2018-03-29T05:56:50.872Z - debug:  [04388] TFVC: spawned new process (duration: 28ms)
+2018-03-29T05:56:51.601Z - debug:  [04388] TFVC: add exit code: 0 (duration: 821ms)
+2018-03-29T05:56:51.601Z - debug:  [04388] TFVC Minimum required version: 14.102.0
+2018-03-29T05:56:51.601Z - debug:  [04388] TFVC (TF.exe, TF.cmd) version: 14.102.25619.0
+2018-03-29T05:56:51.601Z - debug:  [04388] TFVC Repository.FindWorkspace with localPath='c:\D\Timeinc Projects\CampaignBudgetTool\CampaignBudgetTool.Client'
+2018-03-29T05:56:51.605Z - debug:  [04388] TFVC: tf workfold -noprompt ********
+2018-03-29T05:56:51.613Z - debug:  [04388] TFVC: spawned new process (duration: 8ms)
+2018-03-29T05:56:54.342Z - debug:  [04388] TFVC: workfold exit code: 100 (duration: 2737ms)
+2018-03-29T05:56:54.346Z - debug:  [04388] TFVC errors (via stderr): TF30063: You are not authorized to access tmpcmamva02\CMAS.
+
+2018-03-29T05:56:54.346Z - error:  [04388] It appears you are using a Server workspace. Currently, TFVC support is limited to Local workspaces. TF30063: You are not authorized to access tmpcmamva02\CMAS.
+2018-05-14T04:44:40.343Z - info:   [13948] *** FOLDER: c:\D\Timeinc Projects\CampaignBudgetTool\CampaignBudgetTool.Client ***
+2018-05-14T04:44:40.346Z - info:   [13948] VSTSVSCode/1.133.0 (VSCode 1.23.0; Windows_NT 10.0.14393; Node 7.9.0)
+2018-05-14T04:44:40.347Z - debug:  [13948] Looking for an External Context at c:\D\Timeinc Projects\CampaignBudgetTool\CampaignBudgetTool.Client
+2018-05-14T04:44:40.347Z - debug:  [13948] No External Context at c:\D\Timeinc Projects\CampaignBudgetTool\CampaignBudgetTool.Client
+2018-05-14T04:44:40.351Z - debug:  [13948] Looking for TFVC repository at c:\D\Timeinc Projects\CampaignBudgetTool\CampaignBudgetTool.Client
+2018-05-14T04:44:40.352Z - debug:  [13948] TFVC Creating Tfvc object with localPath='undefined'
+2018-05-14T04:44:40.354Z - debug:  [13948] Using TFS proxy: 
+2018-05-14T04:44:40.354Z - debug:  [13948] TFVC Retrieved from settings; localPath='C:\Program Files (x86)\Microsoft Visual Studio 14.0\Common7\IDE\TF.exe'
+2018-05-14T04:44:40.355Z - debug:  [13948] TFVC Repository created with repositoryRootFolder='c:\D\Timeinc Projects\CampaignBudgetTool\CampaignBudgetTool.Client'
+2018-05-14T04:44:40.357Z - debug:  [13948] TFVC Repository.CheckVersion
+2018-05-14T04:44:40.359Z - debug:  [13948] TFVC: tf add -noprompt -?
+2018-05-14T04:44:40.375Z - debug:  [13948] TFVC: spawned new process (duration: 15ms)
+2018-05-14T04:44:40.389Z - debug:  [13948] TFVC: spawned new process (duration: 13ms)
+2018-05-14T04:44:41.353Z - debug:  [13948] TFVC: add exit code: 0 (duration: 994ms)
+2018-05-14T04:44:41.353Z - debug:  [13948] TFVC Minimum required version: 14.102.0
+2018-05-14T04:44:41.353Z - debug:  [13948] TFVC (TF.exe, TF.cmd) version: 14.102.25619.0
+2018-05-14T04:44:41.353Z - debug:  [13948] TFVC Repository.FindWorkspace with localPath='c:\D\Timeinc Projects\CampaignBudgetTool\CampaignBudgetTool.Client'
+2018-05-14T04:44:41.353Z - debug:  [13948] TFVC: tf workfold -noprompt ********
+2018-05-14T04:44:41.369Z - debug:  [13948] TFVC: spawned new process (duration: 16ms)
+2018-05-14T04:44:44.445Z - debug:  [13948] TFVC: workfold exit code: 100 (duration: 3092ms)
+2018-05-14T04:44:44.445Z - debug:  [13948] TFVC errors (via stderr): TF30063: You are not authorized to access tmpcmamva02\CMAS.
+
+2018-05-14T04:44:44.445Z - error:  [13948] It appears you are using a Server workspace. Currently, TFVC support is limited to Local workspaces.
+2018-05-16T03:02:21.950Z - info:   [10472] *** FOLDER: c:\D\Timeinc Projects\CampaignBudgetTool\CampaignBudgetTool.Client ***
+2018-05-16T03:02:21.954Z - info:   [10472] VSTSVSCode/1.133.0 (VSCode 1.23.0; Windows_NT 10.0.14393; Node 7.9.0)
+2018-05-16T03:02:21.954Z - debug:  [10472] Looking for an External Context at c:\D\Timeinc Projects\CampaignBudgetTool\CampaignBudgetTool.Client
+2018-05-16T03:02:21.958Z - debug:  [10472] No External Context at c:\D\Timeinc Projects\CampaignBudgetTool\CampaignBudgetTool.Client
+2018-05-16T03:02:21.958Z - debug:  [10472] Looking for TFVC repository at c:\D\Timeinc Projects\CampaignBudgetTool\CampaignBudgetTool.Client
+2018-05-16T03:02:21.962Z - debug:  [10472] TFVC Creating Tfvc object with localPath='undefined'
+2018-05-16T03:02:21.962Z - debug:  [10472] Using TFS proxy: 
+2018-05-16T03:02:21.962Z - debug:  [10472] TFVC Retrieved from settings; localPath='C:\Program Files (x86)\Microsoft Visual Studio 14.0\Common7\IDE\TF.exe'
+2018-05-16T03:02:21.962Z - debug:  [10472] TFVC Repository created with repositoryRootFolder='c:\D\Timeinc Projects\CampaignBudgetTool\CampaignBudgetTool.Client'
+2018-05-16T03:02:21.962Z - debug:  [10472] TFVC Repository.CheckVersion
+2018-05-16T03:02:21.966Z - debug:  [10472] TFVC: tf add -noprompt -?
+2018-05-16T03:02:22.000Z - debug:  [10472] TFVC: spawned new process (duration: 31ms)
+2018-05-16T03:02:22.047Z - debug:  [10472] TFVC: spawned new process (duration: 47ms)
+2018-05-16T03:02:22.859Z - debug:  [10472] TFVC: add exit code: 0 (duration: 893ms)
+2018-05-16T03:02:22.863Z - debug:  [10472] TFVC Minimum required version: 14.102.0
+2018-05-16T03:02:22.863Z - debug:  [10472] TFVC (TF.exe, TF.cmd) version: 14.102.25619.0
+2018-05-16T03:02:22.863Z - debug:  [10472] TFVC Repository.FindWorkspace with localPath='c:\D\Timeinc Projects\CampaignBudgetTool\CampaignBudgetTool.Client'
+2018-05-16T03:02:22.867Z - debug:  [10472] TFVC: tf workfold -noprompt ********
+2018-05-16T03:02:22.904Z - debug:  [10472] TFVC: spawned new process (duration: 37ms)
+2018-05-16T03:02:29.631Z - debug:  [10472] TFVC: workfold exit code: 100 (duration: 6764ms)
+2018-05-16T03:02:29.631Z - debug:  [10472] TFVC errors (via stderr): TF30063: You are not authorized to access tmpcmamva02\CMAS.
+
+2018-05-16T03:02:29.635Z - error:  [10472] It appears you are using a Server workspace. Currently, TFVC support is limited to Local workspaces.
+2018-05-17T03:45:05.506Z - info:   [13104] *** FOLDER: c:\D\Timeinc Projects\CampaignBudgetTool\CampaignBudgetTool.Client ***
+2018-05-17T03:45:05.511Z - info:   [13104] VSTSVSCode/1.133.0 (VSCode 1.23.0; Windows_NT 10.0.14393; Node 7.9.0)
+2018-05-17T03:45:05.513Z - debug:  [13104] Looking for an External Context at c:\D\Timeinc Projects\CampaignBudgetTool\CampaignBudgetTool.Client
+2018-05-17T03:45:05.513Z - debug:  [13104] No External Context at c:\D\Timeinc Projects\CampaignBudgetTool\CampaignBudgetTool.Client
+2018-05-17T03:45:05.517Z - debug:  [13104] Looking for TFVC repository at c:\D\Timeinc Projects\CampaignBudgetTool\CampaignBudgetTool.Client
+2018-05-17T03:45:05.517Z - debug:  [13104] TFVC Creating Tfvc object with localPath='undefined'
+2018-05-17T03:45:05.519Z - debug:  [13104] Using TFS proxy: 
+2018-05-17T03:45:05.519Z - debug:  [13104] TFVC Retrieved from settings; localPath='C:\Program Files (x86)\Microsoft Visual Studio 14.0\Common7\IDE\TF.exe'
+2018-05-17T03:45:05.521Z - debug:  [13104] TFVC Repository created with repositoryRootFolder='c:\D\Timeinc Projects\CampaignBudgetTool\CampaignBudgetTool.Client'
+2018-05-17T03:45:05.529Z - debug:  [13104] TFVC Repository.CheckVersion
+2018-05-17T03:45:05.532Z - debug:  [13104] TFVC: tf add -noprompt -?
+2018-05-17T03:45:05.581Z - debug:  [13104] TFVC: spawned new process (duration: 47ms)
+2018-05-17T03:45:05.676Z - debug:  [13104] TFVC: spawned new process (duration: 94ms)
+2018-05-17T03:45:06.647Z - debug:  [13104] TFVC: add exit code: 0 (duration: 1113ms)
+2018-05-17T03:45:06.649Z - debug:  [13104] TFVC Minimum required version: 14.102.0
+2018-05-17T03:45:06.649Z - debug:  [13104] TFVC (TF.exe, TF.cmd) version: 14.102.25619.0
+2018-05-17T03:45:06.650Z - debug:  [13104] TFVC Repository.FindWorkspace with localPath='c:\D\Timeinc Projects\CampaignBudgetTool\CampaignBudgetTool.Client'
+2018-05-17T03:45:06.651Z - debug:  [13104] TFVC: tf workfold -noprompt ********
+2018-05-17T03:45:06.665Z - debug:  [13104] TFVC: spawned new process (duration: 13ms)
+2018-05-17T03:45:11.676Z - debug:  [13104] TFVC: workfold exit code: 100 (duration: 5025ms)
+2018-05-17T03:45:11.678Z - debug:  [13104] TFVC errors (via stderr): TF30063: You are not authorized to access tmpcmamva02\CMAS.
+
+2018-05-17T03:45:11.680Z - error:  [13104] It appears you are using a Server workspace. Currently, TFVC support is limited to Local workspaces.
+2018-05-17T05:32:34.426Z - info:   [084] *** FOLDER: c:\D\Timeinc Projects\CampaignBudgetTool\CampaignBudgetTool.Client ***
+2018-05-17T05:32:34.429Z - info:   [084] VSTSVSCode/1.133.0 (VSCode 1.23.0; Windows_NT 10.0.14393; Node 7.9.0)
+2018-05-17T05:32:34.431Z - debug:  [084] Looking for an External Context at c:\D\Timeinc Projects\CampaignBudgetTool\CampaignBudgetTool.Client
+2018-05-17T05:32:34.432Z - debug:  [084] No External Context at c:\D\Timeinc Projects\CampaignBudgetTool\CampaignBudgetTool.Client
+2018-05-17T05:32:34.434Z - debug:  [084] Looking for TFVC repository at c:\D\Timeinc Projects\CampaignBudgetTool\CampaignBudgetTool.Client
+2018-05-17T05:32:34.435Z - debug:  [084] TFVC Creating Tfvc object with localPath='undefined'
+2018-05-17T05:32:34.436Z - debug:  [084] Using TFS proxy: 
+2018-05-17T05:32:34.436Z - debug:  [084] TFVC Retrieved from settings; localPath='C:\Program Files (x86)\Microsoft Visual Studio 14.0\Common7\IDE\TF.exe'
+2018-05-17T05:32:34.437Z - debug:  [084] TFVC Repository created with repositoryRootFolder='c:\D\Timeinc Projects\CampaignBudgetTool\CampaignBudgetTool.Client'
+2018-05-17T05:32:34.438Z - debug:  [084] TFVC Repository.CheckVersion
+2018-05-17T05:32:34.438Z - debug:  [084] TFVC: tf add -noprompt -?
+2018-05-17T05:32:34.438Z - debug:  [084] TFVC: spawned new process (duration: 0ms)
+2018-05-17T05:32:34.480Z - debug:  [084] TFVC: spawned new process (duration: 42ms)
+2018-05-17T05:32:35.287Z - debug:  [084] TFVC: add exit code: 0 (duration: 849ms)
+2018-05-17T05:32:35.303Z - debug:  [084] TFVC Minimum required version: 14.102.0
+2018-05-17T05:32:35.303Z - debug:  [084] TFVC (TF.exe, TF.cmd) version: 14.102.25619.0
+2018-05-17T05:32:35.303Z - debug:  [084] TFVC Repository.FindWorkspace with localPath='c:\D\Timeinc Projects\CampaignBudgetTool\CampaignBudgetTool.Client'
+2018-05-17T05:32:35.303Z - debug:  [084] TFVC: tf workfold -noprompt ********
+2018-05-17T05:32:35.303Z - debug:  [084] TFVC: spawned new process (duration: 0ms)
+2018-05-17T05:32:38.176Z - debug:  [084] TFVC: workfold exit code: 100 (duration: 2873ms)
+2018-05-17T05:32:38.178Z - debug:  [084] TFVC errors (via stderr): TF30063: You are not authorized to access tmpcmamva02\CMAS.
+
+2018-05-17T05:32:38.179Z - error:  [084] It appears you are using a Server workspace. Currently, TFVC support is limited to Local workspaces.
+2018-05-18T03:50:02.633Z - info:   [04860] *** FOLDER: c:\D\Timeinc Projects\CampaignBudgetTool\CampaignBudgetTool.Client ***
+2018-05-18T03:50:02.633Z - info:   [04860] VSTSVSCode/1.133.0 (VSCode 1.23.0; Windows_NT 10.0.14393; Node 7.9.0)
+2018-05-18T03:50:02.633Z - debug:  [04860] Looking for an External Context at c:\D\Timeinc Projects\CampaignBudgetTool\CampaignBudgetTool.Client
+2018-05-18T03:50:02.633Z - debug:  [04860] No External Context at c:\D\Timeinc Projects\CampaignBudgetTool\CampaignBudgetTool.Client
+2018-05-18T03:50:02.633Z - debug:  [04860] Looking for TFVC repository at c:\D\Timeinc Projects\CampaignBudgetTool\CampaignBudgetTool.Client
+2018-05-18T03:50:02.633Z - debug:  [04860] TFVC Creating Tfvc object with localPath='undefined'
+2018-05-18T03:50:02.633Z - debug:  [04860] Using TFS proxy: 
+2018-05-18T03:50:02.633Z - debug:  [04860] TFVC Retrieved from settings; localPath='C:\Program Files (x86)\Microsoft Visual Studio 14.0\Common7\IDE\TF.exe'
+2018-05-18T03:50:02.633Z - debug:  [04860] TFVC Repository created with repositoryRootFolder='c:\D\Timeinc Projects\CampaignBudgetTool\CampaignBudgetTool.Client'
+2018-05-18T03:50:02.633Z - debug:  [04860] TFVC Repository.CheckVersion
+2018-05-18T03:50:02.633Z - debug:  [04860] TFVC: tf add -noprompt -?
+2018-05-18T03:50:02.664Z - debug:  [04860] TFVC: spawned new process (duration: 16ms)
+2018-05-18T03:50:02.742Z - debug:  [04860] TFVC: spawned new process (duration: 78ms)
+2018-05-18T03:50:03.447Z - debug:  [04860] TFVC: add exit code: 0 (duration: 799ms)
+2018-05-18T03:50:03.449Z - debug:  [04860] TFVC Minimum required version: 14.102.0
+2018-05-18T03:50:03.449Z - debug:  [04860] TFVC (TF.exe, TF.cmd) version: 14.102.25619.0
+2018-05-18T03:50:03.450Z - debug:  [04860] TFVC Repository.FindWorkspace with localPath='c:\D\Timeinc Projects\CampaignBudgetTool\CampaignBudgetTool.Client'
+2018-05-18T03:50:03.451Z - debug:  [04860] TFVC: tf workfold -noprompt ********
+2018-05-18T03:50:03.467Z - debug:  [04860] TFVC: spawned new process (duration: 15ms)
+2018-05-18T03:50:06.902Z - debug:  [04860] TFVC: workfold exit code: 100 (duration: 3451ms)
+2018-05-18T03:50:06.902Z - debug:  [04860] TFVC errors (via stderr): TF30063: You are not authorized to access tmpcmamva02\CMAS.
+
+2018-05-18T03:50:06.902Z - error:  [04860] It appears you are using a Server workspace. Currently, TFVC support is limited to Local workspaces.

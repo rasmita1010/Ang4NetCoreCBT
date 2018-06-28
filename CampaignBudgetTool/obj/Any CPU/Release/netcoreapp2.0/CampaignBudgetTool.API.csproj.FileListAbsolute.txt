@@ -1,0 +1,16 @@
+C:\D\Timeinc Projects\CampaignBudgetTool\CampaignBudgetTool\bin\Any CPU\Release\netcoreapp2.0\BudgetTool.Api.deps.json
+C:\D\Timeinc Projects\CampaignBudgetTool\CampaignBudgetTool\bin\Any CPU\Release\netcoreapp2.0\BudgetTool.Api.runtimeconfig.json
+C:\D\Timeinc Projects\CampaignBudgetTool\CampaignBudgetTool\bin\Any CPU\Release\netcoreapp2.0\BudgetTool.Api.runtimeconfig.dev.json
+C:\D\Timeinc Projects\CampaignBudgetTool\CampaignBudgetTool\bin\Any CPU\Release\netcoreapp2.0\BudgetTool.Api.dll
+C:\D\Timeinc Projects\CampaignBudgetTool\CampaignBudgetTool\bin\Any CPU\Release\netcoreapp2.0\BudgetTool.Api.pdb
+C:\D\Timeinc Projects\CampaignBudgetTool\CampaignBudgetTool\bin\Any CPU\Release\netcoreapp2.0\CampaignBudgetTool.BuisnessEntities.dll
+C:\D\Timeinc Projects\CampaignBudgetTool\CampaignBudgetTool\bin\Any CPU\Release\netcoreapp2.0\CampaignBudgetTool.Repository.dll
+C:\D\Timeinc Projects\CampaignBudgetTool\CampaignBudgetTool\bin\Any CPU\Release\netcoreapp2.0\CampaignBudgetTool.Utilities.dll
+C:\D\Timeinc Projects\CampaignBudgetTool\CampaignBudgetTool\bin\Any CPU\Release\netcoreapp2.0\EncryptDecryptUtility.dll
+C:\D\Timeinc Projects\CampaignBudgetTool\CampaignBudgetTool\bin\Any CPU\Release\netcoreapp2.0\CampaignBudgetTool.BuisnessEntities.pdb
+C:\D\Timeinc Projects\CampaignBudgetTool\CampaignBudgetTool\bin\Any CPU\Release\netcoreapp2.0\CampaignBudgetTool.Repository.pdb
+C:\D\Timeinc Projects\CampaignBudgetTool\CampaignBudgetTool\obj\Any CPU\Release\netcoreapp2.0\CampaignBudgetTool.API.csproj.CoreCompileInputs.cache
+C:\D\Timeinc Projects\CampaignBudgetTool\CampaignBudgetTool\obj\Any CPU\Release\netcoreapp2.0\CampaignBudgetTool.API.AssemblyInfoInputs.cache
+C:\D\Timeinc Projects\CampaignBudgetTool\CampaignBudgetTool\obj\Any CPU\Release\netcoreapp2.0\CampaignBudgetTool.API.AssemblyInfo.cs
+C:\D\Timeinc Projects\CampaignBudgetTool\CampaignBudgetTool\obj\Any CPU\Release\netcoreapp2.0\BudgetTool.Api.dll
+C:\D\Timeinc Projects\CampaignBudgetTool\CampaignBudgetTool\obj\Any CPU\Release\netcoreapp2.0\BudgetTool.Api.pdb

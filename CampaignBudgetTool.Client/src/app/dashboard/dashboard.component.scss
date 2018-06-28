@@ -1,0 +1,110 @@
+.navbar-custom {
+    background: #ffffff;
+    border-radius: 0;
+    border-bottom: 1px solid #dddddd;
+}
+
+.navbar-brand {
+    padding: 0px;
+}
+.navbar-brand > img {
+    height: 100%;
+    padding: 5px;
+    width: auto;
+}
+
+.navbar-header > p {
+    margin-top: 16px;
+    font-weight: 100;
+    font-size: 16px;
+}
+
+.navbar-right a {
+    color: #000000;
+    text-decoration: none;
+}
+
+.navbar .brand, .navbar .nav > li > a {
+    color: #000000;
+}
+.navbar .brand, .navbar .nav > li > a:hover {
+    background-color: #CCD3D5;
+    color: #ffffff;
+}
+.navbar .brand, .navbar .nav > li > a:focus {
+    background-color: #3b3a3a;
+    color: #ffffff;
+}
+.navbar .brand, .navbar .nav > li > a:active {
+    background-color: #000000;
+    color: #ffffff;
+}
+
+.navbar .brand, .navbar .navbar-logout > li > a:hover {
+    background-color: red;
+}
+
+.nav-pills > li > a {
+    border-radius: 45px;
+}
+
+.nav > li {
+    margin-right: 10px;
+}
+
+.container-fluid ul li .active {
+    background-color: #000000 !important; 
+    color: #ffffff;
+}
+
+.navbar {
+    padding: 10px 10px;
+}
+
+#countdown {
+    position: relative;
+    margin: auto;
+    // margin-top: 100px;
+    height: 40px;
+    width: 40px;
+    text-align: center;
+  }
+  
+  #countdown-number {
+    color: black;
+    display: inline-block;
+    line-height: 40px;
+  }
+  
+  svg {
+    position: absolute;
+    top: 0;
+    right: 0;
+    width: 40px;
+    height: 40px;
+    transform: rotateY(-180deg) rotateZ(-90deg);
+  }
+  
+  svg circle {
+    stroke-dasharray: 113px;
+    stroke-dashoffset: 0px;
+    stroke-linecap: round;
+    stroke-width: 3px;
+    stroke: black;
+    fill: none;
+    animation: countdown 30s linear infinite forwards;
+  }
+  
+  @keyframes countdown {
+    from {
+      stroke-dashoffset: 0px;
+    }
+    to {
+      stroke-dashoffset: 113px;
+    }
+  }
+
+  .modal-header-danger {
+    background: firebrick;
+    color: #ffffff;
+  }

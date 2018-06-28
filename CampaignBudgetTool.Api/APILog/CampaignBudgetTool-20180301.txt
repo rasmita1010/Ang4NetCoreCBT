@@ -1,0 +1,1311 @@
+2018-03-01T12:06:00.6348848+05:30 0HLBV7QNQ5FFQ:00000001 [INF] Request starting HTTP/1.1 GET http://localhost:18527/swagger/   (ca22a1cb)
+2018-03-01T12:06:01.2377543+05:30 0HLBV7QNQ5FFQ:00000001 [INF] Sending file. Request path: '"/index.html"'. Physical path: '"N/A"' (27b0a520)
+2018-03-01T12:06:01.2842008+05:30 0HLBV7QNQ5FFQ:00000001 [INF] Request finished in 750.8213ms 200 text/html (791a596a)
+2018-03-01T12:06:01.7778434+05:30 0HLBV7QNQ5FFQ:00000002 [INF] Request starting HTTP/1.1 GET http://localhost:18527/swagger/v1/swagger.json   (ca22a1cb)
+2018-03-01T12:06:02.2788757+05:30 0HLBV7QNQ5FFQ:00000002 [INF] Request finished in 449.4006ms 200 application/json (791a596a)
+2018-03-01T12:10:03.7530276+05:30 0HLBV7T1O5PO2:00000001 [INF] Request starting HTTP/1.1 GET http://localhost:18526/swagger/   (ca22a1cb)
+2018-03-01T12:10:04.1733847+05:30 0HLBV7T1O5PO2:00000001 [INF] Sending file. Request path: '"/index.html"'. Physical path: '"N/A"' (27b0a520)
+2018-03-01T12:10:04.2017587+05:30 0HLBV7T1O5PO2:00000001 [INF] Request finished in 502.7798ms 200 text/html (791a596a)
+2018-03-01T12:10:04.6108297+05:30 0HLBV7T1O5PO2:00000002 [INF] Request starting HTTP/1.1 GET http://localhost:18526/swagger/v1/swagger.json   (ca22a1cb)
+2018-03-01T12:10:04.9804875+05:30 0HLBV7T1O5PO2:00000002 [INF] Request finished in 371.1191ms 200 application/json (791a596a)
+2018-03-01T12:10:10.4966919+05:30 0HLBV7T1O5PO2:00000003 [INF] Request starting HTTP/1.1 POST http://localhost:18526/api/Login?userName=dashr&password=PrtSc1398&application=Campaign%20Budget%20Tool application/x-www-form-urlencoded 0 (ca22a1cb)
+2018-03-01T12:10:10.5100225+05:30 0HLBV7T1O5PO2:00000003 [INF] Policy execution successful. (0204925d)
+2018-03-01T12:10:10.6445383+05:30 0HLBV7T1O5PO2:00000003 [INF] Policy execution successful. (0204925d)
+2018-03-01T12:10:10.7340802+05:30 0HLBV7T1O5PO2:00000003 [INF] Executing action method "CampaignBudgetTool.API.Controllers.Login.LoginController.GetUserDetail (CampaignBudgetTool.Api)" with arguments (["dashr", "PrtSc1398", "Campaign Budget Tool"]) - ModelState is Valid (ba7f4ac2)
+2018-03-01T12:10:10.7413828+05:30 0HLBV7T1O5PO2:00000003 [INF] LoginController : GetUserDetail - Start (8347a87a)
+2018-03-01T12:10:10.7671635+05:30 0HLBV7T1O5PO2:00000003 [INF] Login Detail - UserName"dashr", Application"Campaign Budget Tool" (521a88ab)
+2018-03-01T12:10:10.7748090+05:30 0HLBV7T1O5PO2:00000003 [INF] ADBAdminService Login URL is "https://tmpcmamva05.corp.ad.timeinc.com/ADBServiceSSL/ADBServiceBase/AuthService.svc/Login" (97cfe4b4)
+2018-03-01T12:11:51.2626354+05:30 0HLBV7T1O5PO2:00000003 [FTL] Exception : One or more errors occurred. (One or more errors occurred. (A task was canceled.))
+InnerException : System.AggregateException: One or more errors occurred. (A task was canceled.) ---> System.Threading.Tasks.TaskCanceledException: A task was canceled.
+   --- End of inner exception stack trace ---
+   at System.Threading.Tasks.Task`1.GetResultCore(Boolean waitCompletionNotification)
+   at CampaignBudgetTool.Repository.Login.LoginRepository.<PostResult>d__2`2.MoveNext() in C:\D\Timeinc Projects\CampaignBudgetTool\CampaignBudgetTool.Repository\Login\LoginRepository.cs:line 28
+---> (Inner Exception #0) System.Threading.Tasks.TaskCanceledException: A task was canceled.<---
+
+StackTrace :    at System.Threading.Tasks.Task`1.GetResultCore(Boolean waitCompletionNotification)
+   at CampaignBudgetTool.API.Controllers.Login.LoginController.GetUserDetail(String userName, String password, String application)
+   at lambda_method(Closure , Object , Object[] )
+   at Microsoft.Extensions.Internal.ObjectMethodExecutor.Execute(Object target, Object[] parameters)
+   at Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker.<InvokeActionMethodAsync>d__12.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker.<InvokeNextActionFilterAsync>d__10.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   at Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker.Rethrow(ActionExecutedContext context)
+   at Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker.<InvokeInnerFilterAsync>d__14.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at Microsoft.AspNetCore.Mvc.Internal.ResourceInvoker.<InvokeNextExceptionFilterAsync>d__23.MoveNext()
+Source : System.Private.CoreLib
+ (d8dfab1c)
+2018-03-01T12:11:51.2987530+05:30 0HLBV7T1O5PO2:00000003 [INF] Executed action "CampaignBudgetTool.API.Controllers.Login.LoginController.GetUserDetail (CampaignBudgetTool.Api)" in 100655.5987ms (afa2e885)
+2018-03-01T12:11:51.4242274+05:30 0HLBV7T1O5PO2:00000003 [ERR] An unhandled exception has occurred while executing the request (cf926119)
+System.AggregateException: One or more errors occurred. (One or more errors occurred. (A task was canceled.)) ---> System.AggregateException: One or more errors occurred. (A task was canceled.) ---> System.Threading.Tasks.TaskCanceledException: A task was canceled.
+   --- End of inner exception stack trace ---
+   at System.Threading.Tasks.Task`1.GetResultCore(Boolean waitCompletionNotification)
+   at CampaignBudgetTool.Repository.Login.LoginRepository.<PostResult>d__2`2.MoveNext() in C:\D\Timeinc Projects\CampaignBudgetTool\CampaignBudgetTool.Repository\Login\LoginRepository.cs:line 28
+   --- End of inner exception stack trace ---
+   at System.Threading.Tasks.Task`1.GetResultCore(Boolean waitCompletionNotification)
+   at CampaignBudgetTool.API.Controllers.Login.LoginController.GetUserDetail(String userName, String password, String application)
+   at lambda_method(Closure , Object , Object[] )
+   at Microsoft.Extensions.Internal.ObjectMethodExecutor.Execute(Object target, Object[] parameters)
+   at Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker.<InvokeActionMethodAsync>d__12.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker.<InvokeNextActionFilterAsync>d__10.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   at Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker.Rethrow(ActionExecutedContext context)
+   at Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker.<InvokeInnerFilterAsync>d__14.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at Microsoft.AspNetCore.Mvc.Internal.ResourceInvoker.<InvokeNextExceptionFilterAsync>d__23.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   at Microsoft.AspNetCore.Mvc.Internal.ResourceInvoker.Rethrow(ExceptionContext context)
+   at Microsoft.AspNetCore.Mvc.Internal.ResourceInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Internal.ResourceInvoker.<InvokeNextResourceFilter>d__22.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   at Microsoft.AspNetCore.Mvc.Internal.ResourceInvoker.Rethrow(ResourceExecutedContext context)
+   at Microsoft.AspNetCore.Mvc.Internal.ResourceInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Internal.ResourceInvoker.<InvokeFilterPipelineAsync>d__17.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at Microsoft.AspNetCore.Mvc.Internal.ResourceInvoker.<InvokeAsync>d__15.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at Microsoft.AspNetCore.Builder.RouterMiddleware.<Invoke>d__4.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddleware.<Invoke>d__7.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   at Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddleware.<Invoke>d__7.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at Microsoft.AspNetCore.Authentication.AuthenticationMiddleware.<Invoke>d__6.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at Microsoft.AspNetCore.Cors.Infrastructure.CorsMiddleware.<Invoke>d__7.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at Microsoft.AspNetCore.Server.IISIntegration.IISMiddleware.<Invoke>d__11.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at Microsoft.AspNetCore.Hosting.Internal.RequestServicesContainerMiddleware.<Invoke>d__3.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at Microsoft.AspNetCore.Server.Kestrel.Core.Internal.Http.Frame`1.<ProcessRequestsAsync>d__2.MoveNext()
+---> (Inner Exception #0) System.AggregateException: One or more errors occurred. (A task was canceled.) ---> System.Threading.Tasks.TaskCanceledException: A task was canceled.
+   --- End of inner exception stack trace ---
+   at System.Threading.Tasks.Task`1.GetResultCore(Boolean waitCompletionNotification)
+   at CampaignBudgetTool.Repository.Login.LoginRepository.<PostResult>d__2`2.MoveNext() in C:\D\Timeinc Projects\CampaignBudgetTool\CampaignBudgetTool.Repository\Login\LoginRepository.cs:line 28
+---> (Inner Exception #0) System.Threading.Tasks.TaskCanceledException: A task was canceled.<---
+<---
+
+2018-03-01T12:11:51.4292056+05:30 0HLBV7T1O5PO2:00000003 [WRN] The response has already started, the error page middleware will not be executed. (e1dd4c0d)
+2018-03-01T12:11:51.5935081+05:30 0HLBV7T1O5PO2:00000003 [ERR] Connection id ""0HLBV7T1O5PO2"", Request id ""0HLBV7T1O5PO2:00000003"": An unhandled exception was thrown by the application. (560e7d32)
+System.AggregateException: One or more errors occurred. (One or more errors occurred. (A task was canceled.)) ---> System.AggregateException: One or more errors occurred. (A task was canceled.) ---> System.Threading.Tasks.TaskCanceledException: A task was canceled.
+   --- End of inner exception stack trace ---
+   at System.Threading.Tasks.Task`1.GetResultCore(Boolean waitCompletionNotification)
+   at CampaignBudgetTool.Repository.Login.LoginRepository.<PostResult>d__2`2.MoveNext() in C:\D\Timeinc Projects\CampaignBudgetTool\CampaignBudgetTool.Repository\Login\LoginRepository.cs:line 28
+   --- End of inner exception stack trace ---
+   at System.Threading.Tasks.Task`1.GetResultCore(Boolean waitCompletionNotification)
+   at CampaignBudgetTool.API.Controllers.Login.LoginController.GetUserDetail(String userName, String password, String application)
+   at lambda_method(Closure , Object , Object[] )
+   at Microsoft.Extensions.Internal.ObjectMethodExecutor.Execute(Object target, Object[] parameters)
+   at Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker.<InvokeActionMethodAsync>d__12.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker.<InvokeNextActionFilterAsync>d__10.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   at Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker.Rethrow(ActionExecutedContext context)
+   at Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker.<InvokeInnerFilterAsync>d__14.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at Microsoft.AspNetCore.Mvc.Internal.ResourceInvoker.<InvokeNextExceptionFilterAsync>d__23.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   at Microsoft.AspNetCore.Mvc.Internal.ResourceInvoker.Rethrow(ExceptionContext context)
+   at Microsoft.AspNetCore.Mvc.Internal.ResourceInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Internal.ResourceInvoker.<InvokeNextResourceFilter>d__22.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   at Microsoft.AspNetCore.Mvc.Internal.ResourceInvoker.Rethrow(ResourceExecutedContext context)
+   at Microsoft.AspNetCore.Mvc.Internal.ResourceInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Internal.ResourceInvoker.<InvokeFilterPipelineAsync>d__17.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at Microsoft.AspNetCore.Mvc.Internal.ResourceInvoker.<InvokeAsync>d__15.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at Microsoft.AspNetCore.Builder.RouterMiddleware.<Invoke>d__4.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddleware.<Invoke>d__7.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   at Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddleware.<Invoke>d__7.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at Microsoft.AspNetCore.Authentication.AuthenticationMiddleware.<Invoke>d__6.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at Microsoft.AspNetCore.Cors.Infrastructure.CorsMiddleware.<Invoke>d__7.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at Microsoft.AspNetCore.Server.IISIntegration.IISMiddleware.<Invoke>d__11.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at Microsoft.AspNetCore.Hosting.Internal.RequestServicesContainerMiddleware.<Invoke>d__3.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at Microsoft.AspNetCore.Server.Kestrel.Core.Internal.Http.Frame`1.<ProcessRequestsAsync>d__2.MoveNext()
+---> (Inner Exception #0) System.AggregateException: One or more errors occurred. (A task was canceled.) ---> System.Threading.Tasks.TaskCanceledException: A task was canceled.
+   --- End of inner exception stack trace ---
+   at System.Threading.Tasks.Task`1.GetResultCore(Boolean waitCompletionNotification)
+   at CampaignBudgetTool.Repository.Login.LoginRepository.<PostResult>d__2`2.MoveNext() in C:\D\Timeinc Projects\CampaignBudgetTool\CampaignBudgetTool.Repository\Login\LoginRepository.cs:line 28
+---> (Inner Exception #0) System.Threading.Tasks.TaskCanceledException: A task was canceled.<---
+<---
+
+2018-03-01T12:11:51.5986294+05:30 0HLBV7T1O5PO2:00000003 [INF] Request finished in 101125.2459ms 500 application/json (791a596a)
+2018-03-01T12:13:19.3294330+05:30 0HLBV7T1O5PO3:00000001 [INF] Request starting HTTP/1.1 POST http://localhost:18526/api/Login?userName=dashr&password=PrtSc1398&application=Campaign%20Budget%20Tool application/x-www-form-urlencoded 0 (ca22a1cb)
+2018-03-01T12:13:19.3365431+05:30 0HLBV7T1O5PO3:00000001 [INF] Policy execution successful. (0204925d)
+2018-03-01T12:13:19.3466228+05:30 0HLBV7T1O5PO3:00000001 [INF] Policy execution successful. (0204925d)
+2018-03-01T12:13:19.3788372+05:30 0HLBV7T1O5PO3:00000001 [INF] Executing action method "CampaignBudgetTool.API.Controllers.Login.LoginController.GetUserDetail (CampaignBudgetTool.Api)" with arguments (["dashr", "PrtSc1398", "Campaign Budget Tool"]) - ModelState is Valid (ba7f4ac2)
+2018-03-01T12:13:19.4028448+05:30 0HLBV7T1O5PO3:00000001 [INF] LoginController : GetUserDetail - Start (8347a87a)
+2018-03-01T12:13:19.4277840+05:30 0HLBV7T1O5PO3:00000001 [INF] Login Detail - UserName"dashr", Application"Campaign Budget Tool" (521a88ab)
+2018-03-01T12:13:19.4527671+05:30 0HLBV7T1O5PO3:00000001 [INF] ADBAdminService Login URL is "https://tmpcmamva05.corp.ad.timeinc.com/ADBServiceSSL/ADBServiceBase/AuthService.svc/Login" (97cfe4b4)
+2018-03-01T12:14:59.6282366+05:30 0HLBV7T1O5PO3:00000001 [FTL] Exception : One or more errors occurred. (One or more errors occurred. (A task was canceled.))
+InnerException : System.AggregateException: One or more errors occurred. (A task was canceled.) ---> System.Threading.Tasks.TaskCanceledException: A task was canceled.
+   --- End of inner exception stack trace ---
+   at System.Threading.Tasks.Task`1.GetResultCore(Boolean waitCompletionNotification)
+   at CampaignBudgetTool.Repository.Login.LoginRepository.<PostResult>d__2`2.MoveNext() in C:\D\Timeinc Projects\CampaignBudgetTool\CampaignBudgetTool.Repository\Login\LoginRepository.cs:line 28
+---> (Inner Exception #0) System.Threading.Tasks.TaskCanceledException: A task was canceled.<---
+
+StackTrace :    at System.Threading.Tasks.Task`1.GetResultCore(Boolean waitCompletionNotification)
+   at CampaignBudgetTool.API.Controllers.Login.LoginController.GetUserDetail(String userName, String password, String application)
+   at lambda_method(Closure , Object , Object[] )
+   at Microsoft.Extensions.Internal.ObjectMethodExecutor.Execute(Object target, Object[] parameters)
+   at Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker.<InvokeActionMethodAsync>d__12.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker.<InvokeNextActionFilterAsync>d__10.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   at Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker.Rethrow(ActionExecutedContext context)
+   at Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker.<InvokeInnerFilterAsync>d__14.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at Microsoft.AspNetCore.Mvc.Internal.ResourceInvoker.<InvokeNextExceptionFilterAsync>d__23.MoveNext()
+Source : System.Private.CoreLib
+ (d8dfab1c)
+2018-03-01T12:14:59.6354928+05:30 0HLBV7T1O5PO3:00000001 [INF] Executed action "CampaignBudgetTool.API.Controllers.Login.LoginController.GetUserDetail (CampaignBudgetTool.Api)" in 100290.0278ms (afa2e885)
+2018-03-01T12:14:59.7854524+05:30 0HLBV7T1O5PO3:00000001 [ERR] An unhandled exception has occurred while executing the request (cf926119)
+System.AggregateException: One or more errors occurred. (One or more errors occurred. (A task was canceled.)) ---> System.AggregateException: One or more errors occurred. (A task was canceled.) ---> System.Threading.Tasks.TaskCanceledException: A task was canceled.
+   --- End of inner exception stack trace ---
+   at System.Threading.Tasks.Task`1.GetResultCore(Boolean waitCompletionNotification)
+   at CampaignBudgetTool.Repository.Login.LoginRepository.<PostResult>d__2`2.MoveNext() in C:\D\Timeinc Projects\CampaignBudgetTool\CampaignBudgetTool.Repository\Login\LoginRepository.cs:line 28
+   --- End of inner exception stack trace ---
+   at System.Threading.Tasks.Task`1.GetResultCore(Boolean waitCompletionNotification)
+   at CampaignBudgetTool.API.Controllers.Login.LoginController.GetUserDetail(String userName, String password, String application)
+   at lambda_method(Closure , Object , Object[] )
+   at Microsoft.Extensions.Internal.ObjectMethodExecutor.Execute(Object target, Object[] parameters)
+   at Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker.<InvokeActionMethodAsync>d__12.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker.<InvokeNextActionFilterAsync>d__10.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   at Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker.Rethrow(ActionExecutedContext context)
+   at Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker.<InvokeInnerFilterAsync>d__14.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at Microsoft.AspNetCore.Mvc.Internal.ResourceInvoker.<InvokeNextExceptionFilterAsync>d__23.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   at Microsoft.AspNetCore.Mvc.Internal.ResourceInvoker.Rethrow(ExceptionContext context)
+   at Microsoft.AspNetCore.Mvc.Internal.ResourceInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Internal.ResourceInvoker.<InvokeNextResourceFilter>d__22.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   at Microsoft.AspNetCore.Mvc.Internal.ResourceInvoker.Rethrow(ResourceExecutedContext context)
+   at Microsoft.AspNetCore.Mvc.Internal.ResourceInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Internal.ResourceInvoker.<InvokeFilterPipelineAsync>d__17.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at Microsoft.AspNetCore.Mvc.Internal.ResourceInvoker.<InvokeAsync>d__15.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at Microsoft.AspNetCore.Builder.RouterMiddleware.<Invoke>d__4.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddleware.<Invoke>d__7.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   at Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddleware.<Invoke>d__7.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at Microsoft.AspNetCore.Authentication.AuthenticationMiddleware.<Invoke>d__6.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at Microsoft.AspNetCore.Cors.Infrastructure.CorsMiddleware.<Invoke>d__7.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at Microsoft.AspNetCore.Server.IISIntegration.IISMiddleware.<Invoke>d__11.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at Microsoft.AspNetCore.Hosting.Internal.RequestServicesContainerMiddleware.<Invoke>d__3.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at Microsoft.AspNetCore.Server.Kestrel.Core.Internal.Http.Frame`1.<ProcessRequestsAsync>d__2.MoveNext()
+---> (Inner Exception #0) System.AggregateException: One or more errors occurred. (A task was canceled.) ---> System.Threading.Tasks.TaskCanceledException: A task was canceled.
+   --- End of inner exception stack trace ---
+   at System.Threading.Tasks.Task`1.GetResultCore(Boolean waitCompletionNotification)
+   at CampaignBudgetTool.Repository.Login.LoginRepository.<PostResult>d__2`2.MoveNext() in C:\D\Timeinc Projects\CampaignBudgetTool\CampaignBudgetTool.Repository\Login\LoginRepository.cs:line 28
+---> (Inner Exception #0) System.Threading.Tasks.TaskCanceledException: A task was canceled.<---
+<---
+
+2018-03-01T12:14:59.7900268+05:30 0HLBV7T1O5PO3:00000001 [WRN] The response has already started, the error page middleware will not be executed. (e1dd4c0d)
+2018-03-01T12:14:59.9309988+05:30 0HLBV7T1O5PO3:00000001 [ERR] Connection id ""0HLBV7T1O5PO3"", Request id ""0HLBV7T1O5PO3:00000001"": An unhandled exception was thrown by the application. (560e7d32)
+System.AggregateException: One or more errors occurred. (One or more errors occurred. (A task was canceled.)) ---> System.AggregateException: One or more errors occurred. (A task was canceled.) ---> System.Threading.Tasks.TaskCanceledException: A task was canceled.
+   --- End of inner exception stack trace ---
+   at System.Threading.Tasks.Task`1.GetResultCore(Boolean waitCompletionNotification)
+   at CampaignBudgetTool.Repository.Login.LoginRepository.<PostResult>d__2`2.MoveNext() in C:\D\Timeinc Projects\CampaignBudgetTool\CampaignBudgetTool.Repository\Login\LoginRepository.cs:line 28
+   --- End of inner exception stack trace ---
+   at System.Threading.Tasks.Task`1.GetResultCore(Boolean waitCompletionNotification)
+   at CampaignBudgetTool.API.Controllers.Login.LoginController.GetUserDetail(String userName, String password, String application)
+   at lambda_method(Closure , Object , Object[] )
+   at Microsoft.Extensions.Internal.ObjectMethodExecutor.Execute(Object target, Object[] parameters)
+   at Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker.<InvokeActionMethodAsync>d__12.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker.<InvokeNextActionFilterAsync>d__10.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   at Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker.Rethrow(ActionExecutedContext context)
+   at Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker.<InvokeInnerFilterAsync>d__14.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at Microsoft.AspNetCore.Mvc.Internal.ResourceInvoker.<InvokeNextExceptionFilterAsync>d__23.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   at Microsoft.AspNetCore.Mvc.Internal.ResourceInvoker.Rethrow(ExceptionContext context)
+   at Microsoft.AspNetCore.Mvc.Internal.ResourceInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Internal.ResourceInvoker.<InvokeNextResourceFilter>d__22.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   at Microsoft.AspNetCore.Mvc.Internal.ResourceInvoker.Rethrow(ResourceExecutedContext context)
+   at Microsoft.AspNetCore.Mvc.Internal.ResourceInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Internal.ResourceInvoker.<InvokeFilterPipelineAsync>d__17.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at Microsoft.AspNetCore.Mvc.Internal.ResourceInvoker.<InvokeAsync>d__15.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at Microsoft.AspNetCore.Builder.RouterMiddleware.<Invoke>d__4.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddleware.<Invoke>d__7.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   at Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddleware.<Invoke>d__7.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at Microsoft.AspNetCore.Authentication.AuthenticationMiddleware.<Invoke>d__6.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at Microsoft.AspNetCore.Cors.Infrastructure.CorsMiddleware.<Invoke>d__7.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at Microsoft.AspNetCore.Server.IISIntegration.IISMiddleware.<Invoke>d__11.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at Microsoft.AspNetCore.Hosting.Internal.RequestServicesContainerMiddleware.<Invoke>d__3.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at Microsoft.AspNetCore.Server.Kestrel.Core.Internal.Http.Frame`1.<ProcessRequestsAsync>d__2.MoveNext()
+---> (Inner Exception #0) System.AggregateException: One or more errors occurred. (A task was canceled.) ---> System.Threading.Tasks.TaskCanceledException: A task was canceled.
+   --- End of inner exception stack trace ---
+   at System.Threading.Tasks.Task`1.GetResultCore(Boolean waitCompletionNotification)
+   at CampaignBudgetTool.Repository.Login.LoginRepository.<PostResult>d__2`2.MoveNext() in C:\D\Timeinc Projects\CampaignBudgetTool\CampaignBudgetTool.Repository\Login\LoginRepository.cs:line 28
+---> (Inner Exception #0) System.Threading.Tasks.TaskCanceledException: A task was canceled.<---
+<---
+
+2018-03-01T12:14:59.9378821+05:30 0HLBV7T1O5PO3:00000001 [INF] Request finished in 100608.0254ms 500 application/json (791a596a)
+2018-03-01T12:22:24.5026753+05:30 0HLBV7T1O5PO4:00000001 [INF] Request starting HTTP/1.1 POST http://localhost:18526/api/Login/GetUserDetail?userName=dashr&password=PrtSc1398&application=Campaign%20Budget%20Tool application/x-www-form-urlencoded 0 (ca22a1cb)
+2018-03-01T12:22:24.5094504+05:30 0HLBV7T1O5PO4:00000001 [INF] Policy execution successful. (0204925d)
+2018-03-01T12:22:24.5182824+05:30 0HLBV7T1O5PO4:00000001 [INF] Request finished in 35.1491ms 404  (791a596a)
+2018-03-01T12:23:51.7734602+05:30 0HLBV84OGVNCR:00000001 [INF] Request starting HTTP/1.1 GET http://localhost:18526/swagger/   (ca22a1cb)
+2018-03-01T12:23:52.0617489+05:30 0HLBV84OGVNCR:00000001 [INF] Sending file. Request path: '"/index.html"'. Physical path: '"N/A"' (27b0a520)
+2018-03-01T12:23:52.1166564+05:30 0HLBV84OGVNCR:00000001 [INF] Request finished in 403.5999ms 200 text/html (791a596a)
+2018-03-01T12:23:52.5125540+05:30 0HLBV84OGVNCR:00000002 [INF] Request starting HTTP/1.1 GET http://localhost:18526/swagger/v1/swagger.json   (ca22a1cb)
+2018-03-01T12:23:52.8460228+05:30 0HLBV84OGVNCR:00000002 [INF] Request finished in 326.169ms 200 application/json (791a596a)
+2018-03-01T12:24:18.7314834+05:30 0HLBV84OGVNCR:00000003 [INF] Request starting HTTP/1.1 POST http://localhost:18526/api/Login/GetUserDetail?userName=dashr&password=PrtSc1398&application=Campaign%20Budget%20Tool application/x-www-form-urlencoded 0 (ca22a1cb)
+2018-03-01T12:24:18.7464427+05:30 0HLBV84OGVNCR:00000003 [INF] Policy execution successful. (0204925d)
+2018-03-01T12:24:18.7674545+05:30 0HLBV84OGVNCR:00000003 [INF] Request finished in 37.0449ms 404  (791a596a)
+2018-03-01T12:24:47.8344621+05:30 0HLBV84OGVNCR:00000004 [INF] Request starting HTTP/1.1 GET http://localhost:18526/swagger/images/throbber.gif   (ca22a1cb)
+2018-03-01T12:24:47.8608516+05:30 0HLBV84OGVNCR:00000004 [INF] Sending file. Request path: '"/images/throbber.gif"'. Physical path: '"N/A"' (27b0a520)
+2018-03-01T12:24:47.8750478+05:30 0HLBV84OGVNCR:00000004 [INF] Request finished in 52.8877ms 200 image/gif (791a596a)
+2018-03-01T12:25:25.2203428+05:30 0HLBV84OGVNCR:00000005 [INF] Request starting HTTP/1.1 POST http://localhost:18526/api/Login?userName=dashr&password=PrtSc1398&application=Campaign%20Budget%20Tool  0 (ca22a1cb)
+2018-03-01T12:25:25.2268384+05:30 0HLBV84OGVNCR:00000005 [INF] Policy execution successful. (0204925d)
+2018-03-01T12:25:25.3390574+05:30 0HLBV84OGVNCR:00000005 [INF] Policy execution successful. (0204925d)
+2018-03-01T12:25:25.4225722+05:30 0HLBV84OGVNCR:00000005 [INF] Executing action method "CampaignBudgetTool.API.Controllers.Login.LoginController.GetUserDetail (CampaignBudgetTool.Api)" with arguments (["dashr", "PrtSc1398", "Campaign Budget Tool"]) - ModelState is Valid (ba7f4ac2)
+2018-03-01T12:25:25.4491492+05:30 0HLBV84OGVNCR:00000005 [INF] LoginController : GetUserDetail - Start (8347a87a)
+2018-03-01T12:25:25.4734645+05:30 0HLBV84OGVNCR:00000005 [INF] Login Detail - UserName"dashr", Application"Campaign Budget Tool" (521a88ab)
+2018-03-01T12:25:25.4992952+05:30 0HLBV84OGVNCR:00000005 [INF] ADBAdminService Login URL is "https://tmpcmamva05.corp.ad.timeinc.com/ADBServiceSSL/ADBServiceBase/AuthService.svc/Login" (97cfe4b4)
+2018-03-01T12:27:07.9637937+05:30 0HLBV84OGVNCR:00000005 [FTL] Exception : One or more errors occurred. (One or more errors occurred. (A task was canceled.))
+InnerException : System.AggregateException: One or more errors occurred. (A task was canceled.) ---> System.Threading.Tasks.TaskCanceledException: A task was canceled.
+   --- End of inner exception stack trace ---
+   at System.Threading.Tasks.Task`1.GetResultCore(Boolean waitCompletionNotification)
+   at CampaignBudgetTool.Repository.Login.LoginRepository.<PostResult>d__2`2.MoveNext() in C:\D\Timeinc Projects\CampaignBudgetTool\CampaignBudgetTool.Repository\Login\LoginRepository.cs:line 28
+---> (Inner Exception #0) System.Threading.Tasks.TaskCanceledException: A task was canceled.<---
+
+StackTrace :    at System.Threading.Tasks.Task`1.GetResultCore(Boolean waitCompletionNotification)
+   at CampaignBudgetTool.API.Controllers.Login.LoginController.GetUserDetail(String userName, String password, String application)
+   at lambda_method(Closure , Object , Object[] )
+   at Microsoft.Extensions.Internal.ObjectMethodExecutor.Execute(Object target, Object[] parameters)
+   at Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker.<InvokeActionMethodAsync>d__12.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker.<InvokeNextActionFilterAsync>d__10.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   at Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker.Rethrow(ActionExecutedContext context)
+   at Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker.<InvokeInnerFilterAsync>d__14.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at Microsoft.AspNetCore.Mvc.Internal.ResourceInvoker.<InvokeNextExceptionFilterAsync>d__23.MoveNext()
+Source : System.Private.CoreLib
+ (d8dfab1c)
+2018-03-01T12:27:08.0841338+05:30 0HLBV84OGVNCR:00000005 [INF] Executed action "CampaignBudgetTool.API.Controllers.Login.LoginController.GetUserDetail (CampaignBudgetTool.Api)" in 102676.9394ms (afa2e885)
+2018-03-01T12:27:08.3549649+05:30 0HLBV84OGVNCR:00000005 [ERR] An unhandled exception has occurred while executing the request (cf926119)
+System.AggregateException: One or more errors occurred. (One or more errors occurred. (A task was canceled.)) ---> System.AggregateException: One or more errors occurred. (A task was canceled.) ---> System.Threading.Tasks.TaskCanceledException: A task was canceled.
+   --- End of inner exception stack trace ---
+   at System.Threading.Tasks.Task`1.GetResultCore(Boolean waitCompletionNotification)
+   at CampaignBudgetTool.Repository.Login.LoginRepository.<PostResult>d__2`2.MoveNext() in C:\D\Timeinc Projects\CampaignBudgetTool\CampaignBudgetTool.Repository\Login\LoginRepository.cs:line 28
+   --- End of inner exception stack trace ---
+   at System.Threading.Tasks.Task`1.GetResultCore(Boolean waitCompletionNotification)
+   at CampaignBudgetTool.API.Controllers.Login.LoginController.GetUserDetail(String userName, String password, String application)
+   at lambda_method(Closure , Object , Object[] )
+   at Microsoft.Extensions.Internal.ObjectMethodExecutor.Execute(Object target, Object[] parameters)
+   at Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker.<InvokeActionMethodAsync>d__12.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker.<InvokeNextActionFilterAsync>d__10.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   at Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker.Rethrow(ActionExecutedContext context)
+   at Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker.<InvokeInnerFilterAsync>d__14.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at Microsoft.AspNetCore.Mvc.Internal.ResourceInvoker.<InvokeNextExceptionFilterAsync>d__23.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   at Microsoft.AspNetCore.Mvc.Internal.ResourceInvoker.Rethrow(ExceptionContext context)
+   at Microsoft.AspNetCore.Mvc.Internal.ResourceInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Internal.ResourceInvoker.<InvokeNextResourceFilter>d__22.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   at Microsoft.AspNetCore.Mvc.Internal.ResourceInvoker.Rethrow(ResourceExecutedContext context)
+   at Microsoft.AspNetCore.Mvc.Internal.ResourceInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Internal.ResourceInvoker.<InvokeFilterPipelineAsync>d__17.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at Microsoft.AspNetCore.Mvc.Internal.ResourceInvoker.<InvokeAsync>d__15.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at Microsoft.AspNetCore.Builder.RouterMiddleware.<Invoke>d__4.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddleware.<Invoke>d__7.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   at Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddleware.<Invoke>d__7.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at Microsoft.AspNetCore.Authentication.AuthenticationMiddleware.<Invoke>d__6.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at Microsoft.AspNetCore.Cors.Infrastructure.CorsMiddleware.<Invoke>d__7.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at Microsoft.AspNetCore.Server.IISIntegration.IISMiddleware.<Invoke>d__11.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at Microsoft.AspNetCore.Hosting.Internal.RequestServicesContainerMiddleware.<Invoke>d__3.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at Microsoft.AspNetCore.Server.Kestrel.Core.Internal.Http.Frame`1.<ProcessRequestsAsync>d__2.MoveNext()
+---> (Inner Exception #0) System.AggregateException: One or more errors occurred. (A task was canceled.) ---> System.Threading.Tasks.TaskCanceledException: A task was canceled.
+   --- End of inner exception stack trace ---
+   at System.Threading.Tasks.Task`1.GetResultCore(Boolean waitCompletionNotification)
+   at CampaignBudgetTool.Repository.Login.LoginRepository.<PostResult>d__2`2.MoveNext() in C:\D\Timeinc Projects\CampaignBudgetTool\CampaignBudgetTool.Repository\Login\LoginRepository.cs:line 28
+---> (Inner Exception #0) System.Threading.Tasks.TaskCanceledException: A task was canceled.<---
+<---
+
+2018-03-01T12:27:08.3740292+05:30 0HLBV84OGVNCR:00000005 [WRN] The response has already started, the error page middleware will not be executed. (e1dd4c0d)
+2018-03-01T12:27:08.8004645+05:30 0HLBV84OGVNCR:00000005 [ERR] Connection id ""0HLBV84OGVNCR"", Request id ""0HLBV84OGVNCR:00000005"": An unhandled exception was thrown by the application. (560e7d32)
+System.AggregateException: One or more errors occurred. (One or more errors occurred. (A task was canceled.)) ---> System.AggregateException: One or more errors occurred. (A task was canceled.) ---> System.Threading.Tasks.TaskCanceledException: A task was canceled.
+   --- End of inner exception stack trace ---
+   at System.Threading.Tasks.Task`1.GetResultCore(Boolean waitCompletionNotification)
+   at CampaignBudgetTool.Repository.Login.LoginRepository.<PostResult>d__2`2.MoveNext() in C:\D\Timeinc Projects\CampaignBudgetTool\CampaignBudgetTool.Repository\Login\LoginRepository.cs:line 28
+   --- End of inner exception stack trace ---
+   at System.Threading.Tasks.Task`1.GetResultCore(Boolean waitCompletionNotification)
+   at CampaignBudgetTool.API.Controllers.Login.LoginController.GetUserDetail(String userName, String password, String application)
+   at lambda_method(Closure , Object , Object[] )
+   at Microsoft.Extensions.Internal.ObjectMethodExecutor.Execute(Object target, Object[] parameters)
+   at Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker.<InvokeActionMethodAsync>d__12.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker.<InvokeNextActionFilterAsync>d__10.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   at Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker.Rethrow(ActionExecutedContext context)
+   at Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker.<InvokeInnerFilterAsync>d__14.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at Microsoft.AspNetCore.Mvc.Internal.ResourceInvoker.<InvokeNextExceptionFilterAsync>d__23.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   at Microsoft.AspNetCore.Mvc.Internal.ResourceInvoker.Rethrow(ExceptionContext context)
+   at Microsoft.AspNetCore.Mvc.Internal.ResourceInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Internal.ResourceInvoker.<InvokeNextResourceFilter>d__22.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   at Microsoft.AspNetCore.Mvc.Internal.ResourceInvoker.Rethrow(ResourceExecutedContext context)
+   at Microsoft.AspNetCore.Mvc.Internal.ResourceInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Internal.ResourceInvoker.<InvokeFilterPipelineAsync>d__17.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at Microsoft.AspNetCore.Mvc.Internal.ResourceInvoker.<InvokeAsync>d__15.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at Microsoft.AspNetCore.Builder.RouterMiddleware.<Invoke>d__4.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddleware.<Invoke>d__7.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   at Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddleware.<Invoke>d__7.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at Microsoft.AspNetCore.Authentication.AuthenticationMiddleware.<Invoke>d__6.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at Microsoft.AspNetCore.Cors.Infrastructure.CorsMiddleware.<Invoke>d__7.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at Microsoft.AspNetCore.Server.IISIntegration.IISMiddleware.<Invoke>d__11.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at Microsoft.AspNetCore.Hosting.Internal.RequestServicesContainerMiddleware.<Invoke>d__3.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at Microsoft.AspNetCore.Server.Kestrel.Core.Internal.Http.Frame`1.<ProcessRequestsAsync>d__2.MoveNext()
+---> (Inner Exception #0) System.AggregateException: One or more errors occurred. (A task was canceled.) ---> System.Threading.Tasks.TaskCanceledException: A task was canceled.
+   --- End of inner exception stack trace ---
+   at System.Threading.Tasks.Task`1.GetResultCore(Boolean waitCompletionNotification)
+   at CampaignBudgetTool.Repository.Login.LoginRepository.<PostResult>d__2`2.MoveNext() in C:\D\Timeinc Projects\CampaignBudgetTool\CampaignBudgetTool.Repository\Login\LoginRepository.cs:line 28
+---> (Inner Exception #0) System.Threading.Tasks.TaskCanceledException: A task was canceled.<---
+<---
+
+2018-03-01T12:27:08.8145346+05:30 0HLBV84OGVNCR:00000005 [INF] Request finished in 103586.802ms 500 application/json (791a596a)
+2018-03-01T12:28:47.9515262+05:30 0HLBV87GPKLVT:00000001 [INF] Request starting HTTP/1.1 GET http://localhost:18526/swagger/   (ca22a1cb)
+2018-03-01T12:28:48.3093395+05:30 0HLBV87GPKLVT:00000001 [INF] Sending file. Request path: '"/index.html"'. Physical path: '"N/A"' (27b0a520)
+2018-03-01T12:28:48.3715434+05:30 0HLBV87GPKLVT:00000001 [INF] Request finished in 451.2808ms 200 text/html (791a596a)
+2018-03-01T12:28:48.8162383+05:30 0HLBV87GPKLVT:00000002 [INF] Request starting HTTP/1.1 GET http://localhost:18526/swagger/v1/swagger.json   (ca22a1cb)
+2018-03-01T12:28:49.1292062+05:30 0HLBV87GPKLVT:00000002 [INF] Request finished in 310.5013ms 200 application/json (791a596a)
+2018-03-01T12:29:09.8346178+05:30 0HLBV87GPKLVT:00000003 [INF] Request starting HTTP/1.1 POST http://localhost:18526/api/Login/GetUserDetail?userName=dashr&password=a3pCVnV3cTlZJTVlVi04VyUyM2NQcnRTYzEzOTg=&application=Campaign%20Budget%20Tool&isEncrypted=true application/x-www-form-urlencoded 0 (ca22a1cb)
+2018-03-01T12:29:09.8507044+05:30 0HLBV87GPKLVT:00000003 [INF] Policy execution successful. (0204925d)
+2018-03-01T12:29:09.8856591+05:30 0HLBV87GPKLVT:00000003 [INF] Request finished in 36.5686ms 404  (791a596a)
+2018-03-01T12:31:13.7005108+05:30 0HLBV88S7RUVN:00000001 [INF] Request starting HTTP/1.1 GET http://localhost:18526/api/Login   (ca22a1cb)
+2018-03-01T12:31:14.0609363+05:30 0HLBV88S7RUVN:00000001 [INF] Request finished in 416.4459ms 404  (791a596a)
+2018-03-01T12:31:14.0974248+05:30 0HLBV88S7RUVN:00000002 [INF] Request starting HTTP/1.1 GET http://localhost:18526/favicon.ico   (ca22a1cb)
+2018-03-01T12:31:14.1139713+05:30 0HLBV88S7RUVN:00000002 [INF] Request finished in 7.7091ms 404  (791a596a)
+2018-03-01T12:32:14.7302077+05:30 0HLBV88S7RUVO:00000001 [INF] Request starting HTTP/1.1 POST http://localhost:18526/api/Login?userName=dashr&password=a3pCVnV3cTlZJTVlVi04VyUyM2NQcnRTYzEzOTg=&application=Campaign%20Budget%20Tool&isEncrypted=true application/x-www-form-urlencoded 0 (ca22a1cb)
+2018-03-01T12:32:14.7591081+05:30 0HLBV88S7RUVO:00000001 [INF] Policy execution successful. (0204925d)
+2018-03-01T12:32:14.8770095+05:30 0HLBV88S7RUVO:00000001 [INF] Policy execution successful. (0204925d)
+2018-03-01T12:32:14.9807157+05:30 0HLBV88S7RUVO:00000001 [INF] Executing action method "CampaignBudgetTool.API.Controllers.Login.LoginController.GetUserDetail (CampaignBudgetTool.Api)" with arguments (["dashr", "a3pCVnV3cTlZJTVlVi04VyUyM2NQcnRTYzEzOTg=", "Campaign Budget Tool", "True"]) - ModelState is Valid (ba7f4ac2)
+2018-03-01T12:32:18.4074746+05:30 0HLBV88S7RUVO:00000001 [INF] LoginController : GetUserDetail - Start (8347a87a)
+2018-03-01T12:32:18.4232002+05:30 0HLBV88S7RUVO:00000001 [INF] Login Detail - UserName"dashr", Application"Campaign Budget Tool" (521a88ab)
+2018-03-01T12:32:18.4316253+05:30 0HLBV88S7RUVO:00000001 [INF] ADBAdminService Login URL is "https://tmpcmamva05.corp.ad.timeinc.com/ADBServiceSSL/ADBServiceBase/AuthService.svc/Login" (97cfe4b4)
+2018-03-01T12:46:11.9456040+05:30 0HLBV8H7TKDMC:00000001 [INF] Request starting HTTP/1.1 GET http://localhost:18526/api/Login   (ca22a1cb)
+2018-03-01T12:46:12.5130833+05:30 0HLBV8H7TKDMC:00000001 [INF] Request finished in 600.9152ms 404  (791a596a)
+2018-03-01T12:46:12.5601676+05:30 0HLBV8H7TKDMC:00000002 [INF] Request starting HTTP/1.1 GET http://localhost:18526/favicon.ico   (ca22a1cb)
+2018-03-01T12:46:12.5813110+05:30 0HLBV8H7TKDMC:00000002 [INF] Request finished in 33.0461ms 404  (791a596a)
+2018-03-01T12:46:35.5097224+05:30 0HLBV8H7TKDMC:00000003 [INF] Request starting HTTP/1.1 POST http://localhost:18526/api/Login?userName=dashr&password=a3pCVnV3cTlZJTVlVi04VyUyM2NQcnRTYzEzOTg=&application=Campaign%20Budget%20Tool&isEncrypted=true application/x-www-form-urlencoded 0 (ca22a1cb)
+2018-03-01T12:46:35.5567379+05:30 0HLBV8H7TKDMC:00000003 [INF] Policy execution successful. (0204925d)
+2018-03-01T12:46:35.6548570+05:30 0HLBV8H7TKDMC:00000003 [INF] Policy execution successful. (0204925d)
+2018-03-01T12:46:35.7419352+05:30 0HLBV8H7TKDMC:00000003 [INF] Executing action method "CampaignBudgetTool.API.Controllers.Login.LoginController.GetUserDetail (CampaignBudgetTool.Api)" with arguments (["dashr", "a3pCVnV3cTlZJTVlVi04VyUyM2NQcnRTYzEzOTg=", "Campaign Budget Tool", "True"]) - ModelState is Valid (ba7f4ac2)
+2018-03-01T12:46:47.7575758+05:30 0HLBV8H7TKDMC:00000003 [INF] LoginController : GetUserDetail - Start (8347a87a)
+2018-03-01T12:46:47.7966182+05:30 0HLBV8H7TKDMC:00000003 [INF] Login Detail - UserName"dashr", Application"Campaign Budget Tool" (521a88ab)
+2018-03-01T12:46:47.8048103+05:30 0HLBV8H7TKDMC:00000003 [INF] ADBAdminService Login URL is "https://tmpcmamva05.corp.ad.timeinc.com/ADBServiceSSL/ADBServiceBase/AuthService.svc/Login" (97cfe4b4)
+2018-03-01T12:48:55.2434605+05:30 0HLBV8H7TKDMC:00000003 [FTL] Exception : One or more errors occurred. (One or more errors occurred. (A task was canceled.))
+InnerException : System.AggregateException: One or more errors occurred. (A task was canceled.) ---> System.Threading.Tasks.TaskCanceledException: A task was canceled.
+   --- End of inner exception stack trace ---
+   at System.Threading.Tasks.Task`1.GetResultCore(Boolean waitCompletionNotification)
+   at CampaignBudgetTool.Repository.Login.LoginRepository.<PostResult>d__2`2.MoveNext() in C:\D\Timeinc Projects\CampaignBudgetTool\CampaignBudgetTool.Repository\Login\LoginRepository.cs:line 28
+---> (Inner Exception #0) System.Threading.Tasks.TaskCanceledException: A task was canceled.<---
+
+StackTrace :    at System.Threading.Tasks.Task`1.GetResultCore(Boolean waitCompletionNotification)
+   at CampaignBudgetTool.API.Controllers.Login.LoginController.GetUserDetail(String userName, String password, String application, Boolean isEncrypted) in C:\D\Timeinc Projects\CampaignBudgetTool\CampaignBudgetTool.Api\Controllers\Login\LoginController.cs:line 80
+   at lambda_method(Closure , Object , Object[] )
+   at Microsoft.Extensions.Internal.ObjectMethodExecutor.Execute(Object target, Object[] parameters)
+   at Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker.<InvokeActionMethodAsync>d__12.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker.<InvokeNextActionFilterAsync>d__10.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   at Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker.Rethrow(ActionExecutedContext context)
+   at Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker.<InvokeInnerFilterAsync>d__14.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at Microsoft.AspNetCore.Mvc.Internal.ResourceInvoker.<InvokeNextExceptionFilterAsync>d__23.MoveNext()
+Source : System.Private.CoreLib
+ (1c33b06a)
+2018-03-01T12:48:55.2620741+05:30 0HLBV8H7TKDMC:00000003 [INF] Executed action "CampaignBudgetTool.API.Controllers.Login.LoginController.GetUserDetail (CampaignBudgetTool.Api)" in 139605.0539ms (afa2e885)
+2018-03-01T12:48:55.3903519+05:30 0HLBV8H7TKDMC:00000003 [ERR] An unhandled exception has occurred while executing the request (cf926119)
+System.AggregateException: One or more errors occurred. (One or more errors occurred. (A task was canceled.)) ---> System.AggregateException: One or more errors occurred. (A task was canceled.) ---> System.Threading.Tasks.TaskCanceledException: A task was canceled.
+   --- End of inner exception stack trace ---
+   at System.Threading.Tasks.Task`1.GetResultCore(Boolean waitCompletionNotification)
+   at CampaignBudgetTool.Repository.Login.LoginRepository.<PostResult>d__2`2.MoveNext() in C:\D\Timeinc Projects\CampaignBudgetTool\CampaignBudgetTool.Repository\Login\LoginRepository.cs:line 28
+   --- End of inner exception stack trace ---
+   at System.Threading.Tasks.Task`1.GetResultCore(Boolean waitCompletionNotification)
+   at CampaignBudgetTool.API.Controllers.Login.LoginController.GetUserDetail(String userName, String password, String application, Boolean isEncrypted) in C:\D\Timeinc Projects\CampaignBudgetTool\CampaignBudgetTool.Api\Controllers\Login\LoginController.cs:line 80
+   at lambda_method(Closure , Object , Object[] )
+   at Microsoft.Extensions.Internal.ObjectMethodExecutor.Execute(Object target, Object[] parameters)
+   at Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker.<InvokeActionMethodAsync>d__12.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker.<InvokeNextActionFilterAsync>d__10.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   at Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker.Rethrow(ActionExecutedContext context)
+   at Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker.<InvokeInnerFilterAsync>d__14.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at Microsoft.AspNetCore.Mvc.Internal.ResourceInvoker.<InvokeNextExceptionFilterAsync>d__23.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   at Microsoft.AspNetCore.Mvc.Internal.ResourceInvoker.Rethrow(ExceptionContext context)
+   at Microsoft.AspNetCore.Mvc.Internal.ResourceInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Internal.ResourceInvoker.<InvokeNextResourceFilter>d__22.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   at Microsoft.AspNetCore.Mvc.Internal.ResourceInvoker.Rethrow(ResourceExecutedContext context)
+   at Microsoft.AspNetCore.Mvc.Internal.ResourceInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Internal.ResourceInvoker.<InvokeFilterPipelineAsync>d__17.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at Microsoft.AspNetCore.Mvc.Internal.ResourceInvoker.<InvokeAsync>d__15.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at Microsoft.AspNetCore.Builder.RouterMiddleware.<Invoke>d__4.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddleware.<Invoke>d__7.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   at Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddleware.<Invoke>d__7.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at Microsoft.AspNetCore.Authentication.AuthenticationMiddleware.<Invoke>d__6.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at Microsoft.AspNetCore.Cors.Infrastructure.CorsMiddleware.<Invoke>d__7.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at Microsoft.AspNetCore.Server.IISIntegration.IISMiddleware.<Invoke>d__11.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at Microsoft.AspNetCore.Hosting.Internal.RequestServicesContainerMiddleware.<Invoke>d__3.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at Microsoft.AspNetCore.Server.Kestrel.Core.Internal.Http.Frame`1.<ProcessRequestsAsync>d__2.MoveNext()
+---> (Inner Exception #0) System.AggregateException: One or more errors occurred. (A task was canceled.) ---> System.Threading.Tasks.TaskCanceledException: A task was canceled.
+   --- End of inner exception stack trace ---
+   at System.Threading.Tasks.Task`1.GetResultCore(Boolean waitCompletionNotification)
+   at CampaignBudgetTool.Repository.Login.LoginRepository.<PostResult>d__2`2.MoveNext() in C:\D\Timeinc Projects\CampaignBudgetTool\CampaignBudgetTool.Repository\Login\LoginRepository.cs:line 28
+---> (Inner Exception #0) System.Threading.Tasks.TaskCanceledException: A task was canceled.<---
+<---
+
+2018-03-01T12:48:55.3965026+05:30 0HLBV8H7TKDMC:00000003 [WRN] The response has already started, the error page middleware will not be executed. (e1dd4c0d)
+2018-03-01T12:48:55.5600795+05:30 0HLBV8H7TKDMC:00000003 [ERR] Connection id ""0HLBV8H7TKDMC"", Request id ""0HLBV8H7TKDMC:00000003"": An unhandled exception was thrown by the application. (560e7d32)
+System.AggregateException: One or more errors occurred. (One or more errors occurred. (A task was canceled.)) ---> System.AggregateException: One or more errors occurred. (A task was canceled.) ---> System.Threading.Tasks.TaskCanceledException: A task was canceled.
+   --- End of inner exception stack trace ---
+   at System.Threading.Tasks.Task`1.GetResultCore(Boolean waitCompletionNotification)
+   at CampaignBudgetTool.Repository.Login.LoginRepository.<PostResult>d__2`2.MoveNext() in C:\D\Timeinc Projects\CampaignBudgetTool\CampaignBudgetTool.Repository\Login\LoginRepository.cs:line 28
+   --- End of inner exception stack trace ---
+   at System.Threading.Tasks.Task`1.GetResultCore(Boolean waitCompletionNotification)
+   at CampaignBudgetTool.API.Controllers.Login.LoginController.GetUserDetail(String userName, String password, String application, Boolean isEncrypted) in C:\D\Timeinc Projects\CampaignBudgetTool\CampaignBudgetTool.Api\Controllers\Login\LoginController.cs:line 80
+   at lambda_method(Closure , Object , Object[] )
+   at Microsoft.Extensions.Internal.ObjectMethodExecutor.Execute(Object target, Object[] parameters)
+   at Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker.<InvokeActionMethodAsync>d__12.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker.<InvokeNextActionFilterAsync>d__10.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   at Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker.Rethrow(ActionExecutedContext context)
+   at Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker.<InvokeInnerFilterAsync>d__14.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at Microsoft.AspNetCore.Mvc.Internal.ResourceInvoker.<InvokeNextExceptionFilterAsync>d__23.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   at Microsoft.AspNetCore.Mvc.Internal.ResourceInvoker.Rethrow(ExceptionContext context)
+   at Microsoft.AspNetCore.Mvc.Internal.ResourceInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Internal.ResourceInvoker.<InvokeNextResourceFilter>d__22.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   at Microsoft.AspNetCore.Mvc.Internal.ResourceInvoker.Rethrow(ResourceExecutedContext context)
+   at Microsoft.AspNetCore.Mvc.Internal.ResourceInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Internal.ResourceInvoker.<InvokeFilterPipelineAsync>d__17.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at Microsoft.AspNetCore.Mvc.Internal.ResourceInvoker.<InvokeAsync>d__15.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at Microsoft.AspNetCore.Builder.RouterMiddleware.<Invoke>d__4.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddleware.<Invoke>d__7.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   at Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddleware.<Invoke>d__7.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at Microsoft.AspNetCore.Authentication.AuthenticationMiddleware.<Invoke>d__6.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at Microsoft.AspNetCore.Cors.Infrastructure.CorsMiddleware.<Invoke>d__7.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at Microsoft.AspNetCore.Server.IISIntegration.IISMiddleware.<Invoke>d__11.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at Microsoft.AspNetCore.Hosting.Internal.RequestServicesContainerMiddleware.<Invoke>d__3.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at Microsoft.AspNetCore.Server.Kestrel.Core.Internal.Http.Frame`1.<ProcessRequestsAsync>d__2.MoveNext()
+---> (Inner Exception #0) System.AggregateException: One or more errors occurred. (A task was canceled.) ---> System.Threading.Tasks.TaskCanceledException: A task was canceled.
+   --- End of inner exception stack trace ---
+   at System.Threading.Tasks.Task`1.GetResultCore(Boolean waitCompletionNotification)
+   at CampaignBudgetTool.Repository.Login.LoginRepository.<PostResult>d__2`2.MoveNext() in C:\D\Timeinc Projects\CampaignBudgetTool\CampaignBudgetTool.Repository\Login\LoginRepository.cs:line 28
+---> (Inner Exception #0) System.Threading.Tasks.TaskCanceledException: A task was canceled.<---
+<---
+
+2018-03-01T12:48:55.5841665+05:30 0HLBV8H7TKDMC:00000003 [INF] Request finished in 140064.1177ms 500 application/json (791a596a)
+2018-03-01T12:49:25.1381034+05:30 0HLBV8H7TKDMD:00000001 [INF] Request starting HTTP/1.1 POST http://localhost:18526/api/Login?userName=dashr&password=a3pCVnV3cTlZJTVlVi04VyUyM2NQcnRTYzEzOTg=&application=Campaign%20Budget%20Tool&isEncrypted=true application/x-www-form-urlencoded 0 (ca22a1cb)
+2018-03-01T12:49:25.1503132+05:30 0HLBV8H7TKDMD:00000001 [INF] Policy execution successful. (0204925d)
+2018-03-01T12:49:25.1586374+05:30 0HLBV8H7TKDMD:00000001 [INF] Policy execution successful. (0204925d)
+2018-03-01T12:49:25.1701731+05:30 0HLBV8H7TKDMD:00000001 [INF] Executing action method "CampaignBudgetTool.API.Controllers.Login.LoginController.GetUserDetail (CampaignBudgetTool.Api)" with arguments (["dashr", "a3pCVnV3cTlZJTVlVi04VyUyM2NQcnRTYzEzOTg=", "Campaign Budget Tool", "True"]) - ModelState is Valid (ba7f4ac2)
+2018-03-01T12:49:27.5892079+05:30 0HLBV8H7TKDMD:00000001 [INF] LoginController : GetUserDetail - Start (8347a87a)
+2018-03-01T12:50:05.8235278+05:30 0HLBV8H7TKDMD:00000001 [INF] Login Detail - UserName"dashr", Application"Campaign Budget Tool" (521a88ab)
+2018-03-01T12:50:07.1025021+05:30 0HLBV8H7TKDMD:00000001 [INF] ADBAdminService Login URL is "https://tmpcmamva05.corp.ad.timeinc.com/ADBServiceSSL/ADBServiceBase/AuthService.svc/Login" (97cfe4b4)
+2018-03-01T12:54:25.8655066+05:30 0HLBV8H7TKDMD:00000001 [FTL] Exception : One or more errors occurred. (One or more errors occurred. (A task was canceled.))
+InnerException : System.AggregateException: One or more errors occurred. (A task was canceled.) ---> System.Threading.Tasks.TaskCanceledException: A task was canceled.
+   --- End of inner exception stack trace ---
+   at System.Threading.Tasks.Task`1.GetResultCore(Boolean waitCompletionNotification)
+   at CampaignBudgetTool.Repository.Login.LoginRepository.<PostResult>d__2`2.MoveNext() in C:\D\Timeinc Projects\CampaignBudgetTool\CampaignBudgetTool.Repository\Login\LoginRepository.cs:line 28
+---> (Inner Exception #0) System.Threading.Tasks.TaskCanceledException: A task was canceled.<---
+
+StackTrace :    at System.Threading.Tasks.Task`1.GetResultCore(Boolean waitCompletionNotification)
+   at CampaignBudgetTool.API.Controllers.Login.LoginController.GetUserDetail(String userName, String password, String application, Boolean isEncrypted) in C:\D\Timeinc Projects\CampaignBudgetTool\CampaignBudgetTool.Api\Controllers\Login\LoginController.cs:line 80
+   at lambda_method(Closure , Object , Object[] )
+   at Microsoft.Extensions.Internal.ObjectMethodExecutor.Execute(Object target, Object[] parameters)
+   at Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker.<InvokeActionMethodAsync>d__12.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker.<InvokeNextActionFilterAsync>d__10.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   at Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker.Rethrow(ActionExecutedContext context)
+   at Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker.<InvokeInnerFilterAsync>d__14.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at Microsoft.AspNetCore.Mvc.Internal.ResourceInvoker.<InvokeNextExceptionFilterAsync>d__23.MoveNext()
+Source : System.Private.CoreLib
+ (1c33b06a)
+2018-03-01T12:54:25.8922552+05:30 0HLBV8H7TKDMD:00000001 [INF] Executed action "CampaignBudgetTool.API.Controllers.Login.LoginController.GetUserDetail (CampaignBudgetTool.Api)" in 300710.9284ms (afa2e885)
+2018-03-01T12:54:26.0241109+05:30 0HLBV8H7TKDMD:00000001 [ERR] An unhandled exception has occurred while executing the request (cf926119)
+System.AggregateException: One or more errors occurred. (One or more errors occurred. (A task was canceled.)) ---> System.AggregateException: One or more errors occurred. (A task was canceled.) ---> System.Threading.Tasks.TaskCanceledException: A task was canceled.
+   --- End of inner exception stack trace ---
+   at System.Threading.Tasks.Task`1.GetResultCore(Boolean waitCompletionNotification)
+   at CampaignBudgetTool.Repository.Login.LoginRepository.<PostResult>d__2`2.MoveNext() in C:\D\Timeinc Projects\CampaignBudgetTool\CampaignBudgetTool.Repository\Login\LoginRepository.cs:line 28
+   --- End of inner exception stack trace ---
+   at System.Threading.Tasks.Task`1.GetResultCore(Boolean waitCompletionNotification)
+   at CampaignBudgetTool.API.Controllers.Login.LoginController.GetUserDetail(String userName, String password, String application, Boolean isEncrypted) in C:\D\Timeinc Projects\CampaignBudgetTool\CampaignBudgetTool.Api\Controllers\Login\LoginController.cs:line 80
+   at lambda_method(Closure , Object , Object[] )
+   at Microsoft.Extensions.Internal.ObjectMethodExecutor.Execute(Object target, Object[] parameters)
+   at Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker.<InvokeActionMethodAsync>d__12.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker.<InvokeNextActionFilterAsync>d__10.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   at Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker.Rethrow(ActionExecutedContext context)
+   at Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker.<InvokeInnerFilterAsync>d__14.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at Microsoft.AspNetCore.Mvc.Internal.ResourceInvoker.<InvokeNextExceptionFilterAsync>d__23.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   at Microsoft.AspNetCore.Mvc.Internal.ResourceInvoker.Rethrow(ExceptionContext context)
+   at Microsoft.AspNetCore.Mvc.Internal.ResourceInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Internal.ResourceInvoker.<InvokeNextResourceFilter>d__22.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   at Microsoft.AspNetCore.Mvc.Internal.ResourceInvoker.Rethrow(ResourceExecutedContext context)
+   at Microsoft.AspNetCore.Mvc.Internal.ResourceInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Internal.ResourceInvoker.<InvokeFilterPipelineAsync>d__17.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at Microsoft.AspNetCore.Mvc.Internal.ResourceInvoker.<InvokeAsync>d__15.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at Microsoft.AspNetCore.Builder.RouterMiddleware.<Invoke>d__4.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddleware.<Invoke>d__7.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   at Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddleware.<Invoke>d__7.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at Microsoft.AspNetCore.Authentication.AuthenticationMiddleware.<Invoke>d__6.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at Microsoft.AspNetCore.Cors.Infrastructure.CorsMiddleware.<Invoke>d__7.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at Microsoft.AspNetCore.Server.IISIntegration.IISMiddleware.<Invoke>d__11.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at Microsoft.AspNetCore.Hosting.Internal.RequestServicesContainerMiddleware.<Invoke>d__3.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at Microsoft.AspNetCore.Server.Kestrel.Core.Internal.Http.Frame`1.<ProcessRequestsAsync>d__2.MoveNext()
+---> (Inner Exception #0) System.AggregateException: One or more errors occurred. (A task was canceled.) ---> System.Threading.Tasks.TaskCanceledException: A task was canceled.
+   --- End of inner exception stack trace ---
+   at System.Threading.Tasks.Task`1.GetResultCore(Boolean waitCompletionNotification)
+   at CampaignBudgetTool.Repository.Login.LoginRepository.<PostResult>d__2`2.MoveNext() in C:\D\Timeinc Projects\CampaignBudgetTool\CampaignBudgetTool.Repository\Login\LoginRepository.cs:line 28
+---> (Inner Exception #0) System.Threading.Tasks.TaskCanceledException: A task was canceled.<---
+<---
+
+2018-03-01T12:54:26.0316285+05:30 0HLBV8H7TKDMD:00000001 [WRN] The response has already started, the error page middleware will not be executed. (e1dd4c0d)
+2018-03-01T12:54:26.1966682+05:30 0HLBV8H7TKDMD:00000001 [ERR] Connection id ""0HLBV8H7TKDMD"", Request id ""0HLBV8H7TKDMD:00000001"": An unhandled exception was thrown by the application. (560e7d32)
+System.AggregateException: One or more errors occurred. (One or more errors occurred. (A task was canceled.)) ---> System.AggregateException: One or more errors occurred. (A task was canceled.) ---> System.Threading.Tasks.TaskCanceledException: A task was canceled.
+   --- End of inner exception stack trace ---
+   at System.Threading.Tasks.Task`1.GetResultCore(Boolean waitCompletionNotification)
+   at CampaignBudgetTool.Repository.Login.LoginRepository.<PostResult>d__2`2.MoveNext() in C:\D\Timeinc Projects\CampaignBudgetTool\CampaignBudgetTool.Repository\Login\LoginRepository.cs:line 28
+   --- End of inner exception stack trace ---
+   at System.Threading.Tasks.Task`1.GetResultCore(Boolean waitCompletionNotification)
+   at CampaignBudgetTool.API.Controllers.Login.LoginController.GetUserDetail(String userName, String password, String application, Boolean isEncrypted) in C:\D\Timeinc Projects\CampaignBudgetTool\CampaignBudgetTool.Api\Controllers\Login\LoginController.cs:line 80
+   at lambda_method(Closure , Object , Object[] )
+   at Microsoft.Extensions.Internal.ObjectMethodExecutor.Execute(Object target, Object[] parameters)
+   at Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker.<InvokeActionMethodAsync>d__12.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker.<InvokeNextActionFilterAsync>d__10.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   at Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker.Rethrow(ActionExecutedContext context)
+   at Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker.<InvokeInnerFilterAsync>d__14.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at Microsoft.AspNetCore.Mvc.Internal.ResourceInvoker.<InvokeNextExceptionFilterAsync>d__23.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   at Microsoft.AspNetCore.Mvc.Internal.ResourceInvoker.Rethrow(ExceptionContext context)
+   at Microsoft.AspNetCore.Mvc.Internal.ResourceInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Internal.ResourceInvoker.<InvokeNextResourceFilter>d__22.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   at Microsoft.AspNetCore.Mvc.Internal.ResourceInvoker.Rethrow(ResourceExecutedContext context)
+   at Microsoft.AspNetCore.Mvc.Internal.ResourceInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Internal.ResourceInvoker.<InvokeFilterPipelineAsync>d__17.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at Microsoft.AspNetCore.Mvc.Internal.ResourceInvoker.<InvokeAsync>d__15.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at Microsoft.AspNetCore.Builder.RouterMiddleware.<Invoke>d__4.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddleware.<Invoke>d__7.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   at Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddleware.<Invoke>d__7.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at Microsoft.AspNetCore.Authentication.AuthenticationMiddleware.<Invoke>d__6.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at Microsoft.AspNetCore.Cors.Infrastructure.CorsMiddleware.<Invoke>d__7.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at Microsoft.AspNetCore.Server.IISIntegration.IISMiddleware.<Invoke>d__11.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at Microsoft.AspNetCore.Hosting.Internal.RequestServicesContainerMiddleware.<Invoke>d__3.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at Microsoft.AspNetCore.Server.Kestrel.Core.Internal.Http.Frame`1.<ProcessRequestsAsync>d__2.MoveNext()
+---> (Inner Exception #0) System.AggregateException: One or more errors occurred. (A task was canceled.) ---> System.Threading.Tasks.TaskCanceledException: A task was canceled.
+   --- End of inner exception stack trace ---
+   at System.Threading.Tasks.Task`1.GetResultCore(Boolean waitCompletionNotification)
+   at CampaignBudgetTool.Repository.Login.LoginRepository.<PostResult>d__2`2.MoveNext() in C:\D\Timeinc Projects\CampaignBudgetTool\CampaignBudgetTool.Repository\Login\LoginRepository.cs:line 28
+---> (Inner Exception #0) System.Threading.Tasks.TaskCanceledException: A task was canceled.<---
+<---
+
+2018-03-01T12:54:26.2132920+05:30 0HLBV8H7TKDMD:00000001 [INF] Request finished in 301064.1292ms 500 application/json (791a596a)
+2018-03-01T12:54:59.6348619+05:30 0HLBV8M569M4A:00000001 [INF] Request starting HTTP/1.1 GET http://localhost:18526/api/Login   (ca22a1cb)
+2018-03-01T12:54:59.9998435+05:30 0HLBV8M569M4A:00000001 [INF] Request finished in 384.8873ms 404  (791a596a)
+2018-03-01T12:55:00.0471475+05:30 0HLBV8M569M4A:00000002 [INF] Request starting HTTP/1.1 GET http://localhost:18526/favicon.ico   (ca22a1cb)
+2018-03-01T12:55:00.0611674+05:30 0HLBV8M569M4A:00000002 [INF] Request finished in 25.7279ms 404  (791a596a)
+2018-03-01T12:55:28.4070866+05:30 0HLBV8M569M4A:00000003 [INF] Request starting HTTP/1.1 POST http://localhost:18526/api/Login?userName=dashr&password=a3pCVnV3cTlZJTVlVi04VyUyM2NQcnRTYzEzOTg=&application=Campaign%20Budget%20Tool&isEncrypted=true application/x-www-form-urlencoded 0 (ca22a1cb)
+2018-03-01T12:55:28.4163733+05:30 0HLBV8M569M4A:00000003 [INF] Policy execution successful. (0204925d)
+2018-03-01T12:55:28.5341439+05:30 0HLBV8M569M4A:00000003 [INF] Policy execution successful. (0204925d)
+2018-03-01T12:55:28.6454627+05:30 0HLBV8M569M4A:00000003 [INF] Executing action method "CampaignBudgetTool.API.Controllers.Login.LoginController.GetUserDetail (CampaignBudgetTool.Api)" with arguments (["dashr", "a3pCVnV3cTlZJTVlVi04VyUyM2NQcnRTYzEzOTg=", "Campaign Budget Tool", "True"]) - ModelState is Valid (ba7f4ac2)
+2018-03-01T12:55:32.6672004+05:30 0HLBV8M569M4A:00000003 [INF] LoginController : GetUserDetail - Start (8347a87a)
+2018-03-01T12:55:38.9049533+05:30 0HLBV8M569M4A:00000003 [INF] Login Detail - UserName"dashr", Application"Campaign Budget Tool" (521a88ab)
+2018-03-01T12:55:39.9657319+05:30 0HLBV8M569M4A:00000003 [INF] ADBAdminService Login URL is "https://tmpcmamva04.corp.ad.timeinc.com/ADBServiceSSL/ADBServiceBase/AuthService.svc/Login" (97cfe4b4)
+2018-03-01T12:55:47.1700098+05:30 0HLBV8M569M4A:00000003 [INF] ADBAdminService Resource URL is "https://tmpcmamva04.corp.ad.timeinc.com/ADBServiceSSL/ADBServiceBase/AuthService.svc/GetResources" (48609eb1)
+2018-03-01T12:55:53.1388300+05:30 0HLBV8M569M4A:00000003 [INF] LoginController : GetUserDetail - End (a79373d4)
+2018-03-01T12:55:53.1706408+05:30 0HLBV8M569M4A:00000003 [INF] Executing ObjectResult, writing value "Microsoft.AspNetCore.Mvc.ControllerContext". (4e968210)
+2018-03-01T12:55:53.2346195+05:30 0HLBV8M569M4A:00000003 [INF] Executed action "CampaignBudgetTool.API.Controllers.Login.LoginController.GetUserDetail (CampaignBudgetTool.Api)" in 24665.0038ms (afa2e885)
+2018-03-01T12:55:53.2480252+05:30 0HLBV8M569M4A:00000003 [INF] Request finished in 24838.3228ms 200 application/json; charset=utf-8 (791a596a)
+2018-03-01T12:55:53.4038431+05:30 0HLBV8M569M4A:00000004 [INF] Request starting HTTP/1.1 OPTIONS http://localhost:18526/api/DMFlashBudget/DMFlashBudgetDetails/null/null/null/false   (ca22a1cb)
+2018-03-01T12:55:53.4093885+05:30 0HLBV8M569M4A:00000004 [INF] Policy execution successful. (0204925d)
+2018-03-01T12:55:53.4210880+05:30 0HLBV8M569M4A:00000004 [INF] Request finished in 15.2869ms 204  (791a596a)
+2018-03-01T12:55:53.4812332+05:30 0HLBV8M569M4A:00000005 [INF] Request starting HTTP/1.1 GET http://localhost:18526/api/DMFlashBudget/DMFlashBudgetDetails/null/null/null/false application/json  (ca22a1cb)
+2018-03-01T12:55:53.4896842+05:30 0HLBV8M569M4A:00000005 [INF] Policy execution successful. (0204925d)
+2018-03-01T12:55:53.5980979+05:30 0HLBV8M569M4A:00000005 [INF] Successfully validated the token. (60169667)
+2018-03-01T12:55:53.6126974+05:30 0HLBV8M569M4A:00000005 [INF] AuthenticationScheme: "Bearer" was successfully authenticated. (1805f3b3)
+2018-03-01T12:55:53.6268856+05:30 0HLBV8M569M4A:00000005 [INF] Policy execution successful. (0204925d)
+2018-03-01T12:55:53.6693780+05:30 0HLBV8M569M4A:00000005 [INF] Authorization was successful for user: "dashr". (d7eb274a)
+2018-03-01T12:55:53.9645101+05:30 0HLBV8M569M4A:00000005 [INF] Executing action method "CampaignBudgetTool.API.Controllers.DMBudget.DMFlashBudgetController.GetDMFlashBudgetDetails (CampaignBudgetTool.Api)" with arguments (["null", "null", "null", "False"]) - ModelState is Valid (ba7f4ac2)
+2018-03-01T12:55:53.9783322+05:30 0HLBV8M569M4A:00000005 [INF] DMFlashBudgetController : GetDMFlashBudgetDetails - Start (6ef7bca3)
+2018-03-01T12:55:53.9918524+05:30 0HLBV8M569M4A:00000005 [INF] For MagCode "null", Year "null", CampaignName "null" and AddMode False  (c9416ae2)
+2018-03-01T12:55:54.0439864+05:30 0HLBV8M569M4A:00000005 [INF] DMFlashBudgetRepository : GetDMFlashBudgetDetails - Start (13f11259)
+2018-03-01T12:55:54.3610704+05:30 0HLBV8M569M4A:00000005 [INF] Entity Framework Core "2.0.1-rtm-125" initialized '"DMContext"' using provider '"Microsoft.EntityFrameworkCore.SqlServer"' with options: "None" (9958f5bb)
+2018-03-01T12:55:56.4334676+05:30 0HLBV8M569M4A:00000005 [INF] Executed DbCommand ("518"ms) [Parameters=["@p0='?', @p1='?', @p2='?', @p3='?'"], CommandType='Text', CommandTimeout='30']"
+""PGK_DMCAMPAIGN_PROC_GET_FLASH_BUDGET_DETAILS @p0,@p1,@p2,@p3" (0723d8ff)
+2018-03-01T12:55:56.9017072+05:30 0HLBV8M569M4A:00000005 [INF] DMFlashBudgetRepository : GetDMFlashBudgetDetails - End (f5763a6a)
+2018-03-01T12:55:56.9313253+05:30 0HLBV8M569M4A:00000005 [INF] DMFlashBudgetController : GetDMFlashBudgetDetails - End (e7cd6b08)
+2018-03-01T12:55:56.9642562+05:30 0HLBV8M569M4A:00000005 [INF] Executing JsonResult, writing value "CampaignBudgetTool.API.ViewModel.DMBudget.DMFlashBudgetDetails". (7bb75e80)
+2018-03-01T12:55:57.0254467+05:30 0HLBV8M569M4A:00000005 [INF] Executed action "CampaignBudgetTool.API.Controllers.DMBudget.DMFlashBudgetController.GetDMFlashBudgetDetails (CampaignBudgetTool.Api)" in 3396.5087ms (afa2e885)
+2018-03-01T12:55:57.0372951+05:30 0HLBV8M569M4A:00000005 [INF] Request finished in 3553.3862ms 200 application/json; charset=utf-8 (791a596a)
+2018-03-01T12:58:18.3330614+05:30 0HLBV8M569M4C:00000001 [INF] Request starting HTTP/1.1 OPTIONS http://localhost:18526/api/DMFlashBudget/DMFlashBudgetDetails/null/null/null/false   (ca22a1cb)
+2018-03-01T12:58:18.3410980+05:30 0HLBV8M569M4C:00000001 [INF] Policy execution successful. (0204925d)
+2018-03-01T12:58:18.3711571+05:30 0HLBV8M569M4C:00000001 [INF] Request finished in 15.4711ms 204  (791a596a)
+2018-03-01T12:58:18.5347162+05:30 0HLBV8M569M4C:00000002 [INF] Request starting HTTP/1.1 GET http://localhost:18526/api/DMFlashBudget/DMFlashBudgetDetails/null/null/null/false application/json  (ca22a1cb)
+2018-03-01T12:58:18.5483848+05:30 0HLBV8M569M4C:00000002 [INF] Policy execution successful. (0204925d)
+2018-03-01T12:58:18.5650644+05:30 0HLBV8M569M4C:00000002 [INF] Successfully validated the token. (60169667)
+2018-03-01T12:58:18.5733267+05:30 0HLBV8M569M4C:00000002 [INF] AuthenticationScheme: "Bearer" was successfully authenticated. (1805f3b3)
+2018-03-01T12:58:18.6137015+05:30 0HLBV8M569M4C:00000002 [INF] Policy execution successful. (0204925d)
+2018-03-01T12:58:18.6326695+05:30 0HLBV8M569M4C:00000002 [INF] Authorization was successful for user: "dashr". (d7eb274a)
+2018-03-01T12:58:18.6640479+05:30 0HLBV8M569M4C:00000002 [INF] Executing action method "CampaignBudgetTool.API.Controllers.DMBudget.DMFlashBudgetController.GetDMFlashBudgetDetails (CampaignBudgetTool.Api)" with arguments (["null", "null", "null", "False"]) - ModelState is Valid (ba7f4ac2)
+2018-03-01T12:58:18.6786081+05:30 0HLBV8M569M4C:00000002 [INF] DMFlashBudgetController : GetDMFlashBudgetDetails - Start (6ef7bca3)
+2018-03-01T12:58:18.6900971+05:30 0HLBV8M569M4C:00000002 [INF] For MagCode "null", Year "null", CampaignName "null" and AddMode False  (c9416ae2)
+2018-03-01T12:58:18.7000000+05:30 0HLBV8M569M4C:00000002 [INF] DMFlashBudgetRepository : GetDMFlashBudgetDetails - Start (13f11259)
+2018-03-01T12:58:18.7155284+05:30 0HLBV8M569M4C:00000002 [INF] Entity Framework Core "2.0.1-rtm-125" initialized '"DMContext"' using provider '"Microsoft.EntityFrameworkCore.SqlServer"' with options: "None" (9958f5bb)
+2018-03-01T12:58:18.9731227+05:30 0HLBV8M569M4C:00000002 [INF] Executed DbCommand ("247"ms) [Parameters=["@p0='?', @p1='?', @p2='?', @p3='?'"], CommandType='Text', CommandTimeout='30']"
+""PGK_DMCAMPAIGN_PROC_GET_FLASH_BUDGET_DETAILS @p0,@p1,@p2,@p3" (0723d8ff)
+2018-03-01T12:58:19.0037418+05:30 0HLBV8M569M4C:00000002 [INF] DMFlashBudgetRepository : GetDMFlashBudgetDetails - End (f5763a6a)
+2018-03-01T12:58:19.0086256+05:30 0HLBV8M569M4C:00000002 [INF] DMFlashBudgetController : GetDMFlashBudgetDetails - End (e7cd6b08)
+2018-03-01T12:58:19.0174187+05:30 0HLBV8M569M4C:00000002 [INF] Executing JsonResult, writing value "CampaignBudgetTool.API.ViewModel.DMBudget.DMFlashBudgetDetails". (7bb75e80)
+2018-03-01T12:58:19.0403401+05:30 0HLBV8M569M4C:00000002 [INF] Executed action "CampaignBudgetTool.API.Controllers.DMBudget.DMFlashBudgetController.GetDMFlashBudgetDetails (CampaignBudgetTool.Api)" in 449.3534ms (afa2e885)
+2018-03-01T12:58:19.0514015+05:30 0HLBV8M569M4C:00000002 [INF] Request finished in 523.7862ms 200 application/json; charset=utf-8 (791a596a)
+2018-03-01T12:59:43.0392665+05:30 0HLBV8M569M4D:00000001 [INF] Request starting HTTP/1.1 OPTIONS http://localhost:18526/api/DMFlashBudget/DMFlashBudgetDetails/null/null/null/false   (ca22a1cb)
+2018-03-01T12:59:43.0450315+05:30 0HLBV8M569M4D:00000001 [INF] Policy execution successful. (0204925d)
+2018-03-01T12:59:43.0533874+05:30 0HLBV8M569M4D:00000001 [INF] Request finished in 31.8687ms 204  (791a596a)
+2018-03-01T12:59:43.1538497+05:30 0HLBV8M569M4D:00000002 [INF] Request starting HTTP/1.1 GET http://localhost:18526/api/DMFlashBudget/DMFlashBudgetDetails/null/null/null/false application/json  (ca22a1cb)
+2018-03-01T12:59:43.1610190+05:30 0HLBV8M569M4D:00000002 [INF] Policy execution successful. (0204925d)
+2018-03-01T12:59:43.1742906+05:30 0HLBV8M569M4D:00000002 [INF] Successfully validated the token. (60169667)
+2018-03-01T12:59:43.1852110+05:30 0HLBV8M569M4D:00000002 [INF] AuthenticationScheme: "Bearer" was successfully authenticated. (1805f3b3)
+2018-03-01T12:59:43.2112977+05:30 0HLBV8M569M4D:00000002 [INF] Policy execution successful. (0204925d)
+2018-03-01T12:59:43.2242563+05:30 0HLBV8M569M4D:00000002 [INF] Authorization was successful for user: "dashr". (d7eb274a)
+2018-03-01T12:59:43.2344157+05:30 0HLBV8M569M4D:00000002 [INF] Executing action method "CampaignBudgetTool.API.Controllers.DMBudget.DMFlashBudgetController.GetDMFlashBudgetDetails (CampaignBudgetTool.Api)" with arguments (["null", "null", "null", "False"]) - ModelState is Valid (ba7f4ac2)
+2018-03-01T12:59:43.2416840+05:30 0HLBV8M569M4D:00000002 [INF] DMFlashBudgetController : GetDMFlashBudgetDetails - Start (6ef7bca3)
+2018-03-01T12:59:43.2467872+05:30 0HLBV8M569M4D:00000002 [INF] For MagCode "null", Year "null", CampaignName "null" and AddMode False  (c9416ae2)
+2018-03-01T12:59:43.2530782+05:30 0HLBV8M569M4D:00000002 [INF] DMFlashBudgetRepository : GetDMFlashBudgetDetails - Start (13f11259)
+2018-03-01T12:59:43.2932082+05:30 0HLBV8M569M4D:00000002 [INF] Entity Framework Core "2.0.1-rtm-125" initialized '"DMContext"' using provider '"Microsoft.EntityFrameworkCore.SqlServer"' with options: "None" (9958f5bb)
+2018-03-01T12:59:43.5532116+05:30 0HLBV8M569M4D:00000002 [INF] Executed DbCommand ("246"ms) [Parameters=["@p0='?', @p1='?', @p2='?', @p3='?'"], CommandType='Text', CommandTimeout='30']"
+""PGK_DMCAMPAIGN_PROC_GET_FLASH_BUDGET_DETAILS @p0,@p1,@p2,@p3" (0723d8ff)
+2018-03-01T12:59:43.5620048+05:30 0HLBV8M569M4D:00000002 [INF] DMFlashBudgetRepository : GetDMFlashBudgetDetails - End (f5763a6a)
+2018-03-01T12:59:43.5684258+05:30 0HLBV8M569M4D:00000002 [INF] DMFlashBudgetController : GetDMFlashBudgetDetails - End (e7cd6b08)
+2018-03-01T12:59:43.5739664+05:30 0HLBV8M569M4D:00000002 [INF] Executing JsonResult, writing value "CampaignBudgetTool.API.ViewModel.DMBudget.DMFlashBudgetDetails". (7bb75e80)
+2018-03-01T12:59:43.5879991+05:30 0HLBV8M569M4D:00000002 [INF] Executed action "CampaignBudgetTool.API.Controllers.DMBudget.DMFlashBudgetController.GetDMFlashBudgetDetails (CampaignBudgetTool.Api)" in 394.9517ms (afa2e885)
+2018-03-01T12:59:43.5968239+05:30 0HLBV8M569M4D:00000002 [INF] Request finished in 439.8256ms 200 application/json; charset=utf-8 (791a596a)
+2018-03-01T13:00:09.7457819+05:30 0HLBV8M569M4D:00000003 [INF] Request starting HTTP/1.1 POST http://localhost:18526/api/Login?userName=dashr&password=a3pCVnV3cTlZJTVlVi04VyUyM2NQcnRTYzEzOTg=&application=Campaign%20Budget%20Tool&isEncrypted=true application/x-www-form-urlencoded 0 (ca22a1cb)
+2018-03-01T13:00:09.7527638+05:30 0HLBV8M569M4D:00000003 [INF] Policy execution successful. (0204925d)
+2018-03-01T13:00:09.7792229+05:30 0HLBV8M569M4D:00000003 [INF] Policy execution successful. (0204925d)
+2018-03-01T13:00:09.8068045+05:30 0HLBV8M569M4D:00000003 [INF] Executing action method "CampaignBudgetTool.API.Controllers.Login.LoginController.GetUserDetail (CampaignBudgetTool.Api)" with arguments (["dashr", "a3pCVnV3cTlZJTVlVi04VyUyM2NQcnRTYzEzOTg=", "Campaign Budget Tool", "True"]) - ModelState is Valid (ba7f4ac2)
+2018-03-01T13:00:35.2235831+05:30 0HLBV8M569M4D:00000003 [INF] LoginController : GetUserDetail - Start (8347a87a)
+2018-03-01T13:00:35.2517366+05:30 0HLBV8M569M4D:00000003 [INF] Login Detail - UserName"dashr", Application"Campaign Budget Tool" (521a88ab)
+2018-03-01T13:00:35.2569815+05:30 0HLBV8M569M4D:00000003 [INF] ADBAdminService Login URL is "https://tmpcmamva04.corp.ad.timeinc.com/ADBServiceSSL/ADBServiceBase/AuthService.svc/Login" (97cfe4b4)
+2018-03-01T13:00:37.4972232+05:30 0HLBV8M569M4D:00000003 [INF] ADBAdminService Resource URL is "https://tmpcmamva04.corp.ad.timeinc.com/ADBServiceSSL/ADBServiceBase/AuthService.svc/GetResources" (48609eb1)
+2018-03-01T13:13:26.1005424+05:30 0HLBV8M569M4D:00000003 [INF] LoginController : GetUserDetail - End (a79373d4)
+2018-03-01T13:13:26.1282009+05:30 0HLBV8M569M4D:00000003 [INF] Executing ObjectResult, writing value "Microsoft.AspNetCore.Mvc.ControllerContext". (4e968210)
+2018-03-01T13:13:26.1339035+05:30 0HLBV8M569M4D:00000003 [INF] Executed action "CampaignBudgetTool.API.Controllers.Login.LoginController.GetUserDetail (CampaignBudgetTool.Api)" in 796368.2112ms (afa2e885)
+2018-03-01T13:13:26.1590667+05:30 0HLBV8M569M4D:00000003 [INF] Request finished in 796393.1199ms 200 application/json; charset=utf-8 (791a596a)
+2018-03-01T13:13:35.2743196+05:30 0HLBV8M569M4E:00000001 [INF] Request starting HTTP/1.1 POST http://localhost:18526/api/Login?userName=dashr&password=a3pCVnV3cTlZJTVlVi04VyUyM2NQcnRTYzEzOTg=&application=Campaign%20Budget%20Tool&isEncrypted=true application/x-www-form-urlencoded 0 (ca22a1cb)
+2018-03-01T13:13:35.2913921+05:30 0HLBV8M569M4E:00000001 [INF] Policy execution successful. (0204925d)
+2018-03-01T13:13:35.2979496+05:30 0HLBV8M569M4E:00000001 [INF] Policy execution successful. (0204925d)
+2018-03-01T13:13:35.3064141+05:30 0HLBV8M569M4E:00000001 [INF] Executing action method "CampaignBudgetTool.API.Controllers.Login.LoginController.GetUserDetail (CampaignBudgetTool.Api)" with arguments (["dashr", "a3pCVnV3cTlZJTVlVi04VyUyM2NQcnRTYzEzOTg=", "Campaign Budget Tool", "True"]) - ModelState is Valid (ba7f4ac2)
+2018-03-01T13:13:38.4238901+05:30 0HLBV8M569M4E:00000001 [INF] LoginController : GetUserDetail - Start (8347a87a)
+2018-03-01T13:13:38.4341574+05:30 0HLBV8M569M4E:00000001 [INF] Login Detail - UserName"dashr", Application"Campaign Budget Tool" (521a88ab)
+2018-03-01T13:13:38.4417541+05:30 0HLBV8M569M4E:00000001 [INF] ADBAdminService Login URL is "https://tmpcmamva04.corp.ad.timeinc.com/ADBServiceSSL/ADBServiceBase/AuthService.svc/Login" (97cfe4b4)
+2018-03-01T13:13:40.8113647+05:30 0HLBV8M569M4E:00000001 [INF] ADBAdminService Resource URL is "https://tmpcmamva04.corp.ad.timeinc.com/ADBServiceSSL/ADBServiceBase/AuthService.svc/GetResources" (48609eb1)
+2018-03-01T13:13:44.9107816+05:30 0HLBV8M569M4E:00000001 [INF] LoginController : GetUserDetail - End (a79373d4)
+2018-03-01T13:13:44.9221093+05:30 0HLBV8M569M4E:00000001 [INF] Executing ObjectResult, writing value "Microsoft.AspNetCore.Mvc.ControllerContext". (4e968210)
+2018-03-01T13:13:44.9297680+05:30 0HLBV8M569M4E:00000001 [INF] Executed action "CampaignBudgetTool.API.Controllers.Login.LoginController.GetUserDetail (CampaignBudgetTool.Api)" in 9629.6537ms (afa2e885)
+2018-03-01T13:13:44.9842914+05:30 0HLBV8M569M4E:00000001 [INF] Request finished in 9665.0875ms 200 application/json; charset=utf-8 (791a596a)
+2018-03-01T13:13:45.0109817+05:30 0HLBV8M569M4E:00000002 [INF] Request starting HTTP/1.1 OPTIONS http://localhost:18526/api/DMFlashBudget/DMFlashBudgetDetails/null/null/null/false   (ca22a1cb)
+2018-03-01T13:13:45.0257132+05:30 0HLBV8M569M4E:00000002 [INF] Policy execution successful. (0204925d)
+2018-03-01T13:13:45.0484128+05:30 0HLBV8M569M4E:00000002 [INF] Request finished in 31.5987ms 204  (791a596a)
+2018-03-01T13:13:45.0686694+05:30 0HLBV8M569M4E:00000003 [INF] Request starting HTTP/1.1 GET http://localhost:18526/api/DMFlashBudget/DMFlashBudgetDetails/null/null/null/false application/json  (ca22a1cb)
+2018-03-01T13:13:45.0782604+05:30 0HLBV8M569M4E:00000003 [INF] Policy execution successful. (0204925d)
+2018-03-01T13:13:45.0897026+05:30 0HLBV8M569M4E:00000003 [INF] Successfully validated the token. (60169667)
+2018-03-01T13:13:45.0961239+05:30 0HLBV8M569M4E:00000003 [INF] AuthenticationScheme: "Bearer" was successfully authenticated. (1805f3b3)
+2018-03-01T13:13:45.1057519+05:30 0HLBV8M569M4E:00000003 [INF] Policy execution successful. (0204925d)
+2018-03-01T13:13:45.1156965+05:30 0HLBV8M569M4E:00000003 [INF] Authorization was successful for user: "dashr". (d7eb274a)
+2018-03-01T13:13:45.1628120+05:30 0HLBV8M569M4E:00000003 [INF] Executing action method "CampaignBudgetTool.API.Controllers.DMBudget.DMFlashBudgetController.GetDMFlashBudgetDetails (CampaignBudgetTool.Api)" with arguments (["null", "null", "null", "False"]) - ModelState is Valid (ba7f4ac2)
+2018-03-01T13:13:45.1918501+05:30 0HLBV8M569M4E:00000003 [INF] DMFlashBudgetController : GetDMFlashBudgetDetails - Start (6ef7bca3)
+2018-03-01T13:13:45.2011441+05:30 0HLBV8M569M4E:00000003 [INF] For MagCode "null", Year "null", CampaignName "null" and AddMode False  (c9416ae2)
+2018-03-01T13:13:45.2119147+05:30 0HLBV8M569M4E:00000003 [INF] DMFlashBudgetRepository : GetDMFlashBudgetDetails - Start (13f11259)
+2018-03-01T13:13:45.2183820+05:30 0HLBV8M569M4E:00000003 [INF] Entity Framework Core "2.0.1-rtm-125" initialized '"DMContext"' using provider '"Microsoft.EntityFrameworkCore.SqlServer"' with options: "None" (9958f5bb)
+2018-03-01T13:13:46.7021808+05:30 0HLBV8M569M4E:00000003 [INF] Executed DbCommand ("492"ms) [Parameters=["@p0='?', @p1='?', @p2='?', @p3='?'"], CommandType='Text', CommandTimeout='30']"
+""PGK_DMCAMPAIGN_PROC_GET_FLASH_BUDGET_DETAILS @p0,@p1,@p2,@p3" (0723d8ff)
+2018-03-01T13:13:47.1914103+05:30 0HLBV8M569M4E:00000003 [INF] DMFlashBudgetRepository : GetDMFlashBudgetDetails - End (f5763a6a)
+2018-03-01T13:13:47.2320374+05:30 0HLBV8M569M4E:00000003 [INF] DMFlashBudgetController : GetDMFlashBudgetDetails - End (e7cd6b08)
+2018-03-01T13:13:47.2443887+05:30 0HLBV8M569M4E:00000003 [INF] Executing JsonResult, writing value "CampaignBudgetTool.API.ViewModel.DMBudget.DMFlashBudgetDetails". (7bb75e80)
+2018-03-01T13:13:47.2596077+05:30 0HLBV8M569M4E:00000003 [INF] Executed action "CampaignBudgetTool.API.Controllers.DMBudget.DMFlashBudgetController.GetDMFlashBudgetDetails (CampaignBudgetTool.Api)" in 2152.4209ms (afa2e885)
+2018-03-01T13:13:47.2668934+05:30 0HLBV8M569M4E:00000003 [INF] Request finished in 2207.9351ms 200 application/json; charset=utf-8 (791a596a)
+2018-03-01T14:34:56.2429018+05:30 0HLBV8M569M4F:00000001 [INF] Request starting HTTP/1.1 POST http://localhost:18526/api/Login?userName=dashr&password=a3pCVnV3cTlZJTVlVi04VyUyM2NQcnRTYzEzOTg=&application=Campaign%20Budget%20Tool&isEncrypted=true application/x-www-form-urlencoded 0 (ca22a1cb)
+2018-03-01T14:34:56.2506603+05:30 0HLBV8M569M4F:00000001 [INF] Policy execution successful. (0204925d)
+2018-03-01T14:34:56.2590594+05:30 0HLBV8M569M4F:00000001 [INF] Policy execution successful. (0204925d)
+2018-03-01T14:34:56.2864103+05:30 0HLBV8M569M4F:00000001 [INF] Executing action method "CampaignBudgetTool.API.Controllers.Login.LoginController.GetUserDetail (CampaignBudgetTool.Api)" with arguments (["dashr", "a3pCVnV3cTlZJTVlVi04VyUyM2NQcnRTYzEzOTg=", "Campaign Budget Tool", "True"]) - ModelState is Valid (ba7f4ac2)
+2018-03-01T14:34:59.1515185+05:30 0HLBV8M569M4F:00000001 [INF] LoginController : GetUserDetail - Start (8347a87a)
+2018-03-01T14:35:00.7461795+05:30 0HLBV8M569M4F:00000001 [INF] Login Detail - UserName"dashr", Application"Campaign Budget Tool" (521a88ab)
+2018-03-01T14:35:00.7555300+05:30 0HLBV8M569M4F:00000001 [INF] ADBAdminService Login URL is "https://tmpcmamva04.corp.ad.timeinc.com/ADBServiceSSL/ADBServiceBase/AuthService.svc/Login" (97cfe4b4)
+2018-03-01T14:35:02.9951661+05:30 0HLBV8M569M4F:00000001 [INF] ADBAdminService Resource URL is "https://tmpcmamva04.corp.ad.timeinc.com/ADBServiceSSL/ADBServiceBase/AuthService.svc/GetResources" (48609eb1)
+2018-03-01T14:35:52.4641835+05:30 0HLBV8M569M4F:00000001 [INF] LoginController : GetUserDetail - End (a79373d4)
+2018-03-01T14:35:52.4716662+05:30 0HLBV8M569M4F:00000001 [INF] Executing ObjectResult, writing value "Microsoft.AspNetCore.Mvc.ControllerContext". (4e968210)
+2018-03-01T14:35:52.4797121+05:30 0HLBV8M569M4F:00000001 [INF] Executed action "CampaignBudgetTool.API.Controllers.Login.LoginController.GetUserDetail (CampaignBudgetTool.Api)" in 56219.9844ms (afa2e885)
+2018-03-01T14:35:52.5044416+05:30 0HLBV8M569M4F:00000001 [INF] Request finished in 56251.1885ms 200 application/json; charset=utf-8 (791a596a)
+2018-03-01T14:35:52.5498553+05:30 0HLBV8M569M4F:00000002 [INF] Request starting HTTP/1.1 OPTIONS http://localhost:18526/api/DMFlashBudget/DMFlashBudgetDetails/null/null/null/false   (ca22a1cb)
+2018-03-01T14:35:52.5645437+05:30 0HLBV8M569M4F:00000002 [INF] Policy execution successful. (0204925d)
+2018-03-01T14:35:52.6360477+05:30 0HLBV8M569M4F:00000002 [INF] Request finished in 26.7688ms 204  (791a596a)
+2018-03-01T14:35:52.6942688+05:30 0HLBV8M569M4F:00000003 [INF] Request starting HTTP/1.1 GET http://localhost:18526/api/DMFlashBudget/DMFlashBudgetDetails/null/null/null/false application/json  (ca22a1cb)
+2018-03-01T14:35:52.7094759+05:30 0HLBV8M569M4F:00000003 [INF] Policy execution successful. (0204925d)
+2018-03-01T14:35:52.7193109+05:30 0HLBV8M569M4F:00000003 [INF] Successfully validated the token. (60169667)
+2018-03-01T14:35:52.7384757+05:30 0HLBV8M569M4F:00000003 [INF] AuthenticationScheme: "Bearer" was successfully authenticated. (1805f3b3)
+2018-03-01T14:35:52.7520658+05:30 0HLBV8M569M4F:00000003 [INF] Policy execution successful. (0204925d)
+2018-03-01T14:35:52.7681027+05:30 0HLBV8M569M4F:00000003 [INF] Authorization was successful for user: "dashr". (d7eb274a)
+2018-03-01T14:35:52.7772395+05:30 0HLBV8M569M4F:00000003 [INF] Executing action method "CampaignBudgetTool.API.Controllers.DMBudget.DMFlashBudgetController.GetDMFlashBudgetDetails (CampaignBudgetTool.Api)" with arguments (["null", "null", "null", "False"]) - ModelState is Valid (ba7f4ac2)
+2018-03-01T14:35:52.7891295+05:30 0HLBV8M569M4F:00000003 [INF] DMFlashBudgetController : GetDMFlashBudgetDetails - Start (6ef7bca3)
+2018-03-01T14:35:52.7993544+05:30 0HLBV8M569M4F:00000003 [INF] For MagCode "null", Year "null", CampaignName "null" and AddMode False  (c9416ae2)
+2018-03-01T14:35:52.8115448+05:30 0HLBV8M569M4F:00000003 [INF] DMFlashBudgetRepository : GetDMFlashBudgetDetails - Start (13f11259)
+2018-03-01T14:35:52.8227599+05:30 0HLBV8M569M4F:00000003 [INF] Entity Framework Core "2.0.1-rtm-125" initialized '"DMContext"' using provider '"Microsoft.EntityFrameworkCore.SqlServer"' with options: "None" (9958f5bb)
+2018-03-01T14:35:54.7305749+05:30 0HLBV8M569M4F:00000003 [INF] Executed DbCommand ("616"ms) [Parameters=["@p0='?', @p1='?', @p2='?', @p3='?'"], CommandType='Text', CommandTimeout='30']"
+""PGK_DMCAMPAIGN_PROC_GET_FLASH_BUDGET_DETAILS @p0,@p1,@p2,@p3" (0723d8ff)
+2018-03-01T14:35:55.4182713+05:30 0HLBV8M569M4F:00000003 [INF] DMFlashBudgetRepository : GetDMFlashBudgetDetails - End (f5763a6a)
+2018-03-01T14:35:55.4456124+05:30 0HLBV8M569M4F:00000003 [INF] DMFlashBudgetController : GetDMFlashBudgetDetails - End (e7cd6b08)
+2018-03-01T14:35:55.4536202+05:30 0HLBV8M569M4F:00000003 [INF] Executing JsonResult, writing value "CampaignBudgetTool.API.ViewModel.DMBudget.DMFlashBudgetDetails". (7bb75e80)
+2018-03-01T14:35:55.4737088+05:30 0HLBV8M569M4F:00000003 [INF] Executed action "CampaignBudgetTool.API.Controllers.DMBudget.DMFlashBudgetController.GetDMFlashBudgetDetails (CampaignBudgetTool.Api)" in 2720.7175ms (afa2e885)
+2018-03-01T14:35:55.4848892+05:30 0HLBV8M569M4F:00000003 [INF] Request finished in 2802.6256ms 200 application/json; charset=utf-8 (791a596a)
+2018-03-01T14:37:17.1616970+05:30 0HLBV8M569M4G:00000001 [INF] Request starting HTTP/1.1 OPTIONS http://localhost:18526/api/DMFlashBudget/DMFlashBudgetDetails/null/null/null/false   (ca22a1cb)
+2018-03-01T14:37:17.1687144+05:30 0HLBV8M569M4G:00000001 [INF] Policy execution successful. (0204925d)
+2018-03-01T14:37:17.1795854+05:30 0HLBV8M569M4G:00000001 [INF] Request finished in 29.1614ms 204  (791a596a)
+2018-03-01T14:37:17.4156629+05:30 0HLBV8M569M4G:00000002 [INF] Request starting HTTP/1.1 GET http://localhost:18526/api/DMFlashBudget/DMFlashBudgetDetails/null/null/null/false application/json  (ca22a1cb)
+2018-03-01T14:37:17.4926607+05:30 0HLBV8M569M4G:00000002 [INF] Policy execution successful. (0204925d)
+2018-03-01T14:37:17.5075932+05:30 0HLBV8M569M4G:00000002 [INF] Successfully validated the token. (60169667)
+2018-03-01T14:37:17.5165089+05:30 0HLBV8M569M4G:00000002 [INF] AuthenticationScheme: "Bearer" was successfully authenticated. (1805f3b3)
+2018-03-01T14:37:17.5299829+05:30 0HLBV8M569M4G:00000002 [INF] Policy execution successful. (0204925d)
+2018-03-01T14:37:17.5377594+05:30 0HLBV8M569M4G:00000002 [INF] Authorization was successful for user: "dashr". (d7eb274a)
+2018-03-01T14:37:17.5676654+05:30 0HLBV8M569M4G:00000002 [INF] Executing action method "CampaignBudgetTool.API.Controllers.DMBudget.DMFlashBudgetController.GetDMFlashBudgetDetails (CampaignBudgetTool.Api)" with arguments (["null", "null", "null", "False"]) - ModelState is Valid (ba7f4ac2)
+2018-03-01T14:37:17.5749491+05:30 0HLBV8M569M4G:00000002 [INF] DMFlashBudgetController : GetDMFlashBudgetDetails - Start (6ef7bca3)
+2018-03-01T14:37:17.5802216+05:30 0HLBV8M569M4G:00000002 [INF] For MagCode "null", Year "null", CampaignName "null" and AddMode False  (c9416ae2)
+2018-03-01T14:37:17.5874578+05:30 0HLBV8M569M4G:00000002 [INF] DMFlashBudgetRepository : GetDMFlashBudgetDetails - Start (13f11259)
+2018-03-01T14:37:17.5941236+05:30 0HLBV8M569M4G:00000002 [INF] Entity Framework Core "2.0.1-rtm-125" initialized '"DMContext"' using provider '"Microsoft.EntityFrameworkCore.SqlServer"' with options: "None" (9958f5bb)
+2018-03-01T14:37:18.0201372+05:30 0HLBV8M569M4G:00000002 [INF] Executed DbCommand ("371"ms) [Parameters=["@p0='?', @p1='?', @p2='?', @p3='?'"], CommandType='Text', CommandTimeout='30']"
+""PGK_DMCAMPAIGN_PROC_GET_FLASH_BUDGET_DETAILS @p0,@p1,@p2,@p3" (0723d8ff)
+2018-03-01T14:37:18.0532842+05:30 0HLBV8M569M4G:00000002 [INF] DMFlashBudgetRepository : GetDMFlashBudgetDetails - End (f5763a6a)
+2018-03-01T14:37:18.0957450+05:30 0HLBV8M569M4G:00000002 [INF] DMFlashBudgetController : GetDMFlashBudgetDetails - End (e7cd6b08)
+2018-03-01T14:37:18.1260043+05:30 0HLBV8M569M4G:00000002 [INF] Executing JsonResult, writing value "CampaignBudgetTool.API.ViewModel.DMBudget.DMFlashBudgetDetails". (7bb75e80)
+2018-03-01T14:37:18.1823062+05:30 0HLBV8M569M4G:00000002 [INF] Executed action "CampaignBudgetTool.API.Controllers.DMBudget.DMFlashBudgetController.GetDMFlashBudgetDetails (CampaignBudgetTool.Api)" in 636.5124ms (afa2e885)
+2018-03-01T14:37:18.2194127+05:30 0HLBV8M569M4G:00000002 [INF] Request finished in 809.2676ms 200 application/json; charset=utf-8 (791a596a)
+2018-03-01T14:37:25.3442184+05:30 0HLBV8M569M4G:00000003 [INF] Request starting HTTP/1.1 POST http://localhost:18526/api/Login?userName=dashr&password=a3pCVnV3cTlZJTVlVi04VyUyM2NQcnRTYzEzOTg=&application=Campaign%20Budget%20Tool&isEncrypted=true application/x-www-form-urlencoded 0 (ca22a1cb)
+2018-03-01T14:37:25.3499218+05:30 0HLBV8M569M4G:00000003 [INF] Policy execution successful. (0204925d)
+2018-03-01T14:37:25.3746648+05:30 0HLBV8M569M4G:00000003 [INF] Policy execution successful. (0204925d)
+2018-03-01T14:37:25.3818008+05:30 0HLBV8M569M4G:00000003 [INF] Executing action method "CampaignBudgetTool.API.Controllers.Login.LoginController.GetUserDetail (CampaignBudgetTool.Api)" with arguments (["dashr", "a3pCVnV3cTlZJTVlVi04VyUyM2NQcnRTYzEzOTg=", "Campaign Budget Tool", "True"]) - ModelState is Valid (ba7f4ac2)
+2018-03-01T14:37:34.4750890+05:30 0HLBV8M569M4G:00000003 [INF] LoginController : GetUserDetail - Start (8347a87a)
+2018-03-01T14:37:34.4845622+05:30 0HLBV8M569M4G:00000003 [INF] Login Detail - UserName"dashr", Application"Campaign Budget Tool" (521a88ab)
+2018-03-01T14:37:34.4920465+05:30 0HLBV8M569M4G:00000003 [INF] ADBAdminService Login URL is "https://tmpcmamva04.corp.ad.timeinc.com/ADBServiceSSL/ADBServiceBase/AuthService.svc/Login" (97cfe4b4)
+2018-03-01T14:37:37.1208358+05:30 0HLBV8M569M4G:00000003 [INF] ADBAdminService Resource URL is "https://tmpcmamva04.corp.ad.timeinc.com/ADBServiceSSL/ADBServiceBase/AuthService.svc/GetResources" (48609eb1)
+2018-03-01T14:37:42.0788851+05:30 0HLBV8M569M4G:00000003 [INF] LoginController : GetUserDetail - End (a79373d4)
+2018-03-01T14:37:42.0864313+05:30 0HLBV8M569M4G:00000003 [INF] Executing ObjectResult, writing value "Microsoft.AspNetCore.Mvc.ControllerContext". (4e968210)
+2018-03-01T14:37:42.0937622+05:30 0HLBV8M569M4G:00000003 [INF] Executed action "CampaignBudgetTool.API.Controllers.Login.LoginController.GetUserDetail (CampaignBudgetTool.Api)" in 16736.3934ms (afa2e885)
+2018-03-01T14:37:42.1019107+05:30 0HLBV8M569M4G:00000003 [INF] Request finished in 16762.0873ms 200 application/json; charset=utf-8 (791a596a)
+2018-03-01T14:38:32.9390672+05:30 0HLBV8M569M4G:00000004 [INF] Request starting HTTP/1.1 OPTIONS http://localhost:18526/api/DMFlashBudget/DMFlashBudgetDetails/null/null/null/false   (ca22a1cb)
+2018-03-01T14:38:33.0030623+05:30 0HLBV8M569M4G:00000004 [INF] Policy execution successful. (0204925d)
+2018-03-01T14:38:33.0139554+05:30 0HLBV8M569M4G:00000004 [INF] Request finished in 77.7161ms 204  (791a596a)
+2018-03-01T14:38:33.0449680+05:30 0HLBV8M569M4G:00000005 [INF] Request starting HTTP/1.1 GET http://localhost:18526/api/DMFlashBudget/DMFlashBudgetDetails/null/null/null/false application/json  (ca22a1cb)
+2018-03-01T14:38:33.0547820+05:30 0HLBV8M569M4G:00000005 [INF] Policy execution successful. (0204925d)
+2018-03-01T14:38:33.0841364+05:30 0HLBV8M569M4G:00000005 [INF] Successfully validated the token. (60169667)
+2018-03-01T14:38:33.0936407+05:30 0HLBV8M569M4G:00000005 [INF] AuthenticationScheme: "Bearer" was successfully authenticated. (1805f3b3)
+2018-03-01T14:38:33.1058233+05:30 0HLBV8M569M4G:00000005 [INF] Policy execution successful. (0204925d)
+2018-03-01T14:38:33.1138841+05:30 0HLBV8M569M4G:00000005 [INF] Authorization was successful for user: "dashr". (d7eb274a)
+2018-03-01T14:38:33.1224588+05:30 0HLBV8M569M4G:00000005 [INF] Executing action method "CampaignBudgetTool.API.Controllers.DMBudget.DMFlashBudgetController.GetDMFlashBudgetDetails (CampaignBudgetTool.Api)" with arguments (["null", "null", "null", "False"]) - ModelState is Valid (ba7f4ac2)
+2018-03-01T14:38:33.1296219+05:30 0HLBV8M569M4G:00000005 [INF] DMFlashBudgetController : GetDMFlashBudgetDetails - Start (6ef7bca3)
+2018-03-01T14:38:33.1384268+05:30 0HLBV8M569M4G:00000005 [INF] For MagCode "null", Year "null", CampaignName "null" and AddMode False  (c9416ae2)
+2018-03-01T14:38:33.1498816+05:30 0HLBV8M569M4G:00000005 [INF] DMFlashBudgetRepository : GetDMFlashBudgetDetails - Start (13f11259)
+2018-03-01T14:38:33.1565158+05:30 0HLBV8M569M4G:00000005 [INF] Entity Framework Core "2.0.1-rtm-125" initialized '"DMContext"' using provider '"Microsoft.EntityFrameworkCore.SqlServer"' with options: "None" (9958f5bb)
+2018-03-01T14:38:33.5194815+05:30 0HLBV8M569M4G:00000005 [INF] Executed DbCommand ("345"ms) [Parameters=["@p0='?', @p1='?', @p2='?', @p3='?'"], CommandType='Text', CommandTimeout='30']"
+""PGK_DMCAMPAIGN_PROC_GET_FLASH_BUDGET_DETAILS @p0,@p1,@p2,@p3" (0723d8ff)
+2018-03-01T14:38:33.5329811+05:30 0HLBV8M569M4G:00000005 [INF] DMFlashBudgetRepository : GetDMFlashBudgetDetails - End (f5763a6a)
+2018-03-01T14:38:33.5454591+05:30 0HLBV8M569M4G:00000005 [INF] DMFlashBudgetController : GetDMFlashBudgetDetails - End (e7cd6b08)
+2018-03-01T14:38:33.5621187+05:30 0HLBV8M569M4G:00000005 [INF] Executing JsonResult, writing value "CampaignBudgetTool.API.ViewModel.DMBudget.DMFlashBudgetDetails". (7bb75e80)
+2018-03-01T14:38:33.6262492+05:30 0HLBV8M569M4G:00000005 [INF] Executed action "CampaignBudgetTool.API.Controllers.DMBudget.DMFlashBudgetController.GetDMFlashBudgetDetails (CampaignBudgetTool.Api)" in 475.419ms (afa2e885)
+2018-03-01T14:38:33.6624547+05:30 0HLBV8M569M4G:00000005 [INF] Request finished in 599.4551ms 200 application/json; charset=utf-8 (791a596a)
+2018-03-01T14:39:23.8539911+05:30 0HLBV8M569M4G:00000006 [INF] Request starting HTTP/1.1 POST http://localhost:18526/api/Login?userName=dashr&password=a3pCVnV3cTlZJTVlVi04VyUyM2NQcnRTYzEzOTg=&application=Campaign%20Budget%20Tool&isEncrypted=true application/x-www-form-urlencoded 0 (ca22a1cb)
+2018-03-01T14:39:23.8804564+05:30 0HLBV8M569M4G:00000006 [INF] Policy execution successful. (0204925d)
+2018-03-01T14:39:23.8869146+05:30 0HLBV8M569M4G:00000006 [INF] Policy execution successful. (0204925d)
+2018-03-01T14:39:23.8932580+05:30 0HLBV8M569M4G:00000006 [INF] Executing action method "CampaignBudgetTool.API.Controllers.Login.LoginController.GetUserDetail (CampaignBudgetTool.Api)" with arguments (["dashr", "a3pCVnV3cTlZJTVlVi04VyUyM2NQcnRTYzEzOTg=", "Campaign Budget Tool", "True"]) - ModelState is Valid (ba7f4ac2)
+2018-03-01T14:39:27.5997141+05:30 0HLBV8M569M4G:00000006 [INF] LoginController : GetUserDetail - Start (8347a87a)
+2018-03-01T14:39:31.6744896+05:30 0HLBV8M569M4G:00000006 [INF] Login Detail - UserName"dashr", Application"Campaign Budget Tool" (521a88ab)
+2018-03-01T14:39:33.9546775+05:30 0HLBV8M569M4G:00000006 [INF] ADBAdminService Login URL is "https://tmpcmamva04.corp.ad.timeinc.com/ADBServiceSSL/ADBServiceBase/AuthService.svc/Login" (97cfe4b4)
+2018-03-01T14:40:09.4118968+05:30 0HLBV8M569M4G:00000006 [INF] ADBAdminService Resource URL is "https://tmpcmamva04.corp.ad.timeinc.com/ADBServiceSSL/ADBServiceBase/AuthService.svc/GetResources" (48609eb1)
+2018-03-01T14:40:19.4099452+05:30 0HLBV8M569M4G:00000006 [INF] LoginController : GetUserDetail - End (a79373d4)
+2018-03-01T14:40:19.4177646+05:30 0HLBV8M569M4G:00000006 [INF] Executing ObjectResult, writing value "Microsoft.AspNetCore.Mvc.ControllerContext". (4e968210)
+2018-03-01T14:40:19.4280998+05:30 0HLBV8M569M4G:00000006 [INF] Executed action "CampaignBudgetTool.API.Controllers.Login.LoginController.GetUserDetail (CampaignBudgetTool.Api)" in 55537.3837ms (afa2e885)
+2018-03-01T14:40:19.4644953+05:30 0HLBV8M569M4G:00000006 [INF] Request finished in 55584.528ms 200 application/json; charset=utf-8 (791a596a)
+2018-03-01T14:40:36.6133199+05:30 0HLBV8M569M4G:00000007 [INF] Request starting HTTP/1.1 OPTIONS http://localhost:18526/api/DMFlashBudget/DMFlashBudgetDetails/null/null/null/false   (ca22a1cb)
+2018-03-01T14:40:36.6306303+05:30 0HLBV8M569M4G:00000007 [INF] Policy execution successful. (0204925d)
+2018-03-01T14:40:36.6620030+05:30 0HLBV8M569M4G:00000007 [INF] Request finished in 32.37ms 204  (791a596a)
+2018-03-01T14:40:36.7002815+05:30 0HLBV8M569M4G:00000008 [INF] Request starting HTTP/1.1 GET http://localhost:18526/api/DMFlashBudget/DMFlashBudgetDetails/null/null/null/false application/json  (ca22a1cb)
+2018-03-01T14:40:36.7136748+05:30 0HLBV8M569M4G:00000008 [INF] Policy execution successful. (0204925d)
+2018-03-01T14:40:36.7229803+05:30 0HLBV8M569M4G:00000008 [INF] Successfully validated the token. (60169667)
+2018-03-01T14:40:36.7379169+05:30 0HLBV8M569M4G:00000008 [INF] AuthenticationScheme: "Bearer" was successfully authenticated. (1805f3b3)
+2018-03-01T14:40:36.7578094+05:30 0HLBV8M569M4G:00000008 [INF] Policy execution successful. (0204925d)
+2018-03-01T14:40:36.7667295+05:30 0HLBV8M569M4G:00000008 [INF] Authorization was successful for user: "dashr". (d7eb274a)
+2018-03-01T14:40:36.7794660+05:30 0HLBV8M569M4G:00000008 [INF] Executing action method "CampaignBudgetTool.API.Controllers.DMBudget.DMFlashBudgetController.GetDMFlashBudgetDetails (CampaignBudgetTool.Api)" with arguments (["null", "null", "null", "False"]) - ModelState is Valid (ba7f4ac2)
+2018-03-01T14:40:36.7867837+05:30 0HLBV8M569M4G:00000008 [INF] DMFlashBudgetController : GetDMFlashBudgetDetails - Start (6ef7bca3)
+2018-03-01T14:40:36.8072769+05:30 0HLBV8M569M4G:00000008 [INF] For MagCode "null", Year "null", CampaignName "null" and AddMode False  (c9416ae2)
+2018-03-01T14:40:36.8163440+05:30 0HLBV8M569M4G:00000008 [INF] DMFlashBudgetRepository : GetDMFlashBudgetDetails - Start (13f11259)
+2018-03-01T14:40:36.8248802+05:30 0HLBV8M569M4G:00000008 [INF] Entity Framework Core "2.0.1-rtm-125" initialized '"DMContext"' using provider '"Microsoft.EntityFrameworkCore.SqlServer"' with options: "None" (9958f5bb)
+2018-03-01T14:40:37.2360982+05:30 0HLBV8M569M4G:00000008 [INF] Executed DbCommand ("386"ms) [Parameters=["@p0='?', @p1='?', @p2='?', @p3='?'"], CommandType='Text', CommandTimeout='30']"
+""PGK_DMCAMPAIGN_PROC_GET_FLASH_BUDGET_DETAILS @p0,@p1,@p2,@p3" (0723d8ff)
+2018-03-01T14:40:37.2807042+05:30 0HLBV8M569M4G:00000008 [INF] DMFlashBudgetRepository : GetDMFlashBudgetDetails - End (f5763a6a)
+2018-03-01T14:40:37.3176121+05:30 0HLBV8M569M4G:00000008 [INF] DMFlashBudgetController : GetDMFlashBudgetDetails - End (e7cd6b08)
+2018-03-01T14:40:37.3274278+05:30 0HLBV8M569M4G:00000008 [INF] Executing JsonResult, writing value "CampaignBudgetTool.API.ViewModel.DMBudget.DMFlashBudgetDetails". (7bb75e80)
+2018-03-01T14:40:37.3574188+05:30 0HLBV8M569M4G:00000008 [INF] Executed action "CampaignBudgetTool.API.Controllers.DMBudget.DMFlashBudgetController.GetDMFlashBudgetDetails (CampaignBudgetTool.Api)" in 603.6701ms (afa2e885)
+2018-03-01T14:40:37.3668280+05:30 0HLBV8M569M4G:00000008 [INF] Request finished in 682.1829ms 200 application/json; charset=utf-8 (791a596a)
+2018-03-01T14:50:42.1230336+05:30 0HLBV8M569M4H:00000001 [INF] Request starting HTTP/1.1 OPTIONS http://localhost:18526/api/DMFlashBudget/DMFlashBudgetDetails/null/null/null/false   (ca22a1cb)
+2018-03-01T14:50:42.1357935+05:30 0HLBV8M569M4H:00000001 [INF] Policy execution successful. (0204925d)
+2018-03-01T14:50:42.1556636+05:30 0HLBV8M569M4H:00000001 [INF] Request finished in 32.4955ms 204  (791a596a)
+2018-03-01T14:50:42.3811096+05:30 0HLBV8M569M4H:00000002 [INF] Request starting HTTP/1.1 GET http://localhost:18526/api/DMFlashBudget/DMFlashBudgetDetails/null/null/null/false application/json  (ca22a1cb)
+2018-03-01T14:50:42.4002539+05:30 0HLBV8M569M4H:00000002 [INF] Policy execution successful. (0204925d)
+2018-03-01T14:50:42.4203254+05:30 0HLBV8M569M4H:00000002 [INF] Successfully validated the token. (60169667)
+2018-03-01T14:50:42.4284843+05:30 0HLBV8M569M4H:00000002 [INF] AuthenticationScheme: "Bearer" was successfully authenticated. (1805f3b3)
+2018-03-01T14:50:42.4359891+05:30 0HLBV8M569M4H:00000002 [INF] Policy execution successful. (0204925d)
+2018-03-01T14:50:42.4490341+05:30 0HLBV8M569M4H:00000002 [INF] Authorization was successful for user: "dashr". (d7eb274a)
+2018-03-01T14:50:42.4625715+05:30 0HLBV8M569M4H:00000002 [INF] Executing action method "CampaignBudgetTool.API.Controllers.DMBudget.DMFlashBudgetController.GetDMFlashBudgetDetails (CampaignBudgetTool.Api)" with arguments (["null", "null", "null", "False"]) - ModelState is Valid (ba7f4ac2)
+2018-03-01T14:50:42.4737879+05:30 0HLBV8M569M4H:00000002 [INF] DMFlashBudgetController : GetDMFlashBudgetDetails - Start (6ef7bca3)
+2018-03-01T14:50:42.4870426+05:30 0HLBV8M569M4H:00000002 [INF] For MagCode "null", Year "null", CampaignName "null" and AddMode False  (c9416ae2)
+2018-03-01T14:50:42.4966882+05:30 0HLBV8M569M4H:00000002 [INF] DMFlashBudgetRepository : GetDMFlashBudgetDetails - Start (13f11259)
+2018-03-01T14:50:42.5123547+05:30 0HLBV8M569M4H:00000002 [INF] Entity Framework Core "2.0.1-rtm-125" initialized '"DMContext"' using provider '"Microsoft.EntityFrameworkCore.SqlServer"' with options: "None" (9958f5bb)
+2018-03-01T14:50:44.4765633+05:30 0HLBV8M569M4H:00000002 [INF] Executed DbCommand ("615"ms) [Parameters=["@p0='?', @p1='?', @p2='?', @p3='?'"], CommandType='Text', CommandTimeout='30']"
+""PGK_DMCAMPAIGN_PROC_GET_FLASH_BUDGET_DETAILS @p0,@p1,@p2,@p3" (0723d8ff)
+2018-03-01T14:50:45.0729591+05:30 0HLBV8M569M4H:00000002 [INF] DMFlashBudgetRepository : GetDMFlashBudgetDetails - End (f5763a6a)
+2018-03-01T14:50:45.0990331+05:30 0HLBV8M569M4H:00000002 [INF] DMFlashBudgetController : GetDMFlashBudgetDetails - End (e7cd6b08)
+2018-03-01T14:50:45.1042245+05:30 0HLBV8M569M4H:00000002 [INF] Executing JsonResult, writing value "CampaignBudgetTool.API.ViewModel.DMBudget.DMFlashBudgetDetails". (7bb75e80)
+2018-03-01T14:50:45.1201660+05:30 0HLBV8M569M4H:00000002 [INF] Executed action "CampaignBudgetTool.API.Controllers.DMBudget.DMFlashBudgetController.GetDMFlashBudgetDetails (CampaignBudgetTool.Api)" in 2682.953ms (afa2e885)
+2018-03-01T14:50:45.1331728+05:30 0HLBV8M569M4H:00000002 [INF] Request finished in 2755.2422ms 200 application/json; charset=utf-8 (791a596a)
+2018-03-01T15:46:56.0896755+05:30 0HLBV8M569M4I:00000001 [INF] Request starting HTTP/1.1 POST http://localhost:18526/api/Login?userName=dashr&password=a3pCVnV3cTlZJTVlVi04VyUyM2NQcnRTYzEzOTg=&application=Campaign%20Budget%20Tool&isEncrypted=true application/x-www-form-urlencoded 0 (ca22a1cb)
+2018-03-01T15:46:56.1202376+05:30 0HLBV8M569M4I:00000001 [INF] Policy execution successful. (0204925d)
+2018-03-01T15:46:56.1507681+05:30 0HLBV8M569M4I:00000001 [INF] Policy execution successful. (0204925d)
+2018-03-01T15:46:56.1826790+05:30 0HLBV8M569M4I:00000001 [INF] Executing action method "CampaignBudgetTool.API.Controllers.Login.LoginController.GetUserDetail (CampaignBudgetTool.Api)" with arguments (["dashr", "a3pCVnV3cTlZJTVlVi04VyUyM2NQcnRTYzEzOTg=", "Campaign Budget Tool", "True"]) - ModelState is Valid (ba7f4ac2)
+2018-03-01T15:46:58.0972439+05:30 0HLBV8M569M4I:00000001 [INF] LoginController : GetUserDetail - Start (8347a87a)
+2018-03-01T15:47:01.6814737+05:30 0HLBV8M569M4I:00000001 [INF] Login Detail - UserName"dashr", Application"Campaign Budget Tool" (521a88ab)
+2018-03-01T15:47:01.6902877+05:30 0HLBV8M569M4I:00000001 [INF] ADBAdminService Login URL is "https://tmpcmamva04.corp.ad.timeinc.com/ADBServiceSSL/ADBServiceBase/AuthService.svc/Login" (97cfe4b4)
+2018-03-01T15:47:04.4794474+05:30 0HLBV8M569M4I:00000001 [INF] ADBAdminService Resource URL is "https://tmpcmamva04.corp.ad.timeinc.com/ADBServiceSSL/ADBServiceBase/AuthService.svc/GetResources" (48609eb1)
+2018-03-01T15:47:22.0215811+05:30 0HLBV8M569M4I:00000001 [INF] LoginController : GetUserDetail - End (a79373d4)
+2018-03-01T15:47:22.0355512+05:30 0HLBV8M569M4I:00000001 [INF] Executing ObjectResult, writing value "Microsoft.AspNetCore.Mvc.ControllerContext". (4e968210)
+2018-03-01T15:47:22.0489067+05:30 0HLBV8M569M4I:00000001 [INF] Executed action "CampaignBudgetTool.API.Controllers.Login.LoginController.GetUserDetail (CampaignBudgetTool.Api)" in 25912.9677ms (afa2e885)
+2018-03-01T15:47:22.0713329+05:30 0HLBV8M569M4I:00000001 [INF] Request finished in 25979.8486ms 200 application/json; charset=utf-8 (791a596a)
+2018-03-01T15:47:22.1377510+05:30 0HLBV8M569M4I:00000002 [INF] Request starting HTTP/1.1 OPTIONS http://localhost:18526/api/DMFlashBudget/DMFlashBudgetDetails/null/null/null/false   (ca22a1cb)
+2018-03-01T15:47:22.1472185+05:30 0HLBV8M569M4I:00000002 [INF] Policy execution successful. (0204925d)
+2018-03-01T15:47:22.1890200+05:30 0HLBV8M569M4I:00000002 [INF] Request finished in 23.3333ms 204  (791a596a)
+2018-03-01T15:47:22.2175061+05:30 0HLBV8M569M4I:00000003 [INF] Request starting HTTP/1.1 GET http://localhost:18526/api/DMFlashBudget/DMFlashBudgetDetails/null/null/null/false application/json  (ca22a1cb)
+2018-03-01T15:47:22.2383815+05:30 0HLBV8M569M4I:00000003 [INF] Policy execution successful. (0204925d)
+2018-03-01T15:47:22.2518175+05:30 0HLBV8M569M4I:00000003 [INF] Successfully validated the token. (60169667)
+2018-03-01T15:47:22.2655553+05:30 0HLBV8M569M4I:00000003 [INF] AuthenticationScheme: "Bearer" was successfully authenticated. (1805f3b3)
+2018-03-01T15:47:22.2851315+05:30 0HLBV8M569M4I:00000003 [INF] Policy execution successful. (0204925d)
+2018-03-01T15:47:22.3012247+05:30 0HLBV8M569M4I:00000003 [INF] Authorization was successful for user: "dashr". (d7eb274a)
+2018-03-01T15:47:22.3269018+05:30 0HLBV8M569M4I:00000003 [INF] Executing action method "CampaignBudgetTool.API.Controllers.DMBudget.DMFlashBudgetController.GetDMFlashBudgetDetails (CampaignBudgetTool.Api)" with arguments (["null", "null", "null", "False"]) - ModelState is Valid (ba7f4ac2)
+2018-03-01T15:47:22.3421933+05:30 0HLBV8M569M4I:00000003 [INF] DMFlashBudgetController : GetDMFlashBudgetDetails - Start (6ef7bca3)
+2018-03-01T15:47:22.3509198+05:30 0HLBV8M569M4I:00000003 [INF] For MagCode "null", Year "null", CampaignName "null" and AddMode False  (c9416ae2)
+2018-03-01T15:47:22.3588066+05:30 0HLBV8M569M4I:00000003 [INF] DMFlashBudgetRepository : GetDMFlashBudgetDetails - Start (13f11259)
+2018-03-01T15:47:22.3753744+05:30 0HLBV8M569M4I:00000003 [INF] Entity Framework Core "2.0.1-rtm-125" initialized '"DMContext"' using provider '"Microsoft.EntityFrameworkCore.SqlServer"' with options: "None" (9958f5bb)
+2018-03-01T15:47:24.0076521+05:30 0HLBV8M569M4I:00000003 [INF] Executed DbCommand ("556"ms) [Parameters=["@p0='?', @p1='?', @p2='?', @p3='?'"], CommandType='Text', CommandTimeout='30']"
+""PGK_DMCAMPAIGN_PROC_GET_FLASH_BUDGET_DETAILS @p0,@p1,@p2,@p3" (0723d8ff)
+2018-03-01T15:47:24.6259759+05:30 0HLBV8M569M4I:00000003 [INF] DMFlashBudgetRepository : GetDMFlashBudgetDetails - End (f5763a6a)
+2018-03-01T15:47:24.6489884+05:30 0HLBV8M569M4I:00000003 [INF] DMFlashBudgetController : GetDMFlashBudgetDetails - End (e7cd6b08)
+2018-03-01T15:47:24.6981034+05:30 0HLBV8M569M4I:00000003 [INF] Executing JsonResult, writing value "CampaignBudgetTool.API.ViewModel.DMBudget.DMFlashBudgetDetails". (7bb75e80)
+2018-03-01T15:47:24.7482909+05:30 0HLBV8M569M4I:00000003 [INF] Executed action "CampaignBudgetTool.API.Controllers.DMBudget.DMFlashBudgetController.GetDMFlashBudgetDetails (CampaignBudgetTool.Api)" in 2472.1214ms (afa2e885)
+2018-03-01T15:47:24.7626527+05:30 0HLBV8M569M4I:00000003 [INF] Request finished in 2553.1569ms 200 application/json; charset=utf-8 (791a596a)
+2018-03-01T15:49:45.2235024+05:30 0HLBV8M569M4J:00000001 [INF] Request starting HTTP/1.1 OPTIONS http://localhost:18526/api/DMFlashBudget/DMFlashBudgetDetails/null/null/null/false   (ca22a1cb)
+2018-03-01T15:49:45.2354019+05:30 0HLBV8M569M4J:00000001 [INF] Policy execution successful. (0204925d)
+2018-03-01T15:49:45.2717543+05:30 0HLBV8M569M4J:00000001 [INF] Request finished in 36.761ms 204  (791a596a)
+2018-03-01T15:49:45.5274622+05:30 0HLBV8M569M4J:00000002 [INF] Request starting HTTP/1.1 GET http://localhost:18526/api/DMFlashBudget/DMFlashBudgetDetails/null/null/null/false application/json  (ca22a1cb)
+2018-03-01T15:49:45.5693297+05:30 0HLBV8M569M4J:00000002 [INF] Policy execution successful. (0204925d)
+2018-03-01T15:49:45.5879512+05:30 0HLBV8M569M4J:00000002 [INF] Successfully validated the token. (60169667)
+2018-03-01T15:49:45.5998790+05:30 0HLBV8M569M4J:00000002 [INF] AuthenticationScheme: "Bearer" was successfully authenticated. (1805f3b3)
+2018-03-01T15:49:45.6197694+05:30 0HLBV8M569M4J:00000002 [INF] Policy execution successful. (0204925d)
+2018-03-01T15:49:45.6522802+05:30 0HLBV8M569M4J:00000002 [INF] Authorization was successful for user: "dashr". (d7eb274a)
+2018-03-01T15:49:45.6782609+05:30 0HLBV8M569M4J:00000002 [INF] Executing action method "CampaignBudgetTool.API.Controllers.DMBudget.DMFlashBudgetController.GetDMFlashBudgetDetails (CampaignBudgetTool.Api)" with arguments (["null", "null", "null", "False"]) - ModelState is Valid (ba7f4ac2)
+2018-03-01T15:49:45.6914043+05:30 0HLBV8M569M4J:00000002 [INF] DMFlashBudgetController : GetDMFlashBudgetDetails - Start (6ef7bca3)
+2018-03-01T15:49:45.7061145+05:30 0HLBV8M569M4J:00000002 [INF] For MagCode "null", Year "null", CampaignName "null" and AddMode False  (c9416ae2)
+2018-03-01T15:49:45.7164135+05:30 0HLBV8M569M4J:00000002 [INF] DMFlashBudgetRepository : GetDMFlashBudgetDetails - Start (13f11259)
+2018-03-01T15:49:45.7294051+05:30 0HLBV8M569M4J:00000002 [INF] Entity Framework Core "2.0.1-rtm-125" initialized '"DMContext"' using provider '"Microsoft.EntityFrameworkCore.SqlServer"' with options: "None" (9958f5bb)
+2018-03-01T15:49:45.9845194+05:30 0HLBV8M569M4J:00000002 [INF] Executed DbCommand ("247"ms) [Parameters=["@p0='?', @p1='?', @p2='?', @p3='?'"], CommandType='Text', CommandTimeout='30']"
+""PGK_DMCAMPAIGN_PROC_GET_FLASH_BUDGET_DETAILS @p0,@p1,@p2,@p3" (0723d8ff)
+2018-03-01T15:49:46.0169473+05:30 0HLBV8M569M4J:00000002 [INF] DMFlashBudgetRepository : GetDMFlashBudgetDetails - End (f5763a6a)
+2018-03-01T15:49:46.0247545+05:30 0HLBV8M569M4J:00000002 [INF] DMFlashBudgetController : GetDMFlashBudgetDetails - End (e7cd6b08)
+2018-03-01T15:49:46.0414068+05:30 0HLBV8M569M4J:00000002 [INF] Executing JsonResult, writing value "CampaignBudgetTool.API.ViewModel.DMBudget.DMFlashBudgetDetails". (7bb75e80)
+2018-03-01T15:49:46.0641765+05:30 0HLBV8M569M4J:00000002 [INF] Executed action "CampaignBudgetTool.API.Controllers.DMBudget.DMFlashBudgetController.GetDMFlashBudgetDetails (CampaignBudgetTool.Api)" in 452.4512ms (afa2e885)
+2018-03-01T15:49:46.0775442+05:30 0HLBV8M569M4J:00000002 [INF] Request finished in 585.0564ms 200 application/json; charset=utf-8 (791a596a)

@@ -1,0 +1,11 @@
+C:\D\Timeinc Projects\CampaignBudgetTool\CampaignBudgetTool.Repository\bin\Debug\netcoreapp2.0\CampaignBudgetTool.Repository.deps.json
+C:\D\Timeinc Projects\CampaignBudgetTool\CampaignBudgetTool.Repository\bin\Debug\netcoreapp2.0\CampaignBudgetTool.Repository.dll
+C:\D\Timeinc Projects\CampaignBudgetTool\CampaignBudgetTool.Repository\bin\Debug\netcoreapp2.0\CampaignBudgetTool.Repository.pdb
+C:\D\Timeinc Projects\CampaignBudgetTool\CampaignBudgetTool.Repository\bin\Debug\netcoreapp2.0\CampaignBudgetTool.BuisnessEntities.dll
+C:\D\Timeinc Projects\CampaignBudgetTool\CampaignBudgetTool.Repository\bin\Debug\netcoreapp2.0\CampaignBudgetTool.BuisnessEntities.pdb
+C:\D\Timeinc Projects\CampaignBudgetTool\CampaignBudgetTool.Repository\obj\Debug\netcoreapp2.0\CampaignBudgetTool.Repository.csprojResolveAssemblyReference.cache
+C:\D\Timeinc Projects\CampaignBudgetTool\CampaignBudgetTool.Repository\obj\Debug\netcoreapp2.0\CampaignBudgetTool.Repository.csproj.CoreCompileInputs.cache
+C:\D\Timeinc Projects\CampaignBudgetTool\CampaignBudgetTool.Repository\obj\Debug\netcoreapp2.0\CampaignBudgetTool.Repository.AssemblyInfoInputs.cache
+C:\D\Timeinc Projects\CampaignBudgetTool\CampaignBudgetTool.Repository\obj\Debug\netcoreapp2.0\CampaignBudgetTool.Repository.AssemblyInfo.cs
+C:\D\Timeinc Projects\CampaignBudgetTool\CampaignBudgetTool.Repository\obj\Debug\netcoreapp2.0\CampaignBudgetTool.Repository.dll
+C:\D\Timeinc Projects\CampaignBudgetTool\CampaignBudgetTool.Repository\obj\Debug\netcoreapp2.0\CampaignBudgetTool.Repository.pdb

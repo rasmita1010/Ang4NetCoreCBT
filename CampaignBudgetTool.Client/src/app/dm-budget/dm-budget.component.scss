@@ -1,0 +1,138 @@
+:host /deep/ ss-multiselect-dropdown .dropdown {
+    width: 250px;
+    display: block;
+}
+
+:host /deep/ #addRowsToGrid ss-multiselect-dropdown .dropdown {
+    width: 100%;
+    display: block;
+}
+    
+:host /deep/ ss-multiselect-dropdown .dropdown-toggle {
+    width: 100%;
+    text-align: left;
+    // overflow: hidden;
+}
+    
+:host /deep/ ss-multiselect-dropdown .caret {
+    float: right;
+    margin-top: 8px;
+}
+
+:host /deep/ ss-multiselect-dropdown .dropdown-menu {
+    width: 100%;
+}
+
+:host /deep/ .ss-custom-width ss-multiselect-dropdown .dropdown-menu {
+    width: 500px;
+}
+
+:host /deep/ .singleSelectDD ss-multiselect-dropdown input[type="checkbox"] {
+    display: none;
+}
+
+.btn-custom {
+    border-radius: 0;
+    background: #000000;
+    color: #ffffff;
+    font-weight: bold;
+    border-radius: 4px;
+}
+.btn-custom:hover {
+    background: #000000;
+}
+
+#grid-action button:nth-child(2) {
+    margin-right: 30px
+}
+
+.modal-lg {
+    width: 80%;
+}
+.external-pager {
+    float: right;
+}
+.jsgrid tr:first-child th {
+    padding: 0;
+    border: none;
+}
+
+.jsgrid th {
+    padding: .5em 0;
+}
+
+.jsgrid tr th {
+    border: 1px solid #e9e9e9;
+    text-align: center;
+}
+
+.searchIcon {
+	position: absolute;
+    right:20px;
+    color: #3EBFED;
+	font-weight: bold;
+	font-size: 20px;
+    cursor: pointer;
+    top:3px;
+}
+.searchGrid .form-control{
+    display: inline;
+}
+@media all and (-ms-high-contrast: none), (-ms-high-contrast: active) {
+    .searchIcon{
+        display: none;
+    }
+}
+@supports (-ms-ime-align: auto){
+    .searchIcon{
+        display: none;
+    }
+}
+@supports (-ms-accelerator:true) {
+    .searchIcon{
+        display: none;
+    }
+}
+
+.magcodedivwidth 
+{
+    width:250px!important
+}
+
+.yearcodedivwidth 
+{
+    width:150px!important
+}
+
+ 
+.filtericon
+{
+    color:#cc0000;
+    text-align: center;
+    font-size: 18px;
+  
+}
+
+.filtergroup
+{
+    margin-top:4px;
+}
+
+.filterappliedicon
+{
+    font-size: 10px;
+    color:#cc0000;
+    margin-right: 6px;
+    margin-left: -7px;
+    padding-left:0px;
+}
+
+.actionbutton
+{
+    width:100px!important;
+}
+
+select:disabled {
+    background: #ffffff;
+    color: gray;
+}

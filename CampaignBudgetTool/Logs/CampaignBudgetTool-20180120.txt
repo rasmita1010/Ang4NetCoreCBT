@@ -1,0 +1,76 @@
+2018-01-20T18:41:22.0031454+05:30 0HLB00T6HBDJK:00000001 [INF] Request starting HTTP/1.1 GET http://localhost:18526/swagger/   (ca22a1cb)
+2018-01-20T18:41:22.1653807+05:30 0HLB00T6HBDJK:00000001 [INF] Sending file. Request path: '"/index.html"'. Physical path: '"N/A"' (27b0a520)
+2018-01-20T18:41:22.2080827+05:30 0HLB00T6HBDJK:00000001 [INF] Request finished in 255.835ms 200 text/html (791a596a)
+2018-01-20T18:41:22.8347242+05:30 0HLB00T6HBDJK:00000002 [INF] Request starting HTTP/1.1 GET http://localhost:18526/swagger/v1/swagger.json   (ca22a1cb)
+2018-01-20T18:41:23.6484609+05:30 0HLB00T6HBDJK:00000002 [INF] Request finished in 804.3717ms 200 application/json (791a596a)
+2018-01-20T18:41:45.0399520+05:30 0HLB00T6HBDJK:00000003 [INF] Request starting HTTP/1.1 GET http://localhost:18526/api/DMFlashBudget/DMFlashBudgetDetails/null/null/null   (ca22a1cb)
+2018-01-20T18:41:45.6875686+05:30 0HLB00T6HBDJK:00000003 [INF] Executing action method "CampaignBudgetTool.API.Controllers.DMBudget.DMFlashBudgetController.GetDMFlashBudgetDetails (BudgetTool.Api)" with arguments (["null", "null", "null"]) - ModelState is Valid (ba7f4ac2)
+2018-01-20T18:41:54.4288769+05:30 0HLB00T6HBDJK:00000003 [INF] DMFlashBudgetController : GetDMFlashBudgetDetails - Start (6ef7bca3)
+2018-01-20T18:41:55.7117668+05:30 0HLB00T6HBDJK:00000003 [INF] For MagCode "null", Year "null" and CampaignName "null"  (ca5ca538)
+2018-01-20T18:41:58.2345069+05:30 0HLB00T6HBDJK:00000003 [INF] DMFlashBudgetRepository : GetDMFlashBudgetDetails - Start (13f11259)
+2018-01-20T18:41:58.4745057+05:30 0HLB00T6HBDJK:00000003 [INF] Entity Framework Core "2.0.1-rtm-125" initialized '"DMContext"' using provider '"Microsoft.EntityFrameworkCore.SqlServer"' with options: "None" (9958f5bb)
+2018-01-20T18:42:02.6917082+05:30 0HLB00T6HBDJK:00000003 [INF] Executed DbCommand ("728"ms) [Parameters=["@p0='?' (Size = 4000), @p1='?' (Size = 4000), @p2='?' (Size = 4000)"], CommandType='Text', CommandTimeout='30']"
+""PGK_DMCAMPAIGN_PROC_GET_FLASH_BUDGET_DETAILS @p0,@p1,@p2" (0723d8ff)
+2018-01-20T18:42:02.9611896+05:30 0HLB00T6HBDJK:00000003 [ERR] An exception occurred in the database while iterating the results of a query for context type '"CampaignBudgetTool.Repository.DMBudget.DMContext"'."
+""System.Data.SqlClient.SqlException (0x80131904): Error converting data type varchar to numeric.
+   at System.Data.SqlClient.SqlConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   at System.Data.SqlClient.SqlInternalConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   at System.Data.SqlClient.TdsParser.ThrowExceptionAndWarning(TdsParserStateObject stateObj, Boolean callerHasConnectionLock, Boolean asyncClose)
+   at System.Data.SqlClient.TdsParser.TryRun(RunBehavior runBehavior, SqlCommand cmdHandler, SqlDataReader dataStream, BulkCopySimpleResultSet bulkCopyHandler, TdsParserStateObject stateObj, Boolean& dataReady)
+   at System.Data.SqlClient.SqlDataReader.TryHasMoreRows(Boolean& moreRows)
+   at System.Data.SqlClient.SqlDataReader.TryReadInternal(Boolean setTimeout, Boolean& more)
+   at System.Data.SqlClient.SqlDataReader.Read()
+   at Microsoft.EntityFrameworkCore.Storage.RelationalDataReader.Read()
+   at Microsoft.EntityFrameworkCore.Query.Internal.QueryingEnumerable`1.Enumerator.BufferlessMoveNext(Boolean buffer)
+   at Microsoft.EntityFrameworkCore.Storage.Internal.SqlServerExecutionStrategy.Execute[TState,TResult](TState state, Func`3 operation, Func`3 verifySucceeded)
+   at Microsoft.EntityFrameworkCore.Query.Internal.QueryingEnumerable`1.Enumerator.MoveNext()
+   at Microsoft.EntityFrameworkCore.Query.Internal.LinqOperatorProvider.<_TrackEntities>d__17`2.MoveNext()
+   at Microsoft.EntityFrameworkCore.Query.Internal.LinqOperatorProvider.ExceptionInterceptor`1.EnumeratorExceptionInterceptor.MoveNext()
+ClientConnectionId:5467fdbe-37ca-47b9-9574-191beeb4ccfd
+Error Number:8114,State:5,Class:16" (64e2593c)
+System.Data.SqlClient.SqlException (0x80131904): Error converting data type varchar to numeric.
+   at System.Data.SqlClient.SqlConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   at System.Data.SqlClient.SqlInternalConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   at System.Data.SqlClient.TdsParser.ThrowExceptionAndWarning(TdsParserStateObject stateObj, Boolean callerHasConnectionLock, Boolean asyncClose)
+   at System.Data.SqlClient.TdsParser.TryRun(RunBehavior runBehavior, SqlCommand cmdHandler, SqlDataReader dataStream, BulkCopySimpleResultSet bulkCopyHandler, TdsParserStateObject stateObj, Boolean& dataReady)
+   at System.Data.SqlClient.SqlDataReader.TryHasMoreRows(Boolean& moreRows)
+   at System.Data.SqlClient.SqlDataReader.TryReadInternal(Boolean setTimeout, Boolean& more)
+   at System.Data.SqlClient.SqlDataReader.Read()
+   at Microsoft.EntityFrameworkCore.Storage.RelationalDataReader.Read()
+   at Microsoft.EntityFrameworkCore.Query.Internal.QueryingEnumerable`1.Enumerator.BufferlessMoveNext(Boolean buffer)
+   at Microsoft.EntityFrameworkCore.Storage.Internal.SqlServerExecutionStrategy.Execute[TState,TResult](TState state, Func`3 operation, Func`3 verifySucceeded)
+   at Microsoft.EntityFrameworkCore.Query.Internal.QueryingEnumerable`1.Enumerator.MoveNext()
+   at Microsoft.EntityFrameworkCore.Query.Internal.LinqOperatorProvider.<_TrackEntities>d__17`2.MoveNext()
+   at Microsoft.EntityFrameworkCore.Query.Internal.LinqOperatorProvider.ExceptionInterceptor`1.EnumeratorExceptionInterceptor.MoveNext()
+   at System.Collections.Generic.List`1.AddEnumerable(IEnumerable`1 enumerable)
+   at System.Linq.Enumerable.ToList[TSource](IEnumerable`1 source)
+   at CampaignBudgetTool.Repository.DMBudget.DMFlashBudgetRepository.GetDMFlashBudgetDetails(String MagCode, String CampYear, String Camp_Id) in C:\D\Timeinc Projects\CampaignBudgetTool\CampaignBudgetTool.Repository\DMBudget\DMFlashBudgetRepository.cs:line 30
+   at CampaignBudgetTool.API.Controllers.DMBudget.DMFlashBudgetController.GetDMFlashBudgetDetails(String MagCode, String CampYear, String CampName) in C:\D\Timeinc Projects\CampaignBudgetTool\CampaignBudgetTool\Controllers\DMBudget\DMFlashBudgetController.cs:line 39
+   at lambda_method(Closure , Object , Object[] )
+   at Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker.<InvokeActionMethodAsync>d__12.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker.<InvokeNextActionFilterAsync>d__10.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   at Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker.Rethrow(ActionExecutedContext context)
+   at Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker.<InvokeInnerFilterAsync>d__14.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at Microsoft.AspNetCore.Mvc.Internal.ResourceInvoker.<InvokeNextResourceFilter>d__22.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   at Microsoft.AspNetCore.Mvc.Internal.ResourceInvoker.Rethrow(ResourceExecutedContext context)
+   at Microsoft.AspNetCore.Mvc.Internal.ResourceInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Internal.ResourceInvoker.<InvokeFilterPipelineAsync>d__17.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at Microsoft.AspNetCore.Mvc.Internal.ResourceInvoker.<InvokeAsync>d__15.MoveNext()
+ClientConnectionId:5467fdbe-37ca-47b9-9574-191beeb4ccfd
+Error Number:8114,State:5,Class:16
+2018-01-20T18:42:09.3718926+05:30 0HLB00T6HBDJK:00000003 [INF] Executed action "CampaignBudgetTool.API.Controllers.DMBudget.DMFlashBudgetController.GetDMFlashBudgetDetails (BudgetTool.Api)" in 24102.4658ms (afa2e885)
+2018-01-20T18:42:09.4945562+05:30 0HLB00T6HBDJK:00000003 [INF] Request finished in 24448.9726ms 500 application/json (791a596a)

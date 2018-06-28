@@ -1,0 +1,5 @@
+C:\D\Timeinc Projects\CampaignBudgetTool\CampaignBudgetTool
+--output-path=obj\Any CPU\Release\netcoreapp2.0\
+--application-name=BudgetTool.Api
+--content-root=C:\D\Timeinc Projects\CampaignBudgetTool\CampaignBudgetTool
+--file=

@@ -1,0 +1,101 @@
+<nav class="navbar navbar-custom">
+    <div class="container-fluid">
+      <div class="navbar-header">
+            <a class="navbar-brand" href="#">
+              <img src="assets/images/nav-logo.png" alt="">
+          </a>
+          <p class="pull-right">Budget and Flows Entry Tool</p>
+      </div>
+      <ul class="nav navbar-nav navbar-right navbar-logout" style="margin-left: 120px;">
+          <li><a (click)="logoutUser()" style="cursor: pointer">Logout</a></li>
+      </ul>
+      <ul class="nav navbar-nav navbar-right nav-pills">
+          <li><a [routerLink]="['/dashboard/dm-budget']" routerLinkActive="active">DM Budget</a></li>
+          <!-- <li><a [routerLink]="['/dashboard/ic-budget']" routerLinkActive="active">IC Budget</a></li>
+          <li><a [routerLink]="['/dashboard/dm-flow']" routerLinkActive="active">DM Flow</a></li>
+          <li><a [routerLink]="['/dashboard/ic-flow']" routerLinkActive="active">IC Flow</a></li> -->
+          <li><a routerLinkActive="active">IC Budget</a></li>
+          <li><a routerLinkActive="active">DM Flow</a></li>
+          <li><a routerLinkActive="active">IC Flow</a></li>
+      </ul>
+    </div>
+</nav>
+<div class="modal fade" id="logoutWithChangesAlert">
+    <div class="modal-dialog modal-md">
+  
+      <div class="modal-content">
+        <div class="modal-header">
+          <button type="button" class="close" data-dismiss="modal">&times;</button>
+          <h4 class="modal-title"><span class="glyphicon glyphicon-exclamation-sign" style="color:#f2db0c;"></span>{{unsavedDataAlertHeader}}</h4>
+        </div>
+        <div class="modal-body">
+          <div class="row">
+            <div class="col-xs-12" id="alertText">{{unsavedDataAlertMsg}}</div> 
+          </div>
+        </div>
+        <div class="modal-footer">
+          <button type="button" class="btn btn-primary" id="continue">{{continue}}</button>
+          <button type="button" class="btn btn-default btn-custom" id="cancel" data-dismiss="modal">{{cancel}}</button>
+        </div>
+      </div>
+  
+    </div>
+</div>
+
+<div id="logoutWarningModal" class="modal fade" role="dialog">
+    <div class="modal-dialog">
+
+        <!-- Modal content-->
+        <div class="modal-content">
+            <div class="modal-header modal-header-danger">
+                <h4 class="modal-title">Session Timeout Warning</h4>
+            </div>
+            <div class="modal-body">
+                <p>Your session will expire soon due to inactivity. Press any key to prevent logout.</p>
+                
+                    <div id="countdown">
+                        <div id="countdown-number">{{logoutTimer}}</div>
+                        <svg>
+                            <circle r="18" cx="20" cy="20"></circle>
+                        </svg>
+                    </div>
+                
+            </div>
+            <div class="modal-footer">
+                <button type="button" class="btn btn-default btn-custom" data-dismiss="modal">Dismiss</button>
+            </div>
+        </div>
+
+    </div>
+</div>
+
+<div id="errorPopup" class="modal fade" style="height:700px;"> 
+  <div class="modal-dialog modal-lg">
+    <div class="modal-content">
+      <div class="modal-header">
+        <button type="button" class="close" data-dismiss="modal">&times;</button>
+        <h4 class="modal-title" style="color:red;"><span class="glyphicon glyphicon-exclamation-sign" style="color:red;">Error</span></h4>
+      </div>
+      <div class="modal-body">
+        <div>          
+          <label id="errorMsg" contenteditable="false"></label>
+        </div>
+        <a id="errShowDetailHyperlink" contenteditable="false" style="cursor: pointer" (click)="showInfo()">Show Detail</a>
+        <a id="errHideDetailHyperlink" contenteditable="false" style="cursor: pointer; display:none;" (click)="hideInfo()">Hide Detail</a>
+        <div>          
+          <div id="exceptionInfo" style="display:none;width:875px; height: 500px; overflow:scroll;">
+            <label id="lblErrorCode">Error Code: </label><p id="errorCode"></p>
+            <label id="lblServerDetail">Server Info: </label><p id="serverDetail"></p>
+            <label id="lblInnerException">Inner Exception: </label><p id="innerException" style="word-wrap:break-word;"></p>
+            <label id="lblStackTrace">Stack Trace: </label><p id="stackTrace" style="word-wrap:break-word;"></p>
+          </div>
+        </div>
+      </div>
+      <div class="modal-footer">
+        <button type="button" class="btn btn-default btn-custom" data-dismiss="modal">Close</button>
+      </div>
+    </div>
+  </div>
+</div>
+
+<router-outlet></router-outlet>
